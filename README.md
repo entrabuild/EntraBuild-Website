@@ -1,7 +1,7 @@
 # EntraBuild website
 
 The website for **entrabuild.com**, the software studio of Entraiot Solutions.
-Leadership: **Salvin Jones** (Founder & Director) and **Shalini L** (CEO & Managing Director).
+Leadership: **Salvin Jones** (Founder & Director) and **Shalini Loganathan** (CEO & Managing Director).
 
 There is nothing to build or install for the main site. GitHub Actions does the two automatic jobs: the daily news and the Google pages.
 

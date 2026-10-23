@@ -14,6 +14,7 @@ const only = process.argv.slice(2);   // optional: node capture-screens.mjs <pro
 
 const projects = C.industries.flatMap(i => i.projects)
   .filter(p => /^https?:\/\//.test(p.link || '') && !/t\.me\//.test(p.link) && p.frame !== false)
+  .filter(p => !p.keepShot || only.includes(p.id))   // keepShot = hand-made picture, don't overwrite
   .filter(p => !only.length || only.includes(p.id));
 
 fs.mkdirSync(OUT, { recursive: true });

@@ -307,7 +307,7 @@ html{-webkit-tap-highlight-color:rgba(245,176,60,.25)}
       $('#flist').appendChild(le.el);$('#fadd').onclick=le.add;$('#runNews').onclick=runNews;
     },
     team(p){
-      p.innerHTML=`${roOnly()}<p class="note">Upload a 4:5 portrait photo for each person. Shalini L and Salvin Jones appear first as leadership.</p><div class="toolbar"><button class="btn solid" id="tadd">Add person</button></div><div id="tlist"></div>`;
+      p.innerHTML=`${roOnly()}<p class="note">Upload a 4:5 portrait photo for each person. Shalini Loganathan and Salvin Jones appear first as leadership.</p><div class="toolbar"><button class="btn solid" id="tadd">Add person</button></div><div id="tlist"></div>`;
       const fields=[{k:'n',l:'Name'},{k:'ini',l:'Initials (shown until a photo is added)'},{k:'role.en',l:'Role (English)'},{k:'linkedin',l:'LinkedIn link',t:'url',ph:'https://www.linkedin.com/in/…'},{k:'p.en',l:'Short description (English)',t:'textarea',w:true},
         {k:'photo',l:'Photo',t:'image',folder:'team',w:true},{k:'tags',l:'Tags (comma separated)',t:'tags'},{k:'lead',l:'Leadership',t:'check',c:'Show as leadership (gold frame)'},
         ...LANGS.flatMap(([c,n])=>[{k:`role.${c}`,l:`Role (${n})`},{k:`p.${c}`,l:`Description (${n})`}])];

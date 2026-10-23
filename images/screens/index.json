@@ -1,28 +1,28 @@
 {
  "items": {
   "tnwla-madras": {
-   "w": 1280,
-   "h": 14000,
-   "v": 1792749767155,
+   "w": 800,
+   "h": 2811,
+   "v": 1792758193349,
    "url": "https://tnwla-madras.com"
   },
   "stand-firm": {
-   "w": 1280,
-   "h": 6347,
-   "v": 1792749776427,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://tnwla-madras.com/stand-firm"
   },
   "pavana-silks": {
-   "w": 1280,
-   "h": 8143,
-   "v": 1792749789307,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://pavanasilks.com"
   },
   "voxrel": {
-   "w": 1280,
-   "h": 7013,
-   "v": 1792749799628,
-   "url": "https://inquisitive-mousse-bce04d.netlify.app/"
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
+   "url": "https://voxrel-superadmin.entrabuilt.workers.dev/"
   },
   "earchana": {
    "w": 1280,
@@ -37,21 +37,21 @@
    "url": "https://tnwla-madras.com/jeni"
   },
   "the-perch": {
-   "w": 1280,
-   "h": 3585,
-   "v": 1792749821935,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://the-perch-chennai.netlify.app/"
   },
   "crafe-cafe": {
-   "w": 1280,
-   "h": 4589,
-   "v": 1792749830511,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://crafe-cafe.netlify.app/"
   },
   "the-juice-box": {
-   "w": 1280,
-   "h": 2598,
-   "v": 1792749837826,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://the-juice-box.netlify.app/"
   },
   "coffee-anugraha": {
@@ -67,9 +67,9 @@
    "url": "https://cream-story-six.vercel.app/"
   },
   "jpt-co": {
-   "w": 1280,
-   "h": 11696,
-   "v": 1792749868173,
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
    "url": "https://jpt-co.netlify.app/"
   },
   "cd-player": {
@@ -89,7 +89,31 @@
    "h": 800,
    "v": 1792749882816,
    "url": "https://jets-tau.vercel.app/"
+  },
+  "rsa-construction": {
+   "w": 800,
+   "h": 801,
+   "v": 1792758193349,
+   "url": "https://rsa-admin-frontend.vercel.app/"
+  },
+  "zivira-labs": {
+   "w": 800,
+   "h": 801,
+   "v": 1792758193349,
+   "url": "https://zivira-admin.vercel.app/"
+  },
+  "nordic-affairs-media": {
+   "w": 800,
+   "h": 1602,
+   "v": 1792758193349,
+   "url": "https://nordicaffairsmedia.com/"
+  },
+  "bhuvannam-silks": {
+   "w": 800,
+   "h": 2403,
+   "v": 1792758193349,
+   "url": "https://eclectic-dango-c6dad5.netlify.app/"
   }
  },
- "updated": "2026-10-23T10:04:42.859Z"
+ "updated": "2026-10-23T12:23:13Z"
 }
