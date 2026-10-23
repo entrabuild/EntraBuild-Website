@@ -21,7 +21,10 @@
         ],
         "city": "Chennai",
         "postal": "600122",
-        "street": "No. 11/608, Anna Nagar 1st Street, Kulathuvanchery, Paraniputhur PO, Iyyappanthangal Main Road, Iyyappanthangal"
+        "street": "No. 11/608, Anna Nagar 1st Street, Kulathuvanchery, Paraniputhur PO, Iyyappanthangal Main Road, Iyyappanthangal",
+        "map": "https://maps.app.goo.gl/BvJtrNmY1jGxAMgh9",
+        "lat": 13.0239703,
+        "lng": 80.1334081
       },
       {
         "name": "Thanjavur branch",
@@ -31,14 +34,18 @@
         ],
         "city": "Thanjavur",
         "postal": "613001",
-        "street": "9/148 Fathima Nagar, N.K. Road"
+        "street": "9/148 Fathima Nagar, N.K. Road",
+        "map": "https://www.google.com/maps/search/?api=1&query=10.769500%2C79.144139",
+        "lat": 10.7695,
+        "lng": 79.144139
       }
     ],
     "cities": [
       "Chennai",
       "Bangalore",
       "Thanjavur"
-    ]
+    ],
+    "phone2": "918124545524"
   },
   "industries": [
     {
@@ -840,6 +847,43 @@
           "featured": false
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Healthcare",
+        "ta": "மருத்துவம்",
+        "kn": "ಆರೋಗ್ಯ ಸೇವೆ",
+        "ml": "ആരോഗ്യ സേവനം",
+        "te": "ఆరోగ్య సేవలు"
+      },
+      "word": {
+        "en": "doctors.",
+        "ta": "மருத்துவர்கள்",
+        "kn": "ವೈದ್ಯರು",
+        "ml": "ഡോക്ടർമാർ",
+        "te": "వైద్యులు"
+      },
+      "projects": [
+        {
+          "id": "doctor-portfolio",
+          "name": "Doctor Portfolio",
+          "desc": "Personal website for a specialist doctor, with services, research and appointment requests",
+          "tag": "Concept",
+          "need": "A specialist doctor needed one place to show services, research and clinical work, and to let patients request appointments online.",
+          "built": "A multi-page doctor website: home, about, services, research, clinical practice, an appointment request form and contact, with social media links.",
+          "tools": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "shadcn/ui",
+            "Cloudflare"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
     }
   ],
   "clients": [
@@ -869,14 +913,14 @@
         "te": "వ్యవస్థాపకుడు & డైరెక్టర్"
       },
       "p": {
-        "en": "Leads strategy, architecture and delivery, and still writes code on most projects.",
-        "ta": "உத்தி, வடிவமைப்பு, வழங்கல் அனைத்தையும் வழிநடத்துகிறார்; பெரும்பாலான திட்டங்களில் நேரடியாக குறியீடும் எழுதுகிறார்.",
-        "kn": "ತಂತ್ರ, ವಾಸ್ತುಶಿಲ್ಪ ಮತ್ತು ವಿತರಣೆಯನ್ನು ಮುನ್ನಡೆಸುತ್ತಾರೆ; ಹೆಚ್ಚಿನ ಯೋಜನೆಗಳಲ್ಲಿ ಸ್ವತಃ ಕೋಡ್ ಬರೆಯುತ್ತಾರೆ.",
-        "ml": "സ്ട്രാറ്റജി, ആർക്കിടെക്ചർ, ഡെലിവറി എന്നിവ നയിക്കുന്നു; മിക്ക പ്രോജക്ടുകളിലും നേരിട്ട് കോഡ് എഴുതുന്നു.",
-        "te": "వ్యూహం, ఆర్కిటెక్చర్, డెలివరీని నడిపిస్తారు; చాలా ప్రాజెక్ట్‌లలో స్వయంగా కోడ్ రాస్తారు."
+        "en": "Leads strategy and architecture, and still writes code.",
+        "ta": "உத்தியையும் வடிவமைப்பையும் வழிநடத்துகிறார்; குறியீடும் எழுதுகிறார்.",
+        "kn": "ತಂತ್ರ ಮತ್ತು ವಾಸ್ತುಶಿಲ್ಪ ಮುನ್ನಡೆಸುತ್ತಾರೆ; ಕೋಡ್ ಕೂಡ ಬರೆಯುತ್ತಾರೆ.",
+        "ml": "സ്ട്രാറ്റജിയും ആർക്കിടെക്ചറും നയിക്കുന്നു; കോഡും എഴുതുന്നു.",
+        "te": "వ్యూహం, ఆర్కిటెక్చర్‌ను నడిపిస్తారు; కోడ్ కూడా రాస్తారు."
       },
       "lead": true,
-      "photo": "",
+      "photo": "images/team/salvin-jones.jpg",
       "linkedin": "",
       "tags": []
     },
@@ -891,14 +935,14 @@
         "te": "సీఈఓ & మేనేజింగ్ డైరెక్టర్"
       },
       "p": {
-        "en": "Runs the company day to day, from client relationships to how the team works.",
-        "ta": "வாடிக்கையாளர் உறவுகள் முதல் குழுவின் செயல்பாடு வரை நிறுவனத்தை தினமும் நடத்துகிறார்.",
-        "kn": "ಗ್ರಾಹಕ ಸಂಬಂಧಗಳಿಂದ ತಂಡದ ಕೆಲಸದವರೆಗೆ ಕಂಪನಿಯನ್ನು ದಿನನಿತ್ಯ ನಡೆಸುತ್ತಾರೆ.",
-        "ml": "ക്ലയന്റ് ബന്ധങ്ങൾ മുതൽ ടീമിന്റെ പ്രവർത്തനം വരെ കമ്പനിയെ ദിവസേന നയിക്കുന്നു.",
-        "te": "క్లయింట్ సంబంధాల నుండి బృందం పనితీరు వరకు కంపెనీని రోజువారీగా నడిపిస్తారు."
+        "en": "Runs the company day to day, from clients to the team.",
+        "ta": "வாடிக்கையாளர் முதல் குழு வரை நிறுவனத்தை நடத்துகிறார்.",
+        "kn": "ಗ್ರಾಹಕರಿಂದ ತಂಡದವರೆಗೆ ಕಂಪನಿಯನ್ನು ನಡೆಸುತ್ತಾರೆ.",
+        "ml": "ക്ലയന്റുകൾ മുതൽ ടീം വരെ കമ്പനിയെ നയിക്കുന്നു.",
+        "te": "క్లయింట్ల నుండి బృందం వరకు కంపెనీని నడిపిస్తారు."
       },
       "lead": true,
-      "photo": "",
+      "photo": "images/team/shalini-l.jpg",
       "linkedin": "",
       "tags": []
     },
@@ -913,20 +957,16 @@
         "te": "డీప్ ASI డెవలపర్"
       },
       "p": {
-        "en": "Builds the narrow AI (ANI) inside our client platforms today: chat assistants, document reading and automations that do one job well.",
-        "ta": "எங்கள் வாடிக்கையாளர் தளங்களில் இன்று இயங்கும் குறுகிய AI (ANI) உருவாக்குகிறார்: உரையாடல் உதவியாளர்கள், ஆவணம் படித்தல், ஒரே வேலையைச் சிறப்பாகச் செய்யும் தானியங்கிகள்.",
-        "kn": "ಇಂದು ನಮ್ಮ ಗ್ರಾಹಕ ವೇದಿಕೆಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವ ಸಂಕುಚಿತ AI (ANI) ನಿರ್ಮಿಸುತ್ತಾರೆ: ಚಾಟ್ ಸಹಾಯಕರು, ದಾಖಲೆ ಓದುವಿಕೆ ಮತ್ತು ಒಂದು ಕೆಲಸವನ್ನು ಚೆನ್ನಾಗಿ ಮಾಡುವ ಸ್ವಯಂಚಾಲನೆಗಳು.",
-        "ml": "ഇന്ന് ഞങ്ങളുടെ ക്ലയന്റ് പ്ലാറ്റ്‌ഫോമുകളിൽ പ്രവർത്തിക്കുന്ന നാരോ AI (ANI) നിർമ്മിക്കുന്നു: ചാറ്റ് അസിസ്റ്റന്റുകൾ, ഡോക്യുമെന്റ് വായന, ഒരു ജോലി നന്നായി ചെയ്യുന്ന ഓട്ടോമേഷനുകൾ.",
-        "te": "ఈ రోజు మా క్లయింట్ ప్లాట్‌ఫామ్‌లలో పనిచేసే నారో AI (ANI) ని నిర్మిస్తారు: చాట్ అసిస్టెంట్లు, డాక్యుమెంట్ చదవడం, ఒక పనిని బాగా చేసే ఆటోమేషన్లు."
+        "en": "Builds narrow AI (ANI): chat assistants and automations.",
+        "ta": "குறுகிய AI (ANI): உரையாடல் உதவியாளர்கள், தானியங்கிகளை உருவாக்குகிறார்.",
+        "kn": "ಸಂಕುಚಿತ AI (ANI): ಚಾಟ್ ಸಹಾಯಕರು, ಸ್ವಯಂಚಾಲನೆಗಳನ್ನು ನಿರ್ಮಿಸುತ್ತಾರೆ.",
+        "ml": "നാരോ AI (ANI): ചാറ്റ് അസിസ്റ്റന്റുകളും ഓട്ടോമേഷനുകളും നിർമ്മിക്കുന്നു.",
+        "te": "నారో AI (ANI): చాట్ అసిస్టెంట్లు, ఆటోమేషన్లను నిర్మిస్తారు."
       },
       "lead": false,
-      "photo": "",
+      "photo": "images/team/balamurugan.jpg",
       "linkedin": "",
-      "tags": [
-        "ANI",
-        "Assistants",
-        "Automation"
-      ]
+      "tags": []
     },
     {
       "n": "Priyadharshini",
@@ -939,20 +979,16 @@
         "te": "డీప్ ASI డెవలపర్"
       },
       "p": {
-        "en": "Works on multi-agent systems that plan and act across many tools, our step from ANI toward AGI, and studies where ASI could lead.",
-        "ta": "பல கருவிகளில் திட்டமிட்டுச் செயல்படும் பல-முகவர் அமைப்புகளில் பணியாற்றுகிறார். இது ANI இலிருந்து AGI நோக்கிய எங்கள் அடுத்த படி. ASI எங்கு இட்டுச் செல்லும் என்பதையும் ஆய்வு செய்கிறார்.",
-        "kn": "ಹಲವು ಸಾಧನಗಳಲ್ಲಿ ಯೋಜಿಸಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಹು-ಏಜೆಂಟ್ ವ್ಯವಸ್ಥೆಗಳ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ. ಇದು ANI ಇಂದ AGI ಕಡೆಗಿನ ನಮ್ಮ ಹೆಜ್ಜೆ. ASI ಎಲ್ಲಿಗೆ ಕೊಂಡೊಯ್ಯಬಹುದು ಎಂಬುದನ್ನೂ ಅಧ್ಯಯನ ಮಾಡುತ್ತಾರೆ.",
-        "ml": "പല ടൂളുകളിലായി പ്ലാൻ ചെയ്ത് പ്രവർത്തിക്കുന്ന മൾട്ടി-ഏജന്റ് സംവിധാനങ്ങളിൽ പ്രവർത്തിക്കുന്നു. ഇത് ANI-യിൽ നിന്ന് AGI-യിലേക്കുള്ള ഞങ്ങളുടെ ചുവടാണ്. ASI എവിടേക്ക് നയിക്കാം എന്നും പഠിക്കുന്നു.",
-        "te": "ఎన్నో టూల్స్‌లో ప్రణాళిక వేసి పనిచేసే మల్టీ-ఏజెంట్ వ్యవస్థలపై పనిచేస్తారు. ఇది ANI నుండి AGI వైపు మా అడుగు. ASI ఎటు దారితీస్తుందో కూడా అధ్యయనం చేస్తారు."
+        "en": "Builds multi-agent systems, our step from ANI toward AGI.",
+        "ta": "பல-முகவர் அமைப்புகளை உருவாக்குகிறார்: ANI இலிருந்து AGI நோக்கிய படி.",
+        "kn": "ಬಹು-ಏಜೆಂಟ್ ವ್ಯವಸ್ಥೆಗಳು: ANI ಇಂದ AGI ಕಡೆಗಿನ ನಮ್ಮ ಹೆಜ್ಜೆ.",
+        "ml": "മൾട്ടി-ഏജന്റ് സംവിധാനങ്ങൾ: ANI-യിൽ നിന്ന് AGI-യിലേക്കുള്ള ചുവട്.",
+        "te": "మల్టీ-ఏజెంట్ వ్యవస్థలు: ANI నుండి AGI వైపు మా అడుగు."
       },
       "lead": false,
-      "photo": "",
+      "photo": "images/team/priyadharshini.jpg",
       "linkedin": "",
-      "tags": [
-        "AGI",
-        "Agents",
-        "ASI research"
-      ]
+      "tags": []
     }
   ],
   "notes": [

@@ -1,0 +1,45 @@
+name: Website screenshots
+
+# Takes a full-page picture of every project website, so the frames on entrabuild.com
+# can scroll through each site from top to bottom. Runs when projects change, every Monday,
+# and whenever you press "Run workflow".
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/site.json'
+      - 'scripts/capture-screens.mjs'
+      - '.github/workflows/screens.yml'
+  schedule:
+    - cron: '20 21 * * 0'   # Monday 02:50 India time
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screens
+  cancel-in-progress: true
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install the browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: Take the screenshots
+        run: node scripts/capture-screens.mjs
+      - name: Save them
+        run: |
+          git config user.name "EntraBuild screenshots"
+          git config user.email "actions@users.noreply.github.com"
+          git add images/screens
+          git diff --cached --quiet || git commit -m "Website screenshots $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash && git push

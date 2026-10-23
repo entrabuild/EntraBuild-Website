@@ -12,7 +12,7 @@
 /* Layout: a working console. Fixed sidebar of sections, a toolbar with the save state, and one editing pane. Dark-first. */
 :root{--bg:#0A0E1A;--panel:#121829;--panel2:#182036;--line:rgba(233,236,245,.12);--ink:#E9ECF5;--muted:#8E97AF;--gold:#F5B03C;--teal:#45C4B3;--red:#F07167;
   --sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"Geist Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
-@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#F3F4F8;--panel:#FFFFFF;--panel2:#E7E9F1;--line:rgba(14,19,36,.12);--ink:#0E1324;--muted:#555E77;--gold:#8A5800;--teal:#0A6E62;--red:#C2410C;color-scheme:light}}
+:root:not([data-theme="dark"]){--bg:#F3F4F8;--panel:#FFFFFF;--panel2:#E7E9F1;--line:rgba(14,19,36,.12);--ink:#0E1324;--muted:#555E77;--gold:#8A5800;--teal:#0A6E62;--red:#C2410C;color-scheme:light}
 :root[data-theme="light"]{--bg:#F3F4F8;--panel:#FFFFFF;--panel2:#E7E9F1;--line:rgba(14,19,36,.12);--ink:#0E1324;--muted:#555E77;--gold:#8A5800;--teal:#0A6E62;--red:#C2410C;color-scheme:light}
 *{box-sizing:border-box}[hidden]{display:none!important}
 html,body{height:100%}
@@ -26,7 +26,8 @@ aside{background:var(--panel);border-right:1px solid var(--line);padding:18px 12
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;padding:4px 10px 14px}
 .brand b{font:500 13px var(--mono);color:#0A0E1A;background:var(--gbtn,#F5B03C);border-radius:6px;padding:1px 6px}
 .brand small{display:block;font:500 11px var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-.tab{all:unset;cursor:pointer;padding:9px 12px;border-radius:10px;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.tab{all:unset;cursor:pointer;padding:9px 12px;border-radius:10px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:8px}
+@media (max-width:820px){aside .tab{justify-content:center;align-self:center}}
 .tab:hover{background:var(--panel2);color:var(--ink)}
 .tab[aria-current="page"]{background:var(--panel2);color:var(--ink);font-weight:600}
 .tab span{font:12px var(--mono);color:var(--muted)}
@@ -117,8 +118,8 @@ code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border-ra
   const LANGS=[['ta','Tamil'],['kn','Kannada'],['ml','Malayalam'],['te','Telugu']];
 
   /* theme */
-  const r=document.documentElement;const th=store.get('eb-theme');if(th)r.dataset.theme=th;
-  $('#themeBtn').onclick=()=>{const d=r.dataset.theme?r.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;r.dataset.theme=d?'light':'dark';store.set('eb-theme',r.dataset.theme)};
+  const r=document.documentElement;const th=store.get('eb-theme',1);if(th)r.dataset.theme=th;
+  $('#themeBtn').onclick=()=>{const d=r.dataset.theme==='dark';r.dataset.theme=d?'light':'dark';store.set('eb-theme',r.dataset.theme,1)};
 
   /* ---------------- state ---------------- */
   let C=null,F=null,sha={site:null,feeds:null},dirty={site:false,feeds:false},connected=false;
@@ -215,7 +216,7 @@ code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border-ra
   let cur=(location.hash||'#dashboard').slice(1);if(!TABS.find(t=>t[0]===cur))cur='dashboard';
   function side(){
     const counts={projects:C?C.industries.reduce((a,i)=>a+i.projects.length,0):'',industries:C?C.industries.length:'',posts:C?(C.posts||[]).length:'',feeds:F?(F.feeds||[]).length:'',team:C?C.team.length:'',notes:C?(C.notes||[]).length:'',faq:C?(C.faq||[]).length:''};
-    $('#side').innerHTML=`<div class="brand"><b>&lt;/&gt;</b><div>EntraBuild<small>Master admin</small></div></div>`+TABS.map(([id,n])=>`<button class="tab" data-t="${id}" ${cur===id?'aria-current="page"':''}>${n}<span>${counts[id]??''}</span></button>`).join('')+
+    $('#side').innerHTML=`<div class="brand"><b>&lt;/&gt;</b><div>EntraBuild<small>Master admin</small></div></div>`+`<a class="tab" href="../index.html" style="color:var(--teal)">← Back to website</a>`+TABS.map(([id,n])=>`<button class="tab" data-t="${id}" ${cur===id?'aria-current="page"':''}>${n}<span>${counts[id]??''}</span></button>`).join('')+
       `<div class="side-foot"><a href="../index.html" target="_blank" rel="noopener">Open website ↗</a><a href="../news.html" target="_blank" rel="noopener">Open Tech Daily ↗</a>${gh.owner&&gh.repo?`<a href="https://github.com/${esc(gh.owner)}/${esc(gh.repo)}/actions" target="_blank" rel="noopener">GitHub Actions ↗</a>`:''}</div>`;
   }
   $('#side').addEventListener('click',e=>{const t=e.target.closest('[data-t]');if(t)go(t.dataset.t)});
@@ -266,7 +267,7 @@ code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border-ra
       $('#pf').onchange=draw;$('#ps').oninput=draw;$('#padd').onclick=()=>{editing='new';draw();window.scrollTo({top:0,behavior:'smooth'})};draw();
     },
     industries(p){
-      p.innerHTML=`${roOnly()}<p class="note">The order here is the order on the website. The headline word is what appears after "We build software for…". Other languages fall back to English when left empty.</p><div class="toolbar"><button class="btn solid" id="iadd">Add industry</button></div><div id="ilist"></div>`;
+      p.innerHTML=`${roOnly()}<p class="note">The order here is the order on the website. The headline word is what appears after "We build software for…" (English) or after the headline in other languages. Other languages fall back to English when left empty.</p><div class="toolbar"><button class="btn solid" id="iadd">Add industry</button></div><div id="ilist"></div>`;
       const fields=[{k:'name.en',l:'Industry name (English)'},{k:'word.en',l:'Headline word (English)',ph:'pharma.'},...LANGS.flatMap(([c,n])=>[{k:`name.${c}`,l:`Name (${n})`},{k:`word.${c}`,l:`Headline word (${n})`}])];
       const le=listEditor({items:C.industries,fields,title:i=>i.name?.en||'New industry',sub:i=>`${(i.projects||[]).length} projects`,newItem:()=>({name:{en:''},word:{en:''},projects:[]}),onChange:side});
       $('#ilist').appendChild(le.el);$('#iadd').onclick=le.add;
@@ -332,14 +333,14 @@ code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border-ra
     },
     settings(p){
       const s=C.settings;s.prices=s.prices||{};
-      p.innerHTML=`${roOnly()}<div class="card"><h2>Contact</h2><div class="form" id="sf">${formHTML([{k:'email',l:'Enquiry email',t:'email',h:'Forms are emailed here through FormSubmit. The first form after a change asks you to confirm by email.'},{k:'whatsapp',l:'WhatsApp number',h:'Country code and number, no + or spaces. Example: 919944442061'},
+      p.innerHTML=`${roOnly()}<div class="card"><h2>Contact</h2><div class="form" id="sf">${formHTML([{k:'email',l:'Enquiry email',t:'email',h:'Forms are emailed here through FormSubmit. The first form after a change asks you to confirm by email.'},{k:'whatsapp',l:'WhatsApp number',h:'Country code and number, no + or spaces. Example: 919944442061'},{k:'phone2',l:'Second phone number (calls)',h:'Country code and number, no + or spaces. Example: 918124545524. Leave empty to hide.'},
         {k:'prices.site',l:'Business website price'},{k:'prices.store',l:'Online store price'},{k:'prices.platform',l:'Custom platform price'},{k:'prices.care',l:'Monthly care price'},
         {k:'gaId',l:'Google Analytics ID',ph:'G-XXXXXXXXXX',h:'Optional. Starts tracking visitors once set.'}],s,'s')}</div></div>
         <div class="card"><h2>Offices</h2><div id="ofl"></div></div>
         <div class="card"><h2>Content file</h2><p class="muted">For backups, copy the whole content file.</p><button class="btn" id="cp">Copy content JSON</button></div>`;
-      $('#sf').addEventListener('change',()=>{readForm($('#sf'),s);s.whatsapp=String(s.whatsapp).replace(/\D/g,'');markDirty('site')});
+      $('#sf').addEventListener('change',()=>{readForm($('#sf'),s);s.whatsapp=String(s.whatsapp).replace(/\D/g,'');s.phone2=String(s.phone2||'').replace(/\D/g,'');markDirty('site')});
       const le=listEditor({items:s.offices,title:x=>x.name,sub:x=>(x.lines||[]).join(', '),newItem:()=>({name:'',lines:[],city:'',postal:'',street:''}),
-        fields:[{k:'name',l:'Office name'},{k:'city',l:'City'},{k:'lines',l:'Address lines (one per line)',t:'lines',w:true},{k:'street',l:'Street address (for Google)',w:true},{k:'postal',l:'PIN code'}]});
+        fields:[{k:'name',l:'Office name'},{k:'city',l:'City'},{k:'lines',l:'Address lines (one per line)',t:'lines',w:true},{k:'street',l:'Street address (for Google)',w:true},{k:'postal',l:'PIN code'},{k:'map',l:'Google Maps link',w:true,h:'Paste the share link from Google Maps (Share → Copy link).'}]});
       $('#ofl').appendChild(le.el);
       $('#cp').onclick=()=>{const t=JSON.stringify(C,null,2);navigator.clipboard.writeText(t).then(()=>toast('Copied.'),()=>toast('Copy was blocked by the browser.'))};
     },

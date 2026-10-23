@@ -7,10 +7,10 @@
   --serif:"Instrument Serif",Georgia,serif;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+:root:not([data-theme="dark"]){
   --bg:#F3F4F8; --panel:#E7E9F1; --panel2:#DDE1EC; --line:rgba(14,19,36,.12);
   --ink:#0E1324; --muted:#555E77; --gold:#8A5800; --teal:#0A6E62; --wa:#128C4A; color-scheme:light;
-}}
+}
 :root[data-theme="light"]{
   --bg:#F3F4F8; --panel:#E7E9F1; --panel2:#DDE1EC; --line:rgba(14,19,36,.12);
   --ink:#0E1324; --muted:#555E77; --gold:#8A5800; --teal:#0A6E62; --wa:#128C4A; color-scheme:light;
@@ -84,7 +84,10 @@ section.block h2{font-size:clamp(28px,4vw,46px);margin-bottom:22px}
 .bar span{flex:1;margin-left:8px;font:12px var(--mono);color:var(--muted);background:var(--bg);border-radius:6px;padding:3px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .screen{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--bg);display:grid;place-items:center}
 .screen .fb{text-align:center;color:var(--muted);font-family:var(--mono);font-size:13px}
-.screen iframe{position:absolute;top:0;left:0;width:1280px;height:3200px;border:0;transform-origin:0 0;pointer-events:none;opacity:0;transition:opacity .6s}
+.screen iframe{position:absolute;top:0;left:0;width:1280px;height:800px;border:0;transform-origin:0 0;pointer-events:none;opacity:0;transition:opacity .6s;background:#fff}
+@media (hover:hover) and (pointer:fine){.screen.loaded iframe{pointer-events:auto}}
+.screen img.shot{position:absolute;top:0;left:0;width:100%;height:auto;max-width:none;opacity:0;transition:opacity .6s}
+.screen.loaded img.shot{opacity:1}
 .screen.loaded iframe{opacity:1}
 
 footer.foot{border-top:1px solid var(--line);padding-block:40px 96px;font-size:14px}
@@ -96,3 +99,8 @@ footer.foot .legal{margin-top:28px;font-family:var(--mono);font-size:12px;color:
 @media (max-width:760px){footer.foot .cols{grid-template-columns:1fr 1fr}}
 .wa{position:fixed;right:max(16px,calc(env(safe-area-inset-right,0px) + 16px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--wa);color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 .wa svg{width:28px;height:28px}
+
+/* back button at the top of every inner page */
+.backlink{display:inline-flex;align-items:center;gap:8px;font:500 13px var(--mono);color:var(--teal);text-decoration:none;padding:10px 0;margin-top:16px}
+.backlink:hover{text-decoration:underline}
+.backlink+.crumbs,.wrap:has(>.backlink)+.crumbs{padding-top:4px}

@@ -22,7 +22,7 @@ const canFrame = p => p.link && !/t\.me\//.test(p.link) && p.frame !== false;
 /* ---------- services and locations (edit the wording here) ---------- */
 const SERVICES = [
   { slug: 'website-development', name: 'Website development',
-    title: 'Website Development Company in Chennai & Thanjavur',
+    title: 'Website Development Company in Chennai, Tamil Nadu',
     h1: 'Website development that brings you customers',
     lead: 'Business websites built for phones first, fast to load and easy to find on Google. From ₹15,000, usually live in about 15 working days.',
     paras: ['Most customers judge your business by its website before they ever call. We design and build sites that load quickly on a phone, explain what you do in plain words, and make it easy to reach you on WhatsApp, by phone or through a form.',
@@ -108,7 +108,7 @@ const LOCATIONS = [
 const ICON_WA = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg>';
 function metaDesc(t) {
   let d = String(t || '').replace(/\s+/g, ' ').trim();
-  if (d.length < 70) d = `${d.replace(/\.?$/, '.')} Built by EntraBuild, a software studio in Chennai, Bangalore and Thanjavur.`;
+  if (d.length < 70) d = `${d.replace(/\.?$/, '.')} Built by EntraBuild, a software studio in Chennai and Bangalore for Tamil Nadu, India and other countries.`;
   if (d.length > 158) { d = d.slice(0, 155); d = d.slice(0, d.lastIndexOf(' ')).replace(/[,;:.\s—-]+$/, '') + '…'; }
   return d;
 }
@@ -128,21 +128,22 @@ ${keywords ? `<meta name="keywords" content="${esc(keywords)}">` : ''}
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="EntraBuild"><meta property="og:url" content="${SITE}/${url}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:image" content="${SITE}/og-image.png"><meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${SITE}/og-image.png">
-<meta name="theme-color" content="#0A0E1A">
+<meta name="theme-color" content="#F3F4F8">
 <link rel="icon" href="${up}favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="${up}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
 <link rel="stylesheet" href="${up}assets/site.css">
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n')}
-<script>try{var t=localStorage.getItem('eb-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>try{var t=sessionStorage.getItem('eb-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="${up}index.html"><b>&lt;/&gt;</b>EntraBuild</a>
-  <nav class="nav" aria-label="Main"><a href="${up}index.html#portfolio">Portfolio</a><a href="${up}services/website-development.html">Services</a><a href="${up}news.html">Tech Daily</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing ↗</a>
+  <nav class="nav" aria-label="Main"><a href="${up}portfolio.html">Portfolio</a><a href="${up}services/website-development.html">Services</a><a href="${up}news.html">Tech Daily</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing</a>
   <button class="themeb" type="button" id="themeBtn" aria-label="Switch theme"></button><a class="cta" href="${up}index.html#contact">Start a project</a></nav>
 </div></header>
 <main>
+<div class="wrap"><a class="backlink" href="${up}index.html" data-back>← Back</a></div>
 ${body}
 <section class="cta-band"><div class="wrap"><h2>Tell us the idea. <em class="s">We'll ship it.</em></h2>
 <div class="btns"><a class="btn solid" href="${up}index.html#contact">Start a project</a><a class="btn" href="${waLink('Hi EntraBuild, I saw ' + title + ' and would like to talk.')}" target="_blank" rel="noopener">WhatsApp ${esc(prettyWa)}</a></div></div></section>
@@ -151,22 +152,35 @@ ${body}
   <div class="cols">
     <div><b>Services</b>${SERVICES.map(s => `<a href="${up}services/${s.slug}.html">${esc(s.name)}</a>`).join('')}</div>
     <div><b>Locations</b>${LOCATIONS.map(l => `<a href="${up}locations/${l.slug}.html">Software company in ${l.city}</a>`).join('')}</div>
-    <div><b>Read</b><a href="${up}news.html">Entraiot Tech Daily</a><a href="${up}index.html#portfolio">Portfolio</a><a href="${up}index.html#faq">Questions</a></div>
-    <div><b>Contact</b><a href="mailto:${esc(S.email)}">${esc(S.email)}</a><a href="${waLink('Hi EntraBuild')}" target="_blank" rel="noopener">${esc(prettyWa)}</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing ↗</a></div>
+    <div><b>Read</b><a href="${up}news.html">Entraiot Tech Daily</a><a href="${up}portfolio.html">Portfolio</a><a href="${up}index.html#faq">Questions</a></div>
+    <div><b>Contact</b><a href="mailto:${esc(S.email)}">${esc(S.email)}</a><a href="${waLink('Hi EntraBuild')}" target="_blank" rel="noopener">${esc(prettyWa)}</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing</a></div>
   </div>
-  <div class="legal"><span>© ${new Date().getFullYear()} EntraBuild · An Entraiot Solutions studio</span><span>Chennai · Bangalore · Thanjavur</span></div>
+  <div class="legal"><span>© ${new Date().getFullYear()} EntraBuild · An Entraiot Solutions studio</span><span>Chennai · Bangalore · Tamil Nadu, India · Worldwide</span></div>
 </div></footer>
 <a class="wa" href="${waLink('Hi EntraBuild, I found you on entrabuild.com.')}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">${ICON_WA}</a>
 <script>
 (function(){var b=document.getElementById('themeBtn'),r=document.documentElement;
 var sun='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',moon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
-function dark(){return r.dataset.theme?r.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches}
+function dark(){return r.dataset.theme==='dark'}
 function lbl(){b.innerHTML=dark()?sun:moon}lbl();
-b.onclick=function(){var n=dark()?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('eb-theme',n)}catch(e){}lbl()};
-document.querySelectorAll('.screen[data-src]').forEach(function(s){var f=s.querySelector('iframe');
-  new IntersectionObserver(function(es){if(es[0].isIntersecting&&!f.src){f.onload=function(){s.classList.add('loaded')};f.src=s.dataset.src}}).observe(s);
-  var t0=performance.now();(function loop(now){var sc=s.clientWidth/1280,d=Math.max(0,3200*sc-s.clientHeight),ph=((now-t0)%36000)/36000,pp=ph<.5?ph*2:2-ph*2;
-  if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!s.matches(':hover'))f.style.transform='translateY('+(-d*pp)+'px) scale('+sc+')';else f.style.transform='scale('+sc+')';requestAnimationFrame(loop)})(t0)});
+b.onclick=function(){var n=dark()?'light':'dark';r.dataset.theme=n;try{sessionStorage.setItem('eb-theme',n)}catch(e){}lbl()};
+document.querySelectorAll('[data-back]').forEach(function(a){a.addEventListener('click',function(e){
+  try{if(document.referrer&&new URL(document.referrer).origin===location.origin&&history.length>1){e.preventDefault();history.back()}}catch(x){}})});
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,VH=800,FW=1280;
+function ease(x){return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2}
+function humanY(t,dist){if(dist<=0)return 0;var step=VH*.7,P=1400,M=1100,E=2600,B=1800,T=1600,n=Math.ceil(dist/step),down=n*(P+M),c=T+down+E+B,x=t%c;
+  if(x<T)return 0;x-=T;if(x<down){var i=Math.floor(x/(P+M)),r=x-i*(P+M),f=Math.min(dist,i*step),to=Math.min(dist,(i+1)*step);return r<P?f:f+(to-f)*ease((r-P)/M)}
+  x-=down;if(x<E)return dist;x-=E;return dist*(1-ease(x/B))}
+var screens=[].slice.call(document.querySelectorAll('.screen[data-src]'));
+if(screens.length)fetch('${up}images/screens/index.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}).then(function(j){
+  var items=(j&&j.items)||{};
+  screens.forEach(function(s){var shot=items[s.dataset.id],f=s.querySelector('iframe'),t0=performance.now();
+    if(shot&&shot.h>0){f.remove();var img=document.createElement('img');img.className='shot';img.alt='';img.setAttribute('aria-hidden','true');s.appendChild(img);s.classList.add('has-shot');
+      new IntersectionObserver(function(es){if(es[0].isIntersecting&&!img.src){img.onload=function(){s.classList.add('loaded')};img.src='${up}images/screens/'+s.dataset.id+'.jpg?v='+(shot.v||'')}}).observe(s);
+      (function loop(now){if(s.classList.contains('loaded')&&img.naturalWidth){var w=s.clientWidth,sc=w/FW,full=img.naturalHeight*(w/img.naturalWidth),dist=Math.max(0,full-s.clientHeight);
+        if(s.matches(':hover'))t0+=16;else img.style.transform=reduce?'none':'translateY('+(-humanY(now-t0,dist/sc)*sc)+'px)'}requestAnimationFrame(loop)})(t0);return}
+    new IntersectionObserver(function(es){if(es[0].isIntersecting&&!f.src){f.onload=function(){s.classList.add('loaded')};f.src=s.dataset.src}}).observe(s);
+    (function loop(){f.style.transform='scale('+(s.clientWidth/FW)+')';requestAnimationFrame(loop)})()})});
 })();
 </script>
 </body>
@@ -178,7 +192,7 @@ const breadcrumbLd = items => ({ '@context': 'https://schema.org', '@type': 'Bre
 const faqLd = faq => ({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) });
 const faqHtml = faq => `<div class="faq">${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
 const projCards = (ids, depth) => `<div class="cards">${ids.filter(id => PROJECTS[id]).map(id => { const p = PROJECTS[id]; return `<a class="card" href="${'../'.repeat(depth)}work/${p.id}.html"><small>${esc(p.industry)}</small><b>${esc(p.name)}</b><span>${esc(p.desc)}</span></a>`; }).join('')}</div>`;
-const frame = p => `<div class="browser"><div class="bar"><i></i><i></i><i></i><span>${esc(host(p.link))}</span></div><div class="screen" data-src="${esc(p.link)}"><div class="fb">${esc(p.name)} · live preview</div><iframe title="${esc(p.name)} live preview" tabindex="-1" aria-hidden="true" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin"></iframe></div></div>`;
+const frame = p => `<div class="browser"><div class="bar"><i></i><i></i><i></i><span>${esc(host(p.link))}</span></div><div class="screen" data-id="${esc(p.id)}" data-src="${esc(p.link)}"><div class="fb">${esc(p.name)} · live preview</div><iframe title="${esc(p.name)} live preview" tabindex="-1" aria-hidden="true" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div></div>`;
 const orgRef = { '@type': 'Organization', name: 'EntraBuild', url: SITE, parentOrganization: { '@type': 'Organization', name: 'Entraiot Solutions', url: 'https://entraiot.com' } };
 
 function write(rel, html) { const f = path.join(ROOT, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); urls.push(rel); }
@@ -194,7 +208,7 @@ for (const s of SERVICES) {
     jsonld: [{ '@context': 'https://schema.org', '@type': 'Service', name: s.name, serviceType: s.name, description: s.lead, provider: orgRef, areaServed: ['Chennai', 'Bangalore', 'Thanjavur', 'India'].map(n => ({ '@type': 'Place', name: n })), url: `${SITE}/${url}` },
              breadcrumbLd([['Services', `${SITE}/services/website-development.html`], [s.name, `${SITE}/${url}`]]), faqLd(s.faq)],
     body: `${crumbs(1, [['Services', 'website-development.html'], [s.name]])}
-<section class="hero"><div class="wrap"><div class="eyebrow">${esc(s.name)} · Chennai · Bangalore · Thanjavur</div><h1>${esc(s.h1)}</h1><p class="lead">${esc(s.lead)}</p>
+<section class="hero"><div class="wrap"><div class="eyebrow">${esc(s.name)} · Chennai · Bangalore · Tamil Nadu, India · Worldwide</div><h1>${esc(s.h1)}</h1><p class="lead">${esc(s.lead)}</p>
 <div class="btns"><a class="btn solid" href="../index.html#contact">Get a quote</a><a class="btn" href="../index.html#pricing">See packages</a></div></div></section>
 <section class="block"><div class="wrap prose">${s.paras.map(p => `<p>${esc(p)}</p>`).join('')}</div></section>
 <section class="block"><div class="wrap"><h2>What you <em class="s">get</em></h2><ul class="ticks">${s.includes.map(i => `<li>${esc(i)}</li>`).join('')}</ul></div></section>
@@ -216,9 +230,9 @@ for (const l of LOCATIONS) {
   write(url, shell({ depth: 1, url, title: l.title, desc: l.lead, keywords: `software company ${l.city}, website development ${l.city}, app development ${l.city}, web design ${l.city}, IT company ${l.city}`, jsonld: ld,
     body: `${crumbs(1, [['Locations'], [l.city]])}
 <section class="hero"><div class="wrap"><div class="eyebrow">EntraBuild in ${l.city}</div><h1>Software company in <em class="s">${l.city}</em></h1><p class="lead">${esc(l.lead)}</p>
-<div class="btns"><a class="btn solid" href="../index.html#contact">Start a project</a><a class="btn" href="../index.html#portfolio">See our work</a></div></div></section>
+<div class="btns"><a class="btn solid" href="../index.html#contact">Start a project</a><a class="btn" href="../portfolio.html">See our work</a></div></div></section>
 <section class="block"><div class="wrap prose">${l.paras.map(p => `<p>${esc(p)}</p>`).join('')}
-${o ? `<div class="office"><div class="eyebrow">${esc(o.name)}</div><address>${o.lines.map(esc).join('<br>')}</address><a href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(o.lines.join(' '))}" target="_blank" rel="noopener">Open in Maps ↗</a></div>` : ''}</div></section>
+${o ? `<div class="office"><div class="eyebrow">${esc(o.name)}</div><address>${o.lines.map(esc).join('<br>')}</address><a href="${esc(/^https:\/\//.test(o.map||'')?o.map:'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(o.lines.join(' ')))}" target="_blank" rel="noopener">Open in Maps ↗</a></div>` : ''}</div></section>
 <section class="block"><div class="wrap"><h2>What we build in ${l.city}</h2><div class="cards">${SERVICES.map(x => `<a class="card" href="../services/${x.slug}.html"><small>Service</small><b>${esc(x.name)}</b><span>${esc(x.lead)}</span></a>`).join('')}</div></div></section>
 <section class="block"><div class="wrap"><h2>Selected <em class="s">work</em></h2>${projCards(l.projects, 1)}</div></section>
 <section class="block"><div class="wrap"><h2>Questions</h2>${faqHtml(faq)}</div></section>` }));
@@ -231,8 +245,8 @@ for (const ind of C.industries) for (const p of ind.projects) {
   const svc = SERVICES.filter(s => s.projects.includes(p.id));
   write(url, shell({ depth: 1, url, type: 'article', title: `${p.name} — ${ind.name.en} project`, desc: `${p.name}: ${p.desc}. ${p.built}`,
     jsonld: [{ '@context': 'https://schema.org', '@type': 'CreativeWork', name: p.name, about: ind.name.en, description: p.built, creator: orgRef, url: `${SITE}/${url}`, ...(p.link ? { sameAs: p.link } : {}), keywords: (p.tools || []).join(', ') },
-             breadcrumbLd([['Portfolio', `${SITE}/#portfolio`], [p.name, `${SITE}/${url}`]])],
-    body: `${crumbs(1, [['Portfolio', '../index.html#portfolio'], [ind.name.en], [p.name]])}
+             breadcrumbLd([['Portfolio', `${SITE}/portfolio.html`], [p.name, `${SITE}/${url}`]])],
+    body: `${crumbs(1, [['Portfolio', '../portfolio.html'], [ind.name.en], [p.name]])}
 <section class="hero"><div class="wrap"><div class="eyebrow">${esc(ind.name.en)}${p.tag ? ' · ' + esc(p.tag) : ''}</div><h1>${esc(p.name)}</h1><p class="lead">${esc(p.desc)}</p>
 ${p.link ? `<div class="btns"><a class="btn solid" href="${esc(p.link)}" target="_blank" rel="noopener">See it live ↗</a></div>` : ''}</div></section>
 ${canFrame(p) ? `<section class="block"><div class="wrap">${frame(p)}</div></section>` : ''}
@@ -255,7 +269,7 @@ for (const n of C.notes || []) {
 }
 
 /* sitemap + robots */
-const all = ['', 'news.html', ...urls];
+const all = ['', 'portfolio.html', 'news.html', ...urls];
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${all.map(u => `  <url><loc>${SITE}/${u}</loc><lastmod>${TODAY}</lastmod><changefreq>${u === 'news.html' ? 'hourly' : u === '' ? 'weekly' : 'monthly'}</changefreq><priority>${u === '' ? '1.0' : u.startsWith('services') || u.startsWith('locations') ? '0.9' : u === 'news.html' ? '0.8' : '0.6'}</priority></url>`).join('\n')}

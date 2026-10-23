@@ -10,6 +10,7 @@ There is nothing to build or install for the main site. GitHub Actions does the 
 | Path | What it is |
 |---|---|
 | `index.html` | Home page: hero, industries (projects open in place with live frames), portfolio, how we build, packages, Voxrel, team, ANI · AGI · ASI, studio notes, careers, FAQ, contact, chat assistant, WhatsApp, five languages, light/dark |
+| `portfolio.html` | **Portfolio**: every project on one wall, filtered by industry. Opens from the Portfolio tab after Careers |
 | `news.html` | **Entraiot Tech Daily**: AI, mobile, electronics, software, security and India tech headlines |
 | `admin/` | **Master admin panel** for projects, industries, portfolio images, news posts, news sources, team, notes, clients, FAQ and settings |
 | `content/site.json` | All website content. The admin panel edits this file |
@@ -19,7 +20,9 @@ There is nothing to build or install for the main site. GitHub Actions does the 
 | `sitemap.xml`, `robots.txt` | For Google and Bing. Generated |
 | `scripts/build-pages.mjs` | Builds the Google pages and sitemap from `content/site.json` |
 | `scripts/fetch-news.mjs` | Collects the news |
-| `.github/workflows/` | `tech-daily.yml` runs 4 times a day; `build-pages.yml` runs whenever content changes |
+| `scripts/capture-screens.mjs`, `images/screens/` | Full-page pictures of every project website. The frames scroll through them from top to bottom like a visitor would |
+| `api/news.js` | On Vercel: reads the news live if the saved edition is empty or older than 12 hours, so Tech Daily is never blank |
+| `.github/workflows/` | `tech-daily.yml` runs 4 times a day; `build-pages.yml` runs whenever content changes; `screens.yml` takes the website pictures whenever projects change and every Monday |
 | `assets/site.css`, `favicon.svg`, `og-image.png` | Shared styles, icon and the image shown when the link is shared on WhatsApp, LinkedIn etc. |
 | `logo.png`, `apple-touch-icon.png` | Logo for Google results and the icon when someone saves the site to their phone's home screen |
 | `404.html` | The page people see on a broken link, with routes back into the site |
@@ -31,7 +34,7 @@ There is nothing to build or install for the main site. GitHub Actions does the 
 2. In the repository go to **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**. Save. (The news and page jobs need this to save their results.)
 3. Connect the repository to **Vercel** or **Netlify**: framework "Other", no build command, output folder = repository root. Every save in the admin redeploys the site by itself.
 4. Point **entrabuild.com** to it in Cloudflare DNS.
-5. Go to **Actions → Entraiot Tech Daily → Run workflow** once, so the first edition appears straight away.
+5. The news job runs by itself the first time you push. If Tech Daily still says "on its way", go to **Actions → Entraiot Tech Daily → Run workflow**. On Vercel the page also reads the news live in the meantime.
 
 ## 2. The master admin panel
 
@@ -84,7 +87,8 @@ Nobody can promise first place on Google. These steps are what actually moves ra
 - Prices: only the ₹15,000 website price is set. The others say "On quote".
 - Studio notes name real clients (Zivira, RSA, Pavana). Please confirm they're happy with that.
 - Translations (Tamil, Kannada, Malayalam, Telugu) should be checked by native speakers.
-- Some websites refuse to be shown inside a frame. If a project's frame stays blank, untick **Live frame** for that project in Admin → Projects.
+- Project frames: after you push, the **Website screenshots** job (Actions tab) takes a full-page picture of each project website, usually within 10 minutes. Until a picture exists, the frame shows the real site at normal size, and visitors on a computer can scroll it themselves. To refresh the pictures after a client changes their site, go to **Actions → Website screenshots → Run workflow**.
+- If a project's frame stays blank, untick **Live frame** for that project in Admin → Projects.
 
 ## Running things on your computer
 
