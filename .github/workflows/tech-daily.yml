@@ -1,0 +1,32 @@
+name: Entraiot Tech Daily
+
+on:
+  schedule:
+    # 06:15, 12:15, 18:15 and 00:15 India time (times below are UTC)
+    - cron: '45 0,6,12,18 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tech-daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Collect today's technology news
+        run: node scripts/fetch-news.mjs
+      - name: Save the new edition
+        run: |
+          git config user.name "Entraiot Tech Daily"
+          git config user.email "actions@users.noreply.github.com"
+          git add news/news.json news/feed.xml
+          git diff --cached --quiet || git commit -m "Tech Daily update $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash && git push

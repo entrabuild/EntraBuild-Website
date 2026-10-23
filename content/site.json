@@ -1,0 +1,1022 @@
+{
+  "version": 1,
+  "updated": "2026-10-23T06:30:45.062Z",
+  "settings": {
+    "email": "reach@entrabuild.com",
+    "whatsapp": "919944442061",
+    "prices": {
+      "site": "₹15,000",
+      "store": "On quote",
+      "platform": "On quote",
+      "care": "On quote"
+    },
+    "gaId": "",
+    "offices": [
+      {
+        "name": "Chennai office",
+        "lines": [
+          "No. 11/608, Anna Nagar 1st Street, Kulathuvanchery",
+          "Paraniputhur PO, Iyyappanthangal Main Road",
+          "Iyyappanthangal, Chennai, Tamil Nadu 600122"
+        ],
+        "city": "Chennai",
+        "postal": "600122",
+        "street": "No. 11/608, Anna Nagar 1st Street, Kulathuvanchery, Paraniputhur PO, Iyyappanthangal Main Road, Iyyappanthangal"
+      },
+      {
+        "name": "Thanjavur branch",
+        "lines": [
+          "9/148 Fathima Nagar, N.K. Road",
+          "Thanjavur, Tamil Nadu 613001"
+        ],
+        "city": "Thanjavur",
+        "postal": "613001",
+        "street": "9/148 Fathima Nagar, N.K. Road"
+      }
+    ],
+    "cities": [
+      "Chennai",
+      "Bangalore",
+      "Thanjavur"
+    ]
+  },
+  "industries": [
+    {
+      "name": {
+        "en": "Pharmaceuticals",
+        "ta": "மருந்துத் துறை",
+        "kn": "ಔಷಧ ಉದ್ಯಮ",
+        "ml": "ഔഷധ മേഖല",
+        "te": "ఫార్మా రంగం"
+      },
+      "word": {
+        "en": "pharma.",
+        "ta": "மருந்து நிறுவனங்கள்",
+        "kn": "ಔಷಧ ಕಂಪನಿಗಳು",
+        "ml": "ഔഷധ കമ്പനികൾ",
+        "te": "ఫార్మా కంపెనీలు"
+      },
+      "projects": [
+        {
+          "id": "zivira-labs",
+          "name": "Zivira Labs",
+          "desc": "Sales force platform with five portals: field reps, managers, admin, super admin and HR",
+          "tag": "",
+          "need": "Zivira Labs wanted to stop renting a third-party sales tool and own one built around how their medical reps actually work.",
+          "built": "Five portals. Reps log daily calls, samples and doctor visits from the field. Managers approve them, head office sees the reports, HR tracks attendance and a super admin controls the whole system. Every report moves rep → manager → admin.",
+          "tools": [
+            "Next.js",
+            "Node.js",
+            "MongoDB",
+            "Render",
+            "Vercel"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "zivira-website",
+          "name": "Zivira Labs website",
+          "desc": "Eye-care product site with an interactive 3D eye",
+          "tag": "",
+          "need": "A website for an ophthalmic medicine company that felt as precise as its products.",
+          "built": "A 3D eye that follows the cursor and blinks, the full product catalogue, five languages and a help assistant that works offline.",
+          "tools": [
+            "Three.js",
+            "HTML",
+            "Canvas"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Construction",
+        "ta": "கட்டுமானம்",
+        "kn": "ನಿರ್ಮಾಣ",
+        "ml": "നിർമ്മാണം",
+        "te": "నిర్మాణం"
+      },
+      "word": {
+        "en": "construction.",
+        "ta": "கட்டுமான நிறுவனங்கள்",
+        "kn": "ನಿರ್ಮಾಣ ಸಂಸ್ಥೆಗಳು",
+        "ml": "നിർമ്മാണ കമ്പനികൾ",
+        "te": "నిర్మాణ సంస్థలు"
+      },
+      "projects": [
+        {
+          "id": "rsa-construction",
+          "name": "R.S.A Construction",
+          "desc": "Billing and stock system that replaced two handwritten books, with admin, manager and mobile apps",
+          "tag": "",
+          "need": "Every delivery note and every material purchase was written by hand in two books, which made totals slow to check and easy to get wrong.",
+          "built": "A billing and stock system laid out exactly like the old books. It prints delivery notes that match the paper pad, shares PDFs on WhatsApp, exports to Excel, and runs as admin and manager portals plus Android and iOS apps.",
+          "tools": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Capacitor"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "velankanni-madha",
+          "name": "Velankanni Madha",
+          "desc": "Site manager portal with Android and iOS apps",
+          "tag": "",
+          "need": "Managers needed to follow work across several sites from their phones.",
+          "built": "A manager portal on the web, with matching Android and iOS apps.",
+          "tools": [
+            "React",
+            "Node.js",
+            "Android",
+            "iOS"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "buildvaultry",
+          "name": "BuildVaultry",
+          "desc": "Access control platform with approvals and audit logs",
+          "tag": "",
+          "need": "Companies need to control exactly which people and systems may access their data, and prove it later.",
+          "built": "Approved-access lists with two-person approval, API keys, a full access log and alerts when activity looks unusual.",
+          "tools": [
+            "Cloudflare Workers",
+            "Hono",
+            "Next.js",
+            "D1"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Legal",
+        "ta": "சட்டத் துறை",
+        "kn": "ಕಾನೂನು",
+        "ml": "നിയമം",
+        "te": "న్యాయం"
+      },
+      "word": {
+        "en": "law firms.",
+        "ta": "சட்ட அமைப்புகள்",
+        "kn": "ಕಾನೂನು ಸಂಸ್ಥೆಗಳು",
+        "ml": "നിയമ സ്ഥാപനങ്ങൾ",
+        "te": "న్యాయ సంస్థలు"
+      },
+      "projects": [
+        {
+          "id": "tnwla-madras",
+          "name": "TNWLA Madras",
+          "desc": "Official site of the Tamilnadu Women Law Association, with memberships, books and events",
+          "tag": "",
+          "need": "The association needed one official place online for members, publications and events.",
+          "built": "A website with membership sign-up, a book store, events and room to add more online services.",
+          "tools": [
+            "Next.js",
+            "Vercel"
+          ],
+          "link": "https://tnwla-madras.com",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "stand-firm",
+          "name": "Stand Firm",
+          "desc": "Online deed preparation platform",
+          "tag": "",
+          "need": "Preparing legal deeds by hand means retyping the same details again and again.",
+          "built": "A guided platform that collects the details once and prepares structured deed documents.",
+          "tools": [
+            "Web platform"
+          ],
+          "link": "https://tnwla-madras.com/stand-firm",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Silk & textiles",
+        "ta": "பட்டு & ஜவுளி",
+        "kn": "ರೇಷ್ಮೆ & ಜವಳಿ",
+        "ml": "പട്ട് & തുണിത്തരങ്ങൾ",
+        "te": "పట్టు & వస్త్రాలు"
+      },
+      "word": {
+        "en": "silk houses.",
+        "ta": "பட்டு நிறுவனங்கள்",
+        "kn": "ರೇಷ್ಮೆ ಮಳಿಗೆಗಳು",
+        "ml": "പട്ടു കടകൾ",
+        "te": "పట్టు దుకాణాలు"
+      },
+      "projects": [
+        {
+          "id": "pavana-silks",
+          "name": "Pavana Silks",
+          "desc": "Cinematic scroll website at pavanasilks.com, plus monthly social media",
+          "tag": "",
+          "need": "A handwoven Kancheepuram and Thanjavur silk brand, run by its founder, wanted more sales from Instagram and WhatsApp without paying for ads.",
+          "built": "A website where a saree drapes itself frame by frame as you scroll, then a monthly plan for photos, posts and replies that we run for them.",
+          "tools": [
+            "GSAP",
+            "Canvas",
+            "Social media"
+          ],
+          "link": "https://pavanasilks.com",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "bhuvannam-silks",
+          "name": "Bhuvannam Silks",
+          "desc": "Online saree store with WhatsApp ordering and a shopping chatbot",
+          "tag": "",
+          "need": "A saree seller who sold through a WhatsApp group wanted a proper shop window.",
+          "built": "An online store with collections, saree detail pages, WhatsApp ordering, a shopping chatbot and a private sales dashboard.",
+          "tools": [
+            "HTML",
+            "JavaScript",
+            "WhatsApp"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Media & events",
+        "ta": "ஊடகம் & நிகழ்வுகள்",
+        "kn": "ಮಾಧ್ಯಮ & ಕಾರ್ಯಕ್ರಮಗಳು",
+        "ml": "മാധ്യമം & പരിപാടികൾ",
+        "te": "మీడియా & ఈవెంట్లు"
+      },
+      "word": {
+        "en": "media houses.",
+        "ta": "ஊடக நிறுவனங்கள்",
+        "kn": "ಮಾಧ್ಯಮ ಸಂಸ್ಥೆಗಳು",
+        "ml": "മാധ്യമ സ്ഥാപനങ്ങൾ",
+        "te": "మీడియా సంస్థలు"
+      },
+      "projects": [
+        {
+          "id": "nordic-affairs-media",
+          "name": "Nordic Affairs Media",
+          "desc": "Website rebuild for a Swedish media house, with ticket booking and a chat assistant",
+          "tag": "",
+          "need": "A media and events house in Sweden wanted a faster website and its own ticket booking.",
+          "built": "A rebuilt website in English, Swedish, Tamil and Malayalam with ticket booking, an admin panel with SEO scores and visitor charts, and a chat assistant called Nora.",
+          "tools": [
+            "Next.js",
+            "Render",
+            "Vercel"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Speech & AI data",
+        "ta": "பேச்சு & AI தரவு",
+        "kn": "ಧ್ವನಿ & AI ದತ್ತಾಂಶ",
+        "ml": "ശബ്ദം & AI ഡാറ്റ",
+        "te": "వాయిస్ & AI డేటా"
+      },
+      "word": {
+        "en": "AI data teams.",
+        "ta": "AI தரவுக் குழுக்கள்",
+        "kn": "AI ದತ್ತಾಂಶ ತಂಡಗಳು",
+        "ml": "AI ഡാറ്റ ടീമുകൾ",
+        "te": "AI డేటా బృందాలు"
+      },
+      "projects": [
+        {
+          "id": "samhita-stotra",
+          "name": "Samhita & Stotra",
+          "desc": "Speech data collection with live multi-speaker recording rooms",
+          "tag": "",
+          "need": "A speech data company needed to collect recordings and transcripts from many freelancers and review them in one place.",
+          "built": "Freelancer, admin and super admin portals, plus Stotra: live recording rooms where several speakers talk together and the audio saves straight to cloud storage.",
+          "tools": [
+            "LiveKit",
+            "Node.js",
+            "Cloudflare Workers",
+            "Google Cloud"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "voxrel",
+          "name": "Voxrel",
+          "desc": "Our own platform for running freelance data teams",
+          "tag": "Our product",
+          "need": "Teams that collect and label data juggle spreadsheets, chats and payment apps.",
+          "built": "One platform with separate apps for freelancers, admins and super admins: tasks, reviews, recordings, annotation and payouts.",
+          "tools": [
+            "Next.js",
+            "Node.js",
+            "Cloudflare Workers",
+            "Razorpay"
+          ],
+          "link": "https://inquisitive-mousse-bce04d.netlify.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Social media & AI",
+        "ta": "சமூக ஊடகம் & AI",
+        "kn": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ & AI",
+        "ml": "സോഷ്യൽ മീഡിയ & AI",
+        "te": "సోషల్ మీడియా & AI"
+      },
+      "word": {
+        "en": "creators.",
+        "ta": "படைப்பாளர்கள்",
+        "kn": "ಕಂಟೆಂಟ್ ಸೃಷ್ಟಿಕರ್ತರು",
+        "ml": "ക്രിയേറ്റർമാർ",
+        "te": "క్రియేటర్లు"
+      },
+      "projects": [
+        {
+          "id": "viral-ai",
+          "name": "Viral AI",
+          "desc": "AI content platform with its own web app and API",
+          "tag": "",
+          "need": "Social media teams need a steady flow of posts without starting from a blank page every day.",
+          "built": "A web app and an API that generate social media content with AI.",
+          "tools": [
+            "AI",
+            "API",
+            "Web app"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Accessibility",
+        "ta": "அணுகல்தன்மை",
+        "kn": "ಪ್ರವೇಶಸಾಧ್ಯತೆ",
+        "ml": "പ്രവേശനക്ഷമത",
+        "te": "అందుబాటు"
+      },
+      "word": {
+        "en": "accessibility.",
+        "ta": "அனைவருக்குமான அணுகல்",
+        "kn": "ಎಲ್ಲರಿಗೂ ಪ್ರವೇಶ",
+        "ml": "എല്ലാവർക്കും പ്രവേശനം",
+        "te": "అందరికీ అందుబాటు"
+      },
+      "projects": [
+        {
+          "id": "pdf-agi",
+          "name": "PDF AGI",
+          "desc": "Makes PDF documents readable for screen readers",
+          "tag": "Our product",
+          "need": "Most PDFs cannot be read by people who use screen readers.",
+          "built": "Upload a PDF and the tool tags its structure so screen readers can follow it, with voice narration, translation and chat with the document.",
+          "tools": [
+            "Next.js",
+            "Cloudflare Workers",
+            "FastAPI",
+            "AI"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Temple services",
+        "ta": "கோவில் சேவைகள்",
+        "kn": "ದೇವಾಲಯ ಸೇವೆಗಳು",
+        "ml": "ക്ഷേത്ര സേവനങ്ങൾ",
+        "te": "ఆలయ సేవలు"
+      },
+      "word": {
+        "en": "temples.",
+        "ta": "கோவில்கள்",
+        "kn": "ದೇವಾಲಯಗಳು",
+        "ml": "ക്ഷേത്രങ്ങൾ",
+        "te": "ఆలయాలు"
+      },
+      "projects": [
+        {
+          "id": "earchana",
+          "name": "eArchana",
+          "desc": "Book archanas at Tamil Nadu temples from anywhere, with prasad delivered",
+          "tag": "",
+          "need": "Devotees living far away wanted to offer archanas at Tamil Nadu temples.",
+          "built": "Choose a puja, book online, the priest performs it with photo and video proof, and prasad is delivered.",
+          "tools": [
+            "Web app",
+            "Razorpay",
+            "WhatsApp"
+          ],
+          "link": "https://voice-to-software.pages.dev",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "E-commerce & deals",
+        "ta": "இணைய வணிகம்",
+        "kn": "ಇ-ವಾಣಿಜ್ಯ",
+        "ml": "ഇ-കൊമേഴ്സ്",
+        "te": "ఈ-కామర్స్"
+      },
+      "word": {
+        "en": "online stores.",
+        "ta": "இணையக் கடைகள்",
+        "kn": "ಆನ್‌ಲೈನ್ ಅಂಗಡಿಗಳು",
+        "ml": "ഓൺലൈൻ കടകൾ",
+        "te": "ఆన్‌లైన్ దుకాణాలు"
+      },
+      "projects": [
+        {
+          "id": "jeni",
+          "name": "Jeni",
+          "desc": "Online store and sales platform for food products",
+          "tag": "",
+          "need": "A food brand needed to take orders online and keep track of sales.",
+          "built": "An online store with order management and sales workflows.",
+          "tools": [
+            "Web platform"
+          ],
+          "link": "https://tnwla-madras.com/jeni",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "affiliated-factory",
+          "name": "Affiliated Factory",
+          "desc": "Bot that finds Amazon India deals and posts them around the clock",
+          "tag": "Our product",
+          "need": "Good deals disappear quickly, and posting them by hand takes all day.",
+          "built": "A bot that finds Amazon India deals every two hours and posts them to Telegram and other channels, with a dashboard for clicks and earnings.",
+          "tools": [
+            "Node.js",
+            "MongoDB",
+            "Telegram",
+            "Render"
+          ],
+          "link": "https://t.me/BestDealsIN2026_bot",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cafés & food",
+        "ta": "உணவகங்கள்",
+        "kn": "ಕೆಫೆ & ಆಹಾರ",
+        "ml": "കഫേകൾ & ഭക്ഷണം",
+        "te": "కేఫ్‌లు & ఆహారం"
+      },
+      "word": {
+        "en": "cafés.",
+        "ta": "உணவகங்கள்",
+        "kn": "ಕೆಫೆಗಳು",
+        "ml": "കഫേകൾ",
+        "te": "కేఫ్‌లు"
+      },
+      "projects": [
+        {
+          "id": "good-icecreams",
+          "name": "Good Icecreams & Coffee",
+          "desc": "Teynampet, Chennai",
+          "tag": "",
+          "need": "An ice cream and coffee shop wanted a site as sweet as the menu.",
+          "built": "A pastel site with a filterable menu, scrolling reviews, an ice-cream cursor and delivery app links.",
+          "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "the-perch",
+          "name": "The Perch",
+          "desc": "Chennai café",
+          "tag": "",
+          "need": "A café needed its own website.",
+          "built": "A brand website with menu and location.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://the-perch-chennai.netlify.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "crafe-cafe",
+          "name": "Crafe Café",
+          "desc": "Café website",
+          "tag": "",
+          "need": "A café needed its own website.",
+          "built": "A brand website with menu and location.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://crafe-cafe.netlify.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "the-juice-box",
+          "name": "The Juice Box",
+          "desc": "Juice bar website",
+          "tag": "",
+          "need": "A juice bar needed its own website.",
+          "built": "A bright brand website with the menu up front.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://the-juice-box.netlify.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "coffee-anugraha",
+          "name": "Coffee AnuGraha",
+          "desc": "Coffee brand website",
+          "tag": "",
+          "need": "A coffee brand needed a home online.",
+          "built": "A brand website for its coffee range.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://coffee-anugraha.vercel.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "cream-story",
+          "name": "Cream Story",
+          "desc": "Dessert brand website",
+          "tag": "",
+          "need": "A dessert brand needed a home online.",
+          "built": "A brand website for its desserts.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://cream-story-six.vercel.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fitness",
+        "ta": "உடற்பயிற்சி",
+        "kn": "ಫಿಟ್‌ನೆಸ್",
+        "ml": "ഫിറ്റ്നസ്",
+        "te": "ఫిట్‌నెస్"
+      },
+      "word": {
+        "en": "gyms.",
+        "ta": "உடற்பயிற்சிக் கூடங்கள்",
+        "kn": "ಜಿಮ್‌ಗಳು",
+        "ml": "ജിമ്മുകൾ",
+        "te": "జిమ్‌లు"
+      },
+      "projects": [
+        {
+          "id": "berserk-gym",
+          "name": "Berserk Gym",
+          "desc": "Palavakkam, Chennai, with a before-and-after transformation slider",
+          "tag": "",
+          "need": "A hardcore gym wanted a site that felt like its training.",
+          "built": "A dark warrior-themed site with programmes, a before-and-after slider, live counters and WhatsApp, call and map buttons.",
+          "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Renewable energy",
+        "ta": "சூரிய ஆற்றல்",
+        "kn": "ನವೀಕರಿಸಬಹುದಾದ ಇಂಧನ",
+        "ml": "പുനരുപയോഗ ഊർജ്ജം",
+        "te": "పునరుత్పాదక శక్తి"
+      },
+      "word": {
+        "en": "solar companies.",
+        "ta": "சூரிய ஆற்றல் நிறுவனங்கள்",
+        "kn": "ಸೌರ ಕಂಪನಿಗಳು",
+        "ml": "സോളാർ കമ്പനികൾ",
+        "te": "సోలార్ కంపెనీలు"
+      },
+      "projects": [
+        {
+          "id": "solar-green",
+          "name": "Solar Green Energy",
+          "desc": "Company and product website",
+          "tag": "",
+          "need": "A solar company needed to present its products clearly.",
+          "built": "A company and product website.",
+          "tools": [
+            "Web"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Retail & brands",
+        "ta": "சில்லறை வணிகம்",
+        "kn": "ಚಿಲ್ಲರೆ & ಬ್ರ್ಯಾಂಡ್‌ಗಳು",
+        "ml": "റീട്ടെയിൽ & ബ്രാൻഡുകൾ",
+        "te": "రిటైల్ & బ్రాండ్లు"
+      },
+      "word": {
+        "en": "brands.",
+        "ta": "பிராண்டுகள்",
+        "kn": "ಬ್ರ್ಯಾಂಡ್‌ಗಳು",
+        "ml": "ബ്രാൻഡുകൾ",
+        "te": "బ్రాండ్లు"
+      },
+      "projects": [
+        {
+          "id": "jpt-co",
+          "name": "JPT & Co",
+          "desc": "Brand storefront",
+          "tag": "",
+          "need": "A brand needed a storefront.",
+          "built": "A brand storefront website.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://jpt-co.netlify.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "cd-player",
+          "name": "CD Player",
+          "desc": "Product storefront",
+          "tag": "Concept",
+          "need": "A concept for a single-product store.",
+          "built": "A product storefront.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://cd-player.vercel.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "ye-olde-inbox",
+          "name": "Ye Olde Inbox",
+          "desc": "Brand storefront",
+          "tag": "Concept",
+          "need": "A concept brand storefront.",
+          "built": "A brand storefront.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://ye-olde-inbox.vercel.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        },
+        {
+          "id": "jets",
+          "name": "Jets",
+          "desc": "Product storefront",
+          "tag": "Concept",
+          "need": "A concept product storefront.",
+          "built": "A product storefront.",
+          "tools": [
+            "Web"
+          ],
+          "link": "https://jets-tau.vercel.app/",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Data & APIs",
+        "ta": "தரவு & API",
+        "kn": "ದತ್ತಾಂಶ & API",
+        "ml": "ഡാറ്റ & API",
+        "te": "డేటా & API"
+      },
+      "word": {
+        "en": "data teams.",
+        "ta": "தரவுக் குழுக்கள்",
+        "kn": "ದತ್ತಾಂಶ ತಂಡಗಳು",
+        "ml": "ഡാറ്റ ടീമുകൾ",
+        "te": "డేటా బృందాలు"
+      },
+      "projects": [
+        {
+          "id": "din-api",
+          "name": "DIN API Platform",
+          "desc": "API-first data service",
+          "tag": "",
+          "need": "A data service needed to be used by other software, not just by people.",
+          "built": "An API-first backend with a clean set of endpoints.",
+          "tools": [
+            "API",
+            "Node.js"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sales automation",
+        "ta": "விற்பனை தானியங்கி",
+        "kn": "ಮಾರಾಟ ಸ್ವಯಂಚಾಲನೆ",
+        "ml": "വിൽപ്പന ഓട്ടോമേഷൻ",
+        "te": "అమ్మకాల ఆటోమేషన్"
+      },
+      "word": {
+        "en": "sales teams.",
+        "ta": "விற்பனைக் குழுக்கள்",
+        "kn": "ಮಾರಾಟ ತಂಡಗಳು",
+        "ml": "വിൽപ്പന ടീമുകൾ",
+        "te": "అమ్మకాల బృందాలు"
+      },
+      "projects": [
+        {
+          "id": "sales-engine",
+          "name": "Entraiot Sales Engine",
+          "desc": "AI pipeline that finds leads, scores them and drafts outreach",
+          "tag": "Our product",
+          "need": "Finding and following up with new clients takes hours every day.",
+          "built": "Eight AI agents in a row: find leads, score them, write outreach, handle replies, draft proposals, and forecast revenue.",
+          "tools": [
+            "FastAPI",
+            "MongoDB",
+            "AI",
+            "Render"
+          ],
+          "link": "",
+          "image": "",
+          "frame": true,
+          "featured": false
+        }
+      ]
+    }
+  ],
+  "clients": [
+    "Zivira Labs",
+    "R.S.A Construction",
+    "TNWLA Madras",
+    "Pavana Silks",
+    "Nordic Affairs Media",
+    "Bhuvannam Silks",
+    "Velankanni Madha",
+    "Samhita",
+    "Berserk Gym",
+    "Good Icecreams & Coffee",
+    "Solar Green Energy",
+    "eArchana"
+  ],
+  "quotes": [],
+  "team": [
+    {
+      "n": "Salvin Jones",
+      "ini": "SJ",
+      "role": {
+        "en": "Founder & Director",
+        "ta": "நிறுவனர் & இயக்குநர்",
+        "kn": "ಸ್ಥಾಪಕರು & ನಿರ್ದೇಶಕರು",
+        "ml": "സ്ഥാപകൻ & ഡയറക്ടർ",
+        "te": "వ్యవస్థాపకుడు & డైరెక్టర్"
+      },
+      "p": {
+        "en": "Leads strategy, architecture and delivery, and still writes code on most projects.",
+        "ta": "உத்தி, வடிவமைப்பு, வழங்கல் அனைத்தையும் வழிநடத்துகிறார்; பெரும்பாலான திட்டங்களில் நேரடியாக குறியீடும் எழுதுகிறார்.",
+        "kn": "ತಂತ್ರ, ವಾಸ್ತುಶಿಲ್ಪ ಮತ್ತು ವಿತರಣೆಯನ್ನು ಮುನ್ನಡೆಸುತ್ತಾರೆ; ಹೆಚ್ಚಿನ ಯೋಜನೆಗಳಲ್ಲಿ ಸ್ವತಃ ಕೋಡ್ ಬರೆಯುತ್ತಾರೆ.",
+        "ml": "സ്ട്രാറ്റജി, ആർക്കിടെക്ചർ, ഡെലിവറി എന്നിവ നയിക്കുന്നു; മിക്ക പ്രോജക്ടുകളിലും നേരിട്ട് കോഡ് എഴുതുന്നു.",
+        "te": "వ్యూహం, ఆర్కిటెక్చర్, డెలివరీని నడిపిస్తారు; చాలా ప్రాజెక్ట్‌లలో స్వయంగా కోడ్ రాస్తారు."
+      },
+      "lead": true,
+      "photo": "",
+      "linkedin": "",
+      "tags": []
+    },
+    {
+      "n": "Shalini L",
+      "ini": "SL",
+      "role": {
+        "en": "CEO & Managing Director",
+        "ta": "தலைமை நிர்வாக அதிகாரி & நிர்வாக இயக்குநர்",
+        "kn": "ಸಿಇಒ & ವ್ಯವಸ್ಥಾಪಕ ನಿರ್ದೇಶಕರು",
+        "ml": "സിഇഒ & മാനേജിംഗ് ഡയറക്ടർ",
+        "te": "సీఈఓ & మేనేజింగ్ డైరెక్టర్"
+      },
+      "p": {
+        "en": "Runs the company day to day, from client relationships to how the team works.",
+        "ta": "வாடிக்கையாளர் உறவுகள் முதல் குழுவின் செயல்பாடு வரை நிறுவனத்தை தினமும் நடத்துகிறார்.",
+        "kn": "ಗ್ರಾಹಕ ಸಂಬಂಧಗಳಿಂದ ತಂಡದ ಕೆಲಸದವರೆಗೆ ಕಂಪನಿಯನ್ನು ದಿನನಿತ್ಯ ನಡೆಸುತ್ತಾರೆ.",
+        "ml": "ക്ലയന്റ് ബന്ധങ്ങൾ മുതൽ ടീമിന്റെ പ്രവർത്തനം വരെ കമ്പനിയെ ദിവസേന നയിക്കുന്നു.",
+        "te": "క్లయింట్ సంబంధాల నుండి బృందం పనితీరు వరకు కంపెనీని రోజువారీగా నడిపిస్తారు."
+      },
+      "lead": true,
+      "photo": "",
+      "linkedin": "",
+      "tags": []
+    },
+    {
+      "n": "Balamurugan",
+      "ini": "B",
+      "role": {
+        "en": "Deep ASI Developer",
+        "ta": "ஆழ்ந்த ASI உருவாக்குநர்",
+        "kn": "ಡೀಪ್ ASI ಡೆವಲಪರ್",
+        "ml": "ഡീപ് ASI ഡെവലപ്പർ",
+        "te": "డీప్ ASI డెవలపర్"
+      },
+      "p": {
+        "en": "Builds the narrow AI (ANI) inside our client platforms today: chat assistants, document reading and automations that do one job well.",
+        "ta": "எங்கள் வாடிக்கையாளர் தளங்களில் இன்று இயங்கும் குறுகிய AI (ANI) உருவாக்குகிறார்: உரையாடல் உதவியாளர்கள், ஆவணம் படித்தல், ஒரே வேலையைச் சிறப்பாகச் செய்யும் தானியங்கிகள்.",
+        "kn": "ಇಂದು ನಮ್ಮ ಗ್ರಾಹಕ ವೇದಿಕೆಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವ ಸಂಕುಚಿತ AI (ANI) ನಿರ್ಮಿಸುತ್ತಾರೆ: ಚಾಟ್ ಸಹಾಯಕರು, ದಾಖಲೆ ಓದುವಿಕೆ ಮತ್ತು ಒಂದು ಕೆಲಸವನ್ನು ಚೆನ್ನಾಗಿ ಮಾಡುವ ಸ್ವಯಂಚಾಲನೆಗಳು.",
+        "ml": "ഇന്ന് ഞങ്ങളുടെ ക്ലയന്റ് പ്ലാറ്റ്‌ഫോമുകളിൽ പ്രവർത്തിക്കുന്ന നാരോ AI (ANI) നിർമ്മിക്കുന്നു: ചാറ്റ് അസിസ്റ്റന്റുകൾ, ഡോക്യുമെന്റ് വായന, ഒരു ജോലി നന്നായി ചെയ്യുന്ന ഓട്ടോമേഷനുകൾ.",
+        "te": "ఈ రోజు మా క్లయింట్ ప్లాట్‌ఫామ్‌లలో పనిచేసే నారో AI (ANI) ని నిర్మిస్తారు: చాట్ అసిస్టెంట్లు, డాక్యుమెంట్ చదవడం, ఒక పనిని బాగా చేసే ఆటోమేషన్లు."
+      },
+      "lead": false,
+      "photo": "",
+      "linkedin": "",
+      "tags": [
+        "ANI",
+        "Assistants",
+        "Automation"
+      ]
+    },
+    {
+      "n": "Priyadharshini",
+      "ini": "P",
+      "role": {
+        "en": "Deep ASI Developer",
+        "ta": "ஆழ்ந்த ASI உருவாக்குநர்",
+        "kn": "ಡೀಪ್ ASI ಡೆವಲಪರ್",
+        "ml": "ഡീപ് ASI ഡെവലപ്പർ",
+        "te": "డీప్ ASI డెవలపర్"
+      },
+      "p": {
+        "en": "Works on multi-agent systems that plan and act across many tools, our step from ANI toward AGI, and studies where ASI could lead.",
+        "ta": "பல கருவிகளில் திட்டமிட்டுச் செயல்படும் பல-முகவர் அமைப்புகளில் பணியாற்றுகிறார். இது ANI இலிருந்து AGI நோக்கிய எங்கள் அடுத்த படி. ASI எங்கு இட்டுச் செல்லும் என்பதையும் ஆய்வு செய்கிறார்.",
+        "kn": "ಹಲವು ಸಾಧನಗಳಲ್ಲಿ ಯೋಜಿಸಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಹು-ಏಜೆಂಟ್ ವ್ಯವಸ್ಥೆಗಳ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ. ಇದು ANI ಇಂದ AGI ಕಡೆಗಿನ ನಮ್ಮ ಹೆಜ್ಜೆ. ASI ಎಲ್ಲಿಗೆ ಕೊಂಡೊಯ್ಯಬಹುದು ಎಂಬುದನ್ನೂ ಅಧ್ಯಯನ ಮಾಡುತ್ತಾರೆ.",
+        "ml": "പല ടൂളുകളിലായി പ്ലാൻ ചെയ്ത് പ്രവർത്തിക്കുന്ന മൾട്ടി-ഏജന്റ് സംവിധാനങ്ങളിൽ പ്രവർത്തിക്കുന്നു. ഇത് ANI-യിൽ നിന്ന് AGI-യിലേക്കുള്ള ഞങ്ങളുടെ ചുവടാണ്. ASI എവിടേക്ക് നയിക്കാം എന്നും പഠിക്കുന്നു.",
+        "te": "ఎన్నో టూల్స్‌లో ప్రణాళిక వేసి పనిచేసే మల్టీ-ఏజెంట్ వ్యవస్థలపై పనిచేస్తారు. ఇది ANI నుండి AGI వైపు మా అడుగు. ASI ఎటు దారితీస్తుందో కూడా అధ్యయనం చేస్తారు."
+      },
+      "lead": false,
+      "photo": "",
+      "linkedin": "",
+      "tags": [
+        "AGI",
+        "Agents",
+        "ASI research"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n-handwritten-books",
+      "k": "Construction",
+      "h": "From two handwritten books to one screen",
+      "s": "How we replaced a construction company's delivery-note pad and purchase ledger without changing how they work.",
+      "body": [
+        "R.S.A Construction ran on two books: a delivery-note pad with the same 19 items printed on every page, and a ledger for every material purchase. Both worked, but every total was added by hand, and finding last month's figures meant flipping pages.",
+        "We did not ask them to learn a new way of working. The screens copy the books row for row, and the printed delivery note matches the paper pad exactly, so the people who use it every day saw something familiar on the first morning.",
+        "Then we added the parts paper can't do: totals that add themselves, stock that updates as materials come in and go out, an Excel export for the accountant, and a WhatsApp button that sends the PDF straight to the customer. Managers get the same tools on their phones.",
+        "The lesson we keep: when you replace paper, copy it first and improve it second."
+      ]
+    },
+    {
+      "id": "n-own-your-software",
+      "k": "Pharmaceuticals",
+      "h": "Why a pharma company chose to own its sales software",
+      "s": "Renting software is quick to start. Owning it pays off once your process is your advantage.",
+      "body": [
+        "Zivira Labs had used a rented sales app for years. It worked, but every change they wanted waited on someone else's release plan, and their data sat on someone else's servers.",
+        "We started with the daily call report, the screen every medical rep fills in after each doctor visit. After the first demo, their team asked for more detail, and the form grew from 3 fields to 9 within a week. With rented software that request would have gone on a wish list.",
+        "Approvals now flow from rep to manager to head office, with a 24-hour window before reports reach admin, and a separate HR portal handles attendance. Zivira owns the code and pays its own hosting directly.",
+        "The work is planned in phases, so each phase is paid for only after the one before it is in use."
+      ]
+    },
+    {
+      "id": "n-silk-without-ads",
+      "k": "Silk & textiles",
+      "h": "Selling silk sarees without paid ads",
+      "s": "A small brand, a phone camera and a monthly rhythm can beat an ad budget.",
+      "body": [
+        "Pavana Silks is run by its founder, with no team and no appetite for paid ads after a bad experience. Buyers already came through WhatsApp referrals and Instagram messages, so we built on that.",
+        "First, a website worth sharing: a saree that drapes itself frame by frame as you scroll. Then a photo brief anyone can follow with a phone: one flat lay, one draped shot and one close-up of the weave for every saree.",
+        "Each month we post, reply and keep the profile active, while the founder handles the sales conversations. Ads can come later, once the organic results show what sells."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a website cost?",
+      "a": "A business website starts from ₹15,000 and usually takes about 15 working days. Online stores and custom platforms are quoted after a short call, because the price depends on what they need to do."
+    },
+    {
+      "q": "How long does a project take?",
+      "a": "A business website takes about 15 working days. Bigger platforms are built in phases, so you get a first working version early and pay phase by phase."
+    },
+    {
+      "q": "Do you work with clients outside Chennai?",
+      "a": "Yes. We have an office in Chennai and a branch in Thanjavur, we work with clients in Bangalore, and we have built for clients across India and in Sweden. We work fully in the cloud, so location is never a problem."
+    },
+    {
+      "q": "Do I own the code and the data?",
+      "a": "On custom projects, the code and the data are yours once the final payment for each phase is made. Hosting can run on your own accounts."
+    },
+    {
+      "q": "Can you look after the website after launch?",
+      "a": "Yes. Our monthly care plan covers fixes, updates, backups and new features, and we can also handle your social media."
+    },
+    {
+      "q": "Do you build mobile apps and AI chatbots?",
+      "a": "Yes. We build Android and iOS apps, chat assistants that answer customers and collect leads, and automation that saves your team hours every week."
+    }
+  ],
+  "posts": []
+}

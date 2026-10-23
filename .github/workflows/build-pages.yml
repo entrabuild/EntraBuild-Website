@@ -1,0 +1,33 @@
+name: Build SEO pages
+
+on:
+  push:
+    paths:
+      - 'content/site.json'
+      - 'scripts/build-pages.mjs'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build service, city, project and note pages + sitemap
+        run: node scripts/build-pages.mjs
+      - name: Save the pages
+        run: |
+          git config user.name "EntraBuild pages"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A services locations work notes sitemap.xml robots.txt
+          git diff --cached --quiet || git commit -m "Rebuild SEO pages from content/site.json"
+          git pull --rebase --autostash && git push

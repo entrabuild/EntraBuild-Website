@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Entraiot Tech Daily — AI, Mobile &amp; IT News Today</title>
+<meta name="description" content="Today's AI, mobile, electronics and IT headlines from XDA, The Verge, TechCrunch, Ars Technica and more. Updated four times a day by Entraiot Solutions.">
+<meta name="keywords" content="tech news today, AI news, Android news, XDA news, electronics news, IT news India, technology newspaper, Entraiot Tech Daily">
+<link rel="canonical" href="https://entrabuild.com/news.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:site_name" content="EntraBuild"><meta property="og:url" content="https://entrabuild.com/news.html">
+<meta property="og:title" content="Entraiot Tech Daily"><meta property="og:description" content="Today's AI, mobile, electronics and IT headlines, updated four times a day."><meta property="og:image" content="https://entrabuild.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A0E1A">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Entraiot Tech Daily" href="news/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Entraiot Tech Daily","url":"https://entrabuild.com/news.html","description":"Technology and IT headlines, collected four times a day by Entraiot Solutions.","publisher":{"@type":"Organization","name":"Entraiot Solutions","url":"https://entraiot.com"}}</script>
+<script>try{var t=localStorage.getItem('eb-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<style>
+/* Layout: a broadsheet front page in the studio's colours: masthead, section rail, one lead story, a column of briefs, then the full wire. */
+.mast{border-bottom:3px double var(--line);padding-block:30px 18px;text-align:center}
+.mast .meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font:12px var(--mono);color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:18px;font-variant-numeric:tabular-nums}
+.mast h1{font-family:var(--serif);font-weight:400;font-style:normal;font-size:clamp(46px,9vw,112px);letter-spacing:-.02em;line-height:.95}
+.mast h1 span{color:var(--gold);font-style:italic}
+.mast p{margin:12px auto 0;color:var(--muted);max-width:46em;font-size:15px}
+.rail{position:sticky;top:61px;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.rail .wrap{display:flex;gap:10px;align-items:center;padding-block:10px;overflow-x:auto;scrollbar-width:none}
+.rail button{flex:none;font:500 13px var(--sans);border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:7px 13px;cursor:pointer}
+.rail button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.rail input{flex:1 1 180px;min-width:150px;margin-left:auto;font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 14px}
+.front{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px;padding-block:28px;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.front{grid-template-columns:1fr}}
+.lead-story a{text-decoration:none}
+.lead-story h2{font-family:var(--serif);font-weight:400;font-size:clamp(32px,4.6vw,58px);line-height:1.04;letter-spacing:-.015em;margin:10px 0 14px}
+.lead-story a:hover h2{color:var(--gold)}
+.lead-story p{font-size:18px;color:var(--muted);margin:0 0 12px;max-width:40em}
+.kick{font:500 11.5px var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--teal)}
+.byline{font:12px var(--mono);color:var(--muted)}
+.briefs{display:grid;gap:0;border-left:1px solid var(--line);padding-left:28px}
+@media (max-width:860px){.briefs{border-left:0;padding-left:0}}
+.brief{padding-block:14px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;gap:4px}
+.brief:last-child{border-bottom:0}
+.brief b{font-size:17px;line-height:1.35;font-weight:600}
+.brief:hover b{color:var(--gold)}
+.wire{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;padding-block:20px 40px}
+@media (max-width:980px){.wire{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.wire{grid-template-columns:1fr}}
+.story{padding-block:18px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;gap:6px;min-width:0}
+.story b{font-size:17px;line-height:1.35;font-weight:600}
+.story:hover b{color:var(--gold)}
+.story p{margin:0;color:var(--muted);font-size:14.5px}
+.house{border:1px solid color-mix(in srgb,var(--gold) 50%,var(--line));border-radius:16px;padding:18px 20px;margin-top:22px}
+.house h3{font-family:var(--serif);font-weight:400;font-size:26px;margin:4px 0 10px}
+.house a{display:block;text-decoration:none;padding-block:8px;border-top:1px solid var(--line)}
+.house a:hover b{color:var(--gold)}
+.empty{padding-block:60px;text-align:center;color:var(--muted);max-width:40em;margin:0 auto}
+.empty h2{font-family:var(--serif);font-weight:400;font-size:36px;color:var(--ink);margin-bottom:10px}
+.srcs{font:12px var(--mono);color:var(--muted);padding-block:18px 8px;border-top:1px solid var(--line)}
+.srcs span{display:inline-block;margin:2px 10px 2px 0}
+.srcs i{font-style:normal;color:var(--teal)}
+.srcs i.off{color:var(--gold)}
+.more{display:flex;justify-content:center;padding-bottom:40px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><b>&lt;/&gt;</b>EntraBuild</a>
+  <nav class="nav" aria-label="Main"><a href="index.html#portfolio">Portfolio</a><a href="services/website-development.html">Services</a><a href="news.html" aria-current="page">Tech Daily</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing ↗</a>
+  <button class="themeb" type="button" id="themeBtn" aria-label="Switch theme"></button><a class="cta" href="index.html#contact">Start a project</a></nav>
+</div></header>
+
+<main>
+  <div class="wrap mast">
+    <div class="meta"><span id="dateLine">—</span><span id="edLine">From Entraiot Solutions</span><span id="upLine">—</span></div>
+    <h1>Entraiot <span>Tech</span> Daily</h1>
+    <p>The day's AI, mobile, electronics, software and IT security headlines, gathered from trusted technology publishers four times a day. Every story links to the original article.</p>
+  </div>
+  <div class="rail"><div class="wrap" id="rail" role="group" aria-label="Sections"></div></div>
+  <div class="wrap">
+    <div id="front" class="front"></div>
+    <div id="wire" class="wire"></div>
+    <div class="more"><button class="btn" type="button" id="moreBtn" hidden>Show more stories</button></div>
+    <div id="empty" class="empty" hidden></div>
+    <div id="srcs" class="srcs"></div>
+  </div>
+</main>
+
+<section class="cta-band"><div class="wrap"><h2>Need software that keeps up with <em class="s">all this?</em></h2>
+<div class="btns"><a class="btn solid" href="index.html#contact">Start a project</a><a class="btn" href="services/ai-chatbot-automation.html">AI &amp; automation</a></div></div></section>
+
+<footer class="foot"><div class="wrap">
+  <div class="cols">
+    <div><b>Services</b><a href="services/website-development.html">Website development</a><a href="services/ecommerce-development.html">E-commerce development</a><a href="services/custom-software-development.html">Custom software &amp; SaaS</a><a href="services/mobile-app-development.html">Mobile app development</a><a href="services/ai-chatbot-automation.html">AI chatbots &amp; automation</a></div>
+    <div><b>Locations</b><a href="locations/chennai.html">Software company in Chennai</a><a href="locations/bangalore.html">Software company in Bangalore</a><a href="locations/thanjavur.html">Software company in Thanjavur</a></div>
+    <div><b>Read</b><a href="news.html">Entraiot Tech Daily</a><a href="news/feed.xml">RSS feed</a><a href="index.html#portfolio">Portfolio</a></div>
+    <div><b>Contact</b><a href="index.html#contact">Start a project</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing ↗</a></div>
+  </div>
+  <div class="legal"><span>© 2026 EntraBuild · An Entraiot Solutions studio. Headlines and summaries belong to their publishers; we link to every original story.</span><span>Chennai · Bangalore · Thanjavur</span></div>
+</div></footer>
+
+<script>
+(function(){
+  const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  const IST={timeZone:'Asia/Kolkata'};
+  const ago=d=>{const m=Math.round((Date.now()-new Date(d))/6e4);if(m<1)return'just now';if(m<60)return m+' min ago';const h=Math.round(m/60);if(h<24)return h+' h ago';return Math.round(h/24)+' d ago'};
+  const safe=u=>/^https?:\/\//.test(u)?u:'#';
+  const safeIn=u=>{u=String(u||'').trim();return !u||/^[a-z][a-z0-9+.-]*:/i.test(u)&&!/^https?:/i.test(u)?'#':u};
+  let data={items:[],sections:[],sources:[]},posts=[],sec='All',q='',shown=24;
+
+  /* theme */
+  const b=document.getElementById('themeBtn'),r=document.documentElement;
+  const sun='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',moon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+  const dark=()=>r.dataset.theme?r.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;
+  const lbl=()=>{b.innerHTML=dark()?sun:moon;b.setAttribute('aria-label',dark()?'Switch to light mode':'Switch to dark mode')};lbl();
+  b.onclick=()=>{const n=dark()?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('eb-theme',n)}catch(e){}lbl()};
+
+  document.getElementById('dateLine').textContent=new Date().toLocaleDateString('en-IN',{...IST,weekday:'long',day:'numeric',month:'long',year:'numeric'});
+
+  function rail(){
+    const secs=['All',...(data.sections&&data.sections.length?data.sections:['AI','Mobile','Electronics','Software & IT','Security','India Tech'])];
+    if(posts.length)secs.push('From Entraiot');
+    document.getElementById('rail').innerHTML=secs.map(s=>`<button type="button" data-s="${esc(s)}" aria-pressed="${s===sec}">${esc(s)}</button>`).join('')+`<input id="q" type="search" placeholder="Search today's stories" aria-label="Search stories" value="${esc(q)}">`;
+  }
+  function list(){
+    let it=data.items||[];
+    if(sec==='From Entraiot')it=[];
+    else if(sec!=='All')it=it.filter(i=>i.cat===sec);
+    if(q){const l=q.toLowerCase();it=it.filter(i=>(i.title+' '+i.summary+' '+i.source).toLowerCase().includes(l))}
+    return it;
+  }
+  const storyLine=i=>`<span class="byline">${esc(i.source)} · ${ago(i.date)}</span>`;
+  function houseBox(){
+    if(!posts.length)return '';
+    return `<div class="house"><span class="kick">From Entraiot Solutions</span><h3>Studio news</h3>${posts.slice(0,4).map(p=>`<a href="${esc(safeIn(p.link))}"${/^https?:/.test(p.link||'')?' target="_blank" rel="noopener"':''}><b>${esc(p.title)}</b><br><span class="byline">${esc(p.date||'')}</span></a>`).join('')}</div>`;
+  }
+  function render(){
+    rail();
+    const front=document.getElementById('front'),wire=document.getElementById('wire'),empty=document.getElementById('empty'),more=document.getElementById('moreBtn');
+    if(sec==='From Entraiot'){
+      front.innerHTML='';empty.hidden=true;more.hidden=true;
+      wire.innerHTML=posts.map(p=>`<a class="story" href="${esc(safeIn(p.link))}"><span class="kick">Entraiot Solutions</span><b>${esc(p.title)}</b><p>${esc(p.summary||'')}</p><span class="byline">${esc(p.date||'')}</span></a>`).join('');return;
+    }
+    const it=list();
+    if(!it.length){
+      front.innerHTML='';wire.innerHTML='';more.hidden=true;empty.hidden=false;
+      empty.innerHTML=(data.items||[]).length?`<h2>No stories match.</h2><p>Try another section or clear the search.</p>`:`<h2>Today's edition is on its way.</h2><p>Stories are collected automatically four times a day. Once the site is live on entrabuild.com, the first edition appears after the next scheduled update, or right away when you press "Run news update" in the admin panel.</p>${houseBox()}`;
+      return;
+    }
+    empty.hidden=true;
+    const [lead,...rest]=it;const briefs=rest.slice(0,5),others=rest.slice(5);
+    front.innerHTML=`<article class="lead-story"><span class="kick">${esc(lead.cat)}</span><a href="${esc(safe(lead.link))}" target="_blank" rel="noopener"><h2>${esc(lead.title)}</h2></a><p>${esc(lead.summary)}</p>${storyLine(lead)} · <a class="byline" href="${esc(safe(lead.link))}" target="_blank" rel="noopener">Read on ${esc(lead.source)} ↗</a>${houseBox()}</article>
+      <div class="briefs">${briefs.map(i=>`<a class="brief" href="${esc(safe(i.link))}" target="_blank" rel="noopener"><span class="kick">${esc(i.cat)}</span><b>${esc(i.title)}</b>${storyLine(i)}</a>`).join('')}</div>`;
+    wire.innerHTML=others.slice(0,shown).map(i=>`<a class="story" href="${esc(safe(i.link))}" target="_blank" rel="noopener"><span class="kick">${esc(i.cat)}</span><b>${esc(i.title)}</b><p>${esc(i.summary)}</p>${storyLine(i)}</a>`).join('');
+    more.hidden=others.length<=shown;
+  }
+  document.getElementById('rail').addEventListener('click',e=>{const t=e.target.closest('[data-s]');if(!t)return;sec=t.dataset.s;shown=24;render();window.scrollTo({top:document.querySelector('.rail').offsetTop-60,behavior:'smooth'})});
+  document.getElementById('rail').addEventListener('input',e=>{if(e.target.id!=='q')return;q=e.target.value;shown=24;const pos=e.target.selectionStart;render();const n=document.getElementById('q');n.focus();n.setSelectionRange(pos,pos)});
+  document.getElementById('moreBtn').addEventListener('click',()=>{shown+=24;render()});
+
+  function meta(){
+    document.getElementById('edLine').textContent=data.edition?`Edition No. ${data.edition} · ${(data.items||[]).length} stories`:'From Entraiot Solutions';
+    document.getElementById('upLine').textContent=data.updated?'Updated '+new Date(data.updated).toLocaleString('en-IN',{...IST,hour:'numeric',minute:'2-digit',day:'numeric',month:'short'})+' IST':'Not updated yet';
+    document.getElementById('srcs').innerHTML=(data.sources||[]).length?'Sources: '+data.sources.map(s=>`<span>${esc(s.name)} <i class="${s.ok?'':'off'}">${s.ok?s.count:'offline'}</i></span>`).join(''):'';
+  }
+  function load(){
+    Promise.all([
+      fetch('news/news.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch('content/site.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null)
+    ]).then(([n,c])=>{if(n)data=n;posts=(c&&c.posts)||[];meta();render()});
+  }
+  load();setInterval(load,15*60*1000);
+})();
+</script>
+</body>
+</html>

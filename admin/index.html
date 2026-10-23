@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EntraBuild Master Admin</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working console. Fixed sidebar of sections, a toolbar with the save state, and one editing pane. Dark-first. */
+:root{--bg:#0A0E1A;--panel:#121829;--panel2:#182036;--line:rgba(233,236,245,.12);--ink:#E9ECF5;--muted:#8E97AF;--gold:#F5B03C;--teal:#45C4B3;--red:#F07167;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"Geist Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#F3F4F8;--panel:#FFFFFF;--panel2:#E7E9F1;--line:rgba(14,19,36,.12);--ink:#0E1324;--muted:#555E77;--gold:#8A5800;--teal:#0A6E62;--red:#C2410C;color-scheme:light}}
+:root[data-theme="light"]{--bg:#F3F4F8;--panel:#FFFFFF;--panel2:#E7E9F1;--line:rgba(14,19,36,.12);--ink:#0E1324;--muted:#555E77;--gold:#8A5800;--teal:#0A6E62;--red:#C2410C;color-scheme:light}
+*{box-sizing:border-box}[hidden]{display:none!important}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:6px}
+.app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:100%}
+@media (max-width:820px){.app{grid-template-columns:1fr}}
+aside{background:var(--panel);border-right:1px solid var(--line);padding:18px 12px;display:flex;flex-direction:column;gap:4px;position:sticky;top:0;height:100vh;overflow-y:auto}
+@media (max-width:820px){aside{position:static;height:auto;flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;padding:4px 10px 14px}
+.brand b{font:500 13px var(--mono);color:#0A0E1A;background:var(--gbtn,#F5B03C);border-radius:6px;padding:1px 6px}
+.brand small{display:block;font:500 11px var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.tab{all:unset;cursor:pointer;padding:9px 12px;border-radius:10px;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.tab:hover{background:var(--panel2);color:var(--ink)}
+.tab[aria-current="page"]{background:var(--panel2);color:var(--ink);font-weight:600}
+.tab span{font:12px var(--mono);color:var(--muted)}
+.side-foot{margin-top:auto;padding:12px 10px 0;font:12px var(--mono);color:var(--muted);display:grid;gap:8px}
+.side-foot a{color:var(--teal);text-decoration:none;display:block;padding:6px 0;min-height:24px}
+main{min-width:0;display:flex;flex-direction:column}
+.bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px max(16px,env(safe-area-inset-right,0px)) 14px 24px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar h1{font-size:20px;margin:0;letter-spacing:-.02em;flex:1}
+.state{font:12px var(--mono);color:var(--muted);display:flex;align-items:center;gap:8px}
+.state i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.state.ok i{background:var(--teal)}.state.dirty i{background:var(--gold)}.state.err i{background:var(--red)}
+.btn{border:1px solid var(--line);background:transparent;border-radius:10px;padding:8px 14px;cursor:pointer;font-weight:500;white-space:nowrap}
+.btn:hover{border-color:var(--ink)}
+.btn.solid{background:var(--gbtn,#F5B03C);border-color:var(--gbtn,#F5B03C);color:#0A0E1A}
+.btn.danger{color:var(--red);border-color:color-mix(in srgb,var(--red) 50%,transparent)}
+.btn.sm{padding:5px 10px;font-size:13px;border-radius:8px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.pane{padding:24px max(16px,env(safe-area-inset-right,0px)) 80px 24px;display:grid;gap:18px;max-width:1100px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.card h2{font-size:17px;margin:0 0 12px}
+.muted{color:var(--muted)}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat b{display:block;font-size:30px;letter-spacing:-.03em}
+.stat span{font-size:13px;color:var(--muted)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.toolbar input,.toolbar select{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.rows{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.row b{font-weight:600}
+.row small{display:block;color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .acts{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.tagp{font:500 10.5px var(--mono);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);border-radius:999px;padding:1px 7px;margin-left:6px;color:var(--gold)}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px}
+@media (max-width:700px){.form{grid-template-columns:1fr}}
+.f{display:grid;gap:5px;min-width:0}
+.f.wide{grid-column:1/-1}
+.f label{font-size:12.5px;color:var(--muted)}
+.f input[type=text],.f input[type=url],.f input[type=email],.f input[type=password],.f input[type=date],.f select,.f textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.f textarea{min-height:90px;resize:vertical}
+.f .chk{display:flex;align-items:center;gap:8px;padding:9px 0}
+.f .img{display:flex;gap:10px;align-items:center}
+.f .img img{width:64px;height:48px;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+details.tr{grid-column:1/-1;border:1px dashed var(--line);border-radius:12px;padding:10px 14px}
+details.tr summary{cursor:pointer;color:var(--muted);font-size:13px}
+details.tr .form{margin-top:10px}
+.editor{border:1px solid var(--gold);border-radius:16px;padding:18px 20px;background:var(--panel)}
+.editor .foot{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.thumb{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid}
+.thumb .ph{aspect-ratio:16/10;background:var(--panel2);display:grid;place-items:center;color:var(--muted);font:12px var(--mono);overflow:hidden}
+.thumb .ph img{width:100%;height:100%;object-fit:cover}
+.thumb div.b{padding:10px 12px;display:grid;gap:8px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;z-index:50;max-width:min(560px,calc(100vw - 32px))}
+.note{font-size:13.5px;color:var(--muted);border-left:3px solid var(--teal);padding:4px 0 4px 12px}
+code{font-family:var(--mono);font-size:12.5px;background:var(--panel2);border-radius:5px;padding:1px 5px}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside id="side">
+    <div class="brand"><b>&lt;/&gt;</b><div>EntraBuild<small>Master admin</small></div></div>
+  </aside>
+  <main>
+    <div class="bar">
+      <h1 id="title">Dashboard</h1>
+      <span class="state" id="state"><i></i><span>Not connected</span></span>
+      <button class="btn" type="button" id="themeBtn">Theme</button>
+      <button class="btn solid" type="button" id="saveBtn" disabled>Save &amp; publish</button>
+    </div>
+    <div class="pane" id="pane"></div>
+  </main>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function(){
+  /* ---------------- helpers ---------------- */
+  const $=s=>document.querySelector(s);
+  const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  const slug=s=>String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+  const store={get(k,s){try{return (s?sessionStorage:localStorage).getItem(k)}catch(e){return null}},set(k,v,s){try{(s?sessionStorage:localStorage).setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k);sessionStorage.removeItem(k)}catch(e){}}};
+  const get=(o,p)=>p.split('.').reduce((a,k)=>a==null?a:a[k],o);
+  const set=(o,p,v)=>{const ks=p.split('.');let a=o;ks.slice(0,-1).forEach(k=>{if(a[k]==null||typeof a[k]!=='object')a[k]={};a=a[k]});a[ks[ks.length-1]]=v};
+  const b64e=s=>{const b=new TextEncoder().encode(s);let x='';for(let i=0;i<b.length;i+=0x8000)x+=String.fromCharCode.apply(null,b.subarray(i,i+0x8000));return btoa(x)};
+  const b64d=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,'')),c=>c.charCodeAt(0)));
+  let toastT;function toast(m,ms=3500){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>t.hidden=true,ms)}
+  const LANGS=[['ta','Tamil'],['kn','Kannada'],['ml','Malayalam'],['te','Telugu']];
+
+  /* theme */
+  const r=document.documentElement;const th=store.get('eb-theme');if(th)r.dataset.theme=th;
+  $('#themeBtn').onclick=()=>{const d=r.dataset.theme?r.dataset.theme==='dark':!matchMedia('(prefers-color-scheme: light)').matches;r.dataset.theme=d?'light':'dark';store.set('eb-theme',r.dataset.theme)};
+
+  /* ---------------- state ---------------- */
+  let C=null,F=null,sha={site:null,feeds:null},dirty={site:false,feeds:false},connected=false;
+  let gh={owner:store.get('eb-gh-owner')||'',repo:store.get('eb-gh-repo')||'',branch:store.get('eb-gh-branch')||'main',token:store.get('eb-gh-token',true)||store.get('eb-gh-token')||''};
+  function setState(kind,text){const s=$('#state');s.className='state '+kind;s.querySelector('span').textContent=text}
+  function markDirty(which){dirty[which]=true;setState('dirty','Unsaved changes');$('#saveBtn').disabled=!connected}
+  addEventListener('beforeunload',e=>{if(dirty.site||dirty.feeds){e.preventDefault();e.returnValue=''}});
+
+  /* ---------------- GitHub ---------------- */
+  async function api(path,opts={}){
+    const res=await fetch(`https://api.github.com/repos/${gh.owner}/${gh.repo}/${path}`,{...opts,headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+gh.token,'X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})}});
+    if(!res.ok){let m='';try{m=(await res.json()).message}catch(e){}throw new Error(`${res.status} ${m}`.trim())}
+    return res.status===204?null:res.json();
+  }
+  async function readFile(p){const j=await api(`contents/${p}?ref=${encodeURIComponent(gh.branch)}`);return {text:b64d(j.content),sha:j.sha}}
+  async function writeFile(p,text,s,msg,isB64){return api(`contents/${p}`,{method:'PUT',body:JSON.stringify({message:msg,content:isB64?text:b64e(text),branch:gh.branch,...(s?{sha:s}:{})})})}
+  async function connect(){
+    setState('','Connecting…');
+    try{
+      const a=await readFile('content/site.json'),b=await readFile('content/feeds.json').catch(()=>({text:'{"sections":[],"feeds":[]}',sha:null}));
+      C=JSON.parse(a.text);F=JSON.parse(b.text);sha.site=a.sha;sha.feeds=b.sha;connected=true;dirty={site:false,feeds:false};
+      setState('ok',`Connected to ${gh.owner}/${gh.repo}`);$('#saveBtn').disabled=true;go(cur==='connect'?'dashboard':cur);
+    }catch(e){connected=false;setState('err','Could not connect');toast('Connection failed: '+e.message+'. Check the owner, repository, branch and token.',7000);go('connect')}
+  }
+  async function loadReadOnly(){
+    try{const [a,b]=await Promise.all([fetch('../content/site.json',{cache:'no-cache'}),fetch('../content/feeds.json',{cache:'no-cache'})]);
+      if(!a.ok)throw 0;C=await a.json();F=b.ok?await b.json():{sections:[],feeds:[]};setState('','Viewing the live content (read-only)');}
+    catch(e){C=null}
+  }
+  async function save(){
+    if(!connected)return go('connect');
+    const btn=$('#saveBtn');btn.disabled=true;btn.textContent='Saving…';
+    try{
+      if(dirty.site){C.updated=new Date().toISOString();const j=await writeFile('content/site.json',JSON.stringify(C,null,2)+'\n',sha.site,'Update website content from admin');sha.site=j.content.sha;dirty.site=false}
+      if(dirty.feeds){const j=await writeFile('content/feeds.json',JSON.stringify(F,null,2)+'\n',sha.feeds,'Update Tech Daily sources from admin');sha.feeds=j.content.sha;dirty.feeds=false}
+      setState('ok','Saved');toast('Saved. The live site updates in about a minute, and the SEO pages rebuild by themselves.',6000);
+    }catch(e){setState('err','Save failed');toast('Save failed: '+e.message+(String(e.message).startsWith('409')?' — someone else saved first. Reload and try again.':''),8000);btn.disabled=false}
+    btn.textContent='Save & publish';
+  }
+  $('#saveBtn').onclick=save;
+  async function uploadImage(file,folder,base){
+    if(!connected){toast('Connect to GitHub first to upload images.');return null}
+    if(file.size>3*1024*1024){toast('Please use an image under 3 MB.');return null}
+    const ext=(file.name.split('.').pop()||'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');
+    const p=`images/${folder}/${slug(base)||'image'}-${Date.now().toString(36)}.${ext}`;
+    const data=await new Promise((ok,no)=>{const fr=new FileReader();fr.onload=()=>ok(String(fr.result).split(',')[1]);fr.onerror=no;fr.readAsDataURL(file)});
+    toast('Uploading image…');await writeFile(p,data,null,'Upload image from admin',true);toast('Image uploaded.');return p;
+  }
+
+  /* ---------------- generic form ---------------- */
+  // field: {k:'path', l:'Label', t:'text|textarea|url|email|select|check|tags|image|date|lines|paras', o:[options], w:true, folder:'portfolio'}
+  function formHTML(fields,obj,prefix='x'){
+    return fields.map((f,i)=>{const id=`${prefix}-${i}`,v=get(obj,f.k);let inp;
+      if(f.t==='textarea'||f.t==='lines'||f.t==='paras'){const val=f.t==='lines'?(v||[]).join('\n'):f.t==='paras'?(v||[]).join('\n\n'):(v??'');inp=`<textarea id="${id}" data-k="${f.k}" data-t="${f.t}">${esc(val)}</textarea>`}
+      else if(f.t==='select')inp=`<select id="${id}" data-k="${f.k}" data-t="select">${f.o.map(o=>{const[val,lab]=Array.isArray(o)?o:[o,o||'—'];return `<option value="${esc(val)}"${String(v??'')===String(val)?' selected':''}>${esc(lab)}</option>`}).join('')}</select>`;
+      else if(f.t==='check')inp=`<span class="chk"><input type="checkbox" id="${id}" data-k="${f.k}" data-t="check"${(f.def!==undefined?(v===undefined?f.def:v):v)?' checked':''}><label for="${id}" style="color:var(--ink)">${esc(f.c||'Yes')}</label></span>`;
+      else if(f.t==='tags')inp=`<input type="text" id="${id}" data-k="${f.k}" data-t="tags" value="${esc((v||[]).join(', '))}">`;
+      else if(f.t==='image')inp=`<div class="img">${v?`<img src="../${esc(v)}" alt="">`:''}<input type="text" id="${id}" data-k="${f.k}" data-t="text" value="${esc(v||'')}" placeholder="images/${f.folder}/photo.jpg"><label class="btn sm" style="color:var(--ink)">Upload<input type="file" accept="image/*" hidden data-up="${id}" data-folder="${f.folder}"></label></div>`;
+      else inp=`<input type="${f.t||'text'}" id="${id}" data-k="${f.k}" data-t="text" value="${esc(v??'')}"${f.ph?` placeholder="${esc(f.ph)}"`:''}>`;
+      return `<div class="f${f.w?' wide':''}"><label for="${id}">${esc(f.l)}</label>${inp}${f.h?`<small class="muted">${esc(f.h)}</small>`:''}</div>`}).join('');
+  }
+  function readForm(root,obj){
+    root.querySelectorAll('[data-k]').forEach(el=>{const t=el.dataset.t,k=el.dataset.k;let v;
+      if(t==='check')v=el.checked;else if(t==='tags')v=el.value.split(',').map(x=>x.trim()).filter(Boolean);
+      else if(t==='lines')v=el.value.split('\n').map(x=>x.trim()).filter(Boolean);else if(t==='paras')v=el.value.split(/\n\s*\n/).map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean);
+      else v=el.value.trim();set(obj,k,v)});return obj;
+  }
+  function wireUploads(root,baseName){
+    root.querySelectorAll('[data-up]').forEach(inp=>inp.addEventListener('change',async()=>{const f=inp.files[0];if(!f)return;
+      try{const p=await uploadImage(f,inp.dataset.folder,baseName());if(p){const t=document.getElementById(inp.dataset.up);t.value=p;const img=t.parentElement.querySelector('img');if(img)img.src='../'+p;else t.insertAdjacentHTML('beforebegin',`<img src="../${esc(p)}" alt="">`)}}catch(e){toast('Upload failed: '+e.message,7000)}}));
+  }
+  // generic list editor
+  function listEditor({items,fields,title,sub,which='site',newItem,onChange,order=true,extra=''}){
+    let editing=-1;
+    const box=document.createElement('div');box.className='rows';
+    function draw(){
+      box.innerHTML=(editing===-2?editorHTML(newItem()):'')+items.map((it,i)=>editing===i?editorHTML(it):`<div class="row"><div><b>${esc(title(it))}</b><small>${esc(sub?sub(it):'')}</small></div><div class="acts">
+        ${order?`<button class="btn sm" data-a="up" data-i="${i}" ${i===0?'disabled':''} aria-label="Move up">↑</button><button class="btn sm" data-a="down" data-i="${i}" ${i===items.length-1?'disabled':''} aria-label="Move down">↓</button>`:''}
+        <button class="btn sm" data-a="edit" data-i="${i}">Edit</button><button class="btn sm danger" data-a="del" data-i="${i}">Delete</button></div></div>`).join('')||'<p class="muted">Nothing here yet.</p>';
+      const ed=box.querySelector('.editor');if(ed){wireUploads(ed,()=>title(readForm(ed,{}))||'item');ed.querySelector('input,textarea,select')?.focus()}
+    }
+    const editorHTML=it=>`<div class="editor"><div class="form">${formHTML(fields,it,'e')}</div><div class="foot"><button class="btn" data-a="cancel">Cancel</button><button class="btn solid" data-a="ok">${editing===-2?'Add':'Done'}</button></div></div>`;
+    box.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(!b)return;const a=b.dataset.a,i=+b.dataset.i;
+      if(a==='edit'){editing=i;draw()}else if(a==='cancel'){editing=-1;draw()}
+      else if(a==='ok'){const ed=box.querySelector('.editor');if(editing===-2){items.unshift(readForm(ed,newItem()))}else{readForm(ed,items[editing])}editing=-1;markDirty(which);onChange&&onChange();draw()}
+      else if(a==='del'){if(b.dataset.sure){items.splice(i,1);markDirty(which);onChange&&onChange();draw()}else{b.dataset.sure=1;b.textContent='Sure? Click again';setTimeout(()=>{if(b.isConnected){delete b.dataset.sure;b.textContent='Delete'}},3000)}}
+      else if(a==='up'||a==='down'){const j=a==='up'?i-1:i+1;[items[i],items[j]]=[items[j],items[i]];markDirty(which);draw()}});
+    draw();
+    return {el:box,add(){editing=-2;draw();box.scrollIntoView({behavior:'smooth',block:'start'})}};
+  }
+
+  /* ---------------- views ---------------- */
+  const TABS=[['dashboard','Dashboard'],['projects','Projects'],['industries','Industries'],['portfolio','Portfolio'],['posts','News posts'],['feeds','News sources'],['team','Team'],['notes','Studio notes'],['clients','Clients & quotes'],['faq','FAQ'],['settings','Settings'],['connect','Connect to GitHub']];
+  let cur=(location.hash||'#dashboard').slice(1);if(!TABS.find(t=>t[0]===cur))cur='dashboard';
+  function side(){
+    const counts={projects:C?C.industries.reduce((a,i)=>a+i.projects.length,0):'',industries:C?C.industries.length:'',posts:C?(C.posts||[]).length:'',feeds:F?(F.feeds||[]).length:'',team:C?C.team.length:'',notes:C?(C.notes||[]).length:'',faq:C?(C.faq||[]).length:''};
+    $('#side').innerHTML=`<div class="brand"><b>&lt;/&gt;</b><div>EntraBuild<small>Master admin</small></div></div>`+TABS.map(([id,n])=>`<button class="tab" data-t="${id}" ${cur===id?'aria-current="page"':''}>${n}<span>${counts[id]??''}</span></button>`).join('')+
+      `<div class="side-foot"><a href="../index.html" target="_blank" rel="noopener">Open website ↗</a><a href="../news.html" target="_blank" rel="noopener">Open Tech Daily ↗</a>${gh.owner&&gh.repo?`<a href="https://github.com/${esc(gh.owner)}/${esc(gh.repo)}/actions" target="_blank" rel="noopener">GitHub Actions ↗</a>`:''}</div>`;
+  }
+  $('#side').addEventListener('click',e=>{const t=e.target.closest('[data-t]');if(t)go(t.dataset.t)});
+  function go(id){cur=id;try{history.replaceState(null,'','#'+id)}catch(e){};side();$('#title').textContent=TABS.find(t=>t[0]===id)[1];const p=$('#pane');p.innerHTML='';
+    if(!C&&id!=='connect'){p.innerHTML=`<div class="card"><h2>Connect first</h2><p class="muted">Connect to the website's GitHub repository to load and edit the content.</p><button class="btn solid" data-go="connect">Connect to GitHub</button></div>`;return}
+    VIEWS[id](p);
+  }
+  $('#pane').addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g)go(g.dataset.go)});
+  const allProjects=()=>C.industries.flatMap((ind,ii)=>ind.projects.map((p,pi)=>({p,ind,ii,pi})));
+  const indOpts=()=>C.industries.map((ind,i)=>[String(i),ind.name.en]);
+  const roOnly=()=>connected?'':`<p class="note">You're viewing the live content. Changes can't be saved until you <a href="#connect" data-go="connect" style="color:var(--teal)">connect to GitHub</a>.</p>`;
+
+  const VIEWS={
+    dashboard(p){
+      const all=allProjects();
+      p.innerHTML=`${roOnly()}<div class="grid4">
+        <div class="card stat"><b>${all.length}</b><span>Projects</span></div><div class="card stat"><b>${C.industries.length}</b><span>Industries</span></div>
+        <div class="card stat"><b>${all.filter(x=>x.p.link).length}</b><span>Live sites (with frames)</span></div><div class="card stat"><b>${(C.posts||[]).length}</b><span>Studio news posts</span></div></div>
+        <div class="card"><h2>Quick actions</h2><div class="toolbar"><button class="btn" data-go="projects">Add a project</button><button class="btn" data-go="portfolio">Add portfolio images</button><button class="btn" data-go="posts">Post studio news</button><button class="btn" id="runNews">Run news update now</button></div>
+        <p class="muted" style="margin-bottom:0">Last saved: ${C.updated?new Date(C.updated).toLocaleString('en-IN'):'never'}.</p></div>
+        <div class="card"><h2>How publishing works</h2><p class="muted" style="margin:0">Every change here edits <code>content/site.json</code> in your GitHub repository. Press <b>Save &amp; publish</b> and your host (Vercel, Netlify or Cloudflare) redeploys the site in about a minute. A GitHub Action then rebuilds the Google-friendly pages (services, cities, every project and the sitemap) on its own.</p></div>`;
+      $('#runNews').onclick=runNews;
+    },
+    projects(p){
+      p.innerHTML=`${roOnly()}<div class="toolbar"><select id="pf"><option value="">All industries</option>${indOpts().map(([v,l])=>`<option value="${v}">${esc(l)}</option>`).join('')}</select><input id="ps" type="search" placeholder="Search projects"><button class="btn solid" id="padd">Add project</button></div><div id="plist"></div>`;
+      const FIELDS=[{k:'name',l:'Project name'},{k:'_ind',l:'Industry',t:'select',o:indOpts()},{k:'desc',l:'One-line description',w:true},{k:'need',l:'What they needed',t:'textarea'},{k:'built',l:'What we built',t:'textarea'},
+        {k:'tools',l:'Tools (comma separated)',t:'tags'},{k:'tag',l:'Label',t:'select',o:[['',"None"],['Our product','Our product'],['Concept','Concept']]},{k:'link',l:'Live link',t:'url',ph:'https://'},{k:'image',l:'Portfolio image',t:'image',folder:'portfolio'},
+        {k:'frame',l:'Live frame',t:'check',c:'Show the live website inside a scrolling frame',def:true},{k:'featured',l:'Portfolio',t:'check',c:'Feature first in the portfolio'},{k:'id',l:'Page address (work/____.html)',h:'Leave empty to create from the name. Changing it changes the page link.'}];
+      let editing=null;const list=$('#plist');
+      function draw(){
+        const f=$('#pf').value,q=$('#ps').value.toLowerCase();
+        const rows=allProjects().filter(x=>(f===''||String(x.ii)===f)&&(!q||(x.p.name+' '+x.p.desc).toLowerCase().includes(q)));
+        list.innerHTML=(editing==='new'?ed({frame:true,tools:[],_ind:f||'0'}):'')+`<div class="rows">`+rows.map(x=>editing===x.p.id?ed({...x.p,_ind:String(x.ii)}):`<div class="row"><div><b>${esc(x.p.name)}</b>${x.p.tag?`<span class="tagp">${esc(x.p.tag)}</span>`:''}${x.p.link?'<span class="tagp" style="color:var(--teal)">live</span>':''}<small>${esc(x.ind.name.en)} · ${esc(x.p.desc)}</small></div>
+          <div class="acts"><button class="btn sm" data-a="up" data-id="${x.p.id}" ${x.pi===0?'disabled':''} aria-label="Move up">↑</button><button class="btn sm" data-a="edit" data-id="${x.p.id}">Edit</button><button class="btn sm danger" data-a="del" data-id="${x.p.id}">Delete</button></div></div>`).join('')+`</div>`;
+        const e=list.querySelector('.editor');if(e){wireUploads(e,()=>e.querySelector('[data-k=name]').value);e.querySelector('input').focus()}
+      }
+      const ed=v=>`<div class="editor"><div class="form">${formHTML(FIELDS,v,'pe')}</div><div class="foot"><button class="btn" data-a="cancel">Cancel</button><button class="btn solid" data-a="ok">${editing==='new'?'Add project':'Done'}</button></div></div>`;
+      list.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(!b)return;const a=b.dataset.a,id=b.dataset.id;const found=allProjects().find(x=>x.p.id===id);
+        if(a==='edit'){editing=id;draw()}else if(a==='cancel'){editing=null;draw()}
+        else if(a==='ok'){const v=readForm(list.querySelector('.editor'),{});if(!v.name){toast('Please give the project a name.');return}
+          let nid=slug(v.id||v.name);const clash=allProjects().find(x=>x.p.id===nid&&x.p.id!==editing);if(clash){toast('Another project already uses that page address. Change the name or address.');return}
+          const ii=+v._ind;delete v._ind;v.id=nid;
+          if(editing==='new'){C.industries[ii].projects.unshift(v)}
+          else{const old=allProjects().find(x=>x.p.id===editing);if(old.ii===ii){Object.assign(old.p,v)}else{old.ind.projects.splice(old.pi,1);C.industries[ii].projects.unshift({...old.p,...v})}}
+          editing=null;markDirty('site');side();draw()}
+        else if(a==='del'){if(b.dataset.sure){found.ind.projects.splice(found.pi,1);markDirty('site');side();draw()}else{b.dataset.sure=1;b.textContent='Sure? Click again';setTimeout(()=>{if(b.isConnected){delete b.dataset.sure;b.textContent='Delete'}},3000)}}
+        else if(a==='up'){const arr=found.ind.projects;[arr[found.pi-1],arr[found.pi]]=[arr[found.pi],arr[found.pi-1]];markDirty('site');draw()}});
+      $('#pf').onchange=draw;$('#ps').oninput=draw;$('#padd').onclick=()=>{editing='new';draw();window.scrollTo({top:0,behavior:'smooth'})};draw();
+    },
+    industries(p){
+      p.innerHTML=`${roOnly()}<p class="note">The order here is the order on the website. The headline word is what appears after "We build software for…". Other languages fall back to English when left empty.</p><div class="toolbar"><button class="btn solid" id="iadd">Add industry</button></div><div id="ilist"></div>`;
+      const fields=[{k:'name.en',l:'Industry name (English)'},{k:'word.en',l:'Headline word (English)',ph:'pharma.'},...LANGS.flatMap(([c,n])=>[{k:`name.${c}`,l:`Name (${n})`},{k:`word.${c}`,l:`Headline word (${n})`}])];
+      const le=listEditor({items:C.industries,fields,title:i=>i.name?.en||'New industry',sub:i=>`${(i.projects||[]).length} projects`,newItem:()=>({name:{en:''},word:{en:''},projects:[]}),onChange:side});
+      $('#ilist').appendChild(le.el);$('#iadd').onclick=le.add;
+      le.el.addEventListener('click',e=>{const b=e.target.closest('[data-a=del]');if(b&&!b.dataset.sure){const it=C.industries[+b.dataset.i];if(it&&it.projects.length){e.stopImmediatePropagation();toast('Move or delete the projects in this industry first.')}}},true);
+    },
+    portfolio(p){
+      p.innerHTML=`${roOnly()}<p class="note">Add a screenshot for each project. Projects without an image show a code-pattern cover. Featured projects appear first.</p><div class="thumbs" id="th"></div>`;
+      const th=$('#th');
+      function draw(){th.innerHTML=allProjects().map(({p:pr})=>`<div class="thumb"><div class="ph">${pr.image?`<img src="../${esc(pr.image)}" alt="${esc(pr.name)}" loading="lazy">`:'No image'}</div><div class="b"><b>${esc(pr.name)}</b>
+        <label class="chk" style="display:flex;gap:8px;align-items:center;font-size:13px"><input type="checkbox" data-feat="${pr.id}"${pr.featured?' checked':''}> Featured</label>
+        <div class="toolbar"><label class="btn sm">${pr.image?'Replace':'Upload'} image<input type="file" accept="image/*" hidden data-img="${pr.id}"></label>${pr.image?`<button class="btn sm danger" data-rm="${pr.id}">Remove</button>`:''}</div></div></div>`).join('')}
+      th.addEventListener('change',async e=>{const id=e.target.dataset.feat||e.target.dataset.img;if(!id)return;const x=allProjects().find(y=>y.p.id===id).p;
+        if(e.target.dataset.feat){x.featured=e.target.checked;markDirty('site')}
+        else{const f=e.target.files[0];if(!f)return;try{const path=await uploadImage(f,'portfolio',id);if(path){x.image=path;markDirty('site');draw()}}catch(err){toast('Upload failed: '+err.message,7000)}}});
+      th.addEventListener('click',e=>{const id=e.target.dataset.rm;if(!id)return;allProjects().find(y=>y.p.id===id).p.image='';markDirty('site');draw()});
+      draw();
+    },
+    posts(p){
+      C.posts=C.posts||[];
+      p.innerHTML=`${roOnly()}<p class="note">Studio news appears in the "From Entraiot Solutions" box on Tech Daily. Use it for launches, new clients and announcements.</p><div class="toolbar"><button class="btn solid" id="nadd">Add news post</button><button class="btn" id="runNews">Run news update now</button></div><div id="nlist"></div>`;
+      const le=listEditor({items:C.posts,title:x=>x.title||'Untitled',sub:x=>x.date||'',newItem:()=>({title:'',date:new Date().toISOString().slice(0,10),summary:'',link:''}),order:true,onChange:side,
+        fields:[{k:'title',l:'Headline',w:true},{k:'date',l:'Date',t:'date'},{k:'link',l:'Link (optional)',t:'url',ph:'https://'},{k:'summary',l:'Short summary',t:'textarea',w:true}]});
+      $('#nlist').appendChild(le.el);$('#nadd').onclick=le.add;$('#runNews').onclick=runNews;
+    },
+    feeds(p){
+      F.feeds=F.feeds||[];F.sections=F.sections&&F.sections.length?F.sections:['AI','Mobile','Electronics','Software & IT','Security','India Tech'];
+      p.innerHTML=`${roOnly()}<p class="note">Tech Daily collects headlines from these RSS feeds four times a day. Only technology and IT sources belong here. Sources that fail are skipped and shown as offline on the news page.</p>
+        <div class="card"><h2>Sections</h2><div class="f"><label for="secs">Section names, comma separated</label><input type="text" id="secs" value="${esc(F.sections.join(', '))}"></div></div>
+        <div class="toolbar"><button class="btn solid" id="fadd">Add source</button><button class="btn" id="runNews">Run news update now</button></div><div id="flist"></div>`;
+      $('#secs').onchange=e=>{F.sections=e.target.value.split(',').map(x=>x.trim()).filter(Boolean);markDirty('feeds')};
+      const le=listEditor({items:F.feeds,which:'feeds',title:x=>x.name+(x.on===false?' (off)':''),sub:x=>`${x.cat} · ${x.url}`,newItem:()=>({name:'',url:'',cat:F.sections[0],on:true}),onChange:side,
+        fields:[{k:'name',l:'Source name'},{k:'cat',l:'Default section',t:'select',o:F.sections},{k:'url',l:'RSS or Atom feed URL',t:'url',w:true,ph:'https://example.com/feed/'},{k:'on',l:'Status',t:'check',c:'Collect from this source',def:true}]});
+      $('#flist').appendChild(le.el);$('#fadd').onclick=le.add;$('#runNews').onclick=runNews;
+    },
+    team(p){
+      p.innerHTML=`${roOnly()}<p class="note">Upload a 4:5 portrait photo for each person. Shalini L and Salvin Jones appear first as leadership.</p><div class="toolbar"><button class="btn solid" id="tadd">Add person</button></div><div id="tlist"></div>`;
+      const fields=[{k:'n',l:'Name'},{k:'ini',l:'Initials (shown until a photo is added)'},{k:'role.en',l:'Role (English)'},{k:'linkedin',l:'LinkedIn link',t:'url',ph:'https://www.linkedin.com/in/…'},{k:'p.en',l:'Short description (English)',t:'textarea',w:true},
+        {k:'photo',l:'Photo',t:'image',folder:'team',w:true},{k:'tags',l:'Tags (comma separated)',t:'tags'},{k:'lead',l:'Leadership',t:'check',c:'Show as leadership (gold frame)'},
+        ...LANGS.flatMap(([c,n])=>[{k:`role.${c}`,l:`Role (${n})`},{k:`p.${c}`,l:`Description (${n})`}])];
+      const le=listEditor({items:C.team,title:x=>x.n||'New person',sub:x=>x.role?.en||'',newItem:()=>({n:'',ini:'',role:{en:''},p:{en:''},tags:[],lead:false,photo:'',linkedin:''}),fields,onChange:side});
+      $('#tlist').appendChild(le.el);$('#tadd').onclick=le.add;
+    },
+    notes(p){
+      C.notes=C.notes||[];
+      p.innerHTML=`${roOnly()}<p class="note">Each note becomes its own Google-friendly page at <code>notes/your-note.html</code>. Leave a blank line between paragraphs.</p><div class="toolbar"><button class="btn solid" id="oadd">Add note</button></div><div id="olist"></div>`;
+      const le=listEditor({items:C.notes,title:x=>x.h||'Untitled',sub:x=>x.k||'',newItem:()=>({id:'',k:'',h:'',s:'',body:[]}),onChange:()=>{C.notes.forEach(n=>{if(!n.id)n.id='n-'+slug(n.h)});side()},
+        fields:[{k:'h',l:'Title',w:true},{k:'k',l:'Topic (for example Construction)'},{k:'id',l:'Page address',h:'Leave empty to create from the title.'},{k:'s',l:'One-line summary',w:true},{k:'body',l:'Article',t:'paras',w:true}]});
+      $('#olist').appendChild(le.el);$('#oadd').onclick=le.add;
+    },
+    clients(p){
+      C.quotes=C.quotes||[];
+      p.innerHTML=`${roOnly()}<div class="card"><h2>Client names</h2><div class="f"><label for="cl">One name per line, in the order they scroll</label><textarea id="cl" style="min-height:180px">${esc(C.clients.join('\n'))}</textarea></div></div>
+        <div class="card"><h2>Client quotes</h2><p class="note">Add a quote only when the client has agreed to it. The quotes section stays hidden until there is at least one.</p><div class="toolbar" style="margin:10px 0"><button class="btn solid" id="qadd">Add quote</button></div><div id="ql"></div></div>`;
+      $('#cl').onchange=e=>{C.clients=e.target.value.split('\n').map(x=>x.trim()).filter(Boolean);markDirty('site')};
+      const le=listEditor({items:C.quotes,title:x=>'“'+(x.text||'').slice(0,70)+'”',sub:x=>x.who||'',newItem:()=>({text:'',who:''}),fields:[{k:'text',l:'Quote',t:'textarea',w:true},{k:'who',l:'Name, role and company',w:true}]});
+      $('#ql').appendChild(le.el);$('#qadd').onclick=le.add;
+    },
+    faq(p){
+      C.faq=C.faq||[];
+      p.innerHTML=`${roOnly()}<p class="note">These questions appear on the home page and are marked up for Google's FAQ results. Write them the way customers actually ask.</p><div class="toolbar"><button class="btn solid" id="qa">Add question</button></div><div id="fl"></div>`;
+      const le=listEditor({items:C.faq,title:x=>x.q||'New question',sub:x=>x.a||'',newItem:()=>({q:'',a:''}),fields:[{k:'q',l:'Question',w:true},{k:'a',l:'Answer',t:'textarea',w:true}],onChange:side});
+      $('#fl').appendChild(le.el);$('#qa').onclick=le.add;
+    },
+    settings(p){
+      const s=C.settings;s.prices=s.prices||{};
+      p.innerHTML=`${roOnly()}<div class="card"><h2>Contact</h2><div class="form" id="sf">${formHTML([{k:'email',l:'Enquiry email',t:'email',h:'Forms are emailed here through FormSubmit. The first form after a change asks you to confirm by email.'},{k:'whatsapp',l:'WhatsApp number',h:'Country code and number, no + or spaces. Example: 919944442061'},
+        {k:'prices.site',l:'Business website price'},{k:'prices.store',l:'Online store price'},{k:'prices.platform',l:'Custom platform price'},{k:'prices.care',l:'Monthly care price'},
+        {k:'gaId',l:'Google Analytics ID',ph:'G-XXXXXXXXXX',h:'Optional. Starts tracking visitors once set.'}],s,'s')}</div></div>
+        <div class="card"><h2>Offices</h2><div id="ofl"></div></div>
+        <div class="card"><h2>Content file</h2><p class="muted">For backups, copy the whole content file.</p><button class="btn" id="cp">Copy content JSON</button></div>`;
+      $('#sf').addEventListener('change',()=>{readForm($('#sf'),s);s.whatsapp=String(s.whatsapp).replace(/\D/g,'');markDirty('site')});
+      const le=listEditor({items:s.offices,title:x=>x.name,sub:x=>(x.lines||[]).join(', '),newItem:()=>({name:'',lines:[],city:'',postal:'',street:''}),
+        fields:[{k:'name',l:'Office name'},{k:'city',l:'City'},{k:'lines',l:'Address lines (one per line)',t:'lines',w:true},{k:'street',l:'Street address (for Google)',w:true},{k:'postal',l:'PIN code'}]});
+      $('#ofl').appendChild(le.el);
+      $('#cp').onclick=()=>{const t=JSON.stringify(C,null,2);navigator.clipboard.writeText(t).then(()=>toast('Copied.'),()=>toast('Copy was blocked by the browser.'))};
+    },
+    connect(p){
+      p.innerHTML=`<div class="card"><h2>Connect to the website's GitHub repository</h2>
+        <p class="muted">The admin saves straight into your repository, so only someone with a GitHub token for it can make changes. Create a <b>fine-grained personal access token</b> on GitHub (Settings → Developer settings → Personal access tokens → Fine-grained), give it access to this one repository only, and allow <b>Contents: Read and write</b> and <b>Actions: Read and write</b>.</p>
+        <form class="form" id="cf" autocomplete="off">
+          <div class="f"><label for="c1">GitHub owner (user or organisation)</label><input type="text" id="c1" value="${esc(gh.owner)}" placeholder="entrabuild" required></div>
+          <div class="f"><label for="c2">Repository</label><input type="text" id="c2" value="${esc(gh.repo)}" placeholder="entrabuild-website" required></div>
+          <div class="f"><label for="c3">Branch</label><input type="text" id="c3" value="${esc(gh.branch)}" required></div>
+          <div class="f"><label for="c4">Token</label><input type="password" id="c4" value="${esc(gh.token)}" placeholder="github_pat_…" required></div>
+          <div class="f wide"><span class="chk"><input type="checkbox" id="c5"${store.get('eb-gh-token')?' checked':''}><label for="c5" style="color:var(--ink)">Remember the token on this computer (leave off on shared computers)</label></span></div>
+          <div class="f wide" style="display:flex;gap:10px;flex-direction:row;flex-wrap:wrap"><button class="btn solid" type="submit">Connect</button>${connected?'<button class="btn danger" type="button" id="dc">Disconnect</button>':''}</div>
+        </form></div>`;
+      $('#cf').onsubmit=e=>{e.preventDefault();gh={owner:$('#c1').value.trim(),repo:$('#c2').value.trim(),branch:$('#c3').value.trim()||'main',token:$('#c4').value.trim()};
+        store.set('eb-gh-owner',gh.owner);store.set('eb-gh-repo',gh.repo);store.set('eb-gh-branch',gh.branch);store.del('eb-gh-token');
+        if($('#c5').checked)store.set('eb-gh-token',gh.token);else store.set('eb-gh-token',gh.token,true);connect()};
+      const dc=$('#dc');if(dc)dc.onclick=()=>{store.del('eb-gh-token');gh.token='';connected=false;setState('','Disconnected');$('#saveBtn').disabled=true;go('connect')};
+    }
+  };
+  async function runNews(){
+    if(!connected){toast('Connect to GitHub first.');return}
+    try{await api('actions/workflows/tech-daily.yml/dispatches',{method:'POST',body:JSON.stringify({ref:gh.branch})});toast('News update started. Tech Daily refreshes in about two minutes.',6000)}
+    catch(e){toast('Could not start the update: '+e.message+'. The token needs Actions: Read and write.',8000)}
+  }
+
+  /* ---------------- start ---------------- */
+  (async()=>{side();if(gh.owner&&gh.repo&&gh.token){await connect()}else{await loadReadOnly();go(C?cur:'connect')}})();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "note": "News sources for Entraiot Tech Daily. Edit in /admin or here. cat is the default section; keywords in each headline can move a story to AI, Mobile, Electronics or Security.",
+  "sections": ["AI", "Mobile", "Electronics", "Software & IT", "Security", "India Tech"],
+  "feeds": [
+    { "name": "XDA Developers", "url": "https://www.xda-developers.com/feed/", "cat": "Mobile", "on": true },
+    { "name": "Android Authority", "url": "https://www.androidauthority.com/feed/", "cat": "Mobile", "on": true },
+    { "name": "9to5Google", "url": "https://9to5google.com/feed/", "cat": "Mobile", "on": true },
+    { "name": "9to5Mac", "url": "https://9to5mac.com/feed/", "cat": "Mobile", "on": true },
+    { "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "cat": "Software & IT", "on": true },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "cat": "Software & IT", "on": true },
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "cat": "Software & IT", "on": true },
+    { "name": "Wired", "url": "https://www.wired.com/feed/rss", "cat": "Software & IT", "on": true },
+    { "name": "Hacker News", "url": "https://hnrss.org/frontpage", "cat": "Software & IT", "on": true },
+    { "name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "cat": "AI", "on": true },
+    { "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "cat": "AI", "on": true },
+    { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "cat": "AI", "on": true },
+    { "name": "Engadget", "url": "https://www.engadget.com/rss.xml", "cat": "Electronics", "on": true },
+    { "name": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all", "cat": "Electronics", "on": true },
+    { "name": "Hackaday", "url": "https://hackaday.com/blog/feed/", "cat": "Electronics", "on": true },
+    { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "cat": "Security", "on": true },
+    { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "cat": "Security", "on": true },
+    { "name": "The Hindu Technology", "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss", "cat": "India Tech", "on": true },
+    { "name": "ET Tech", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms", "cat": "India Tech", "on": true }
+  ]
+}
