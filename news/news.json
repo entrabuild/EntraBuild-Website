@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T17:26:57.843Z",
- "edition": 1,
+ "updated": "2026-10-23T21:40:57.499Z",
+ "edition": 2,
  "sections": [
   "AI",
   "Mobile",
@@ -108,12 +108,612 @@
  ],
  "items": [
   {
+   "title": "Xbox’s first chief operating officer is out after just a few months",
+   "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T21:39:26.000Z",
+   "summary": "Xbox is losing its first chief operating officer (COO) after creating the new role just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox…"
+  },
+  {
+   "title": "My local models are worse than Claude at almost everything, but they still run most of my workflow for $0",
+   "link": "https://www.xda-developers.com/my-local-model-is-worse-than-claude-at-almost-everything-but-i-still-use-it-more/",
+   "source": "XDA Developers",
+   "cat": "AI",
+   "date": "2026-10-23T21:30:21.000Z",
+   "summary": "There are some things that just don't need Anthropic's flagship model"
+  },
+  {
+   "title": "Some iPhone Duo screens aren’t making it through day one",
+   "link": "https://www.androidauthority.com/iphone-duo-cracked-screens-first-day-3727498/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T21:26:00.000Z",
+   "summary": "Unlucky early buyers say their iPhone Duo screens are cracking after just a few unfolds."
+  },
+  {
+   "title": "This launcher was made for your dual-screen Android handheld",
+   "link": "https://www.androidauthority.com/blip-launcher-for-android-handhelds-3727499/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T21:14:18.000Z",
+   "summary": "Using a Retroid Pocket Duo or AYN Thor handheld? This Android launcher was made for you."
+  },
+  {
+   "title": "OpenAI now trains its frontier AI models with no internet access",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "source": "The Verge",
+   "cat": "AI",
+   "date": "2026-10-23T21:11:07.000Z",
+   "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an…"
+  },
+  {
+   "title": "My NAS sits idle 95% of the time, so I moved my desktop's chores onto it",
+   "link": "https://www.xda-developers.com/nas-sits-idle-most-day-put-its-spare-cpu-to-work-jobs-desktop-used-handle/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T21:00:21.000Z",
+   "summary": "I no longer need to leave my PC on overnight."
+  },
+  {
+   "title": "Google Health 5.11 rolling out with Fitbit Air Health Guardian, improved sleep tracking, & more",
+   "link": "https://9to5google.com/2026/10/23/google-health-5-11-release-notes/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T21:00:10.000Z",
+   "summary": "Google Health 5.11 is rolling out this week as a rather big update for Fitbit trackers and the Pixel Watch. more…"
+  },
+  {
+   "title": "VCs, Superhuman Mail founder share red flags about product-market fit",
+   "link": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-10-23T20:57:13.000Z",
+   "summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products."
+  },
+  {
+   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "source": "BleepingComputer",
+   "cat": "Security",
+   "date": "2026-10-23T20:55:05.000Z",
+   "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute…"
+  },
+  {
+   "title": "OnePlus Nord Buds 3 Pro hit their lowest price in months",
+   "link": "https://www.androidauthority.com/oneplus-nord-buds-3-pro-deal-amazon-3727521/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:54:49.000Z",
+   "summary": "Get 20% off the OnePlus Nord Buds 3 Pro, with 49dB ANC, Bluetooth 5.4, dual-device pairing, and fast charging."
+  },
+  {
+   "title": "Google Messages rolling out Enhanced Protection mode against spam and scams",
+   "link": "https://9to5google.com/2026/10/23/google-messages-enhanced-protection/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:47:00.000Z",
+   "summary": "Following the announcement earlier this month , Google Messages for Android is rolling out an Enhanced Protection mode to counter spam and scams. more…"
+  },
+  {
+   "title": "A whirlwind tour of systemd-nspawn containers",
+   "link": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T20:37:12.000Z",
+   "summary": "Article URL: https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/ Comments URL: https://news.ycombinator.com/item?id=50214983 Points: 3 # Comments: 1"
+  },
+  {
+   "title": "Your “high performance” power plan might be hurting your CPU's gaming performance",
+   "link": "https://www.xda-developers.com/your-high-performance-power-plan-might-be-hurting-your-cpus-gaming-performance/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-10-23T20:30:21.000Z",
+   "summary": "If you own a dual-CCD X3D Ryzen, your high performance power plan may be costing you"
+  },
+  {
+   "title": "Pixelated 122: Seven years late, same foldable problems",
+   "link": "https://9to5google.com/2026/10/23/pixelated-122-seven-years-late-same-foldable-problems/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:30:00.000Z",
+   "summary": "Welcome to Pixelated episode 122. This week, Abner, Damien, and Will discuss the first slate of iPhone Duo reviews, as Apple dives headfirst into a crowded foldable field for thee…"
+  },
+  {
+   "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+   "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T20:28:43.000Z",
+   "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations."
+  },
+  {
+   "title": "Formula 1 gets Dolby Atmos support on Apple TV in the U.S. starting today",
+   "link": "https://9to5mac.com/2026/10/23/formula-1-gets-dolby-atmos-support-on-apple-tv-in-the-u-s-starting-today/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:23:43.000Z",
+   "summary": "Apple TV subscribers in the US can now watch Formula 1 live in Dolby Atmos, starting with this weekend’s United States Grand Prix. Here’s the schedule. more…"
+  },
+  {
+   "title": "Gemini Notebook now available as Connected App for deeper integration",
+   "link": "https://9to5google.com/2026/10/23/gemini-notebook-connected-app/",
+   "source": "9to5Google",
+   "cat": "AI",
+   "date": "2026-10-23T20:21:15.000Z",
+   "summary": "Gemini Notebooks are already available in the Gemini app side panel, but Google is now adding deeper Connected App integration. more…"
+  },
+  {
+   "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+   "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T20:19:55.000Z",
+   "summary": "Turning on Personal Intelligence gives the company more data for ad targeting."
+  },
+  {
+   "title": "9to5Mac Daily: October 23, 2026 – MacBook Pro rumors, iPhone Duo apps",
+   "link": "https://9to5mac.com/2026/10/23/daily-october-23-2026/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:14:02.000Z",
+   "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google…"
+  },
+  {
+   "title": "Your Pixel Watch is getting smarter about tracking activity with Google Health 5.11",
+   "link": "https://www.androidauthority.com/google-health-5-11-3727492/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:06:16.000Z",
+   "summary": "You'll never have to manually track a workout again (ideally)."
+  },
+  {
+   "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now",
+   "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-10-23T20:03:14.000Z",
+   "summary": "TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions,…"
+  },
+  {
+   "title": "Docker runs containers with root privileges by default, and that's a bigger risk than most people realize",
+   "link": "https://www.xda-developers.com/docker-runs-containers-with-root-privileges-by-default-and-thats-a-bigger-risk-than-most-people-realize/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T20:01:21.000Z",
+   "summary": "Docker's default root setup turns one vulnerable container into a full system compromise"
+  },
+  {
+   "title": "Reconstructing the Ancient Chinese Storm of Crows Weapon",
+   "link": "https://hackaday.com/2026/10/23/reconstructing-the-ancient-chinese-storm-of-crows-weapon/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-23T20:00:09.000Z",
+   "summary": "The Chinese had been using large crossbows – akin to Greek and Roman ballistae – for warfare for many of the same reasons that European armies loved them. Their single,…"
+  },
+  {
+   "title": "Friday’s Android app deals and freebies: DREDGE, Slaps And Beans, Thronefall, more",
+   "link": "https://9to5toys.com/2026/10/23/todays-highlight-google-play-deals-35/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:55:20.000Z",
+   "summary": "Friday’s best Google Play app and game deals are ready, including DREDGE, Slaps And Beans, Argo’s Choice: Offline Game, The Ancestral Legacy, Ticket to Ride, Thronefall, Demon Castle Story, Lumino…"
+  },
+  {
+   "title": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
+   "link": "https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:53:55.000Z",
+   "summary": "Article URL: https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left Comments URL: https://news.ycombinator.com/item?id=50214447 Points: 25 # Comments: 14"
+  },
+  {
+   "title": "OpenAI: Securing our frontier model training environment",
+   "link": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-10-23T19:50:56.000Z",
+   "summary": "Article URL: https://openai.com/index/securing-our-frontier-model-training-environment/ Comments URL: https://news.ycombinator.com/item?id=50214416 Points: 13 # Comments: 4"
+  },
+  {
+   "title": "Report: Apple gains ground in China as smartphone shipments hit 14-year low in Q3",
+   "link": "https://9to5mac.com/2026/10/23/report-apple-gains-ground-in-china-as-smartphone-shipments-hit-14-year-low-in-q3/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:50:23.000Z",
+   "summary": "Rising memory prices continue to weigh on the global smartphone market, with shipments in China alone falling 10% year over year in Q3. Here are the details. more…"
+  },
+  {
+   "title": "Google will target ads based on Gmail, Photos data if Personal Intelligence is enabled",
+   "link": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:45:00.000Z",
+   "summary": "If you’re an Android user, you’ve probably trusted Google with mountains of your own personal data over the last couple of decades. Now, a new privacy policy update suggests that…"
+  },
+  {
+   "title": "iPhone Duo has hidden trick that solves a common complaint",
+   "link": "https://9to5mac.com/2026/10/23/iphone-duo-has-hidden-trick-that-solves-a-common-complaint/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:43:08.000Z",
+   "summary": "iPhone Duo is officially out in the wild, and users keep discovering new details about the device. The latest: there’s a hidden trick that makes opening Control Center significantly easier.…"
+  },
+  {
+   "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+   "link": "https://rune.build/blog/rune-1-3-release",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:42:01.000Z",
+   "summary": "Article URL: https://rune.build/blog/rune-1-3-release Comments URL: https://news.ycombinator.com/item?id=50214325 Points: 4 # Comments: 0"
+  },
+  {
+   "title": "We are all living inside of an obscure sci-fi film from 1970",
+   "link": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:41:59.000Z",
+   "summary": "Article URL: https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/ Comments URL: https://news.ycombinator.com/item?id=50214323 Points: 39 # Comments: 9"
+  },
+  {
+   "title": "Not a fan of full-screen Calling Cards? Keep an eye out for this update",
+   "link": "https://www.androidauthority.com/google-phone-calling-cards-compact-photo-option-3727421/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:41:19.000Z",
+   "summary": "Google's working on a 'compact' option for Calling Card images."
+  },
+  {
+   "title": "Amazon slashes the $400 Lenovo Tab Plus Gen 2 to just $270",
+   "link": "https://www.androidauthority.com/lenovo-tab-plus-gen-2-deal-3727500/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:37:07.000Z",
+   "summary": "Save $130 on the Lenovo Tab Plus Gen 2 and get a 12.1-inch 120Hz display, Dolby Atmos, and a built-in kickstand."
+  },
+  {
+   "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
+   "link": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:35:15.000Z",
+   "summary": "Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has…"
+  },
+  {
+   "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+   "link": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:33:58.000Z",
+   "summary": "Space Force considering options: public-private, federal installation, state land."
+  },
+  {
+   "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+   "source": "The Verge",
+   "cat": "AI",
+   "date": "2026-10-23T19:32:39.000Z",
+   "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had…"
+  },
+  {
+   "title": "My Raspberry Pi Zero is too slow for anything general, but it's perfect for one specific job",
+   "link": "https://www.xda-developers.com/my-slow-raspberry-pi-zero-is-perfect-for-one-specific-job/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-10-23T19:30:21.000Z",
+   "summary": "A tiny 512MB Pi transformed into a resilient DNS duo running Pi‑Hole and Unbound inside compact Docker containers."
+  },
+  {
+   "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+   "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:25:13.000Z",
+   "summary": "A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers."
+  },
+  {
+   "title": "Spotify ramps up policy enforcement on family plans",
+   "link": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:20:27.000Z",
+   "summary": "If you share Spotify sub with family, you may need to scan QR code to prove it."
+  },
+  {
+   "title": "watchOS 27.2 gets new RC ahead of next week’s launch",
+   "link": "https://9to5mac.com/2026/10/23/watchos-27-2-gets-new-rc-ahead-of-next-weeks-launch/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:19:09.000Z",
+   "summary": "Apple has just released a second RC (release candidate) build of watchOS 27.2 for testing. Here are the details. more…"
+  },
+  {
+   "title": "Galaxy Buds On leak gives us a 360-degree look at Samsung’s upcoming earbuds",
+   "link": "https://www.androidauthority.com/galaxy-buds-on-release-details-and-animation-3727460/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:18:04.000Z",
+   "summary": "This leak may also give us some answers on the global release."
+  },
+  {
+   "title": "Next week’s MacBook Pro could be huge upgrade, but with one problem",
+   "link": "https://9to5mac.com/2026/10/23/next-weeks-macbook-pro-could-be-huge-upgrade-but-with-one-problem/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:10:15.000Z",
+   "summary": "Apple has a fully redesigned MacBook Pro launching next week that promises to be a major upgrade, except in one key area. more…"
+  },
+  {
+   "title": "Dessa: the most authentic full-duplex speech model ever built",
+   "link": "https://block.xyz/dessa",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:09:54.000Z",
+   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 73 # Comments: 20"
+  },
+  {
+   "title": "Download the iPhone Duo’s official light and dark wallpapers here",
+   "link": "https://9to5mac.com/2026/10/23/download-the-iphone-duos-official-light-and-dark-wallpapers-here/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:06:48.000Z",
+   "summary": "Even if you’re not planning on getting an iPhone Duo, you can now download its light and dark wallpapers for any of your devices. Get them below. more…"
+  },
+  {
+   "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+   "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:06:23.000Z",
+   "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing…"
+  },
+  {
+   "title": "Florida officer found dead man, impersonated him for years, renovated his home",
+   "link": "https://www.nbcnews.com/news/us-news/officer-impersonates-dead-florida-man-moved-into-home-rcna604844",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:01:56.000Z",
+   "summary": "Article URL: https://www.nbcnews.com/news/us-news/officer-impersonates-dead-florida-man-moved-into-home-rcna604844 Comments URL: https://news.ycombinator.com/item?id=50213826 Points: 41 # Comments: 21"
+  },
+  {
+   "title": "4 things I wish I'd known before buying a cheap projector, and none involve picture quality",
+   "link": "https://www.xda-developers.com/things-i-wish-id-known-before-buying-cheap-projector-none-involve-picture-quality/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T19:00:21.000Z",
+   "summary": "A few small issues can add up to big concerns."
+  },
+  {
+   "title": "DNS: A Replacement for Finger",
+   "link": "https://altchan.org/sh/42",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T19:00:04.000Z",
+   "summary": "Article URL: https://altchan.org/sh/42 Comments URL: https://news.ycombinator.com/item?id=50213791 Points: 5 # Comments: 4"
+  },
+  {
+   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "source": "BleepingComputer",
+   "cat": "AI",
+   "date": "2026-10-23T18:54:41.000Z",
+   "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]"
+  },
+  {
+   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-10-23T18:50:13.000Z",
+   "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan,…"
+  },
+  {
+   "title": "Soundcore’s latest noise-crushing headphones are on sale for a new low price",
+   "link": "https://www.theverge.com/gadgets/1017667/anker-soundcore-space-2-noise-canceling-headphones-deal-sale",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T18:43:30.000Z",
+   "summary": "My colleague John Higgins considered Soundcore’s Space One some of the best budget noise-canceling headphones you could buy when they launched in 2023 — and their successor has only improved…"
+  },
+  {
+   "title": "Google Health 5.11 rolling out expanded 100+ activity detection to Fitbit Air, Pixel Watch",
+   "link": "https://9to5google.com/2026/10/23/google-health-expanded-activity-detection/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:36:47.000Z",
+   "summary": "With the Fitbit Edge announcement, Google Health previewed improved automatic activity tracking, and it’s now beginning to roll out with version 5.11 of the app. more…"
+  },
+  {
+   "title": "Google Messages is working to finally clean up its messy settings menu",
+   "link": "https://www.androidauthority.com/google-messages-settings-3727401/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:32:27.000Z",
+   "summary": "Messages is preparing a massive settings redesign with fresher visuals."
+  },
+  {
+   "title": "I changed one channel width setting on my Wi-Fi 6 router, and local streaming stutter completely stopped",
+   "link": "https://www.xda-developers.com/changed-channel-width-setting-on-router-local-streaming-stutter-stopped/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:31:22.000Z",
+   "summary": "Router settings affect local connections as well as your internet."
+  },
+  {
+   "title": "Running a Philips CD-i Off USB-C",
+   "link": "https://hackaday.com/2026/10/23/running-a-philips-cd-i-off-usb-c/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-23T18:30:09.000Z",
+   "summary": "The Philips CD-i is a console with many shortcomings, and those include the power supply. For whatever reason, the engineering team decided it should use an 8P8C connector just like…"
+  },
+  {
+   "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
+   "link": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-10-23T18:27:32.000Z",
+   "summary": "The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite."
+  },
+  {
+   "title": "Sennheiser Momentum 4 wireless headphones are down to $162, a rare all-time low",
+   "link": "https://www.xda-developers.com/sennheiser-momentum-4-wireless-headphones-are-down-to-162/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:08:22.000Z",
+   "summary": "This can't be missed"
+  },
+  {
+   "title": "HomeKit Weekly: SwitchBot’s new light bars bring 12-zone color to Apple Home",
+   "link": "https://9to5mac.com/2026/10/23/switchbots-new-light-bars-bring-12-zone-color-to-apple-home/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:07:00.000Z",
+   "summary": "Lighting effects can make or break your TV room, gaming setup, etc. SwitchBot’s RGBICWW Light Bars take a different approach from most products, with dedicated cool-white and warm-white LEDs alongside…"
+  },
+  {
+   "title": "UGREEN’s 45W world travel adapter is back to its Prime Day low",
+   "link": "https://www.androidauthority.com/ugreen-45w-travel-adapter-deal-3727455/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:06:23.000Z",
+   "summary": "UGREEN’s 45W 6-port travel adapter is down to $27.99 on Amazon, returning to its all-time low for your global trips."
+  },
+  {
+   "title": "I stopped uploading sensitive PDFs to Adobe after finding a self-hosted tool that does everything Acrobat charges for",
+   "link": "https://www.xda-developers.com/stopped-uploading-sensitive-pdf-to-adobe-after-finding-free-self-hosted-tool/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T18:00:22.000Z",
+   "summary": "Why pay 20 bucks a month when you can get a more private option for free?"
+  },
+  {
+   "title": "ETtech Deals Digest: Even, Different lead as weekly funding hits $246 million, down 27% on-year",
+   "link": "https://economictimes.indiatimes.com/tech/startups/ettech-deals-digest-even-different-lead-as-weekly-funding-hits-246-million-down-27-on-year/articleshow/135152641.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-23T17:55:26.000Z",
+   "summary": "Even Healthcare led deal activity with $50 million, followed by Different at $48 million, Baba Care at $40 million, and AuxoAI at $20.7 million. General Catalyst was among the most…"
+  },
+  {
+   "title": "Fi’s GPS-equipped dog trackers are on sale for 30 percent off",
+   "link": "https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:55:03.000Z",
+   "summary": "If your dog or cat is prone to getting lost, or you frequently go on adventures together, you can save 30 percent on Fi pet trackers through October 25th when…"
+  },
+  {
+   "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-10-23T17:54:08.000Z",
+   "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws…"
+  },
+  {
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "source": "The Hacker News",
+   "cat": "AI",
+   "date": "2026-10-23T17:50:47.000Z",
+   "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team…"
+  },
+  {
+   "title": "Strava gets plain-language route search, with turn-by-turn audio navigation coming soon (Updated)",
+   "link": "https://www.androidauthority.com/strava-update-natural-language-search-3727411/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T17:50:31.000Z",
+   "summary": "Offline maps can now go right on your home screen."
+  },
+  {
+   "title": "Govt to issue consultation paper on AI law in coming weeks: Vaishnaw",
+   "link": "https://economictimes.indiatimes.com/tech/technology/govt-to-issue-consultation-paper-on-ai-law-in-coming-weeks-vaishnaw/articleshow/135152578.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-10-23T17:50:29.000Z",
+   "summary": "The minister said that global giants, who are among the top three or four AI ecosystems in the world, need to work jointly on fundamental principles on the technology."
+  },
+  {
+   "title": "Apple India revenue grows 32% to cross Rs 1 lakh crore mark in FY26",
+   "link": "https://economictimes.indiatimes.com/tech/technology/apple-india-revenue-grows-32-to-cross-rs-1-lakh-crore-mark-in-fy26/articleshow/135152541.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-23T17:48:57.000Z",
+   "summary": "\"Apple India Private Limited provides and markets Apple brand products and software, and reported its revenues for the financial year 2025-26 at Rs 1,04,607 crore, a 32 per cent jump…"
+  },
+  {
+   "title": "Kindle Android app borrows a useful new feature from Alexa Tablets",
+   "link": "https://www.androidauthority.com/kindle-handwritten-notes-on-android-app-3727396/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-23T17:48:40.000Z",
+   "summary": "Android users can now markup their ebooks as much as they like."
+  },
+  {
+   "title": "Sennheiser Accentum earbuds fall under $100 with 55% off",
+   "link": "https://www.androidauthority.com/sennheiser-accentum-earbuds-deal-3727387/",
+   "source": "Android Authority",
+   "cat": "Electronics",
+   "date": "2026-10-23T17:45:43.000Z",
+   "summary": "Save $120 on Sennheiser ACCENTUM True Wireless earbuds and get hybrid ANC, Transparency Mode, and a comfy fit."
+  },
+  {
+   "title": "Ditch your messy cable clutter with this compact Kensington 4K dock that's only $35",
+   "link": "https://www.xda-developers.com/kensington-sd1610p-usb-c-mobile-4k-dock-w-pass-through-charging-17/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-23T17:44:22.000Z",
+   "summary": "Compact design, gigabit Ethernet, and 60W pass-through charging for mobile pros"
+  },
+  {
+   "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+   "link": "https://twitter.com/robbietilton/status/2111936458923851923",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:40:22.000Z",
+   "summary": "Article URL: https://twitter.com/robbietilton/status/2111936458923851923 Comments URL: https://news.ycombinator.com/item?id=50212668 Points: 50 # Comments: 12"
+  },
+  {
+   "title": "Elon Musk’s dangerous grip on outer space",
+   "link": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:35:15.000Z",
+   "summary": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian…"
+  },
+  {
+   "title": "Apple publishes iPhone Duo support documents covering hinge, Touch ID, cases, more",
+   "link": "https://9to5mac.com/2026/10/23/apple-publishes-iphone-duo-support-documents-covering-hinge-touch-id-cases-more/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-23T17:34:43.000Z",
+   "summary": "Apple is publishing a slew of support documents today corresponding with the launch of iPhone Duo, as it does for every iPhone launch. The support documents cover Touch on iPhone…"
+  },
+  {
+   "title": "Crows can evaluate visual info twice as fast as mammals",
+   "link": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:32:58.000Z",
+   "summary": "Birds' compact nervous system seems to help them handle tasks very quickly."
+  },
+  {
    "title": "Fitbit Versa 4 bundle hits its lowest price since February",
    "link": "https://www.androidauthority.com/fitbit-versa-4-bundle-deal-3727430/",
    "source": "Android Authority",
    "cat": "Mobile",
    "date": "2026-10-23T17:23:04.000Z",
    "summary": "The Fitbit Versa 4 bundle drops to $159.99 on Amazon, with GPS, heart-rate tracking, and useful extras included."
+  },
+  {
+   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+   "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+   "source": "Ars Technica",
+   "cat": "Electronics",
+   "date": "2026-10-23T17:18:31.000Z",
+   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production."
   },
   {
    "title": "iPhone Duo accessories: Here are five top picks for Apple’s foldable",
@@ -124,12 +724,20 @@
    "summary": "iPhone Duo has arrived, and if you managed to snag Apple’s new foldable on launch day, here are our top recommendations for accessories. more…"
   },
   {
-   "title": "Time Nuts",
+   "title": "Can we replace a $150k Looker with a bucket of HTML files?",
+   "link": "https://david.lequin.dev/blog/bi-software-is-dead/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:15:03.000Z",
+   "summary": "Article URL: https://david.lequin.dev/blog/bi-software-is-dead/ Comments URL: https://news.ycombinator.com/item?id=50212320 Points: 92 # Comments: 55"
+  },
+  {
+   "title": "Time Nuts (2005)",
    "link": "http://leapsecond.com/time-nuts.htm",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T17:12:51.000Z",
-   "summary": "Article URL: http://leapsecond.com/time-nuts.htm Comments URL: https://news.ycombinator.com/item?id=50212281 Points: 6 # Comments: 0"
+   "summary": "Article URL: http://leapsecond.com/time-nuts.htm Comments URL: https://news.ycombinator.com/item?id=50212281 Points: 25 # Comments: 21"
   },
   {
    "title": "There's now a Zelda: Breath of the Wild native PC port, and early reports suggest it runs surprisingly well",
@@ -154,6 +762,14 @@
    "cat": "India Tech",
    "date": "2026-10-23T17:03:50.000Z",
    "summary": "\"Elon will never do anything wrong. I know him very well, he is a fair person,” the U.S. President said"
+  },
+  {
+   "title": "Animations for System Builders",
+   "link": "https://brooker.co.za/blog/2026/10/23/animations.html",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T17:02:24.000Z",
+   "summary": "Article URL: https://brooker.co.za/blog/2026/10/23/animations.html Comments URL: https://news.ycombinator.com/item?id=50212124 Points: 21 # Comments: 3"
   },
   {
    "title": "I let Home Assistant run my heating for a whole winter, and these are the automations that actually saved money",
@@ -197,11 +813,19 @@
   },
   {
    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-   "link": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+   "link": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T16:59:08.000Z",
-   "summary": "Article URL: https://www.kimi.com/code/docs/en/kimi-code/models.html Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 86 # Comments: 21"
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 530 # Comments: 325"
+  },
+  {
+   "title": "RFK Jr.’s vaccine injury clinic could damage NIH hospital, board warns",
+   "link": "https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T16:58:39.000Z",
+   "summary": "\"Trust is slow to build and quick to lose,\" board chair Jack Leslie said."
   },
   {
    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
@@ -210,6 +834,14 @@
    "cat": "Software & IT",
    "date": "2026-10-23T16:52:55.000Z",
    "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update,…"
+  },
+  {
+   "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+   "link": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+   "source": "Ars Technica",
+   "cat": "Security",
+   "date": "2026-10-23T16:51:59.000Z",
+   "summary": "Corporate phishing tests are common, but this one was especially cruel."
   },
   {
    "title": "Nothing’s got a cryptic new teaser, but we’ve already cracked it",
@@ -228,6 +860,14 @@
    "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]"
   },
   {
+   "title": "UUIDv7 doesn't have the properties you think it does",
+   "link": "https://alexsci.com/blog/uuidv7-is-weird/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-23T16:39:45.000Z",
+   "summary": "Article URL: https://alexsci.com/blog/uuidv7-is-weird/ Comments URL: https://news.ycombinator.com/item?id=50211746 Points: 85 # Comments: 72"
+  },
+  {
    "title": "New Oura lawsuit threatens to once again disrupt smart ring market",
    "link": "https://www.androidauthority.com/oura-ultrahuman-ring-pro-lawsuit-3727334/",
    "source": "Android Authority",
@@ -236,20 +876,20 @@
    "summary": "Another day, another Oura lawsuit against a key industry rival."
   },
   {
-   "title": "The Missed Opportunities of Sonic 06",
+   "title": "The Missed Opportunities of Sonic 06 (2025)",
    "link": "https://isaacmarovitz.com/posts/sonic-06/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T16:38:35.000Z",
-   "summary": "Article URL: https://isaacmarovitz.com/posts/sonic-06/ Comments URL: https://news.ycombinator.com/item?id=50211729 Points: 11 # Comments: 0"
+   "summary": "Article URL: https://isaacmarovitz.com/posts/sonic-06/ Comments URL: https://news.ycombinator.com/item?id=50211729 Points: 51 # Comments: 10"
   },
   {
-   "title": "How Is Music Possible",
+   "title": "How is music possible",
    "link": "https://www.henrikkarlsson.xyz/p/music",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T16:38:17.000Z",
-   "summary": "Article URL: https://www.henrikkarlsson.xyz/p/music Comments URL: https://news.ycombinator.com/item?id=50211719 Points: 4 # Comments: 0"
+   "summary": "Article URL: https://www.henrikkarlsson.xyz/p/music Comments URL: https://news.ycombinator.com/item?id=50211719 Points: 73 # Comments: 57"
   },
   {
    "title": "The first broken iPhone Duos are here",
@@ -258,6 +898,14 @@
    "cat": "Mobile",
    "date": "2026-10-23T16:37:03.000Z",
    "summary": "The iPhone Duo officially goes on sale today, but a few units already have broken screens. According to posts on Reddit about the affected units, the issue appears to be…"
+  },
+  {
+   "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+   "link": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-23T16:35:00.000Z",
+   "summary": "Sound designer lets Half Life-related codename slip at a conference."
   },
   {
    "title": "You can now score this Blink Mini 2K+ camera for just $17 as it hits a record low price",
@@ -289,7 +937,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T16:23:29.000Z",
-   "summary": "Article URL: https://www.theideasletter.org/essay/total-historian/ Comments URL: https://news.ycombinator.com/item?id=50211504 Points: 7 # Comments: 0"
+   "summary": "Article URL: https://www.theideasletter.org/essay/total-historian/ Comments URL: https://news.ycombinator.com/item?id=50211504 Points: 18 # Comments: 4"
   },
   {
    "title": "Today, we hacked what we'd set out to hack: the iPhone",
@@ -297,7 +945,7 @@
    "source": "Hacker News",
    "cat": "Security",
    "date": "2026-10-23T16:21:50.000Z",
-   "summary": "Article URL: https://blog.calif.io/p/iphone Comments URL: https://news.ycombinator.com/item?id=50211474 Points: 239 # Comments: 120"
+   "summary": "Article URL: https://blog.calif.io/p/iphone Comments URL: https://news.ycombinator.com/item?id=50211474 Points: 605 # Comments: 404"
   },
   {
    "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
@@ -593,7 +1241,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-23T14:43:02.000Z",
-   "summary": "Article URL: https://bottlecapai.com/post/thinkingcap-gemma-4-26b/ Comments URL: https://news.ycombinator.com/item?id=50209907 Points: 20 # Comments: 0"
+   "summary": "Article URL: https://bottlecapai.com/post/thinkingcap-gemma-4-26b/ Comments URL: https://news.ycombinator.com/item?id=50209907 Points: 79 # Comments: 12"
   },
   {
    "title": "The Sigma FP2 brings significant upgrades to the ‘world’s smallest’ full-frame camera",
@@ -676,20 +1324,20 @@
    "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust…"
   },
   {
-   "title": "Our best tips for using the iPhone Duo",
-   "link": "https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe",
-   "source": "The Verge",
-   "cat": "Mobile",
-   "date": "2026-10-23T14:00:00.000Z",
-   "summary": "The Duo is an entirely new kind of iPhone, so it comes with a bit of a learning curve. That's a wild thing to imagine, since the iPhone has had…"
-  },
-  {
    "title": "OLED on a budget, save $50 now on the Acer Predator XB27OU at Best Buy",
    "link": "https://www.tomshardware.com/monitors/gaming-monitors/oled-on-a-budget-save-usd50-now-on-the-acer-predator-xb27ou-at-best-buy-only-usd329-for-a-stunning-qd-oled-gaming-monitor-with-a-superfast-240hz-refresh-rate",
    "source": "Tom's Hardware",
    "cat": "Electronics",
    "date": "2026-10-23T14:00:00.000Z",
    "summary": "Upgrade your gaming monitor with this fantastic $329 deal on the Acer XB27OU 27-inch QD-OLED gaming monitor at Best Buy. Save $50 instantly."
+  },
+  {
+   "title": "Our best tips for using the iPhone Duo",
+   "link": "https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe",
+   "source": "The Verge",
+   "cat": "Mobile",
+   "date": "2026-10-23T14:00:00.000Z",
+   "summary": "The Duo is an entirely new kind of iPhone, so it comes with a bit of a learning curve. That's a wild thing to imagine, since the iPhone has had…"
   },
   {
    "title": "Apple revives the original iPod as an Apple Music easter egg",
@@ -828,20 +1476,20 @@
    "summary": "Greece has passed a social media ban for kids under 15 after after announcing the measure earlier this year."
   },
   {
-   "title": "People are vibe coding their way to better TVs",
-   "link": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-23T13:00:00.000Z",
-   "summary": "Vibe coding has reached TVs. Social media is awash with posts from people using LLMs and open-source tools to remove ads and tracking, trim bloat so the OS runs faster,…"
-  },
-  {
    "title": "Bambu Lab teases its mysterious H3C tool changer 3D printer",
    "link": "https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch",
    "source": "Tom's Hardware",
    "cat": "Electronics",
    "date": "2026-10-23T13:00:00.000Z",
    "summary": "Bambu Lab’s long-awaited tool changer H3C launches Nov. 3, 2026."
+  },
+  {
+   "title": "People are vibe coding their way to better TVs",
+   "link": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-23T13:00:00.000Z",
+   "summary": "Vibe coding has reached TVs. Social media is awash with posts from people using LLMs and open-source tools to remove ads and tracking, trim bloat so the OS runs faster,…"
   },
   {
    "title": "Someone put Apple CarPlay on an Amazon Echo Show running Android, and it actually works",
@@ -1036,7 +1684,7 @@
    "summary": "The user said that they only wanted to alert others about the importance of the upcoming CVE releases and weren't told about the embargo."
   },
   {
-   "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
    "source": "The Hacker News",
    "cat": "Security",
@@ -1178,6 +1826,14 @@
    "cat": "AI",
    "date": "2026-10-23T10:00:20.000Z",
    "summary": "Half of what Gemini found was real."
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "OpenAI News",
+   "cat": "AI",
+   "date": "2026-10-23T10:00:00.000Z",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
   },
   {
    "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
@@ -1370,662 +2026,6 @@
    "cat": "Mobile",
    "date": "2026-10-23T07:02:13.000Z",
    "summary": "During Q3, 2026, Samsung became the top smartphone brand in India, followed by Vivo and Oppo"
-  },
-  {
-   "title": "It’s official: Samsung’s next foldable phone is coming soon",
-   "link": "https://www.androidauthority.com/samsung-next-foldable-phone-october-29-3727071/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-23T06:28:59.000Z",
-   "summary": "You almost certainly won't be able to buy it in your market, though."
-  },
-  {
-   "title": "Tech Mahindra, SpaceXSI partner to accelerate AI-powered software engineering",
-   "link": "https://economictimes.indiatimes.com/tech/technology/tech-mahindra-spacexsi-partner-to-accelerate-ai-powered-software-engineering/articleshow/135136980.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-10-23T06:07:36.000Z",
-   "summary": "The company said it will combine its global engineering, enterprise transformation and AI consulting capabilities with SpaceXSI's AI-powered development platform to help enterprises expand application modernisation, streamline software development and…"
-  },
-  {
-   "title": "I Did This Without Your Knowledge",
-   "link": "https://www.lesswrong.com/posts/3375SZNGA5dKHQMie/i-did-this-without-your-knowledge",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-23T05:51:45.000Z",
-   "summary": "Article URL: https://www.lesswrong.com/posts/3375SZNGA5dKHQMie/i-did-this-without-your-knowledge Comments URL: https://news.ycombinator.com/item?id=50204926 Points: 31 # Comments: 14"
-  },
-  {
-   "title": "Zetwerk eyes manufacturing demand from AI, clean energy as shares debut",
-   "link": "https://economictimes.indiatimes.com/tech/technology/zetwerk-eyes-manufacturing-demand-from-ai-clean-energy-as-shares-debut/articleshow/135135770.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-10-23T05:42:20.000Z",
-   "summary": "Shares of the business-to-business manufacturing platform opened at Rs 159 on the BSE, a 5.3% premium to the Rs 151 issue price, and at Rs 159.25 on the NSE. The…"
-  },
-  {
-   "title": "Cambridge Analytica, Facebook’s ‘friend sharing’ feature, and $25 billion penalty | Explained",
-   "link": "https://www.thehindu.com/business/meta-ordered-to-pay-25-billion-over-cambridge-analytica-privacy-case/article71614455.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-10-23T05:30:43.000Z",
-   "summary": "What was Facebook’s controversial ‘friend sharing’ feature? What is the Cambridge Analytica scandal? How did Facebook respond to the controversy? What was the New Mexico court’s verdict? What was Meta’s…"
-  },
-  {
-   "title": "Microsoft develops AI tool that can diagnose 'sequentially' like a doctor",
-   "link": "https://www.thehindu.com/sci-tech/technology/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor/article71614454.ece",
-   "source": "The Hindu Technology",
-   "cat": "AI",
-   "date": "2026-10-23T05:07:29.000Z",
-   "summary": "Microsoft researchers say an AI tool that diagnoses patients step by step, as doctors do, was more than ​twice as accurate as general physicians"
-  },
-  {
-   "title": "Restoring a Soviet ES-4001 Mainframe Control Panel",
-   "link": "https://hackaday.com/2026/10/22/restoring-a-soviet-es-4001-mainframe-control-panel/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-23T05:00:00.000Z",
-   "summary": "Recently the [Chornobyl Family] got their hands on an ES-4001 control panel for a 1970s-era Soviet mainframe, with the intention to restore it to full working order. Not just because…"
-  },
-  {
-   "title": "FCC grants Intel waiver for foreign-made robotic devices",
-   "link": "https://economictimes.indiatimes.com/tech/technology/fcc-grants-intel-waiver-for-foreign-made-robotic-devices/articleshow/135134812.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-10-23T04:55:31.000Z",
-   "summary": "The FCC said it would grant a one-year waiver of its rules in order to prevent \"potential disruptions in the availability of domestic semiconductor manufacturing services for Intel's customers.\""
-  },
-  {
-   "title": "Mark Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes",
-   "link": "https://www.thehindu.com/sci-tech/technology/mark-zuckerberg-makes-deal-with-meta-to-help-him-pay-billionaire-tax-if-it-passes/article71614441.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-10-23T04:31:29.000Z",
-   "summary": "Mark Zuckerberg has made a deal with Meta to help him pay a proposed billionaire tax that is on the ballot in California"
-  },
-  {
-   "title": "Oura sues rival Ultrahuman again, threatening its US smart ring comeback",
-   "link": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-10-23T04:22:57.000Z",
-   "summary": "Oura alleges in its newest lawsuit that Ultrahuman's Ring Pro infringes two of its patents."
-  },
-  {
-   "title": "Elon Musk wants to merge SpaceX and Tesla: Here's what to know",
-   "link": "https://economictimes.indiatimes.com/tech/technology/elon-musk-wants-to-merge-spacex-and-tesla-heres-what-to-know/articleshow/135133989.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T04:09:25.000Z",
-   "summary": "Elon Musk said this week that SpaceX and Tesla have formed special committees to study a merger of his two biggest companies. Musk cautioned that a merger is not certain."
-  },
-  {
-   "title": "Someone actually got macOS 27 running on a Snapdragon X2 Elite, and it works surprisingly well",
-   "link": "https://www.xda-developers.com/macos-27-snapdragon-x2-elite/",
-   "source": "XDA Developers",
-   "cat": "Electronics",
-   "date": "2026-10-23T04:03:48.000Z",
-   "summary": "It's choppy, but it works."
-  },
-  {
-   "title": "Swiggy shares crash 14%, hit 52-week low after Q2 results. Here’s why Jefferies, Nomura, Bernstein cut target price",
-   "link": "https://economictimes.indiatimes.com/tech/technology/swiggy-shares-tumble-over-8-after-q2-results-heres-why-jefferies-nomura-bernstein-cut-target-price/articleshow/135135738.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T04:03:20.000Z",
-   "summary": "Swiggy experienced a notable decline in share prices after announcing a Rs 922 crore loss for the quarter. Revenue from operations rose 36% year-on-year to Rs 7,571 crore, indicating some…"
-  },
-  {
-   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-   "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-10-23T04:00:00.000Z",
-   "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
-  },
-  {
-   "title": "Apple bets iPhone Duo can remake foldable market as sales begin",
-   "link": "https://www.thehindu.com/sci-tech/technology/apple-bets-iphone-duo-can-remake-foldable-market-as-sales-begin/article71614437.ece",
-   "source": "The Hindu Technology",
-   "cat": "Mobile",
-   "date": "2026-10-23T03:50:01.000Z",
-   "summary": "The Duo’s reception could prove an early test for new ⁠CEO John Ternus"
-  },
-  {
-   "title": "What is eMudhra, and what we know about the web security key leak so far",
-   "link": "https://www.thehindu.com/sci-tech/technology/what-is-emudhra-web-security-key-leak/article71610041.ece",
-   "source": "The Hindu Technology",
-   "cat": "Security",
-   "date": "2026-10-23T03:46:11.000Z",
-   "summary": "Several government websites use a range of eMudhra’s keys to “sign” their security certificates, which is necessary for any website to display on a modern browser."
-  },
-  {
-   "title": "Why does Meta have to pay a $25 billion penalty? | Explained",
-   "link": "https://www.thehindu.com/sci-tech/technology/why-does-meta-have-to-pay-a-25-billion-penalty-explained/article71614412.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-10-23T03:40:47.000Z",
-   "summary": "The $25 billion penalty is the largest fine Meta has ever faced for its conduct, and represents a tremendous victory for the U.S. state of New Mexico — even if…"
-  },
-  {
-   "title": "PHP security flaw: India activates emergency response; takes apps offline amid a global alert",
-   "link": "https://economictimes.indiatimes.com/tech/technology/php-security-flaw-india-activates-emergency-response-takes-apps-offline-amid-global-security-scramble/articleshow/135133793.cms",
-   "source": "ET Tech",
-   "cat": "Security",
-   "date": "2026-10-23T03:38:44.000Z",
-   "summary": "Two critical security flaws in PHP, the programming language underpinning an estimated 70% of the internet, have triggered emergency cybersecurity measures in India. Banks are auditing applications and preparing backups,…"
-  },
-  {
-   "title": "What is PHP and why is it facing a security crisis | Explained",
-   "link": "https://www.thehindu.com/sci-tech/technology/what-is-php-and-why-is-it-facing-a-security-crisis/article71611487.ece",
-   "source": "The Hindu Technology",
-   "cat": "Security",
-   "date": "2026-10-23T03:35:51.000Z",
-   "summary": "Two critical vulnerabilities in one of the web’s most widely used programming languages have put server security under scrutiny"
-  },
-  {
-   "title": "SpaceX seeks access to 80,000 US cell sites for wireless network: report",
-   "link": "https://economictimes.indiatimes.com/tech/technology/spacex-seeks-access-to-80000-us-cell-sites-for-wireless-network-report/articleshow/135133083.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T03:18:25.000Z",
-   "summary": "SpaceX is in talks with cellular infrastructure companies to secure access to at least 80,000 sites across the United States, Bloomberg News reported on Thursday, citing people familiar with the…"
-  },
-  {
-   "title": "Greg Joswiak talks iPhone Duo in-store availability and demand ahead of launch",
-   "link": "https://9to5mac.com/2026/10/22/greg-joswiak-talks-iphone-duo-in-store-availability-and-demand-ahead-of-launch/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-23T03:15:09.000Z",
-   "summary": "Friday is iPhone Duo launch day, and there are a lot of eager customers hoping to walk into an Apple Store and get one after a messy pre-order launch .…"
-  },
-  {
-   "title": "YouTube’s latest trick lets you build a custom feed for every viewing mood",
-   "link": "https://www.androidauthority.com/youtube-new-homepage-custom-feeds-3727048/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-23T03:07:57.000Z",
-   "summary": "YouTube is also giving its mobile homepage a makeover with a new top bar, with changes starting to roll out in the US."
-  },
-  {
-   "title": "FinTech M&A outlook improves, but investors remain selective on valuations: Report",
-   "link": "https://economictimes.indiatimes.com/tech/startups/fintech-ma-outlook-improves-but-investors-remain-selective-on-valuations-report/articleshow/135132707.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T03:03:30.000Z",
-   "summary": "Valuations of fintech companies have come under pressure across several segments as investors reassess businesses, while global fintech deal activity is showing signs of renewed momentum entering the fourth quarter…"
-  },
-  {
-   "title": "Meta’s quiet rewrite of the rules for the open web",
-   "link": "https://www.thehindu.com/sci-tech/technology/metas-quiet-rewrite-of-the-rules-for-the-open-web/article71610033.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-10-23T03:02:31.000Z",
-   "summary": "Accepting the new terms means Meta, or anyone acting on its behalf, can use “web scrapers, bots, robots, spiders, crawlers.”"
-  },
-  {
-   "title": "iPhone Duo's entire first week stock pre-booked in India",
-   "link": "https://economictimes.indiatimes.com/tech/technology/iphone-duos-entire-first-week-stock-pre-booked-in-india/articleshow/135132280.cms",
-   "source": "ET Tech",
-   "cat": "Mobile",
-   "date": "2026-10-23T02:46:02.000Z",
-   "summary": "Apple Store in BKC (Bandra Kurla Complex), Mumbai, and Saket, New Delhi, have clocked maximum number of pre-bookings for the ultra premium first foldable iPhone from the company's stable."
-  },
-  {
-   "title": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide",
-   "link": "https://economictimes.indiatimes.com/tech/technology/rush-is-on-to-patch-a-software-vulnerability-that-could-impact-70-of-websites-worldwide/articleshow/135132230.cms",
-   "source": "ET Tech",
-   "cat": "Security",
-   "date": "2026-10-23T02:43:31.000Z",
-   "summary": "Many government sites appeared to be functioning normally Thursday, but outages or limited service continued while security work was under way."
-  },
-  {
-   "title": "This I Believe (1952)",
-   "link": "https://www.awakin.org/v2/read/view.php?tid=468",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-23T02:19:38.000Z",
-   "summary": "Article URL: https://www.awakin.org/v2/read/view.php?tid=468 Comments URL: https://news.ycombinator.com/item?id=50203759 Points: 139 # Comments: 64"
-  },
-  {
-   "title": "Zetwerk Manufacturing shares list at 5% premium over IPO price",
-   "link": "https://economictimes.indiatimes.com/tech/technology/zetwerk-manufacturing-business-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/135134461.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T02:18:56.000Z",
-   "summary": "The Rs 5,012.33 crore IPO comprises a fresh issue of shares worth Rs 2,830 crore and an offer for sale (OFS) of 14.45 crore shares worth approximately Rs 2,182 crore.…"
-  },
-  {
-   "title": "What does eMudhra’s web security key leak mean for internet users? | Explained",
-   "link": "https://www.thehindu.com/sci-tech/technology/what-does-emudhras-web-security-key-leak-mean-for-internet-users-explained/article71610069.ece",
-   "source": "The Hindu Technology",
-   "cat": "Security",
-   "date": "2026-10-23T02:11:50.000Z",
-   "summary": "The exposure of eMudhra’s private keys could allow for man-in-the-middle attacks if left unpatched on all devices"
-  },
-  {
-   "title": "This adorable Raspberry Pi project prints the weather, puzzles, and stories for the family on receipts",
-   "link": "https://www.xda-developers.com/this-adorable-raspberry-pi-project-prints-the-weather-puzzles-and-stories-for-the-family-on-receipts/",
-   "source": "XDA Developers",
-   "cat": "Electronics",
-   "date": "2026-10-23T02:10:44.000Z",
-   "summary": "Receipt printers are lot more fun than you may originally think."
-  },
-  {
-   "title": "Swiggy narrows loss in Q2; eMudhra cofounder on what went wrong",
-   "link": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/swiggy-narrows-loss-in-q2-emudhra-cofounder-on-what-went-wrong/articleshow/135131640.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T02:07:17.000Z",
-   "summary": "Happy Friday! Swiggy reported a rise in revenue in Q2 FY27 while cutting its losses. This and more in today’s ETtech Morning Dispatch."
-  },
-  {
-   "title": "NASA Batteries Survive Extreme Cold and Heat",
-   "link": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-23T02:00:05.000Z",
-   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems,…"
-  },
-  {
-   "title": "Blinkit, Instamart chart different paths to profitable growth",
-   "link": "https://economictimes.indiatimes.com/tech/technology/blinkit-swiggy-take-different-routes-to-deliver-growth/articleshow/135135268.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-23T01:47:25.000Z",
-   "summary": "Eternal and Swiggy are adopting distinct strategies within the quick commerce and food delivery sectors. Eternal is ramping up Blinkit’s growth to achieve profitability, while Swiggy emphasizes the quality of…"
-  },
-  {
-   "title": "Apple is finally catching up with Siri, but the goalposts are moving again",
-   "link": "https://9to5mac.com/2026/10/22/apple-is-finally-catching-up-with-siri-but-the-goalposts-are-moving-again/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-23T01:42:38.000Z",
-   "summary": "9to5Mac is brought to you by Memoket : Memoket Gem is a 0.4 oz AI wearable that slots beside your Apple Watch. One press captures a conversation, and KITE memory…"
-  },
-  {
-   "title": "WhatsApp starts testing long-awaited scheduled messages on iPhone",
-   "link": "https://9to5mac.com/2026/10/22/whatsapp-starts-testing-long-awaited-scheduled-messages-on-iphone/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-23T01:22:37.000Z",
-   "summary": "After years of waiting, WhatsApp is finally making one of its most-requested messaging features available to select iPhone beta testers. Here are the details. more…"
-  },
-  {
-   "title": "The foolishness of \"natural language programming\" (1978)",
-   "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-23T00:52:01.000Z",
-   "summary": "Article URL: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html Comments URL: https://news.ycombinator.com/item?id=50203161 Points: 316 # Comments: 214"
-  },
-  {
-   "title": "Left alone with nothing to do, AI agents started playing",
-   "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-10-23T00:45:37.000Z",
-   "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs."
-  },
-  {
-   "title": "Apple wins again in copyright infringement battle over Apple TV thriller series",
-   "link": "https://9to5mac.com/2026/10/22/apple-wins-again-in-copyright-infringement-battle-over-apple-tv-thriller-series/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-23T00:30:41.000Z",
-   "summary": "The United States Court of Appeals for the Ninth Circuit today upheld a verdict from early last year that cleared Apple of allegations that one of its hit thriller series…"
-  },
-  {
-   "title": "The eMudhra issue was so bad, it delayed Fedora 45 until November at the earliest",
-   "link": "https://www.xda-developers.com/the-emudhra-issue-was-so-bad-it-delayed-fedora-45-until-november-at-the-earliest/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-23T00:25:06.000Z",
-   "summary": "Better safe than sorry, though."
-  },
-  {
-   "title": "Show HN: Making a smart TV dumb and then smart",
-   "link": "https://github.com/anubhavmalhotra/r2d2-tv",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-23T00:10:45.000Z",
-   "summary": "A recent (unwanted) webOS update that got installed on TV prompted me to start going down the rabbit hole of writing new TV software. After a couple of weekends and…"
-  },
-  {
-   "title": "Etsy is cracking down on AI slop listings",
-   "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-   "source": "The Verge",
-   "cat": "AI",
-   "date": "2026-10-23T00:09:58.000Z",
-   "summary": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that…"
-  },
-  {
-   "title": "I let a local LLM control my Home Assistant automations, and it took a wrong turn before I added guardrails",
-   "link": "https://www.xda-developers.com/local-llm-control-home-assistant-automations-wrong-turn-added-guardrails/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-10-23T00:00:20.000Z",
-   "summary": "I should have added them sooner."
-  },
-  {
-   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "source": "OpenAI News",
-   "cat": "AI",
-   "date": "2026-10-23T00:00:00.000Z",
-   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
-  },
-  {
-   "title": "Jank – The native Clojure dialect with seamless C++ interop",
-   "link": "https://jank-lang.org/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:56:36.000Z",
-   "summary": "Article URL: https://jank-lang.org/ Comments URL: https://news.ycombinator.com/item?id=50202762 Points: 103 # Comments: 11"
-  },
-  {
-   "title": "Show HN: Impossible Machines: declaratively program the physical world",
-   "link": "https://www.impossiblemachines.xyz",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:54:28.000Z",
-   "summary": "Hey all — Sharing a thought experiment I put together. The premise: what might declarative programming feel like for the physical world? We’re already familiar with this paradigm in software…"
-  },
-  {
-   "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
-   "link": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:50:41.000Z",
-   "summary": "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law."
-  },
-  {
-   "title": "Docker is weird",
-   "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:45:56.000Z",
-   "summary": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 758 # Comments: 304"
-  },
-  {
-   "title": "Strava revamps route discovery with smarter search, offline improvements, more",
-   "link": "https://9to5mac.com/2026/10/22/strava-revamps-route-discovery-with-smarter-search-offline-improvements-more/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-22T23:29:15.000Z",
-   "summary": "Strava today announced a set of new features aimed at improving route planning and discovery for runs, hikes, and rides. Here are the details. more…"
-  },
-  {
-   "title": "We have traits at home",
-   "link": "https://www.axelmagn.com/blog/202610-zig-traits/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:24:17.000Z",
-   "summary": "Article URL: https://www.axelmagn.com/blog/202610-zig-traits/ Comments URL: https://news.ycombinator.com/item?id=50202482 Points: 23 # Comments: 4"
-  },
-  {
-   "title": "Retro game emulator Delta looks great on the iPhone Duo",
-   "link": "https://9to5mac.com/2026/10/22/retro-game-emulator-delta-looks-great-on-the-iphone-duo/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-22T23:23:32.000Z",
-   "summary": "The popular retro game emulator Delta has today launched a big new 2.0 version, most notably featuring a refreshed Liquid Glass interface and support for the iPhone Duo. The app…"
-  },
-  {
-   "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
-   "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:15:00.000Z",
-   "summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement."
-  },
-  {
-   "title": "Palmer Luckey and Ben Lamm Made a Genetically Modified Military Dog Startup",
-   "link": "https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:15:00.000Z",
-   "summary": "Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with \"advanced body armor.\""
-  },
-  {
-   "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
-   "link": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:02:43.000Z",
-   "summary": "Spotify co-CEO Alex Norström confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR…"
-  },
-  {
-   "title": "This underrated Docker app is the productivity powerhouse my homelab needed",
-   "link": "https://www.xda-developers.com/replaced-notion-obsidian-bases-trello-with-one-powerful-docker-container/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-22T23:01:21.000Z",
-   "summary": "Three productivity giants, one unexpected replacement."
-  },
-  {
-   "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-   "link": "https://edjefferson.com/localwiki/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:01:18.000Z",
-   "summary": "Article URL: https://edjefferson.com/localwiki/ Comments URL: https://news.ycombinator.com/item?id=50202285 Points: 943 # Comments: 182"
-  },
-  {
-   "title": "Car’s Camera Footage Backed up to NAS",
-   "link": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-22T23:00:13.000Z",
-   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re…"
-  },
-  {
-   "title": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
-   "link": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-22T23:00:00.000Z",
-   "summary": "Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between $1,200 and $1,800 when…"
-  },
-  {
-   "title": "LLMs are making formal software verification feasible at a much larger scale",
-   "link": "https://www.anthropic.com/research/formal-verification",
-   "source": "Hacker News",
-   "cat": "AI",
-   "date": "2026-10-22T22:54:43.000Z",
-   "summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 417 # Comments: 255"
-  },
-  {
-   "title": "Canadians are running out of time to oppose Bill C-22",
-   "link": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T22:43:19.000Z",
-   "summary": "Article URL: https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill Comments URL: https://news.ycombinator.com/item?id=50202114 Points: 31 # Comments: 0"
-  },
-  {
-   "title": "MacBook Neo helps Apple soften the blow of global PC market downturn, per report",
-   "link": "https://9to5mac.com/2026/10/22/macbook-neo-helps-apple-soften-the-blow-of-global-pc-market-downturn-per-report/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-22T22:35:38.000Z",
-   "summary": "A new Counterpoint Research report on global PC shipments for Q3 2026 shows Apple outperforming the broader market, with the MacBook Neo helping cushion the impact of declining demand. Here…"
-  },
-  {
-   "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
-   "link": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-10-22T22:34:54.000Z",
-   "summary": "The digital asset unit, helmed by Chris Dixon, broadens its scope."
-  },
-  {
-   "title": "What to Know About Shamonda Virus Following the First Reported Human Infection",
-   "link": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-22T22:26:57.000Z",
-   "summary": "Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the patient’s death."
-  },
-  {
-   "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-   "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-   "source": "Ars Technica",
-   "cat": "Security",
-   "date": "2026-10-22T22:25:33.000Z",
-   "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter."
-  },
-  {
-   "title": "9to5Mac Daily: October 22, 2026 – iOS 27.2 features, Apple Music rebrand",
-   "link": "https://9to5mac.com/2026/10/22/daily-october-22-2026/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-22T22:23:46.000Z",
-   "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google…"
-  },
-  {
-   "title": "Rule 30: one black cell",
-   "link": "https://www.wolframcollatzmahler.com/rule30/index.html",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T22:16:48.000Z",
-   "summary": "Article URL: https://www.wolframcollatzmahler.com/rule30/index.html Comments URL: https://news.ycombinator.com/item?id=50201842 Points: 16 # Comments: 5"
-  },
-  {
-   "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-   "link": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-10-22T22:12:19.000Z",
-   "summary": "Markers released top-line results today after previously reporting the trial succeeded."
-  },
-  {
-   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-   "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-10-22T22:08:24.000Z",
-   "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
-  },
-  {
-   "title": "YouTube removing ‘Subscriptions’ bottom bar tab on Android, iOS after nearly a decade",
-   "link": "https://9to5google.com/2026/10/22/youtube-subscriptions-android-ios/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-10-22T22:05:06.000Z",
-   "summary": "YouTube is making a number of changes to its Android and iOS apps with the launch of custom feeds , including moving Subscriptions out of the bottom bar. more…"
-  },
-  {
-   "title": "I've tried countless gamepads over the years, but nothing has topped the Xbox 360 controller",
-   "link": "https://www.xda-developers.com/xbox-360-controller-still-best-pc-controller-ever-made/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-22T22:00:21.000Z",
-   "summary": "It's an oldie, but a goodie."
-  },
-  {
-   "title": "Nintendo Switch 2 jailbreak discovery could open the door to a world of mods",
-   "link": "https://www.androidauthority.com/nintendo-switch-2-software-jailbreak-3727013/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-22T21:55:10.000Z",
-   "summary": "An obscure game has provided an unlikely route into Nintendo's latest console."
-  },
-  {
-   "title": "Samsung’s next big One UI update may be closer than you think",
-   "link": "https://www.androidauthority.com/samsung-one-ui-9-5-beta-new-banner-3726991/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-22T21:54:14.000Z",
-   "summary": "A redesigned beta banner suggests preparations are already underway."
-  },
-  {
-   "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
-   "link": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-10-22T21:52:31.000Z",
-   "summary": "\"We need to keep our eyes on numerous required fuelings for the lander.\""
-  },
-  {
-   "title": "Canva’s first AI image model plans designs before generating them",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-   "source": "The Verge",
-   "cat": "AI",
-   "date": "2026-10-22T21:51:25.000Z",
-   "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft,…"
-  },
-  {
-   "title": "How does Fable 5.1 hide messages in images?",
-   "link": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T21:41:13.000Z",
-   "summary": "Article URL: https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images Comments URL: https://news.ycombinator.com/item?id=50201445 Points: 87 # Comments: 25"
-  },
-  {
-   "title": "Apple TV’s long-awaited Fleetwood Mac documentary finally has a release date",
-   "link": "https://9to5mac.com/2026/10/22/apple-tvs-long-awaited-fleetwood-mac-documentary-finally-has-a-release-date/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-22T21:38:44.000Z",
-   "summary": "Nearly two years after it was first announced, Fleetwood Mac fans won’t have to wait much longer for Frank Marshall’s documentary about the legendary band to arrive on Apple TV.…"
-  },
-  {
-   "title": "Railpass",
-   "link": "https://train.samismith.com/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-22T21:38:32.000Z",
-   "summary": "Article URL: https://train.samismith.com/ Comments URL: https://news.ycombinator.com/item?id=50201414 Points: 102 # Comments: 26"
-  },
-  {
-   "title": "Some Android phones and Google Calendar events could soon be an hour off",
-   "link": "https://www.androidauthority.com/google-android-calendar-canada-time-zone-change-3726959/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-22T21:33:50.000Z",
-   "summary": "Android users in parts of Canada should check their phones before November 1."
-  },
-  {
-   "title": "I ran Claude Code, Codex, and Cursor on the same AI model, and the tool mattered more than I expected",
-   "link": "https://www.xda-developers.com/ran-claude-code-codex-cursor-same-ai-model-tool-mattered-more-than-expected/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-10-22T21:31:20.000Z",
-   "summary": "Almost every part of the process changed, except the end result"
-  },
-  {
-   "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
-   "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-22T21:30:39.000Z",
-   "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with…"
-  },
-  {
-   "title": "Railway warns devs to rotate secrets after potential breach",
-   "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-10-22T21:25:31.000Z",
-   "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]"
-  },
-  {
-   "title": "Designing an AI serving harness built to last",
-   "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-   "source": "MIT Technology Review",
-   "cat": "AI",
-   "date": "2026-10-22T21:17:29.000Z",
-   "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past…"
-  },
-  {
-   "title": "Fall 2026 earnings watch",
-   "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-22T21:15:16.000Z",
-   "summary": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to…"
   }
  ]
 }
