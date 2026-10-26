@@ -78,10 +78,14 @@
             "Render",
             "Vercel"
           ],
-          "link": "",
+          "link": "https://zivira-admin.vercel.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/zivira-labs-1.jpg",
+            "images/gallery/zivira-labs-2.jpg"
+          ]
         },
         {
           "id": "zivira-website",
@@ -132,7 +136,7 @@
             "MongoDB",
             "Capacitor"
           ],
-          "link": "",
+          "link": "https://rsa-admin-frontend.vercel.app/",
           "image": "",
           "frame": true,
           "featured": false
@@ -150,7 +154,7 @@
             "Android",
             "iOS"
           ],
-          "link": "",
+          "link": "https://valankanni-madha-admin-frontend.onrender.com",
           "image": "",
           "frame": true,
           "featured": false
@@ -225,7 +229,12 @@
           "link": "https://tnwla-madras.com/stand-firm",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/stand-firm-1.jpg",
+            "images/gallery/stand-firm-2.jpg",
+            "images/gallery/stand-firm-3.jpg"
+          ]
         }
       ]
     },
@@ -260,7 +269,12 @@
           "link": "https://pavanasilks.com",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/pavana-silks-1.jpg",
+            "images/gallery/pavana-silks-2.jpg",
+            "images/gallery/pavana-silks-3.jpg"
+          ]
         },
         {
           "id": "bhuvannam-silks",
@@ -274,10 +288,15 @@
             "JavaScript",
             "WhatsApp"
           ],
-          "link": "",
+          "link": "https://eclectic-dango-c6dad5.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/bhuvannam-silks-1.jpg",
+            "images/gallery/bhuvannam-silks-2.jpg",
+            "images/gallery/bhuvannam-silks-3.jpg"
+          ]
         }
       ]
     },
@@ -309,10 +328,15 @@
             "Render",
             "Vercel"
           ],
-          "link": "",
+          "link": "https://nordicaffairsmedia.com/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/nordic-affairs-media-1.jpg",
+            "images/gallery/nordic-affairs-media-2.jpg",
+            "images/gallery/nordic-affairs-media-3.jpg"
+          ]
         }
       ]
     },
@@ -366,7 +390,12 @@
           "link": "https://inquisitive-mousse-bce04d.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/voxrel-1.jpg",
+            "images/gallery/voxrel-2.jpg",
+            "images/gallery/voxrel-3.jpg"
+          ]
         }
       ]
     },
@@ -472,7 +501,11 @@
           "link": "https://voice-to-software.pages.dev",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/earchana-1.jpg",
+            "images/gallery/earchana-2.jpg"
+          ]
         }
       ]
     },
@@ -492,21 +525,6 @@
         "te": "ఆన్‌లైన్ దుకాణాలు"
       },
       "projects": [
-        {
-          "id": "jeni",
-          "name": "Jeni",
-          "desc": "Online store and sales platform for food products",
-          "tag": "",
-          "need": "A food brand needed to take orders online and keep track of sales.",
-          "built": "An online store with order management and sales workflows.",
-          "tools": [
-            "Web platform"
-          ],
-          "link": "https://tnwla-madras.com/jeni",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
         {
           "id": "affiliated-factory",
           "name": "Affiliated Factory",
@@ -573,7 +591,12 @@
           "link": "https://the-perch-chennai.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/the-perch-1.jpg",
+            "images/gallery/the-perch-2.jpg",
+            "images/gallery/the-perch-3.jpg"
+          ]
         },
         {
           "id": "crafe-cafe",
@@ -588,7 +611,12 @@
           "link": "https://crafe-cafe.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/crafe-cafe-1.jpg",
+            "images/gallery/crafe-cafe-2.jpg",
+            "images/gallery/crafe-cafe-3.jpg"
+          ]
         },
         {
           "id": "the-juice-box",
@@ -603,7 +631,12 @@
           "link": "https://the-juice-box.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/the-juice-box-1.jpg",
+            "images/gallery/the-juice-box-2.jpg",
+            "images/gallery/the-juice-box-3.jpg"
+          ]
         },
         {
           "id": "coffee-anugraha",
@@ -618,7 +651,12 @@
           "link": "https://coffee-anugraha.vercel.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/coffee-anugraha-1.jpg",
+            "images/gallery/coffee-anugraha-2.jpg",
+            "images/gallery/coffee-anugraha-3.jpg"
+          ]
         },
         {
           "id": "cream-story",
@@ -633,7 +671,12 @@
           "link": "https://cream-story-six.vercel.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/cream-story-1.jpg",
+            "images/gallery/cream-story-2.jpg",
+            "images/gallery/cream-story-3.jpg"
+          ]
         }
       ]
     },
@@ -734,52 +777,11 @@
           "link": "https://jpt-co.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
-        },
-        {
-          "id": "cd-player",
-          "name": "CD Player",
-          "desc": "Product storefront",
-          "tag": "Concept",
-          "need": "A concept for a single-product store.",
-          "built": "A product storefront.",
-          "tools": [
-            "Web"
-          ],
-          "link": "https://cd-player.vercel.app/",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
-        {
-          "id": "ye-olde-inbox",
-          "name": "Ye Olde Inbox",
-          "desc": "Brand storefront",
-          "tag": "Concept",
-          "need": "A concept brand storefront.",
-          "built": "A brand storefront.",
-          "tools": [
-            "Web"
-          ],
-          "link": "https://ye-olde-inbox.vercel.app/",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
-        {
-          "id": "jets",
-          "name": "Jets",
-          "desc": "Product storefront",
-          "tag": "Concept",
-          "need": "A concept product storefront.",
-          "built": "A product storefront.",
-          "tools": [
-            "Web"
-          ],
-          "link": "https://jets-tau.vercel.app/",
-          "image": "",
-          "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/jpt-co-1.jpg",
+            "images/gallery/jpt-co-2.jpg"
+          ]
         }
       ]
     },
