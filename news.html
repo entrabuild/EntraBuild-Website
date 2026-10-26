@@ -41,17 +41,18 @@
 .byline{font:12px var(--mono);color:var(--muted)}
 .briefs{display:grid;gap:0;border-left:1px solid var(--line);padding-left:28px}
 @media (max-width:860px){.briefs{border-left:0;padding-left:0}}
-.brief{padding-block:14px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;gap:4px}
+.brief{padding-block:18px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;grid-template-columns:minmax(0,1fr);gap:8px;min-width:0}
 .brief:last-child{border-bottom:0}
 .brief b{font-size:17px;line-height:1.35;font-weight:600}
 .brief:hover b{color:var(--gold)}
-.wire{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;padding-block:20px 40px}
+.wire{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 40px;padding-block:20px 40px}
 @media (max-width:980px){.wire{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.wire{grid-template-columns:1fr}}
-.story{padding-block:18px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;gap:6px;min-width:0}
-.story b{font-size:17px;line-height:1.35;font-weight:600}
+.story{padding-block:24px 26px;border-bottom:1px solid var(--line);text-decoration:none;display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:10px;min-width:0}
+.story,.brief,.lead-story,.house a{overflow-wrap:anywhere;word-break:break-word}
+.story b{display:block;font-size:17px;line-height:1.4;font-weight:600;min-width:0}
 .story:hover b{color:var(--gold)}
-.story p{margin:0;color:var(--muted);font-size:14.5px}
+.story p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.55;min-width:0}
 .house{border:1px solid color-mix(in srgb,var(--gold) 50%,var(--line));border-radius:16px;padding:18px 20px;margin-top:22px}
 .house h3{font-family:var(--serif);font-weight:400;font-size:26px;margin:4px 0 10px}
 .house a{display:block;text-decoration:none;padding-block:8px;border-top:1px solid var(--line)}
@@ -127,6 +128,9 @@
     if(posts.length)secs.push('From Entraiot');
     document.getElementById('rail').innerHTML=secs.map(s=>`<button type="button" data-s="${esc(s)}" aria-pressed="${s===sec}">${esc(s)}</button>`).join('')+`<input id="q" type="search" placeholder="Search today's stories" aria-label="Search stories" value="${esc(q)}">`;
   }
+  const tidy=t=>{t=String(t||'');const m=t.match(/Points:\s*(\d+)\s*#?\s*Comments:\s*(\d+)/i);
+    if(/Article URL:|Comments URL:/i.test(t)||m)return m?m[1]+' points · '+m[2]+' comments on Hacker News':'';
+    return t.replace(/https?:\/\/\S+/g,'').replace(/\s{2,}/g,' ').trim()};
   function list(){
     let it=data.items||[];
     if(sec==='From Entraiot')it=[];
@@ -154,9 +158,9 @@
     }
     empty.hidden=true;
     const [lead,...rest]=it;const briefs=rest.slice(0,5),others=rest.slice(5);
-    front.innerHTML=`<article class="lead-story"><span class="kick">${esc(lead.cat)}</span><a href="${esc(safe(lead.link))}" target="_blank" rel="noopener"><h2>${esc(lead.title)}</h2></a><p>${esc(lead.summary)}</p>${storyLine(lead)} · <a class="byline" href="${esc(safe(lead.link))}" target="_blank" rel="noopener">Read on ${esc(lead.source)} ↗</a>${houseBox()}</article>
+    front.innerHTML=`<article class="lead-story"><span class="kick">${esc(lead.cat)}</span><a href="${esc(safe(lead.link))}" target="_blank" rel="noopener"><h2>${esc(lead.title)}</h2></a><p>${esc(tidy(lead.summary))}</p>${storyLine(lead)} · <a class="byline" href="${esc(safe(lead.link))}" target="_blank" rel="noopener">Read on ${esc(lead.source)} ↗</a>${houseBox()}</article>
       <div class="briefs">${briefs.map(i=>`<a class="brief" href="${esc(safe(i.link))}" target="_blank" rel="noopener"><span class="kick">${esc(i.cat)}</span><b>${esc(i.title)}</b>${storyLine(i)}</a>`).join('')}</div>`;
-    wire.innerHTML=others.slice(0,shown).map(i=>`<a class="story" href="${esc(safe(i.link))}" target="_blank" rel="noopener"><span class="kick">${esc(i.cat)}</span><b>${esc(i.title)}</b><p>${esc(i.summary)}</p>${storyLine(i)}</a>`).join('');
+    wire.innerHTML=others.slice(0,shown).map(i=>`<a class="story" href="${esc(safe(i.link))}" target="_blank" rel="noopener"><span class="kick">${esc(i.cat)}</span><b>${esc(i.title)}</b><p>${esc(tidy(i.summary))}</p>${storyLine(i)}</a>`).join('');
     more.hidden=others.length<=shown;
   }
   document.getElementById('rail').addEventListener('click',e=>{const t=e.target.closest('[data-s]');if(!t)return;sec=t.dataset.s;shown=24;render();window.scrollTo({top:document.querySelector('.rail').offsetTop-60,behavior:'smooth'})});

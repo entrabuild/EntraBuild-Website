@@ -205,7 +205,12 @@
           "link": "https://tnwla-madras.com",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/tnwla-madras-1.jpg",
+            "images/gallery/tnwla-madras-2.jpg",
+            "images/gallery/tnwla-madras-3.jpg"
+          ]
         },
         {
           "id": "stand-firm",

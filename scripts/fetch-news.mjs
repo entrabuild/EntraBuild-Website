@@ -24,6 +24,7 @@ const decode = s => String(s || '')
   .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d))
   .replace(/&quot;/g, '"').replace(/&apos;|&#039;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
 const strip = s => decode(decode(s)).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const hn = s => { const m = s.match(/Points:\s*(\d+)\s*#?\s*Comments:\s*(\d+)/i); return (m || /Article URL:|Comments URL:/i.test(s)) ? (m ? `${m[1]} points · ${m[2]} comments on Hacker News` : '') : s.replace(/https?:\/\/\S+/g, '').replace(/\s{2,}/g, ' ').trim(); };
 const words = (s, n) => { const w = s.split(' '); return w.length > n ? w.slice(0, n).join(' ') + '…' : s; };
 const tag = (x, names) => { for (const n of names) { const m = x.match(new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)</${n}>`, 'i')); if (m) return m[1]; } return ''; };
 
@@ -36,7 +37,7 @@ function parse(xml, feed) {
     if (!/^https?:/.test(link)) { const g = strip(tag(b, ['guid', 'id'])); if (/^https?:/.test(g)) link = g; }
     const when = strip(tag(b, ['pubDate', 'published', 'updated', 'dc:date']));
     const date = new Date(when);
-    const summary = words(strip(tag(b, ['description', 'summary', 'content:encoded', 'content'])), 30);
+    const summary = words(hn(strip(tag(b, ['description', 'summary', 'content:encoded', 'content']))), 30);
     let cat = feed.cat;
     for (const [c, re] of RULES) if (re.test(title)) { cat = c; break; }
     return { title, link, source: feed.name, cat, date: isNaN(date) ? null : date.toISOString(), summary };

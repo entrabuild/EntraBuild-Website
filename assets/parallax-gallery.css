@@ -1,0 +1,26 @@
+/* Parallax photo gallery for portfolio cards (centre photo large, neighbours smaller, images drift against the motion). */
+.pcov.pgal{background:#07080b;border-color:#1b1d24;touch-action:pan-y;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
+.pgal .pg-stage{position:absolute;left:0;right:0;top:0;bottom:var(--pg-bar,54px);overflow:hidden;cursor:grab;touch-action:pan-y;
+  background:radial-gradient(ellipse at 50% 55%,#12141a 0%,#07080b 70%)}
+.pgal.dragging .pg-stage{cursor:grabbing}
+.pgal .pg-glow{position:absolute;inset:-20%;background-size:cover;background-position:center;filter:blur(46px) saturate(1.35);opacity:0;will-change:opacity}
+.pgal .pg-card{position:absolute;left:50%;top:50%;width:var(--cw,160px);height:var(--ch,200px);margin:calc(var(--ch,200px)/-2) 0 0 calc(var(--cw,160px)/-2);
+  border-radius:clamp(14px,2.2vw,28px);overflow:hidden;background:#111;will-change:transform,opacity;backface-visibility:hidden;
+  box-shadow:0 22px 50px -18px rgba(0,0,0,.85),0 0 0 1px rgba(255,255,255,.06)}
+.pgal .pg-card img{position:absolute;top:0;left:-9%;width:118%;height:100%;object-fit:cover;object-position:50% 12%;max-width:none;pointer-events:none;will-change:transform;-webkit-user-drag:none}
+.pgal .pg-card::after{content:"";position:absolute;inset:0;background:#000;opacity:var(--dim,0);pointer-events:none}
+.pgal .pg-card::before{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:var(--shine,0);
+  background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.28),transparent 55%);mix-blend-mode:soft-light}
+.pgal .pg-bar{position:absolute;left:clamp(12px,2.4vw,24px);right:clamp(12px,2.4vw,24px);bottom:clamp(8px,1.6vw,14px);height:clamp(32px,4.2vw,42px);display:flex;align-items:center;gap:clamp(10px,1.6vw,16px)}
+.pgal .pg-play{flex:none;width:clamp(32px,4.2vw,42px);height:100%;border-radius:50%;background:#fff;display:grid;place-items:center;cursor:pointer;transition:transform .2s cubic-bezier(.3,1.6,.5,1)}
+.pgal .pg-play:hover{transform:scale(1.08)}.pgal .pg-play:active{transform:scale(.92)}
+.pgal .pg-play:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.pgal .pg-play svg{width:42%;height:42%;fill:#0b0c10}
+.pgal .pg-prog{flex:1;height:clamp(5px,.7vw,8px);border-radius:99px;background:rgba(255,255,255,.92);position:relative;overflow:hidden;cursor:pointer}
+.pgal .pg-prog::before{content:"";position:absolute;inset:-12px 0}
+.pgal .pg-prog i{position:absolute;left:0;top:0;bottom:0;width:calc(var(--p,0)*100%);background:linear-gradient(90deg,#ff5f9e,#e5337c);border-radius:99px}
+.pgal em{z-index:5}
+.pgal .pg-name{position:absolute;top:12px;right:14px;z-index:5;font:500 10.5px var(--mono,monospace);letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+@media (prefers-reduced-motion:reduce){.pgal .pg-glow{display:none}}
+.pgal .pg-stage{perspective:1000px}
+.pgal .pg-card{transform-style:preserve-3d}

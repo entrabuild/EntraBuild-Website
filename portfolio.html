@@ -418,6 +418,8 @@ body.botopen .wa{display:none}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track,.ctrack{animation:none}.ind-name,.ind-who{transform:none}}
 </style>
 <style>body{margin:0}img{max-width:100%}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<link rel="stylesheet" href="assets/parallax-gallery.css">
+<script src="assets/parallax-gallery.js"></script>
 </head>
 <body data-page="portfolio">
 <noscript><div style="padding:24px;font-family:system-ui"><p><a href="index.html">← EntraBuild home</a></p><p><strong>EntraBuild portfolio</strong></p><ul><li><a href="work/zivira-labs.html">Zivira Labs</a></li><li><a href="work/zivira-website.html">Zivira Labs website</a></li><li><a href="work/rsa-construction.html">R.S.A Construction</a></li><li><a href="work/velankanni-madha.html">Velankanni Madha</a></li><li><a href="work/buildvaultry.html">BuildVaultry</a></li><li><a href="work/tnwla-madras.html">TNWLA Madras</a></li><li><a href="work/stand-firm.html">Stand Firm</a></li><li><a href="work/pavana-silks.html">Pavana Silks</a></li><li><a href="work/bhuvannam-silks.html">Bhuvannam Silks</a></li><li><a href="work/nordic-affairs-media.html">Nordic Affairs Media</a></li><li><a href="work/samhita-stotra.html">Samhita & Stotra</a></li><li><a href="work/voxrel.html">Voxrel</a></li><li><a href="work/viral-ai.html">Viral AI</a></li><li><a href="work/pdf-agi.html">PDF AGI</a></li><li><a href="work/earchana.html">eArchana</a></li><li><a href="work/jeni.html">Jeni</a></li><li><a href="work/affiliated-factory.html">Affiliated Factory</a></li><li><a href="work/good-icecreams.html">Good Icecreams & Coffee</a></li><li><a href="work/the-perch.html">The Perch</a></li><li><a href="work/crafe-cafe.html">Crafe Café</a></li><li><a href="work/the-juice-box.html">The Juice Box</a></li><li><a href="work/coffee-anugraha.html">Coffee AnuGraha</a></li><li><a href="work/cream-story.html">Cream Story</a></li><li><a href="work/berserk-gym.html">Berserk Gym</a></li><li><a href="work/solar-green.html">Solar Green Energy</a></li><li><a href="work/jpt-co.html">JPT & Co</a></li><li><a href="work/cd-player.html">CD Player</a></li><li><a href="work/ye-olde-inbox.html">Ye Olde Inbox</a></li><li><a href="work/jets.html">Jets</a></li><li><a href="work/din-api.html">DIN API Platform</a></li><li><a href="work/sales-engine.html">Entraiot Sales Engine</a></li><li><a href="work/doctor-portfolio.html">Doctor Portfolio</a></li></ul></div></noscript>
@@ -771,7 +773,7 @@ body.botopen .wa{display:none}
   ];
   const PROJECTS={},EXTRA={};let total=0,own=0;
   function rebuildProjects(){for(const k in PROJECTS)delete PROJECTS[k];
-    IND.forEach(ind=>ind.ps.forEach(p=>{const x=EXTRA[p[0]]||{};PROJECTS[p[0]]={id:p[0],name:p[1],desc:p[2],tag:p[3],need:p[4],built:p[5],tools:p[6]||[],link:p[7]||'',ind,image:x.image||'',frame:x.frame,featured:!!x.featured}}));
+    IND.forEach(ind=>ind.ps.forEach(p=>{const x=EXTRA[p[0]]||{};PROJECTS[p[0]]={id:p[0],name:p[1],desc:p[2],tag:p[3],need:p[4],built:p[5],tools:p[6]||[],link:p[7]||'',ind,image:x.image||'',gallery:x.gallery||[],frame:x.frame,featured:!!x.featured}}));
     total=Object.keys(PROJECTS).length;own=Object.values(PROJECTS).filter(p=>p.tag==='Our product').length}
   rebuildProjects();
   const FAQ=[
@@ -1421,9 +1423,10 @@ body.botopen .wa{display:none}
     let list=Object.values(PROJECTS);if(pf!=='all')list=list.filter(p=>String(IND.indexOf(p.ind))===pf);
     list.sort((a,b)=>(b.featured-a.featured)||(!!b.link-!!a.link));
     pgrid.innerHTML=list.map(p=>`<div class="pcard" data-li="${p.id}"><button type="button" data-p="${p.id}" aria-expanded="false" aria-controls="px-${p.id}">
-      <span class="pcov">${p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">`:`<canvas aria-hidden="true" data-seed="${esc(p.name)}"></canvas><b>${esc(p.name)}</b>`}${p.tag?`<em>${esc(p.tag)}</em>`:p.link?'<em>live</em>':''}</span>
-      <span class="pmeta"><span>${esc(p.image?p.name+' · ':'')}${esc(indName(IND.indexOf(p.ind)))}</span><span>${p.link?esc(host(p.link)):''}</span></span></button><div class="px" id="px-${p.id}" hidden></div></div>`).join('');
+      <span class="pcov${p.gallery.length>1?' pgal':''}"${p.gallery.length>1?` data-gallery="${esc(JSON.stringify(p.gallery))}"`:''}>${p.gallery.length>1?`<span class="pg-name">${esc(p.name)}</span>`:p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">`:`<canvas aria-hidden="true" data-seed="${esc(p.name)}"></canvas><b>${esc(p.name)}</b>`}${p.tag?`<em>${esc(p.tag)}</em>`:p.link?'<em>live</em>':''}</span>
+      <span class="pmeta"><span>${esc(p.image||p.gallery.length>1?p.name+' · ':'')}${esc(indName(IND.indexOf(p.ind)))}</span><span>${p.link?esc(host(p.link)):''}</span></span></button><div class="px" id="px-${p.id}" hidden></div></div>`).join('');
     pgrid.querySelectorAll('.pcov canvas').forEach(c=>drawPattern(c,c.dataset.seed,'--teal',14));
+    if(window.ParallaxGallery)pgrid.querySelectorAll('.pcov[data-gallery]').forEach(el=>ParallaxGallery.mount(el));
   }
   pfil.addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(!b)return;pf=b.dataset.f;renderPortfolio()});
   pgrid.addEventListener('click',e=>{
@@ -1446,7 +1449,7 @@ body.botopen .wa{display:none}
                  {name:'Thanjavur branch',lines:['9/148 Fathima Nagar, N.K. Road','Thanjavur, Tamil Nadu 613001'],city:'Thanjavur',postal:'613001',map:'https://www.google.com/maps/search/?api=1&query=10.769500%2C79.144139',lat:10.7695,lng:79.144139,street:'9/148 Fathima Nagar, N.K. Road'}],
         cities:['Chennai','Bangalore','Thanjavur']},
       industries:IND.map((ind,i)=>({name:Object.assign({en:ind.en},...LS.map(l=>({[l]:NAMES[l][i]||''}))),word:Object.assign({en:ind.w},...LS.map(l=>({[l]:WORDS[l][i]||''}))),
-        projects:ind.ps.map(p=>{const x=PROJECTS[p[0]];return {id:p[0],name:p[1],desc:p[2],tag:p[3]||'',need:p[4],built:p[5],tools:p[6]||[],link:p[7]||'',image:x.image||'',frame:x.frame!==false,featured:!!x.featured}})})),
+        projects:ind.ps.map(p=>{const x=PROJECTS[p[0]];return {id:p[0],name:p[1],desc:p[2],tag:p[3]||'',need:p[4],built:p[5],tools:p[6]||[],link:p[7]||'',image:x.image||'',gallery:x.gallery||[],frame:x.frame!==false,featured:!!x.featured}})})),
       clients:[...CLIENTS],quotes:[...QUOTES],
       team:TEAM.map(m=>({n:m.n,ini:m.ini,role:m.role,p:m.p,lead:!!m.lead,photo:m.photo||'',linkedin:m.linkedin||'',tags:m.tags||[]})),
       notes:NOTES.map(n=>({...n})),faq:FAQ.map(f=>({...f})),posts:POSTS.map(x=>({...x}))};
@@ -1465,7 +1468,7 @@ body.botopen .wa{display:none}
     IND.length=0;LS.forEach(l=>{NAMES[l]=[];WORDS[l]=[]});for(const k in EXTRA)delete EXTRA[k];
     c.industries.forEach(ind=>{
       const n=ind.name||{},w=ind.word||{};
-      IND.push({en:n.en||'Industry',w:w.en||((n.en||'').toLowerCase()+'.'),ta:n.ta||'',wt:w.ta||'',ps:(ind.projects||[]).map(p=>{EXTRA[p.id]={image:safePath(p.image),frame:p.frame===false?false:undefined,featured:!!p.featured};return [String(p.id||'').replace(/[^a-z0-9-]/gi,'').toLowerCase()||('p'+Math.random().toString(36).slice(2,7)),p.name||'Untitled',p.desc||'',p.tag||'',p.need||'',p.built||'',Array.isArray(p.tools)?p.tools:[],safeUrl(p.link)]})});
+      IND.push({en:n.en||'Industry',w:w.en||((n.en||'').toLowerCase()+'.'),ta:n.ta||'',wt:w.ta||'',ps:(ind.projects||[]).map(p=>{EXTRA[p.id]={image:safePath(p.image),gallery:(Array.isArray(p.gallery)?p.gallery:[]).map(safePath).filter(Boolean),frame:p.frame===false?false:undefined,featured:!!p.featured};return [String(p.id||'').replace(/[^a-z0-9-]/gi,'').toLowerCase()||('p'+Math.random().toString(36).slice(2,7)),p.name||'Untitled',p.desc||'',p.tag||'',p.need||'',p.built||'',Array.isArray(p.tools)?p.tools:[],safeUrl(p.link)]})});
       LS.forEach(l=>{NAMES[l].push(n[l]||'');WORDS[l].push(w[l]||'')});
     });
     rebuildProjects();
