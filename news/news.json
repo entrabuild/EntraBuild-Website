@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T22:52:33.825Z",
+ "updated": "2026-10-27T05:36:23.779Z",
  "edition": 5,
  "sections": [
   "AI",
@@ -52,8 +52,8 @@
   },
   {
    "name": "Hacker News",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 20
   },
   {
    "name": "MIT Technology Review",
@@ -108,6 +108,222 @@
  ],
  "items": [
   {
+   "title": "T-Mobile’s new T-Mix plans are getting roasted by customers",
+   "link": "https://www.androidauthority.com/t-mobile-t-mix-plan-customer-reactions-3728317/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-10-27T05:24:52.000Z",
+   "summary": "\"A plan created by AI that requires AI to understand,\" T-Mobile's new T-Mix plans are getting picked apart on Reddit."
+  },
+  {
+   "title": "The Oldest Windows App To Still Run On WIndows 11",
+   "link": "https://hackaday.com/2026/10/26/the-oldest-windows-app-to-still-run-on-windows-11/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-27T05:00:21.000Z",
+   "summary": "In the open source world we are used to software being compiled from source for our particular distro, so while in a few cases an ancient release may still be…"
+  },
+  {
+   "title": "Instagram tests 90-minute horizontal videos",
+   "link": "https://economictimes.indiatimes.com/tech/technology/instagram-tests-90-minute-horizontal-videos/articleshow/135224148.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-27T04:11:24.000Z",
+   "summary": "On Monday, Instagram announced that it is testing out video lengths of up to 90 minutes with select creators in the US."
+  },
+  {
+   "title": "Anthropic points to AI dangers, soaring sales in IPO filing",
+   "link": "https://www.thehindu.com/sci-tech/technology/anthropic-points-to-ai-dangers-soaring-sales-in-ipo-filing/article71629700.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-10-27T04:01:31.000Z",
+   "summary": "The listing would be the first by one of the standalone companies leading the race to build advanced AI, ahead of its main rival OpenAI, the ChatGPT-maker"
+  },
+  {
+   "title": "Retailer claims Nintendo blocks physical reprints of Game-Key Card titles, but for \"legit reasons\"",
+   "link": "https://www.xda-developers.com/retailer-claims-nintendo-blocks-physical-reprints-of-game-key-card-titles-but-for-legit-reasons/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-27T03:58:07.000Z",
+   "summary": "Fortunately, the company seems it still wants to continue supporting full physical releases."
+  },
+  {
+   "title": "JAŸ-Z confirmed as headliner for Apple Music’s 2027 Super Bowl Halftime Show",
+   "link": "https://9to5mac.com/2026/10/26/jay-z-confirmed-as-headliner-for-apple-musics-2027-super-bowl-halftime-show/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-27T03:30:59.000Z",
+   "summary": "The NFL and Apple Music announced today that JAŸ-Z will headline the Apple Music Super Bowl LXI Halftime Show on February 14, 2027. Here are the details. more…"
+  },
+  {
+   "title": "Microsoft offers voluntary exit packages to 60,000 staff, with some Indian teams eligible",
+   "link": "https://www.thehindu.com/sci-tech/technology/microsoft-offers-voluntary-exit-packages-to-60000-staff/article71629641.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-10-27T03:00:21.000Z",
+   "summary": "As major tech giants continue to spend heavily on AI-related investments, concerns persist about the impact of the technology on jobs"
+  },
+  {
+   "title": "Microsoft is offering buyouts to around 60,000 employees, reports say",
+   "link": "https://www.thehindu.com/sci-tech/technology/microsoft-is-offering-buyouts-to-around-60000-employees-reports-say/article71628658.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-10-27T02:36:50.000Z",
+   "summary": "The ‌voluntary exit offer ‌will ⁠impact key divisions, including ⁠AI experiences, Copilot, finance, human resources, Xbox and Windows + Devices, ​a source ‌familiar with the matter told Reuters"
+  },
+  {
+   "title": "DoorDash in talks to buy Instacart in roughly $17 billion deal",
+   "link": "https://economictimes.indiatimes.com/tech/technology/doordash-in-talks-to-buy-instacart-in-roughly-17-billion-deal/articleshow/135222954.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-27T02:36:07.000Z",
+   "summary": "DoorDash is in advanced talks to acquire Instacart in a deal that could value the grocery-delivery platform at about $17 billion, a source familiar with the matter told Reuters on…"
+  },
+  {
+   "title": "Anthropic IPO by the numbers, from a possible valuation in the trillions to surging revenue",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ipo-by-the-numbers-from-a-possible-valuation-in-the-trillions-to-surging-revenue/articleshow/135222913.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-10-27T02:33:06.000Z",
+   "summary": "The artificial intelligence lab filed papers Monday setting up a Wall Street debut next month, ahead of its chief rival OpenAI and just months after SpaceX set records in June…"
+  },
+  {
+   "title": "Why Walmart would rather keep Flipkart private, for now",
+   "link": "https://economictimes.indiatimes.com/tech/newsletters/full-stack/why-walmart-would-rather-keep-flipkart-private-for-now/articleshow/135207048.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-27T02:30:00.000Z",
+   "summary": "Over the past few weeks, much has been written about former employees of the online commerce company writing to Walmart's board, asking for liquidity on the stock options they were…"
+  },
+  {
+   "title": "I still teach OpenGL ES 3.0",
+   "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-27T02:15:10.000Z",
+   "summary": "16 points · 11 comments on Hacker News"
+  },
+  {
+   "title": "VerSe valuation sinks; Paytm Q2 profit rises",
+   "link": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/verse-valuation-sinks-paytm-q2-profit-rises/articleshow/135222642.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-10-27T02:11:32.000Z",
+   "summary": "Happy Tuesday! Dailyhunt parent VerSe Innovation’s valuation has taken a sharp hit. This and more in today’s ETtech Morning Dispatch."
+  },
+  {
+   "title": "In Praise Of A Legendary Power Transistor",
+   "link": "https://hackaday.com/2026/10/26/in-praise-of-a-legendary-power-transistor/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-27T02:00:15.000Z",
+   "summary": "There are some devices which achieve electronic immortality, it’s likely that you have used a few of them yourself. The 555 timer of course, or the 741 op-amp. [ElectronicsNotes] is…"
+  },
+  {
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "source": "TechCrunch",
+   "cat": "AI",
+   "date": "2026-10-27T02:00:00.000Z",
+   "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+  },
+  {
+   "title": "Google Photos rolls out customizable redesign of your ‘Collections’ tab",
+   "link": "https://9to5google.com/2026/10/26/google-photos-collections-redesign/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-10-27T01:18:33.000Z",
+   "summary": "Following the floating navigation bar in July, Google Photos for Android is rolling out a big redesign that lets you customize the Collections tab. more…"
+  },
+  {
+   "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+   "link": "https://github.com/otya128/winevdm",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-27T01:15:04.000Z",
+   "summary": "60 points · 3 comments on Hacker News"
+  },
+  {
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-10-27T01:12:21.000Z",
+   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and…"
+  },
+  {
+   "title": "iPhone Lockdown Mode: The pros and cons of enabling Apple's security feature",
+   "link": "https://www.engadget.com/2295333/iphone-lockdown-mode-pros-cons/",
+   "source": "Engadget",
+   "cat": "Security",
+   "date": "2026-10-27T00:30:00.000Z",
+   "summary": "Lockdown Mode enables extreme protections for those most at risk, but it's overkill for most people."
+  },
+  {
+   "title": "9to5Mac Daily: October 26, 2026 – Apple unveils new iPad mini",
+   "link": "https://9to5mac.com/2026/10/26/daily-october-26-2026/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-27T00:16:31.000Z",
+   "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google…"
+  },
+  {
+   "title": "These 4 built-in Windows recovery tools keep saving me from a clean install every time something breaks",
+   "link": "https://www.xda-developers.com/these-4-built-in-windows-tools-keep-saving-me-from-a-clean-install-every-time-something-breaks/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-27T00:00:19.000Z",
+   "summary": "Windows 11 didn't solve all its problems, but it gave me a way to fix them easily"
+  },
+  {
+   "title": "T-Mobile’s new plans let users swap between Apple TV and other subscriptions",
+   "link": "https://9to5mac.com/2026/10/26/t-mobiles-new-plans-let-users-swap-between-apple-tv-and-other-subscriptions/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-10-26T23:51:19.000Z",
+   "summary": "T-Mobile’s new “T-Mix” plans let users choose from subscriptions like Apple TV , Netflix, and YouTube Premium, and switch between them several times a year without changing their monthly bill.…"
+  },
+  {
+   "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+   "source": "The Verge",
+   "cat": "AI",
+   "date": "2026-10-26T23:34:58.000Z",
+   "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in…"
+  },
+  {
+   "title": "The most popular streaming platforms in the US might not be what you think",
+   "link": "https://www.engadget.com/2295216/most-popular-streaming-platforms-united-states-not-what-you-think/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-26T23:30:00.000Z",
+   "summary": "You might be surprised at the rankings of some streaming services when it comes to what Americans watch on their TVs."
+  },
+  {
+   "title": "Enable Resizable BAR on Unsupported Motherboards",
+   "link": "https://hackaday.com/2026/10/26/enable-resizable-bar-on-unsupported-motherboards/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-26T23:00:42.000Z",
+   "summary": "Recently [Rod Burlamaqui] released the arc-rebar project on GitHub, enabling Intel GPUs to work significantly more efficiently if the system’s mainboard does not support resizable BAR. It does require a…"
+  },
+  {
+   "title": "Your spare PCIe slot may not actually be free, and checking your manual matters",
+   "link": "https://www.xda-developers.com/your-spare-pcie-slot-may-not-actually-free-checking-your-manual-matters/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-26T23:00:20.000Z",
+   "summary": "Unless you don't mind a couple of unexpected compromises."
+  },
+  {
+   "title": "6+ ways you can use your PlayStation 5's USB ports",
+   "link": "https://www.engadget.com/2294767/ways-to-use-playstation-5-usb-ports/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-26T23:00:00.000Z",
+   "summary": "You can do more than charge your controllers with the USB ports on your PS5. Here are some of the possibilities."
+  },
+  {
    "title": "Halide releases its first batch of updates for the iPhone Duo",
    "link": "https://www.engadget.com/2297806/halide-releases-its-first-batch-of-updates-for-the-iphone-duo/",
    "source": "Engadget",
@@ -124,6 +340,14 @@
    "summary": "Ollama, the popular app for running AI models locally, announced that its Mac app now supports text-to-speech generation, with Windows and Linux support coming soon. Here are the details. more…"
   },
   {
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-10-26T22:41:48.000Z",
+   "summary": "107 points · 36 comments on Hacker News"
+  },
+  {
    "title": "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’",
    "link": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
    "source": "Wired",
@@ -132,12 +356,28 @@
    "summary": "Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat."
   },
   {
+   "title": "Microsoft offers to buy out a quarter of its workforce",
+   "link": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-10-26T22:36:06.000Z",
+   "summary": "Employees in the US, Canada, India, and the UK may receive offers to leave MS today."
+  },
+  {
    "title": "What are the leading causes of EV battery damage?",
    "link": "https://www.engadget.com/2290322/leading-causing-ev-battery-damage/",
    "source": "Engadget",
    "cat": "Electronics",
    "date": "2026-10-26T22:30:00.000Z",
    "summary": "Charging behaviors and heat are the things to pay attention to."
+  },
+  {
+   "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+   "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T22:27:17.000Z",
+   "summary": "35 points · 29 comments on Hacker News"
   },
   {
    "title": "University of Copenhagen data breach exposes data of 525,000 people",
@@ -172,12 +412,12 @@
    "summary": "Google has updated its Android Bench list for showing how good AI models are at Android coding assistance, with Gemini 4 Argon ranking way behind that of the latest Claude…"
   },
   {
-   "title": "Databricks co-founder shares his secrets for winning big enterprises customers",
+   "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
    "link": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
    "source": "TechCrunch",
    "cat": "Software & IT",
    "date": "2026-10-26T22:00:00.000Z",
-   "summary": "Turns out selling to big companies isn’t about having the shiniest tech: it’s about hitching a ride on a giant’s sales team."
+   "summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team."
   },
   {
    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -196,6 +436,14 @@
    "summary": "An iPhone Duo can become even more expensive if you have to repair it, so it's vital to plan for that ahead of time."
   },
   {
+   "title": "The Exponential Time Hypothesis Is False [pdf]",
+   "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T21:59:15.000Z",
+   "summary": "484 points · 178 comments on Hacker News"
+  },
+  {
    "title": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
    "link": "https://www.theverge.com/gadgets/1018962/samsung-p9-256gb-microsd-express-card-switch-2-deal-sale",
    "source": "The Verge",
@@ -210,6 +458,14 @@
    "cat": "AI",
    "date": "2026-10-26T21:45:31.000Z",
    "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability…"
+  },
+  {
+   "title": "Three new discoveries in mathematics, computer science, and physics",
+   "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T21:35:28.000Z",
+   "summary": "691 points · 300 comments on Hacker News"
   },
   {
    "title": "I replaced three cloud subscriptions with my own server, and Tailscale makes it work anywhere",
@@ -684,6 +940,14 @@
    "summary": "After briefly ending the promo earlier this month, Motorola has dropped Moto Tag 2 back to $19.99. more…"
   },
   {
+   "title": "Type Server Protocol",
+   "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T18:14:49.000Z",
+   "summary": "220 points · 146 comments on Hacker News"
+  },
+  {
    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
    "source": "The Hacker News",
@@ -724,6 +988,14 @@
    "summary": "CMF Headphone Pro falls to an all-time low of $55 on Amazon, with ANC, LDAC, spatial audio, and up to 100 hours of battery."
   },
   {
+   "title": "GPT-6.1 Terra",
+   "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-10-26T18:01:17.000Z",
+   "summary": "560 points · 350 comments on Hacker News"
+  },
+  {
    "title": "How to use your Samsung Galaxy phone to wirelessly charge other devices",
    "link": "https://www.engadget.com/2294444/how-to-use-samsung-galaxy-phone-wireless-powershare-charging/",
    "source": "Engadget",
@@ -738,6 +1010,22 @@
    "cat": "Mobile",
    "date": "2026-10-26T17:59:20.000Z",
    "summary": "A metal mesh band might not be right for every watch or wearable, but I can’t say I don’t love using it on the Fitbit Air. more…"
+  },
+  {
+   "title": "Oldest GUI application that still runs on Windows 11",
+   "link": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T17:56:55.000Z",
+   "summary": "361 points · 211 comments on Hacker News"
+  },
+  {
+   "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+   "link": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T17:49:55.000Z",
+   "summary": "148 points · 71 comments on Hacker News"
   },
   {
    "title": "watchOS 27.2 available now for Apple Watch, here’s what’s new",
@@ -868,6 +1156,14 @@
    "summary": "If you want a decent pair of noise-canceling earbuds without spending a fortune, Nothing’s Ear 3A are worth considering. The wireless earbuds offer a lot of features for the price,…"
   },
   {
+   "title": "Nietzschian Debugger",
+   "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T17:25:30.000Z",
+   "summary": "152 points · 50 comments on Hacker News"
+  },
+  {
    "title": "Instagram tests ‘Features’ long-form videos, but missing YouTube’s ad share for now",
    "link": "https://9to5google.com/2026/10/26/instagram-features-long-form-video-test/",
    "source": "9to5Google",
@@ -980,20 +1276,20 @@
    "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets."
   },
   {
-   "title": "The Sony WH-1000XM4C bring back a beloved headphone design",
-   "link": "https://www.theverge.com/tech/1018115/sony-wh-1000xm4c-headphones-review",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-26T16:45:00.000Z",
-   "summary": "When Sony announced the WH-1000XM4C headphones, I was perplexed. A product revamp usually includes at least one or two significant improvements. Or if it's a nostalgia play, it's from a…"
-  },
-  {
    "title": "Here's how much it would cost to build a PC similar to the Xbox Series X",
    "link": "https://www.engadget.com/2294342/how-much-build-pc-similar-xbox-series-x/",
    "source": "Engadget",
    "cat": "Electronics",
    "date": "2026-10-26T16:45:00.000Z",
    "summary": "An Xbox Series X isn't cutting-edge tech anymore, but it's still costly to build a similar PC due to high part prices."
+  },
+  {
+   "title": "The Sony WH-1000XM4C bring back a beloved headphone design",
+   "link": "https://www.theverge.com/tech/1018115/sony-wh-1000xm4c-headphones-review",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-10-26T16:45:00.000Z",
+   "summary": "When Sony announced the WH-1000XM4C headphones, I was perplexed. A product revamp usually includes at least one or two significant improvements. Or if it's a nostalgia play, it's from a…"
   },
   {
    "title": "Major Even Realities G2 smart glasses update adds Conversate ‘Pro Mode,’ Knowledge Base",
@@ -1084,6 +1380,14 @@
    "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature…"
   },
   {
+   "title": "CSS-Tricks has a new owner",
+   "link": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T15:51:23.000Z",
+   "summary": "417 points · 95 comments on Hacker News"
+  },
+  {
    "title": "How to set up your phone games to play on an Android Auto screen",
    "link": "https://www.engadget.com/2294303/how-to-set-up-phone-games-play-on-android-auto-screen/",
    "source": "Engadget",
@@ -1116,6 +1420,14 @@
    "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]"
   },
   {
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "link": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T15:35:12.000Z",
+   "summary": "857 points · 792 comments on Hacker News"
+  },
+  {
    "title": "Deals: AirTag 2 all-time low, Apple TV 4K, MacBook Air $200 off, Apple Pencil (USB-C) from $59, Alpine Loop, more",
    "link": "https://9to5mac.com/2026/10/26/deals-airtag-2-apple-tv-4k-macbook-air-apple-pencil/",
    "source": "9to5Mac",
@@ -1140,6 +1452,14 @@
    "summary": "T-Mobile is launching T-Mix, a new trio of plans that come with your choice of 16 popular services bundled in, like Netflix, Apple TV, Xbox Game Pass, YouTube Premium, and…"
   },
   {
+   "title": "Solar power is becoming bigger than nuclear",
+   "link": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T15:26:17.000Z",
+   "summary": "211 points · 333 comments on Hacker News"
+  },
+  {
    "title": "TCL TAB A1 Plus NXTPAPER drops to $279.98 on Amazon",
    "link": "https://www.androidauthority.com/tcl-tab-a1-plus-nxtpaper-deal-3728079/",
    "source": "Android Authority",
@@ -1154,6 +1474,14 @@
    "cat": "Electronics",
    "date": "2026-10-26T15:15:00.000Z",
    "summary": "There are a few things you can try to fix it."
+  },
+  {
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-26T15:11:59.000Z",
+   "summary": "631 points · 90 comments on Hacker News"
   },
   {
    "title": "Asus ROG Xbox Ally X20 tested: Same performance, more comfortable, and a glorious OLED screen",
@@ -1332,20 +1660,20 @@
    "summary": "Five hauntings from the other side of technology."
   },
   {
-   "title": "Even Realities launches a brown version of its G2 smart glasses",
-   "link": "https://www.engadget.com/2295406/even-realities-launches-a-brown-version-of-its-g2-smart-glasses/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "It also released a couple of new accessories, including a wearable chain."
-  },
-  {
    "title": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
    "link": "https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
    "source": "Tom's Hardware",
    "cat": "Electronics",
    "date": "2026-10-26T14:00:00.000Z",
    "summary": "Micron rejects 4F2, intends to use wafer bonding and High-NA EUV before going 3D NAND over the next few years."
+  },
+  {
+   "title": "Even Realities launches a brown version of its G2 smart glasses",
+   "link": "https://www.engadget.com/2295406/even-realities-launches-a-brown-version-of-its-g2-smart-glasses/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-26T14:00:00.000Z",
+   "summary": "It also released a couple of new accessories, including a wearable chain."
   },
   {
    "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
@@ -1484,6 +1812,14 @@
    "summary": "Starlink and 5G providers advertise high speeds, but there is more to consider when deciding between the two. Think about location, and coverage as well."
   },
   {
+   "title": "New iPad mini",
+   "link": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+   "source": "Hacker News",
+   "cat": "Mobile",
+   "date": "2026-10-26T13:13:36.000Z",
+   "summary": "171 points · 453 comments on Hacker News"
+  },
+  {
    "title": "Apple updates the iPad Mini with a larger OLED display",
    "link": "https://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce",
    "source": "The Verge",
@@ -1497,7 +1833,7 @@
    "source": "Hacker News",
    "cat": "AI",
    "date": "2026-10-26T13:04:50.000Z",
-   "summary": "134 points · 63 comments on Hacker News"
+   "summary": "1546 points · 1495 comments on Hacker News"
   },
   {
    "title": "Apple unveils all-new iPad mini: OLED, thinner design, more",
@@ -1553,7 +1889,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-26T12:59:48.000Z",
-   "summary": "6 points · 0 comments on Hacker News"
+   "summary": "161 points · 66 comments on Hacker News"
   },
   {
    "title": "Googlebooks could soon get much better at letting you pick up where you left off",
@@ -1690,342 +2026,6 @@
    "cat": "Security",
    "date": "2026-10-26T11:52:41.000Z",
    "summary": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the…"
-  },
-  {
-   "title": "Lack of staff and funding likely led to the recent PHP security snafu; project has only one full-time employee, but that's just the tip of the iceberg",
-   "link": "https://www.tomshardware.com/tech-industry/cyber-security/lack-of-funding-likely-led-to-the-recent-php-security-snafu-but-thats-just-the-tip-of-the-iceberg-a-dreary-situation-caused-by-services-running-old-versions-with-no-support",
-   "source": "Tom's Hardware",
-   "cat": "Security",
-   "date": "2026-10-26T11:50:00.000Z",
-   "summary": "Lack of funding likely led to the recent PHP security snafu, but that's just the tip of the iceberg — dreary situation caused by services running old versions with no…"
-  },
-  {
-   "title": "The best original Xbox emulator on Android just got a huge performance upgrade",
-   "link": "https://www.androidauthority.com/hakux-original-xbox-emulator-android-3727845/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:47:39.000Z",
-   "summary": "It might even run on your potato of a device."
-  },
-  {
-   "title": "The ASUS ROG Xbox Ally X20 is the best (and priciest) Ally yet",
-   "link": "https://www.androidauthority.com/asus-rog-xbox-ally-x20-review-3722864/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:45:57.000Z",
-   "summary": "Oh no, I think I want one."
-  },
-  {
-   "title": "Claude Code AI finds a cryptominer on a Mac; says it didn’t put it there",
-   "link": "https://9to5mac.com/2026/10/26/claude-code-ai-finds-a-cryptominer-on-a-mac-says-it-didnt-put-it-there/",
-   "source": "9to5Mac",
-   "cat": "AI",
-   "date": "2026-10-26T11:34:41.000Z",
-   "summary": "A Redditor used Claude Code AI to build a M a c temperature monitor app and found that the machine was running much hotter than expected. Claude reported that it…"
-  },
-  {
-   "title": "Snapseed is prepping a major upgrade for long exposure photography",
-   "link": "https://www.androidauthority.com/snapseed-camera-long-exposure-controls-apk-teardown-3727836/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:34:24.000Z",
-   "summary": "A future update could let you choose from multiple long exposure modes before capturing a photo."
-  },
-  {
-   "title": "I cancelled my $20 Claude subscription for Anthropic's cheapest model at API rates, and it cost me less than half",
-   "link": "https://www.xda-developers.com/cancelled-claude-subscription-for-anthropic-cheapest-model-at-api-rates/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-10-26T11:30:21.000Z",
-   "summary": "Pennies a day, with one catch"
-  },
-  {
-   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-   "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-10-26T11:23:56.000Z",
-   "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection…"
-  },
-  {
-   "title": "Elvis Presley's estate is suing Anthropic over copyright infringement",
-   "link": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement/",
-   "source": "Engadget",
-   "cat": "AI",
-   "date": "2026-10-26T11:23:48.000Z",
-   "summary": "The latest AI copyright infringement suit centers around a single music artist from decades past: Elvis."
-  },
-  {
-   "title": "Modder turns NES into a Windows-like desktop with original hardware",
-   "link": "https://www.tomshardware.com/video-games/retro-gaming/modder-turns-nes-into-a-windows-like-desktop-with-original-hardware-emulates-a-full-retro-experience-with-a-cd-drive-and-slow-internet",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-10-26T11:20:00.000Z",
-   "summary": "Throaty Mumbo turns his NES into a Windows-like desktop using an FPGA cartridge emulating an old Intel CPU, complete with a CD drive and internet capabilities, all without tearing the…"
-  },
-  {
-   "title": "This open-source app lets you run practically any phone app on your Android Auto car screen",
-   "link": "https://www.androidauthority.com/android-auto-maker-parked-apps-3727869/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:16:34.000Z",
-   "summary": "Android Auto Maker lets you repackage Android apps for car displays, but there are several notable trade-offs."
-  },
-  {
-   "title": "Tasks as Code: Move Your Tickets into the Repository",
-   "link": "https://typemill.net/knowledge-hub/tasks-as-code",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-26T11:15:43.000Z",
-   "summary": "18 points · 19 comments on Hacker News"
-  },
-  {
-   "title": "iPhone Duo tested to destruction, including removing nanotexture layer",
-   "link": "https://9to5mac.com/2026/10/26/iphone-duo-tested-to-destruction-including-removing-nanotexture-layer/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:12:44.000Z",
-   "summary": "It’s kind of wild that there’s an entire YouTube niche in which people buy the latest expensive gadgets and then find creative ways to destroy them. JerryRigEverything is one of…"
-  },
-  {
-   "title": "Hiding Virtualization From Other Software",
-   "link": "https://hackaday.com/2026/10/26/hiding-virtualization-from-other-software/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-26T11:00:56.000Z",
-   "summary": "The Kernel-based Virtual Machine (KVM) allows Linux systems to function as hypervisors without needing any extra software, but VMs created with it don’t behave exactly like real hardware does. Sometimes…"
-  },
-  {
-   "title": "The N100 may be outdated in 2026, but it’s more than enough to power Docker home servers",
-   "link": "https://www.xda-developers.com/the-n100-may-be-outdated-in-2026-but-its-more-than-enough-to-power-docker-home-servers/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-26T11:00:22.000Z",
-   "summary": "Outdated or not, the N100 handles Docker home servers better than it should"
-  },
-  {
-   "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
-   "link": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-10-26T11:00:15.000Z",
-   "summary": "M-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground."
-  },
-  {
-   "title": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
-   "link": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-26T11:00:00.000Z",
-   "summary": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it."
-  },
-  {
-   "title": "Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
-   "source": "Tom's Hardware",
-   "cat": "AI",
-   "date": "2026-10-26T11:00:00.000Z",
-   "summary": "Linux kernel modules lift Nvidia’s half-rate AI tensor limit on GeForce RTX 20, 30, and 40-series GPUs."
-  },
-  {
-   "title": "Samsung slices into Apple’s iPhone Duo troubles with a cheeky new ad",
-   "link": "https://www.androidauthority.com/samsung-mocks-iphone-duo-foldable-ad-3727862/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T10:44:33.000Z",
-   "summary": "A sliced apple, a folding phone, and plenty of fanboy ammunition."
-  },
-  {
-   "title": "Websites Should Be Printable",
-   "link": "https://brennenputh.me/blog/printable-websites/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-26T10:32:14.000Z",
-   "summary": "81 points · 73 comments on Hacker News"
-  },
-  {
-   "title": "This free app adds one of my favorite iPhone features to my Galaxy phone",
-   "link": "https://www.androidauthority.com/this-free-app-adds-one-of-my-favorite-iphone-features-to-my-galaxy-phone-3724833/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T10:30:56.000Z",
-   "summary": "I wish Samsung's built-in tool could handle the job, though."
-  },
-  {
-   "title": "6 Gboard settings I change the moment I get a new Android phone",
-   "link": "https://www.androidauthority.com/gboard-settings-i-always-change-3723138/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T10:30:11.000Z",
-   "summary": "Gboard is a much better keyboard when properly configured."
-  },
-  {
-   "title": "LG B6 OLED TV Review (2026)",
-   "link": "https://www.wired.com/review/lg-b6/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-26T10:30:00.000Z",
-   "summary": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere."
-  },
-  {
-   "title": "Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty",
-   "link": "https://www.tomshardware.com/tech-industry/cryptomining/hacker-offers-bitcoin-reward-to-anyone-who-can-break-into-an-unpatched-server-running-php-still-remains-unhacked-php2shell-challenge-tests-claims-that-ai-makes-exploiting-vulnerabilities-easy",
-   "source": "Tom's Hardware",
-   "cat": "Security",
-   "date": "2026-10-26T10:30:00.000Z",
-   "summary": "The “Steal My Bitcoin” challenge offers a bounty to anyone who can breach a deliberately vulnerable PHP website using the recently disclosed PHP2Shell flaws. The challenge follows previous recoveries of…"
-  },
-  {
-   "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-   "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-10-26T10:26:52.000Z",
-   "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]"
-  },
-  {
-   "title": "How to compare real trading costs across forex trading apps in India",
-   "link": "https://economictimes.indiatimes.com/tech/technology/how-to-compare-real-trading-costs-across-forex-trading-apps-in-india/articleshow/135207993.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-10-26T10:10:19.000Z",
-   "summary": "When choosing a forex trading platform, it's important to analyze charges, commissions, and transactional fees. Comparing the overall cost of trade execution is advisable, specifically during peak trading times. For…"
-  },
-  {
-   "title": "US political candidates tailor messages for AI models used by voters",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-political-candidates-tailor-messages-for-ai-models-used-by-voters/articleshow/135208787.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-10-26T10:09:46.000Z",
-   "summary": "US political candidates have been engineering their campaign messages to appeal to the AI chatbots that more voters have been using to answer questions about issues, and documents seen by…"
-  },
-  {
-   "title": "The ESP32-C6 is the board I'd buy for any smart home project now, because it also speaks Thread and Zigbee",
-   "link": "https://www.xda-developers.com/esp32-c6-is-board-for-smart-home-project-because-speaks-thread-zigbee/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-26T10:00:21.000Z",
-   "summary": "No more pairing boards for every protocol."
-  },
-  {
-   "title": "Google finally made Pixel VIPs useful, but it’s missing these 5 features",
-   "link": "https://www.androidauthority.com/pixel-vips-widget-missing-features-3724400/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T10:00:06.000Z",
-   "summary": "Google's revamped Pixel VIPs widget still has room to improve."
-  },
-  {
-   "title": "Lykyn Review: A Mushroom Garden Worth Showing Off",
-   "link": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-26T10:00:00.000Z",
-   "summary": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too."
-  },
-  {
-   "title": "The Tragedy of Having a Wikipedia Page—and Then Losing It",
-   "link": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-10-26T10:00:00.000Z",
-   "summary": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?"
-  },
-  {
-   "title": "ChatGPT’s expanding world of work",
-   "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-   "source": "OpenAI News",
-   "cat": "AI",
-   "date": "2026-10-26T10:00:00.000Z",
-   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
-  },
-  {
-   "title": "Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/reddits-r-opensource-bans-ai-made-and-ai-focused-projects-also-bans-non-english-speakers-sweeping-new-rules-spark-backlash-over-linux-kernel-contributions-and-solo-developers",
-   "source": "Tom's Hardware",
-   "cat": "AI",
-   "date": "2026-10-26T10:00:00.000Z",
-   "summary": "Reddit’s r/opensource has barred AI-built, AI-focused, and AI-using projects under new rules announced October 24. The crackdown also imposes strict requirements on project age and contributors, while restrictions on non-English…"
-  },
-  {
-   "title": "The city that fought Flock",
-   "link": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-10-26T10:00:00.000Z",
-   "summary": "It was about to be a long night in Huntington, West Virginia. Mayor Patrick Farrell stood before 10 members of city council in a white dress shirt and dark blazer…"
-  },
-  {
-   "title": "AI’s costs fall unevenly across workers; IIT Madras paper flags surveillance, work stress",
-   "link": "https://www.thehindu.com/business/Industry/ais-costs-fall-unevenly-across-workers-iit-madras-paper-flags-surveillance-work-stress/article71626148.ece",
-   "source": "The Hindu Technology",
-   "cat": "AI",
-   "date": "2026-10-26T09:59:08.000Z",
-   "summary": "Whitepaper highlights risks to entry-level career paths and gaps in evidence on job quality and informal employment"
-  },
-  {
-   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-   "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-   "source": "The Hacker News",
-   "cat": "Mobile",
-   "date": "2026-10-26T09:54:02.000Z",
-   "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches…"
-  },
-  {
-   "title": "Polled readers say this core Google feature matters most to Android tablet buyers",
-   "link": "https://www.androidauthority.com/matters-most-android-tablet-poll-results-3727849/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T09:53:34.000Z",
-   "summary": "Credit to Amazon: it knew exactly what our readers wanted in a slate."
-  },
-  {
-   "title": "iFixit's teardown of the iPhone Duo shows potential causes for cracked screens",
-   "link": "https://www.engadget.com/2296498/ifixit-teardown-of-iphone-duo-shows-potential-causes-for-cracked-screens/",
-   "source": "Engadget",
-   "cat": "Mobile",
-   "date": "2026-10-26T09:31:44.000Z",
-   "summary": "iFixit's teardown of the iPhone Duo has arrived and it's especially interesting because of the device's complex folding display."
-  },
-  {
-   "title": "Chrome without Google: These are the 9 best Chromium browsers",
-   "link": "https://www.androidauthority.com/google-chrome-alternatives-android-based-on-chromium-3726016/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T09:30:56.000Z",
-   "summary": "There's an abundance of Chromium projects out there. Don't just settle on the default option."
-  },
-  {
-   "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
-   "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-   "source": "Wired",
-   "cat": "AI",
-   "date": "2026-10-26T09:30:00.000Z",
-   "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents."
-  },
-  {
-   "title": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
-   "link": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-10-26T09:30:00.000Z",
-   "summary": "The Danish digitization ministry experimented with Collabora as an alternative to Microsoft Office, but employees who used them were frequently frustrated with style and paragraph formatting challenges, among other complaints."
-  },
-  {
-   "title": "Android’s sideloading experience is getting stricter, but it still can’t do this one basic thing",
-   "link": "https://www.androidauthority.com/android-sideloading-crackdown-lack-basic-feature-3726602/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-26T09:30:00.000Z",
-   "summary": "Why do we still need a third-party app to install split APK files?"
-  },
-  {
-   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-   "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-10-26T09:19:57.000Z",
-   "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]"
   }
  ]
 }
