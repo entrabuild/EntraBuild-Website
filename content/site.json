@@ -121,10 +121,14 @@
             "MongoDB",
             "Capacitor"
           ],
-          "link": "https://rsa-admin-frontend.vercel.app/",
+          "link": "https://rsa-admin-frontend.vercel.app/login",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/rsa-construction-1.jpg",
+            "images/gallery/rsa-construction-2.jpg"
+          ]
         },
         {
           "id": "velankanni-madha",
@@ -142,7 +146,11 @@
           "link": "https://valankanni-madha-admin-frontend.onrender.com",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/velankanni-madha-1.jpg",
+            "images/gallery/velankanni-madha-2.jpg"
+          ]
         }
       ]
     },
@@ -425,42 +433,6 @@
             "images/gallery/earchana-1.jpg",
             "images/gallery/earchana-2.jpg"
           ]
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "E-commerce & deals",
-        "ta": "இணைய வணிகம்",
-        "kn": "ಇ-ವಾಣಿಜ್ಯ",
-        "ml": "ഇ-കൊമേഴ്സ്",
-        "te": "ఈ-కామర్స్"
-      },
-      "word": {
-        "en": "online stores.",
-        "ta": "இணையக் கடைகள்",
-        "kn": "ಆನ್‌ಲೈನ್ ಅಂಗಡಿಗಳು",
-        "ml": "ഓൺലൈൻ കടകൾ",
-        "te": "ఆన్‌లైన్ దుకాణాలు"
-      },
-      "projects": [
-        {
-          "id": "affiliated-factory",
-          "name": "Affiliated Factory",
-          "desc": "Bot that finds Amazon India deals and posts them around the clock",
-          "tag": "Our product",
-          "need": "Good deals disappear quickly, and posting them by hand takes all day.",
-          "built": "A bot that finds Amazon India deals every two hours and posts them to Telegram and other channels, with a dashboard for clicks and earnings.",
-          "tools": [
-            "Node.js",
-            "MongoDB",
-            "Telegram",
-            "Render"
-          ],
-          "link": "https://t.me/BestDealsIN2026_bot",
-          "image": "",
-          "frame": true,
-          "featured": false
         }
       ]
     },
