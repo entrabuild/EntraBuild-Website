@@ -86,7 +86,8 @@
             "images/gallery/zivira-labs-1.jpg",
             "images/gallery/zivira-labs-2.jpg",
             "images/gallery/zivira-labs-3.jpg",
-            "images/gallery/zivira-labs-4.jpg"
+            "images/gallery/zivira-labs-4.jpg",
+            "images/gallery/zivira-labs-5.jpg"
           ]
         }
       ]
@@ -128,28 +129,6 @@
           "gallery": [
             "images/gallery/rsa-construction-1.jpg",
             "images/gallery/rsa-construction-2.jpg"
-          ]
-        },
-        {
-          "id": "velankanni-madha",
-          "name": "Velankanni Madha",
-          "desc": "Site manager portal with Android and iOS apps",
-          "tag": "",
-          "need": "Managers needed to follow work across several sites from their phones.",
-          "built": "A manager portal on the web, with matching Android and iOS apps.",
-          "tools": [
-            "React",
-            "Node.js",
-            "Android",
-            "iOS"
-          ],
-          "link": "https://valankanni-madha-admin-frontend.onrender.com",
-          "image": "",
-          "frame": true,
-          "featured": false,
-          "gallery": [
-            "images/gallery/velankanni-madha-1.jpg",
-            "images/gallery/velankanni-madha-2.jpg"
           ]
         }
       ]
