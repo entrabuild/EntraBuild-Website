@@ -78,31 +78,16 @@
             "Render",
             "Vercel"
           ],
-          "link": "https://zivira-admin.vercel.app/",
+          "link": "https://zivira-lab-admin.vercel.app/",
           "image": "",
           "frame": true,
           "featured": false,
           "gallery": [
             "images/gallery/zivira-labs-1.jpg",
-            "images/gallery/zivira-labs-2.jpg"
+            "images/gallery/zivira-labs-2.jpg",
+            "images/gallery/zivira-labs-3.jpg",
+            "images/gallery/zivira-labs-4.jpg"
           ]
-        },
-        {
-          "id": "zivira-website",
-          "name": "Zivira Labs website",
-          "desc": "Eye-care product site with an interactive 3D eye",
-          "tag": "",
-          "need": "A website for an ophthalmic medicine company that felt as precise as its products.",
-          "built": "A 3D eye that follows the cursor and blinks, the full product catalogue, five languages and a help assistant that works offline.",
-          "tools": [
-            "Three.js",
-            "HTML",
-            "Canvas"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
         }
       ]
     },
@@ -155,24 +140,6 @@
             "iOS"
           ],
           "link": "https://valankanni-madha-admin-frontend.onrender.com",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
-        {
-          "id": "buildvaultry",
-          "name": "BuildVaultry",
-          "desc": "Access control platform with approvals and audit logs",
-          "tag": "",
-          "need": "Companies need to control exactly which people and systems may access their data, and prove it later.",
-          "built": "Approved-access lists with two-person approval, API keys, a full access log and alerts when activity looks unusual.",
-          "tools": [
-            "Cloudflare Workers",
-            "Hono",
-            "Next.js",
-            "D1"
-          ],
-          "link": "",
           "image": "",
           "frame": true,
           "featured": false
@@ -357,24 +324,6 @@
       },
       "projects": [
         {
-          "id": "samhita-stotra",
-          "name": "Samhita & Stotra",
-          "desc": "Speech data collection with live multi-speaker recording rooms",
-          "tag": "",
-          "need": "A speech data company needed to collect recordings and transcripts from many freelancers and review them in one place.",
-          "built": "Freelancer, admin and super admin portals, plus Stotra: live recording rooms where several speakers talk together and the audio saves straight to cloud storage.",
-          "tools": [
-            "LiveKit",
-            "Node.js",
-            "Cloudflare Workers",
-            "Google Cloud"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
-        {
           "id": "voxrel",
           "name": "Voxrel",
           "desc": "Our own platform for running freelance data teams",
@@ -396,41 +345,6 @@
             "images/gallery/voxrel-2.jpg",
             "images/gallery/voxrel-3.jpg"
           ]
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Social media & AI",
-        "ta": "சமூக ஊடகம் & AI",
-        "kn": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ & AI",
-        "ml": "സോഷ്യൽ മീഡിയ & AI",
-        "te": "సోషల్ మీడియా & AI"
-      },
-      "word": {
-        "en": "creators.",
-        "ta": "படைப்பாளர்கள்",
-        "kn": "ಕಂಟೆಂಟ್ ಸೃಷ್ಟಿಕರ್ತರು",
-        "ml": "ക്രിയേറ്റർമാർ",
-        "te": "క్రియేటర్లు"
-      },
-      "projects": [
-        {
-          "id": "viral-ai",
-          "name": "Viral AI",
-          "desc": "AI content platform with its own web app and API",
-          "tag": "",
-          "need": "Social media teams need a steady flow of posts without starting from a blank page every day.",
-          "built": "A web app and an API that generate social media content with AI.",
-          "tools": [
-            "AI",
-            "API",
-            "Web app"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
         }
       ]
     },
@@ -463,10 +377,15 @@
             "FastAPI",
             "AI"
           ],
-          "link": "",
+          "link": "https://whimsical-pegasus-1009f2.netlify.app/",
           "image": "",
           "frame": true,
-          "featured": false
+          "featured": false,
+          "gallery": [
+            "images/gallery/pdf-agi-1.jpg",
+            "images/gallery/pdf-agi-2.jpg",
+            "images/gallery/pdf-agi-3.jpg"
+          ]
         }
       ]
     },
@@ -561,23 +480,6 @@
         "te": "కేఫ్‌లు"
       },
       "projects": [
-        {
-          "id": "good-icecreams",
-          "name": "Good Icecreams & Coffee",
-          "desc": "Teynampet, Chennai",
-          "tag": "",
-          "need": "An ice cream and coffee shop wanted a site as sweet as the menu.",
-          "built": "A pastel site with a filterable menu, scrolling reviews, an ice-cream cursor and delivery app links.",
-          "tools": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        },
         {
           "id": "the-perch",
           "name": "The Perch",
@@ -682,74 +584,6 @@
     },
     {
       "name": {
-        "en": "Fitness",
-        "ta": "உடற்பயிற்சி",
-        "kn": "ಫಿಟ್‌ನೆಸ್",
-        "ml": "ഫിറ്റ്നസ്",
-        "te": "ఫిట్‌నెస్"
-      },
-      "word": {
-        "en": "gyms.",
-        "ta": "உடற்பயிற்சிக் கூடங்கள்",
-        "kn": "ಜಿಮ್‌ಗಳು",
-        "ml": "ജിമ്മുകൾ",
-        "te": "జిమ్‌లు"
-      },
-      "projects": [
-        {
-          "id": "berserk-gym",
-          "name": "Berserk Gym",
-          "desc": "Palavakkam, Chennai, with a before-and-after transformation slider",
-          "tag": "",
-          "need": "A hardcore gym wanted a site that felt like its training.",
-          "built": "A dark warrior-themed site with programmes, a before-and-after slider, live counters and WhatsApp, call and map buttons.",
-          "tools": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Renewable energy",
-        "ta": "சூரிய ஆற்றல்",
-        "kn": "ನವೀಕರಿಸಬಹುದಾದ ಇಂಧನ",
-        "ml": "പുനരുപയോഗ ഊർജ്ജം",
-        "te": "పునరుత్పాదక శక్తి"
-      },
-      "word": {
-        "en": "solar companies.",
-        "ta": "சூரிய ஆற்றல் நிறுவனங்கள்",
-        "kn": "ಸೌರ ಕಂಪನಿಗಳು",
-        "ml": "സോളാർ കമ്പനികൾ",
-        "te": "సోలార్ కంపెనీలు"
-      },
-      "projects": [
-        {
-          "id": "solar-green",
-          "name": "Solar Green Energy",
-          "desc": "Company and product website",
-          "tag": "",
-          "need": "A solar company needed to present its products clearly.",
-          "built": "A company and product website.",
-          "tools": [
-            "Web"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        }
-      ]
-    },
-    {
-      "name": {
         "en": "Retail & brands",
         "ta": "சில்லறை வணிகம்",
         "kn": "ಚಿಲ್ಲರೆ & ಬ್ರ್ಯಾಂಡ್‌ಗಳು",
@@ -782,113 +616,6 @@
             "images/gallery/jpt-co-1.jpg",
             "images/gallery/jpt-co-2.jpg"
           ]
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Data & APIs",
-        "ta": "தரவு & API",
-        "kn": "ದತ್ತಾಂಶ & API",
-        "ml": "ഡാറ്റ & API",
-        "te": "డేటా & API"
-      },
-      "word": {
-        "en": "data teams.",
-        "ta": "தரவுக் குழுக்கள்",
-        "kn": "ದತ್ತಾಂಶ ತಂಡಗಳು",
-        "ml": "ഡാറ്റ ടീമുകൾ",
-        "te": "డేటా బృందాలు"
-      },
-      "projects": [
-        {
-          "id": "din-api",
-          "name": "DIN API Platform",
-          "desc": "API-first data service",
-          "tag": "",
-          "need": "A data service needed to be used by other software, not just by people.",
-          "built": "An API-first backend with a clean set of endpoints.",
-          "tools": [
-            "API",
-            "Node.js"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Sales automation",
-        "ta": "விற்பனை தானியங்கி",
-        "kn": "ಮಾರಾಟ ಸ್ವಯಂಚಾಲನೆ",
-        "ml": "വിൽപ്പന ഓട്ടോമേഷൻ",
-        "te": "అమ్మకాల ఆటోమేషన్"
-      },
-      "word": {
-        "en": "sales teams.",
-        "ta": "விற்பனைக் குழுக்கள்",
-        "kn": "ಮಾರಾಟ ತಂಡಗಳು",
-        "ml": "വിൽപ്പന ടീമുകൾ",
-        "te": "అమ్మకాల బృందాలు"
-      },
-      "projects": [
-        {
-          "id": "sales-engine",
-          "name": "Entraiot Sales Engine",
-          "desc": "AI pipeline that finds leads, scores them and drafts outreach",
-          "tag": "Our product",
-          "need": "Finding and following up with new clients takes hours every day.",
-          "built": "Eight AI agents in a row: find leads, score them, write outreach, handle replies, draft proposals, and forecast revenue.",
-          "tools": [
-            "FastAPI",
-            "MongoDB",
-            "AI",
-            "Render"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Healthcare",
-        "ta": "மருத்துவம்",
-        "kn": "ಆರೋಗ್ಯ ಸೇವೆ",
-        "ml": "ആരോഗ്യ സേവനം",
-        "te": "ఆరోగ్య సేవలు"
-      },
-      "word": {
-        "en": "doctors.",
-        "ta": "மருத்துவர்கள்",
-        "kn": "ವೈದ್ಯರು",
-        "ml": "ഡോക്ടർമാർ",
-        "te": "వైద్యులు"
-      },
-      "projects": [
-        {
-          "id": "doctor-portfolio",
-          "name": "Doctor Portfolio",
-          "desc": "Personal website for a specialist doctor, with services, research and appointment requests",
-          "tag": "Concept",
-          "need": "A specialist doctor needed one place to show services, research and clinical work, and to let patients request appointments online.",
-          "built": "A multi-page doctor website: home, about, services, research, clinical practice, an appointment request form and contact, with social media links.",
-          "tools": [
-            "Next.js",
-            "TypeScript",
-            "Tailwind CSS",
-            "shadcn/ui",
-            "Cloudflare"
-          ],
-          "link": "",
-          "image": "",
-          "frame": true,
-          "featured": false
         }
       ]
     }
