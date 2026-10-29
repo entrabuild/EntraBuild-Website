@@ -652,9 +652,10 @@
       "slug": "salvin-jones",
       "bio": {
         "en": [
-          "Salvin Jones is the founder of Entraiot Solutions, the company behind EntraBuild. He started it in 2025 to build AI-powered IoT ecosystems and automation that businesses can scale with.",
-          "He holds a B.E. in Electronics & Communication Engineering from St. Joseph's College of Engineering. Before starting the company he worked as an embedded engineer at Nissi Software Systems, where he gained hands-on experience with IoT and embedded systems.",
-          "At EntraBuild he leads strategy and architecture, and still writes code. His electronics and embedded background shapes how the team thinks about connected products, from devices on the ground to the software people use every day."
+          "I'm Salvin Jones, Founder & Director of Entraiot Solutions and the person behind EntraBuild. I grew up in Thanjavur, studied at Maxwell Higher Secondary School, and earned my B.E. in Electronics & Communication Engineering from St. Joseph's College of Engineering, Chennai. I later trained in cloud computing (Linux, AWS, DevOps) at Besant Technologies before founding Entraiot in 2025.",
+          "At EntraBuild, I lead strategy, client solutions and hands-on engineering. I've built and shipped a pharma sales-force automation platform for Zivira Labs, a website and ticket-booking platform for Nordic Affairs Media in Sweden, e-commerce sites for silk brands like Bhuvannam Silks and Pavana Silks, a Tamil-first AI biology learning app, and Entraiot Home, our IoT smart-switch dashboard.",
+          "My core skills are full-stack web and mobile development (Next.js, Flutter), cloud deployment and DevOps (AWS, Vercel, Render, GitHub Actions), and IoT hardware integration. I enjoy taking a project from first proposal to live deployment.",
+          "Outside work, I play cricket, football and chess, and I'm always tinkering with home electronics and wiring projects. What drives me is building technology that solves real, everyday problems for businesses in Tamil Nadu and beyond."
         ],
         "ta": [],
         "kn": [],
@@ -663,13 +664,13 @@
       },
       "social": {
         "linkedin": "https://www.linkedin.com/in/salvin-jones-3238899a",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/salvinjones",
         "facebook": "",
         "x": "",
         "youtube": "",
         "github": "",
-        "email": "",
-        "whatsapp": ""
+        "email": "salvin@entraiot.com, reach@entrabuild.com",
+        "whatsapp": "919944442061"
       }
     },
     {
@@ -869,4 +870,4 @@
     }
   ],
   "posts": []
-}
+}
