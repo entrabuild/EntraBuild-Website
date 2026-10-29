@@ -155,7 +155,7 @@ ${body}
     <div><b>Read</b><a href="${up}news.html">Entraiot Tech Daily</a><a href="${up}portfolio.html">Portfolio</a><a href="${up}index.html#faq">Questions</a></div>
     <div><b>Contact</b><a href="mailto:${esc(S.email)}">${esc(S.email)}</a><a href="${waLink('Hi EntraBuild')}" target="_blank" rel="noopener">${esc(prettyWa)}</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing</a></div>
   </div>
-  <div class="legal"><span>© ${new Date().getFullYear()} EntraBuild · An Entraiot Solutions studio</span><span>Chennai · Bangalore · Tamil Nadu, India · Worldwide</span></div>
+  <div class="legal"><span>© ${new Date().getFullYear()} EntraBuild · An Entraiot Solutions studio</span><span>Domestic · International from Chennai · Bangalore · Tamilnadu · India · Worldwide</span></div>
 </div></footer>
 <a class="wa" href="${waLink('Hi EntraBuild, I found you on entrabuild.com.')}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">${ICON_WA}</a>
 <script>
@@ -208,7 +208,7 @@ for (const s of SERVICES) {
     jsonld: [{ '@context': 'https://schema.org', '@type': 'Service', name: s.name, serviceType: s.name, description: s.lead, provider: orgRef, areaServed: ['Chennai', 'Bangalore', 'Thanjavur', 'India'].map(n => ({ '@type': 'Place', name: n })), url: `${SITE}/${url}` },
              breadcrumbLd([['Services', `${SITE}/services/website-development.html`], [s.name, `${SITE}/${url}`]]), faqLd(s.faq)],
     body: `${crumbs(1, [['Services', 'website-development.html'], [s.name]])}
-<section class="hero"><div class="wrap"><div class="eyebrow">${esc(s.name)} · Chennai · Bangalore · Tamil Nadu, India · Worldwide</div><h1>${esc(s.h1)}</h1><p class="lead">${esc(s.lead)}</p>
+<section class="hero"><div class="wrap"><div class="eyebrow">${esc(s.name)} · Domestic · International from Chennai · Bangalore · Tamilnadu · India · Worldwide</div><h1>${esc(s.h1)}</h1><p class="lead">${esc(s.lead)}</p>
 <div class="btns"><a class="btn solid" href="../index.html#contact">Get a quote</a><a class="btn" href="../index.html#pricing">See packages</a></div></div></section>
 <section class="block"><div class="wrap prose">${s.paras.map(p => `<p>${esc(p)}</p>`).join('')}</div></section>
 <section class="block"><div class="wrap"><h2>What you <em class="s">get</em></h2><ul class="ticks">${s.includes.map(i => `<li>${esc(i)}</li>`).join('')}</ul></div></section>

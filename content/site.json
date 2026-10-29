@@ -128,7 +128,9 @@
           "featured": false,
           "gallery": [
             "images/gallery/rsa-construction-1.jpg",
-            "images/gallery/rsa-construction-2.jpg"
+            "images/gallery/rsa-construction-2.jpg",
+            "images/gallery/rsa-construction-3.jpg",
+            "images/gallery/rsa-construction-4.jpg"
           ]
         }
       ]
@@ -566,6 +568,45 @@
           "gallery": [
             "images/gallery/jpt-co-1.jpg",
             "images/gallery/jpt-co-2.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "IoT & connectivity",
+        "ta": "IoT & இணைப்பு",
+        "kn": "IoT & ಸಂಪರ್ಕ",
+        "ml": "IoT & കണക്ടിവിറ്റി",
+        "te": "IoT & కనెక్టివిటీ"
+      },
+      "word": {
+        "en": "IoT companies.",
+        "ta": "IoT நிறுவனங்கள்",
+        "kn": "IoT ಕಂಪನಿಗಳು",
+        "ml": "IoT കമ്പനികൾ",
+        "te": "IoT కంపెనీలు"
+      },
+      "projects": [
+        {
+          "id": "entra-connect",
+          "name": "Entra Connect",
+          "desc": "Interactive scrollytelling site for Entraiot Solutions: a scooter ride through the management, marketing, technical and financial departments",
+          "tag": "",
+          "need": "Entraiot Solutions wanted a company site that shows what each department does in a way people remember, not a plain list of pages.",
+          "built": "A scroll-driven story. As you scroll, a rider moves through the city and each stop opens one department (management, marketing, technical, financial) with its own card and a link into its portal.",
+          "tools": [
+            "Scrollytelling",
+            "Vercel"
+          ],
+          "link": "https://entraiot-connectmain1.vercel.app",
+          "image": "",
+          "frame": true,
+          "featured": false,
+          "gallery": [
+            "images/gallery/entra-connect-1.jpg",
+            "images/gallery/entra-connect-2.jpg",
+            "images/gallery/entra-connect-3.jpg"
           ]
         }
       ]

@@ -418,6 +418,7 @@ body.botopen .wa{display:none}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track,.ctrack{animation:none}.ind-name,.ind-who{transform:none}}
 </style>
 <style>body{margin:0}img{max-width:100%}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<script src="assets/diwali-popup.js" defer></script>
 </head>
 <body>
 <noscript><div style="padding:24px;font-family:system-ui"><p><strong>EntraBuild — software company in Chennai and Bangalore, for Tamil Nadu, India and other countries</strong></p><p>Websites, online stores, custom software, mobile apps and AI chatbots.</p><p><a href="services/website-development.html">Website development</a> · <a href="services/ecommerce-development.html">E-commerce</a> · <a href="services/custom-software-development.html">Custom software</a> · <a href="services/mobile-app-development.html">Mobile apps</a> · <a href="services/ai-chatbot-automation.html">AI chatbots</a> · <a href="news.html">Tech Daily</a></p></div></noscript>
@@ -506,12 +507,12 @@ body.botopen .wa{display:none}
   </div></section>
 
   <section class="vox panelband" id="voxrel"><div class="wrap">
-    <div><div class="eyebrow" data-i18n="vox.eyebrow">Our own product · coming to entrabuild.com</div><h2>Voxrel</h2>
+    <div><div class="eyebrow" data-i18n="vox.eyebrow">Our own product · live now</div><h2>Voxrel</h2>
       <p data-i18n="vox.p">A platform for running freelance data teams. Assign work, review submissions and handle payouts, with a separate app for each role.</p>
       <div class="apps" style="margin-top:24px">
-        <div class="app"><div><b>Freelancer</b><small data-i18n="vox.a1">Pick up tasks, submit work, track earnings</small></div><em data-i18n="vox.soon">Coming soon</em></div>
-        <div class="app"><div><b>Admin</b><small data-i18n="vox.a2">Review submissions and manage projects</small></div><em data-i18n="vox.soon">Coming soon</em></div>
-        <div class="app"><div><b>Super Admin</b><small data-i18n="vox.a3">Control teams, payments and settings</small></div><em data-i18n="vox.soon">Coming soon</em></div>
+        <a class="app" href="https://voxrel-freelancer.entrabuilt.workers.dev" target="_blank" rel="noopener"><div><b>Freelancer</b><small data-i18n="vox.a1">Pick up tasks, submit work, track earnings</small></div><em>Open ↗</em></a>
+        <a class="app" href="https://voxrel-admin.entrabuilt.workers.dev" target="_blank" rel="noopener"><div><b>Admin</b><small data-i18n="vox.a2">Review submissions and manage projects</small></div><em>Open ↗</em></a>
+        <a class="app" href="https://voxrel-superadmin.entrabuilt.workers.dev" target="_blank" rel="noopener"><div><b>Super Admin</b><small data-i18n="vox.a3">Control teams, payments and settings</small></div><em>Open ↗</em></a>
       </div>
     </div>
     <div class="formcard">
@@ -622,7 +623,7 @@ body.botopen .wa{display:none}
   <div><b>Locations</b><a href="locations/chennai.html">Software company in Chennai</a><a href="locations/bangalore.html">Software company in Bangalore</a><a href="locations/thanjavur.html">Software company in Thanjavur</a></div>
   <div><b>Read</b><a href="news.html">Entraiot Tech Daily</a><a href="portfolio.html">Portfolio</a><a href="#notes">Studio notes</a><a href="#faq">Questions</a></div>
   <div><b>Contact</b><a href="#contact">Start a project</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing</a></div>
-</div><div class="wrap"><span data-i18n="foot">© 2026 EntraBuild · An Entraiot Solutions studio</span><span>Chennai · Bangalore · Tamil Nadu, India · Worldwide · <a href="https://entraiot.com" target="_blank" rel="noopener"><span data-i18n="nav.iot">IoT Wing</span></a></span></div></footer>
+</div><div class="wrap"><span data-i18n="foot">© 2026 EntraBuild · An Entraiot Solutions studio</span><span>Domestic · International from Chennai · Bangalore · Tamilnadu · India · Worldwide · <a href="https://entraiot.com" target="_blank" rel="noopener"><span data-i18n="nav.iot">IoT Wing</span></a></span></div></footer>
 
 <a class="wa" id="waBtn" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg><span data-i18n="wa">WhatsApp us</span></a>
 
@@ -1153,7 +1154,29 @@ body.botopen .wa{display:none}
       <ul>${L.li.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><button class="btn sm${pl.pick?' solid':''}" type="button" data-plan="${pl.id}">${T('price.ask')}</button></article>`}).join('');
   }
   const planNeed={site:'Business website',store:'Online store',platform:'Custom platform or SaaS',care:'Monthly care'};
-  plansEl.addEventListener('click',e=>{const b=e.target.closest('[data-plan]');if(!b)return;document.getElementById('ld-need').value=planNeed[b.dataset.plan];goContact()});
+    /* ===== Quick enquiry from the price cards: email to reach@entrabuild.com + WhatsApp ===== */
+  const planNeedId={'Business website':'site','Online store':'store','Custom platform or SaaS':'platform'};
+  function amountFor(need){const price=CONFIG.prices[planNeedId[need]]||'';if(/\d/.test(price))return{raw:price.replace(/[^\d]/g,''),show:price};return{raw:'On quote',show:'On quote'}}
+  function enquiryInfo(name,phone,need,extra){const a=amountFor(need);
+    return{service:need,amount:a.raw,subject:`${name} wants ${need}${/\d/.test(a.raw)?' (₹'+a.raw+')':''}`,
+      line:`${name} wants a service of ${need} with the exact amount of ${/\d/.test(a.raw)?'₹'+a.raw:a.raw}`,
+      wa:`Hi EntraBuild, this is ${name}. I want the service: ${need}. Amount: ${a.show}. My number: ${phone||'-'}.${extra?' Details: '+extra:''}`}}
+  (function(){const st=document.createElement('style');st.textContent='.askov{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(5,8,16,.6);backdrop-filter:blur(5px)}.askbox{position:relative;width:min(420px,100%);background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:12px;box-shadow:0 30px 80px rgba(0,0,0,.4)}.askbox h3{font-size:24px;margin:0;padding-right:36px}.askbox p{margin:0;color:var(--muted);font-size:15px}.askx{position:absolute;right:12px;top:10px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:22px;cursor:pointer}a.app{color:inherit;text-decoration:none;transition:border-color .2s,transform .2s}a.app:hover{border-color:var(--teal);transform:translateY(-2px)}';document.head.appendChild(st)})();
+  function quickAsk(planId){
+    const need=planNeed[planId],a=amountFor(need),old=document.getElementById('askDlg');if(old)old.remove();
+    const dlg=document.createElement('div');dlg.id='askDlg';dlg.className='askov';
+    dlg.innerHTML=`<form class="askbox" novalidate role="dialog" aria-modal="true" aria-labelledby="askT"><button type="button" class="askx" aria-label="Close">×</button><h3 id="askT">${esc(need)}</h3><p>${esc(a.show==='On quote'?'Quoted after a short call.':'From '+a.show+'.')} Tell us who you are and we will open WhatsApp with your request.</p><div class="field"><label for="ask-name">Your name</label><input id="ask-name" name="name" required autocomplete="name"></div><div class="field"><label for="ask-phone">Phone or WhatsApp</label><input id="ask-phone" name="phone" type="tel" required autocomplete="tel"></div><button class="btn solid" type="submit">Continue on WhatsApp</button><div class="status" role="status" hidden></div></form>`;
+    document.body.appendChild(dlg);const f=dlg.querySelector('form'),stt=f.querySelector('.status'),btn=f.querySelector('button[type=submit]');
+    const close=()=>{dlg.remove();document.removeEventListener('keydown',esck)};const esck=e=>{if(e.key==='Escape')close()};document.addEventListener('keydown',esck);
+    dlg.addEventListener('click',e=>{if(e.target===dlg||e.target.closest('.askx'))close()});setTimeout(()=>f.name.focus(),30);
+    f.addEventListener('submit',async e=>{e.preventDefault();const name=f.name.value.trim(),phone=f.phone.value.trim(),digits=phone.replace(/\D/g,'');
+      if(!name||digits.length<10||digits.length>15){stt.hidden=false;stt.className='status err';stt.textContent=!name?'Please enter your name.':'Please enter a valid phone number.';return}
+      let wnd=null;try{wnd=window.open('about:blank','_blank')}catch(x){}
+      btn.disabled=true;const info=enquiryInfo(name,phone,need);
+      await send(info.subject,{customer:name,phone,service:info.service,amount:info.amount,summary:info.line,page:location.href.split('#')[0],language:lang});
+      const url=waLink(info.wa);if(wnd&&!wnd.closed)wnd.location.href=url;else window.location.href=url;close()});
+  }
+  plansEl.addEventListener('click',e=>{const b=e.target.closest('[data-plan]');if(!b)return;quickAsk(b.dataset.plan)});
   function goContact(msg){const el=document.getElementById('contact');el.scrollIntoView({behavior:reduce?'auto':'smooth'});if(msg){const m=document.getElementById('ld-msg');if(!m.value)m.value=msg}setTimeout(()=>document.getElementById('ld-name').focus({preventScroll:true}),500)}
 
   /* ================= TEAM ================= */
@@ -1221,7 +1244,7 @@ body.botopen .wa{display:none}
   async function send(subject,fields){
     const text=subject+'\n'+Object.entries(fields).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join('\n');
     try{
-      const res=await fetch(CONFIG.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({_subject:subject,_template:'table',...fields})});
+      const res=await fetch(CONFIG.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({_subject:subject,_template:'table',_captcha:'false',...fields})});
       if(!res.ok)throw new Error(res.status);
       const j=await res.json().catch(()=>({}));if(j.success===false||j.success==='false')throw new Error('rejected');
       return {ok:true,text};
@@ -1234,7 +1257,7 @@ body.botopen .wa{display:none}
     if(i.type==='tel')return v.replace(/\D/g,'').length<10||v.replace(/\D/g,'').length>15;
     if(i.type==='url')return !/^https?:\/\/[^\s.]+\.[^\s]{2,}/i.test(v);
     return false}
-  function wireForm(id,subject,okKey){
+  function wireForm(id,subject,okKey,wa){
     const f=document.getElementById(id),st=f.querySelector('.status'),btn=f.querySelector('button[type=submit]');
     f.addEventListener('submit',async e=>{
       e.preventDefault();
@@ -1244,13 +1267,16 @@ body.botopen .wa{display:none}
       const data={};new FormData(f).forEach((v,k)=>data[k]=String(v).trim());
       if(data._honey){st.hidden=false;st.className='status ok';st.textContent=T(okKey);f.reset();return}
       delete data._honey;data.page=location.href.split('#')[0];data.language=lang;
+      let wnd=null;if(wa){try{wnd=window.open('about:blank','_blank')}catch(x){}}
       btn.disabled=true;const old=btn.textContent;btn.textContent=T('f.sending');
-      const r=await send(subject,data);btn.disabled=false;btn.textContent=old;st.hidden=false;
+      let subj=subject,wurl='';if(wa){const w=wa(data);data.service=w.service;data.amount=w.amount;data.summary=w.line;subj=w.subject;wurl=waLink(w.wa)}
+      const r=await send(subj,data);if(wurl){if(wnd&&!wnd.closed)wnd.location.href=wurl;else window.location.href=wurl}
+      btn.disabled=false;btn.textContent=old;st.hidden=false;
       if(r.ok){st.className='status ok';st.textContent=T(okKey);f.reset()}
       else{st.className='status err';st.innerHTML=fmt('f.fail',{wa:`<a href="${waLink(r.text)}" target="_blank" rel="noopener">${esc(T('f.failWa'))}</a>`,email:`<b style="user-select:all">${esc(CONFIG.email)}</b>`})}
     });
   }
-  wireForm('leadForm','New project enquiry from entrabuild.com','f.okLead');
+  wireForm('leadForm','New project enquiry from entrabuild.com','f.okLead',d=>enquiryInfo(d.name||'A customer',d.phone,d.need||'a project',d.message));
   wireForm('jobForm','Job application from entrabuild.com','f.okJob');
   wireForm('voxForm','Voxrel early access request','f.okVox');
 
@@ -1307,10 +1333,11 @@ body.botopen .wa{display:none}
     if(has(/ (hi|hello|hey|hai|vanakkam|namaste|namaskara|namaskaram|good morning|good afternoon|good evening) |வணக்கம்|ನಮಸ್ಕಾರ|നമസ്കാരം|నమస్కారం/))return 'hello';
     return null}
   const addr=()=>`\n\n<b>Chennai office</b>\nNo. 11/608, Anna Nagar 1st Street, Kulathuvanchery, Paraniputhur PO, Iyyappanthangal Main Road, Chennai 600122\n\n<b>Thanjavur branch</b>\n9/148 Fathima Nagar, N.K. Road, Thanjavur 613001\n\n`;
-  function handle(q,forced){
-    say(esc(q),'u');
+  function handle(q,forced,noAI){
+    if(noAI!==true)say(esc(q),'u');
     if(lead&&(forced==='cancel'||/^\s*(cancel|stop|exit|quit|back|no thanks|வேண்டாம்|ರದ್ದು|റദ്ദാക്കൂ|రద్దు)\s*$/i.test(q))){lead=null;say(esc(T('bot.cancelled')));chips(MAIN_CHIPS());return}
     if(lead){return leadStep(q)}
+    if(!forced&&noAI!==true&&intentOf(q)!=='lead'){return askAI(q)}
     setTimeout(()=>{
       let it=forced||intentOf(q),p=null,ii=-1;
       if(!it){p=findProject(q);if(p)it='project'}
@@ -1334,6 +1361,16 @@ body.botopen .wa{display:none}
         default:say(esc(T('bot.unsure')).replace('{wa}',waA(T('bot.askWa'))));chips(MAIN_CHIPS());
       }
     },280);
+  }
+  const AIHIST=[];
+  async function askAI(q){
+    AIHIST.push({role:'user',content:q});if(AIHIST.length>10)AIHIST.splice(0,AIHIST.length-10);
+    say('…');const typing=bm.lastChild;
+    try{const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),20000);
+      const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:AIHIST,lang}),signal:ctl.signal});clearTimeout(tm);
+      if(!r.ok)throw new Error(r.status);const j=await r.json();if(!j||!j.reply)throw new Error('empty');
+      typing.remove();AIHIST.push({role:'assistant',content:j.reply});say(esc(j.reply));chips(MAIN_CHIPS());
+    }catch(e){typing.remove();AIHIST.pop();handle(q,undefined,true)}
   }
   window.__botRelabel=()=>{if(opened&&!lead)chips(MAIN_CHIPS())};
   const prettyWaNow=()=>'+'+CONFIG.whatsapp.replace(/^(\d{2})(\d{5})(\d+)$/,'$1 $2 $3');
