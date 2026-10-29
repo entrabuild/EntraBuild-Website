@@ -1,5 +1,5 @@
 // Builds the search-engine pages from content/site.json:
-//   services/*.html, locations/*.html, work/<project>.html, notes/<note>.html, sitemap.xml, robots.txt
+//   services/*.html, locations/*.html, work/<project>.html, notes/<note>.html, team/<person>.html, sitemap.xml, robots.txt
 // Run: node scripts/build-pages.mjs   (GitHub Actions runs it automatically when content/site.json changes)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -199,7 +199,7 @@ function write(rel, html) { const f = path.join(ROOT, rel); fs.mkdirSync(path.di
 const urls = [];
 
 // clear old generated folders so deleted projects disappear
-for (const d of ['services', 'locations', 'work', 'notes']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
+for (const d of ['services', 'locations', 'work', 'notes', 'team']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
 
 /* services */
 for (const s of SERVICES) {
@@ -266,6 +266,51 @@ for (const n of C.notes || []) {
     body: `${crumbs(1, [['Studio notes', '../index.html#notes'], [n.h]])}
 <section class="hero"><div class="wrap"><div class="eyebrow">${esc(n.k)}</div><h1>${esc(n.h)}</h1><p class="lead">${esc(n.s)}</p></div></section>
 <section class="block"><div class="wrap prose">${(n.body || []).map(p => `<p>${esc(p)}</p>`).join('')}</div></section>` }));
+}
+
+/* team profile pages: team/<slug>.html, one per person in content/site.json -> "team" */
+const SOCIAL = [
+  ['linkedin', 'LinkedIn', '<path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4v11H3v-11zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6v5.4h-4v-4.8c0-1.2 0-2.6-1.6-2.6s-1.8 1.2-1.8 2.5v4.9h-4v-11z"/>'],
+  ['instagram', 'Instagram', '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>'],
+  ['facebook', 'Facebook', '<path fill="currentColor" d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.6V13h2.8v8h3.1z"/>'],
+  ['x', 'X (Twitter)', '<path fill="currentColor" d="M17.8 3h3l-6.6 7.5L22 21h-6.1l-4.8-6.3L5.6 21h-3l7-8L2 3h6.2l4.3 5.7L17.8 3zm-1 16.2h1.7L7.3 4.7H5.5l11.3 14.5z"/>'],
+  ['youtube', 'YouTube', '<path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/>'],
+  ['github', 'GitHub', '<path fill="currentColor" d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/>'],
+  ['email', 'Email', '<rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/>'],
+  ['whatsapp', 'WhatsApp', '']
+];
+// Only https:// links are accepted. Email is a plain address; WhatsApp is a number or an https://wa.me link.
+function socialHref(key, v) {
+  v = String(v || '').trim();
+  if (!v) return '';
+  if (key === 'email') return /^[^\s@<>"']+@[^\s@<>"']+\.[^\s@<>"']+$/.test(v) ? 'mailto:' + v : '';
+  if (key === 'whatsapp') { if (/^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(v)) return v; const d = v.replace(/\D/g, ''); return d.length >= 10 && d.length <= 15 ? 'https://wa.me/' + (d.length === 10 ? '91' + d : d) : ''; }
+  return /^https:\/\/[^\s"'<>]+$/i.test(v) ? v : '';
+}
+const TEAM = (C.team || []).filter(m => m.slug && /^[a-z0-9-]+$/.test(m.slug));
+const teamPhoto = (m, up) => m.photo ? `<img src="${up}${esc(m.photo)}" alt="${esc(m.n)}" width="640" height="800" decoding="async">` : `<div class="ph-ini" aria-hidden="true">${esc(m.ini || m.n.slice(0, 1))}</div>`;
+for (const m of TEAM) {
+  const url = `team/${m.slug}.html`;
+  const role = m.role?.en || '';
+  const paras = (m.bio?.en || []).filter(Boolean);
+  const links = SOCIAL.flatMap(([k, label, icon]) => k === 'email'
+    ? String(m.social?.email || '').split(',').map(x => x.trim()).filter(Boolean).map((addr, i) => [k, i ? addr : label, icon, socialHref(k, addr)])
+    : [[k, label, icon, socialHref(k, m.social?.[k])]]).filter(x => x[3]);
+  const sameAs = links.filter(x => x[0] !== 'email' && x[0] !== 'whatsapp').map(x => x[3]);
+  const others = TEAM.filter(x => x !== m);
+  const desc = paras[0] || m.p?.en || `${m.n}, ${role} at EntraBuild.`;
+  write(url, shell({ depth: 1, url, type: 'profile', title: `${m.n}, ${role}`, desc,
+    keywords: `${m.n}, ${role}, EntraBuild team, Entraiot Solutions`,
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'Person', name: m.n, jobTitle: role, ...(m.photo ? { image: `${SITE}/${m.photo}` } : {}), description: desc, url: `${SITE}/${url}`, worksFor: orgRef, ...(sameAs.length ? { sameAs } : {}) },
+             breadcrumbLd([['Team', `${SITE}/#team`], [m.n, `${SITE}/${url}`]])],
+    body: `${crumbs(1, [['Team', '../index.html#team'], [m.n]])}
+<section class="hero prof"><div class="wrap prof-grid">
+  <div class="prof-photo${m.lead ? ' lead' : ''}">${teamPhoto(m, '../')}</div>
+  <div class="prof-head"><div class="eyebrow">EntraBuild team</div><h1>${esc(m.n)}</h1><p class="role">${esc(role)}</p>${m.p?.en ? `<p class="lead">${esc(m.p.en)}</p>` : ''}</div>
+</div></section>
+<section class="block"><div class="wrap prose"><h2>About <em class="s">${esc(m.n.split(' ')[0])}</em></h2>${paras.map(p => `<p>${esc(p)}</p>`).join('')}</div></section>
+${links.length ? `<section class="block"><div class="wrap"><h2>Find <em class="s">${esc(m.n.split(' ')[0])}</em> online</h2><ul class="social">${links.map(([k, label, icon, href]) => `<li><a class="sbtn ${k}" href="${esc(href)}"${k === 'email' ? '' : ' target="_blank" rel="noopener"'}>${k === 'whatsapp' ? ICON_WA : `<svg viewBox="0 0 24 24" aria-hidden="true">${icon}</svg>`}<span>${esc(label)}</span></a></li>`).join('')}</ul></div></section>` : ''}
+${others.length ? `<section class="block"><div class="wrap"><h2>Meet the rest of the <em class="s">team</em></h2><div class="mini-grid">${others.map(o => `<a class="mini" href="${o.slug}.html">${teamPhoto(o, '../')}<b>${esc(o.n)}</b><span>${esc(o.role?.en || '')}</span></a>`).join('')}</div></div></section>` : ''}` }));
 }
 
 /* sitemap + robots */

@@ -648,7 +648,29 @@
       "lead": true,
       "photo": "images/team/salvin-jones.jpg",
       "linkedin": "",
-      "tags": []
+      "tags": [],
+      "slug": "salvin-jones",
+      "bio": {
+        "en": [
+          "Salvin Jones is the founder of Entraiot Solutions, the company behind EntraBuild. He started it in 2025 to build AI-powered IoT ecosystems and automation that businesses can scale with.",
+          "He holds a B.E. in Electronics & Communication Engineering from St. Joseph's College of Engineering. Before starting the company he worked as an embedded engineer at Nissi Software Systems, where he gained hands-on experience with IoT and embedded systems.",
+          "At EntraBuild he leads strategy and architecture, and still writes code. His electronics and embedded background shapes how the team thinks about connected products, from devices on the ground to the software people use every day."
+        ],
+        "ta": [],
+        "kn": [],
+        "ml": [],
+        "te": []
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/salvin-jones-3238899a",
+        "instagram": "",
+        "facebook": "",
+        "x": "",
+        "youtube": "",
+        "github": "",
+        "email": "",
+        "whatsapp": ""
+      }
     },
     {
       "n": "Shalini Loganathan",
@@ -670,17 +692,37 @@
       "lead": true,
       "photo": "images/team/shalini-l.jpg",
       "linkedin": "",
-      "tags": []
+      "tags": [],
+      "slug": "shalini-l",
+      "bio": {
+        "en": [
+          "Shalini Loganathan is the CEO and Managing Director of EntraBuild. She runs the company day to day, from clients to the team."
+        ],
+        "ta": [],
+        "kn": [],
+        "ml": [],
+        "te": []
+      },
+      "social": {
+        "linkedin": "",
+        "instagram": "",
+        "facebook": "",
+        "x": "",
+        "youtube": "",
+        "github": "",
+        "email": "",
+        "whatsapp": ""
+      }
     },
     {
       "n": "Balamurugan",
       "ini": "B",
       "role": {
-        "en": "Deep ASI Developer",
-        "ta": "ஆழ்ந்த ASI உருவாக்குநர்",
-        "kn": "ಡೀಪ್ ASI ಡೆವಲಪರ್",
-        "ml": "ഡീപ് ASI ഡെവലപ്പർ",
-        "te": "డీప్ ASI డెవలపర్"
+        "en": "AI Developer",
+        "ta": "AI உருவாக்குநர்",
+        "kn": "AI ಡೆವಲಪರ್",
+        "ml": "AI ഡെവലപ്പർ",
+        "te": "AI డెవలపర్"
       },
       "p": {
         "en": "Builds narrow AI (ANI): chat assistants and automations.",
@@ -691,18 +733,41 @@
       },
       "lead": false,
       "photo": "images/team/balamurugan.jpg",
-      "linkedin": "",
-      "tags": []
+      "linkedin": "https://www.linkedin.com/in/balamurugan007/",
+      "tags": [],
+      "slug": "balamurugan",
+      "bio": {
+        "en": [
+          "I am Balamurugan, an AI Developer at Entraiot Solutions. I completed my B.Tech in Artificial Intelligence and Data Science at Karpagam Institute of Technology. I am passionate about developing innovative AI-powered applications and exploring emerging technologies.",
+          "At EntraBuild, I have been involved in developing Entra Connect, an integrated platform with multiple dashboards and management portals. My work includes building interactive user interfaces, developing 3D animated experiences, integrating AI-powered features, and contributing to the overall platform development.",
+          "My technical skills include Python, React.js, JavaScript, AI application development, and UI/UX design. I also work with AI development tools such as Claude and Blender to create interactive 3D experiences and modern web applications.",
+          "I enjoy learning new technologies, solving real-world problems, and transforming creative ideas into practical digital solutions. My goal is to continuously improve my technical skills and contribute to building innovative, user-friendly applications."
+        ],
+        "ta": [],
+        "kn": [],
+        "ml": [],
+        "te": []
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/balamurugan007/",
+        "instagram": "",
+        "facebook": "",
+        "x": "",
+        "youtube": "",
+        "github": "https://github.com/Balamurugan200508",
+        "email": "bala@entraiot.com",
+        "whatsapp": "916379858347"
+      }
     },
     {
       "n": "Priyadharshini",
       "ini": "P",
       "role": {
-        "en": "Deep ASI Developer",
-        "ta": "ஆழ்ந்த ASI உருவாக்குநர்",
-        "kn": "ಡೀಪ್ ASI ಡೆವಲಪರ್",
-        "ml": "ഡീപ് ASI ഡെവലപ്പർ",
-        "te": "డీప్ ASI డెవలపర్"
+        "en": "AI & ML Engineer",
+        "ta": "AI & ML பொறியாளர்",
+        "kn": "AI & ML ಇಂಜಿನಿಯರ್",
+        "ml": "AI & ML എഞ്ചിനീയർ",
+        "te": "AI & ML ఇంజనీర్"
       },
       "p": {
         "en": "Builds multi-agent systems, our step from ANI toward AGI.",
@@ -713,8 +778,31 @@
       },
       "lead": false,
       "photo": "images/team/priyadharshini.jpg",
-      "linkedin": "",
-      "tags": []
+      "linkedin": "https://www.linkedin.com/in/priya-ak36",
+      "tags": [],
+      "slug": "priyadharshini",
+      "bio": {
+        "en": [
+          "I am an AI and ML Engineer passionate about building intelligent applications, modern web platforms, and automation solutions that solve real-world business problems. I enjoy exploring emerging technologies and transforming innovative ideas into practical, scalable digital solutions.",
+          "At EntraBuild, I contribute to website development, project research, and the creation of interactive digital experiences. My work involves developing website features, improving user experiences, exploring new technologies, and solving technical challenges to deliver effective digital solutions.",
+          "My technical interests include artificial intelligence, machine learning, generative AI, AI agents, workflow automation, web development, and system architecture. I enjoy understanding how different technologies work together and designing solutions that are efficient, scalable, and aligned with business needs.",
+          "I am driven by continuous learning, creative problem-solving, and the opportunity to build technology that makes people's work easier. I am particularly interested in the evolution of AI and how intelligent systems can help businesses innovate, improve productivity, and solve real-world challenges."
+        ],
+        "ta": [],
+        "kn": [],
+        "ml": [],
+        "te": []
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/priya-ak36",
+        "instagram": "",
+        "facebook": "",
+        "x": "",
+        "youtube": "",
+        "github": "https://github.com/Priya-ak",
+        "email": "priya@entraiot.com",
+        "whatsapp": "918438608657"
+      }
     }
   ],
   "notes": [
@@ -781,4 +869,4 @@
     }
   ],
   "posts": []
-}
+}

@@ -307,11 +307,19 @@ html{-webkit-tap-highlight-color:rgba(245,176,60,.25)}
       $('#flist').appendChild(le.el);$('#fadd').onclick=le.add;$('#runNews').onclick=runNews;
     },
     team(p){
-      p.innerHTML=`${roOnly()}<p class="note">Upload a 4:5 portrait photo for each person. Shalini Loganathan and Salvin Jones appear first as leadership.</p><div class="toolbar"><button class="btn solid" id="tadd">Add person</button></div><div id="tlist"></div>`;
-      const fields=[{k:'n',l:'Name'},{k:'ini',l:'Initials (shown until a photo is added)'},{k:'role.en',l:'Role (English)'},{k:'linkedin',l:'LinkedIn link',t:'url',ph:'https://www.linkedin.com/in/…'},{k:'p.en',l:'Short description (English)',t:'textarea',w:true},
+      p.innerHTML=`${roOnly()}<p class="note">Upload a 4:5 portrait photo for each person. Each person gets a profile page at team/&lt;page address&gt;.html; social links must start with https:// and empty ones are not shown. Shalini Loganathan and Salvin Jones appear first as leadership.</p><div class="toolbar"><button class="btn solid" id="tadd">Add person</button></div><div id="tlist"></div>`;
+      const SOCIALF=[['linkedin','LinkedIn','https://www.linkedin.com/in/…'],['instagram','Instagram','https://www.instagram.com/…'],['facebook','Facebook','https://www.facebook.com/…'],['x','X (Twitter)','https://x.com/…'],['youtube','YouTube','https://www.youtube.com/@…'],['github','GitHub','https://github.com/…'],['email','Email address (several allowed, separated by commas)','name@entraiot.com'],['whatsapp','WhatsApp number','+91 98765 43210']];
+      const fields=[{k:'n',l:'Name'},{k:'ini',l:'Initials (shown until a photo is added)'},{k:'role.en',l:'Role (English)'},{k:'slug',l:'Page address (letters, numbers, dashes)',h:'The profile page is team/<this>.html. Leave empty to create it from the name.'},{k:'linkedin',l:'LinkedIn link (home card, old field)',t:'url',ph:'https://www.linkedin.com/in/…'},{k:'p.en',l:'Short description (English)',t:'textarea',w:true},
         {k:'photo',l:'Photo',t:'image',folder:'team',w:true},{k:'tags',l:'Tags (comma separated)',t:'tags'},{k:'lead',l:'Leadership',t:'check',c:'Show as leadership (gold frame)'},
-        ...LANGS.flatMap(([c,n])=>[{k:`role.${c}`,l:`Role (${n})`},{k:`p.${c}`,l:`Description (${n})`}])];
-      const le=listEditor({items:C.team,title:x=>x.n||'New person',sub:x=>x.role?.en||'',newItem:()=>({n:'',ini:'',role:{en:''},p:{en:''},tags:[],lead:false,photo:'',linkedin:''}),fields,onChange:side});
+        {k:'bio.en',l:'About, English (one paragraph per line, 3 to 4 paragraphs)',t:'lines',w:true},
+        ...SOCIALF.map(([k,l,ph])=>({k:`social.${k}`,l:l+' (leave empty to hide)',t:k==='email'?'text':k==='whatsapp'?'text':'url',ph})),
+        ...LANGS.flatMap(([c,n])=>[{k:`role.${c}`,l:`Role (${n})`},{k:`p.${c}`,l:`Description (${n})`},...(c==='en'?[]:[{k:`bio.${c}`,l:`About, ${n} (one paragraph per line, optional)`,t:'lines',w:true}])])];
+      const le=listEditor({items:C.team,title:x=>x.n||'New person',sub:x=>x.role?.en||'',newItem:()=>({n:'',ini:'',slug:'',role:{en:''},p:{en:''},bio:{en:[]},social:{},tags:[],lead:false,photo:'',linkedin:''}),fields,onChange:()=>{const used=new Set();C.team.forEach(m=>{let sl=String(m.slug||'').toLowerCase().replace(/[^a-z0-9-]+/g,'-').replace(/^-+|-+$/g,'')||slug(m.n||'');if(!sl)return;let b=sl,i=2;while(used.has(sl))sl=b+'-'+i++;used.add(sl);m.slug=sl;
+        m.social=m.social||{};for(const k of Object.keys(m.social)){let v=String(m.social[k]||'').trim();
+          if(k==='email'){v=v.split(',').map(x=>x.trim()).filter(x=>/^[^\s@<>"']+@[^\s@<>"']+\.[^\s@<>"']+$/.test(x)).join(', ')}
+          else if(k==='whatsapp'){if(v&&!/^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(v)){const d=v.replace(/\D/g,'');v=d.length>=10&&d.length<=15?(d.length===10?'91'+d:d):''}}
+          else if(v&&!/^https:\/\/[^\s"'<>]+$/i.test(v))v='';
+          m.social[k]=v}});side()}});
       $('#tlist').appendChild(le.el);$('#tadd').onclick=le.add;
     },
     notes(p){
