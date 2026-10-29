@@ -419,6 +419,7 @@ body.botopen .wa{display:none}
 </style>
 <style>body{margin:0}img{max-width:100%}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 <script src="assets/diwali-popup.js" defer></script>
+<style>.cbtns{display:flex;gap:8px;margin-top:8px}.cbtn{padding:8px 14px;border-radius:999px;background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:600;font-size:13px}.cbtn.wa{background:#25d366}</style>
 </head>
 <body>
 <noscript><div style="padding:24px;font-family:system-ui"><p><strong>EntraBuild — software company in Chennai and Bangalore, for Tamil Nadu, India and other countries</strong></p><p>Websites, online stores, custom software, mobile apps and AI chatbots.</p><p><a href="services/website-development.html">Website development</a> · <a href="services/ecommerce-development.html">E-commerce</a> · <a href="services/custom-software-development.html">Custom software</a> · <a href="services/mobile-app-development.html">Mobile apps</a> · <a href="services/ai-chatbot-automation.html">AI chatbots</a> · <a href="news.html">Tech Daily</a></p></div></noscript>
@@ -1382,7 +1383,8 @@ body.botopen .wa{display:none}
     else if(lead.step===2){lead.need=q;say(esc(T('bot.sending')));
       const r=await send('Chat lead from entrabuild.com',{name:lead.name,phone:lead.phone,need:lead.need,language:lang,page:location.href.split('#')[0]});
       if(r.ok)say(esc(T('bot.done')));
-      else say(esc(T('bot.fail')).replace('{wa}',`<a href="${waLink(r.text)}" target="_blank" rel="noopener">${esc(T('bot.failWa'))}</a>`));
+      else{const em='mailto:'+CONFIG.email+'?subject='+encodeURIComponent('Enquiry from '+lead.name)+'&body='+encodeURIComponent(r.text);
+        say('Please contact us.<div class="cbtns"><a class="cbtn wa" href="'+waLink(r.text)+'" target="_blank" rel="noopener">WhatsApp</a><a class="cbtn" href="'+em+'">Email</a></div>')}
       lead=null;chips(MAIN_CHIPS())}
   }
 

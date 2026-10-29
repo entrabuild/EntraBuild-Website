@@ -421,6 +421,7 @@ body.botopen .wa{display:none}
 <link rel="stylesheet" href="assets/parallax-gallery.css">
 <script src="assets/parallax-gallery.js"></script>
 <script src="assets/diwali-popup.js" defer></script>
+<style>.cbtns{display:flex;gap:8px;margin-top:8px}.cbtn{padding:8px 14px;border-radius:999px;background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:600;font-size:13px}.cbtn.wa{background:#25d366}</style>
 </head>
 <body data-page="portfolio">
 <noscript><div style="padding:24px;font-family:system-ui"><p><a href="index.html">← EntraBuild home</a></p><p><strong>EntraBuild portfolio</strong></p><ul><li><a href="work/zivira-labs.html">Zivira Labs</a></li><li><a href="work/zivira-website.html">Zivira Labs website</a></li><li><a href="work/rsa-construction.html">R.S.A Construction</a></li><li><a href="work/velankanni-madha.html">Velankanni Madha</a></li><li><a href="work/buildvaultry.html">BuildVaultry</a></li><li><a href="work/tnwla-madras.html">TNWLA Madras</a></li><li><a href="work/stand-firm.html">Stand Firm</a></li><li><a href="work/pavana-silks.html">Pavana Silks</a></li><li><a href="work/bhuvannam-silks.html">Bhuvannam Silks</a></li><li><a href="work/nordic-affairs-media.html">Nordic Affairs Media</a></li><li><a href="work/samhita-stotra.html">Samhita & Stotra</a></li><li><a href="work/voxrel.html">Voxrel</a></li><li><a href="work/viral-ai.html">Viral AI</a></li><li><a href="work/pdf-agi.html">PDF AGI</a></li><li><a href="work/earchana.html">eArchana</a></li><li><a href="work/jeni.html">Jeni</a></li><li><a href="work/affiliated-factory.html">Affiliated Factory</a></li><li><a href="work/good-icecreams.html">Good Icecreams & Coffee</a></li><li><a href="work/the-perch.html">The Perch</a></li><li><a href="work/crafe-cafe.html">Crafe Café</a></li><li><a href="work/the-juice-box.html">The Juice Box</a></li><li><a href="work/coffee-anugraha.html">Coffee AnuGraha</a></li><li><a href="work/cream-story.html">Cream Story</a></li><li><a href="work/berserk-gym.html">Berserk Gym</a></li><li><a href="work/solar-green.html">Solar Green Energy</a></li><li><a href="work/jpt-co.html">JPT & Co</a></li><li><a href="work/cd-player.html">CD Player</a></li><li><a href="work/ye-olde-inbox.html">Ye Olde Inbox</a></li><li><a href="work/jets.html">Jets</a></li><li><a href="work/din-api.html">DIN API Platform</a></li><li><a href="work/sales-engine.html">Entraiot Sales Engine</a></li><li><a href="work/doctor-portfolio.html">Doctor Portfolio</a></li></ul></div></noscript>
@@ -1384,7 +1385,8 @@ body.botopen .wa{display:none}
     else if(lead.step===2){lead.need=q;say(esc(T('bot.sending')));
       const r=await send('Chat lead from entrabuild.com',{name:lead.name,phone:lead.phone,need:lead.need,language:lang,page:location.href.split('#')[0]});
       if(r.ok)say(esc(T('bot.done')));
-      else say(esc(T('bot.fail')).replace('{wa}',`<a href="${waLink(r.text)}" target="_blank" rel="noopener">${esc(T('bot.failWa'))}</a>`));
+      else{const em='mailto:'+CONFIG.email+'?subject='+encodeURIComponent('Enquiry from '+lead.name)+'&body='+encodeURIComponent(r.text);
+        say('Please contact us.<div class="cbtns"><a class="cbtn wa" href="'+waLink(r.text)+'" target="_blank" rel="noopener">WhatsApp</a><a class="cbtn" href="'+em+'">Email</a></div>')}
       lead=null;chips(MAIN_CHIPS())}
   }
 
