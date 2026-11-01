@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:51:21.226Z",
+ "updated": "2026-11-01T06:50:57.957Z",
  "edition": 10,
  "sections": [
   "AI",
@@ -108,6 +108,238 @@
  ],
  "items": [
   {
+   "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
+   "link": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-01T05:00:00.000Z",
+   "summary": "Palm OS, an operating system for a range mobile devices that predated mobile phones, is largely forgotten today. Or at least, that’s what [Aaron Ardiri] thought. That all changed when…"
+  },
+  {
+   "title": "Someone made a Godot-style game editor for the ESP32-S3",
+   "link": "https://www.xda-developers.com/someone-made-a-godot-style-game-editor-for-the-esp32-s3/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-01T03:49:24.000Z",
+   "summary": "The framerates are very impressive."
+  },
+  {
+   "title": "A KDE developer reveals Kwi, a GPU-accelerated terminal built on Ghostty's library",
+   "link": "https://www.xda-developers.com/kde-developer-kwi/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-11-01T02:39:23.000Z",
+   "summary": "It's still an experiment, but it is promising."
+  },
+  {
+   "title": "How to force an app to use the discrete GPU in Windows 11",
+   "link": "https://www.xda-developers.com/how-force-app-use-discrete-gpu-windows-11/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-11-01T02:33:22.000Z",
+   "summary": "If your games or apps are running more slowly than you'd expect, you may need to force Windows 11 to run it using the discrete GPU. Here's how."
+  },
+  {
+   "title": "Data centers are now a midterm issue, even in Brooklyn",
+   "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-11-01T02:22:10.000Z",
+   "summary": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI…"
+  },
+  {
+   "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+   "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-01T02:19:53.000Z",
+   "summary": "73 points · 25 comments on Hacker News"
+  },
+  {
+   "title": "OTape",
+   "link": "https://www.otape.org/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-01T02:18:46.000Z",
+   "summary": "11 points · 2 comments on Hacker News"
+  },
+  {
+   "title": "Upgrading an Action Camera with an External Battery",
+   "link": "https://hackaday.com/2026/10/31/upgrading-an-action-camera-with-an-external-battery/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-01T02:00:00.000Z",
+   "summary": "[Evan Monsma], the prolific experimenter with cameras, found himself with an issue: he had a small Sony action camera with good performance in every respect but battery life, which was…"
+  },
+  {
+   "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+   "link": "https://arxiv.org/abs/2409.02292",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-01T01:46:29.000Z",
+   "summary": "52 points · 26 comments on Hacker News"
+  },
+  {
+   "title": "Someone used Claude to turn an Amazon Echo Dot into a Home Assistant satellite",
+   "link": "https://www.xda-developers.com/someone-used-claude-to-root-an-amazon-echo-dot-and-turn-it-into-a-home-assistant-satellite/",
+   "source": "XDA Developers",
+   "cat": "AI",
+   "date": "2026-11-01T01:43:22.000Z",
+   "summary": "You can try it yourself, if you like."
+  },
+  {
+   "title": "5 expensive hobbies where owning a 3D printer actually saves you money",
+   "link": "https://www.engadget.com/2300213/3d-printer-expensive-hobbies-where-it-saves-money/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-01T00:30:00.000Z",
+   "summary": "While a personal 3D printer is certainly an investment, if you regularly engage with an expensive hobby, it might actually save you some cash."
+  },
+  {
+   "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+   "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-01T00:10:30.000Z",
+   "summary": "21 points · 6 comments on Hacker News"
+  },
+  {
+   "title": "Windows Search keeps lagging, and there's a built-in fix most people never try",
+   "link": "https://www.xda-developers.com/windows-search-lagging-built-in-fix-people-never-try/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-01T00:00:20.000Z",
+   "summary": "Your search index might be bloated and outdated"
+  },
+  {
+   "title": "Amazon made the AUX input on older Alexa devices less useful",
+   "link": "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-01T00:00:00.000Z",
+   "summary": "Amazon has made a quiet change to older Echo speakers that will leave owners rethinking how they use their devices and manage their home audio setups."
+  },
+  {
+   "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
+   "link": "https://emarzion.github.io/KSRT/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-31T23:55:21.000Z",
+   "summary": "15 points · 1 comments on Hacker News"
+  },
+  {
+   "title": "How big and powerful is SpaceX's Starship rocket?",
+   "link": "https://www.engadget.com/2300227/how-big-powerful-spacex-starship-rocket/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T23:45:00.000Z",
+   "summary": "SpaceX's Starship has a big role to play in NASA's plans to land astronauts on the Moon. Here's how big this rocket is and how its two stages work together."
+  },
+  {
+   "title": "I stopped juggling Claude Code, Codex, and other coding agents after finding this open-source app",
+   "link": "https://www.xda-developers.com/stopped-juggling-claude-code-codex-other-coding-agents-after-finding-open-source-app/",
+   "source": "XDA Developers",
+   "cat": "AI",
+   "date": "2026-10-31T23:31:52.000Z",
+   "summary": "The end of my terminal tab nightmare"
+  },
+  {
+   "title": "Why your Apple AirPods' battery drains so fast and how to make it last longer",
+   "link": "https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T23:30:00.000Z",
+   "summary": "It's annoying when your Apple AirPods run out of juice, but the culprit might not be what you think. Here's what's going on and what you can do about it."
+  },
+  {
+   "title": "NotebookLM's AI podcasts were my favorite way to study, but ChatGPT Dots might change that",
+   "link": "https://www.xda-developers.com/notebooklms-ai-podcasts-replaced-by-chatgpt-dots/",
+   "source": "XDA Developers",
+   "cat": "AI",
+   "date": "2026-10-31T23:00:20.000Z",
+   "summary": "Goodbye NotebookLM, hello ChatGPT."
+  },
+  {
+   "title": "The Slate vs Ford Fathom debate might be settled by this one key tech feature",
+   "link": "https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T23:00:00.000Z",
+   "summary": "Slate and Ford are both building affordable electric pickups, and that means compromises. But the two automakers are taking very different paths to get there."
+  },
+  {
+   "title": "Rooting an Amazon Echo Dot",
+   "link": "https://hackaday.com/2026/10/31/rooting-an-amazon-echo-dot/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-10-31T23:00:00.000Z",
+   "summary": "The Amazon Echo Dot is one of Amazon’s so-called ‘smart speaker’ offerings that tie into their larger Alexa-fueled ecosystem, designed to be a pretty minimalistic device that gives you access…"
+  },
+  {
+   "title": "Altoids Project",
+   "link": "https://uvdn7.github.io/altoids-project/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-31T22:54:55.000Z",
+   "summary": "87 points · 4 comments on Hacker News"
+  },
+  {
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-31T22:46:12.000Z",
+   "summary": "173 points · 92 comments on Hacker News"
+  },
+  {
+   "title": "4 important features you should know if you use Microsoft Teams",
+   "link": "https://www.engadget.com/2300242/important-features-should-know-microsoft-teams/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T22:45:00.000Z",
+   "summary": "A wealth of not-so-well-known features on Microsoft Teams make the experience easier and more stress-free than you may have previously thought."
+  },
+  {
+   "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+   "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-31T22:41:06.000Z",
+   "summary": "304 points · 86 comments on Hacker News"
+  },
+  {
+   "title": "The reason most electrical plug prongs have holes in them",
+   "link": "https://www.engadget.com/2300248/reason-most-electrical-plug-prongs-have-holes/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T22:30:00.000Z",
+   "summary": "If you've ever looked at the end of a plug, you've probably wondered why some have holes, and some don't - and no, it's not actually a big conspiracy theory."
+  },
+  {
+   "title": "I tested free PDF tools on the files that usually send me back to Adobe Acrobat; only one did a decent job",
+   "link": "https://www.xda-developers.com/tested-pdf-tools-files-usually-send-back-adobe-acrobat-one-decent-job/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-10-31T22:00:20.000Z",
+   "summary": "The real test begins with PDFs."
+  },
+  {
+   "title": "5 Netflix tips we all wish we knew sooner",
+   "link": "https://www.engadget.com/2300249/netflix-download-speeds-offline-tricks-wish-knew-sooner/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-10-31T22:00:00.000Z",
+   "summary": "If there are aspects of Netflix streaming that aren't to your liking, there are several changes you can make to optimize your viewing experience."
+  },
+  {
+   "title": "ChatGPT and Codex usage limits merging",
+   "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-10-31T21:49:07.000Z",
+   "summary": "65 points · 26 comments on Hacker News"
+  },
+  {
    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
    "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
    "source": "TechCrunch",
@@ -201,7 +433,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T20:02:06.000Z",
-   "summary": "10 points · 0 comments on Hacker News"
+   "summary": "102 points · 31 comments on Hacker News"
   },
   {
    "title": "5 unusual AI tricks I use to get better results than a single prompt ever could",
@@ -233,7 +465,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T19:56:53.000Z",
-   "summary": "220 points · 101 comments on Hacker News"
+   "summary": "1053 points · 319 comments on Hacker News"
   },
   {
    "title": "Here’s how the new MacBook Pro and macOS 27 are optimized for touch",
@@ -249,7 +481,7 @@
    "source": "Hacker News",
    "cat": "AI",
    "date": "2026-10-31T19:39:19.000Z",
-   "summary": "53 points · 8 comments on Hacker News"
+   "summary": "300 points · 169 comments on Hacker News"
   },
   {
    "title": "Indie App Spotlight: ‘Pumpkin Lights’ adds a fun jack-o-lantern to your Mac’s menu bar",
@@ -281,7 +513,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T19:18:48.000Z",
-   "summary": "22 points · 12 comments on Hacker News"
+   "summary": "81 points · 48 comments on Hacker News"
   },
   {
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
@@ -289,7 +521,15 @@
    "source": "Hacker News",
    "cat": "Security",
    "date": "2026-10-31T19:16:30.000Z",
-   "summary": "154 points · 75 comments on Hacker News"
+   "summary": "449 points · 208 comments on Hacker News"
+  },
+  {
+   "title": "Electrification Could Cut Global Energy Use in Half",
+   "link": "https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-10-31T19:13:34.000Z",
+   "summary": "76 points · 20 comments on Hacker News"
   },
   {
    "title": "The Duty of a Scholar",
@@ -297,7 +537,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T19:07:36.000Z",
-   "summary": "59 points · 12 comments on Hacker News"
+   "summary": "109 points · 31 comments on Hacker News"
   },
   {
    "title": "Fan-made decompilation ports are doing better remasters than the studios that own the games",
@@ -340,12 +580,12 @@
    "summary": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the…"
   },
   {
-   "title": "It's the Memory Latency, Stupid",
+   "title": "It's the memory latency, stupid",
    "link": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T18:38:16.000Z",
-   "summary": "57 points · 13 comments on Hacker News"
+   "summary": "175 points · 48 comments on Hacker News"
   },
   {
    "title": "I changed two settings in my local AI setup, and stopped needing more VRAM",
@@ -729,7 +969,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T13:39:52.000Z",
-   "summary": "136 points · 71 comments on Hacker News"
+   "summary": "240 points · 136 comments on Hacker News"
   },
   {
    "title": "This week in Tom's Hardware Premium: October 31, 2026",
@@ -777,7 +1017,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-10-31T12:58:29.000Z",
-   "summary": "30 points · 0 comments on Hacker News"
+   "summary": "74 points · 3 comments on Hacker News"
   },
   {
    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
@@ -1041,7 +1281,7 @@
    "source": "Hacker News",
    "cat": "AI",
    "date": "2026-10-31T10:30:11.000Z",
-   "summary": "288 points · 141 comments on Hacker News"
+   "summary": "318 points · 157 comments on Hacker News"
   },
   {
    "title": "The 10 best custom chat themes I made in Google Messages",
@@ -1786,246 +2026,6 @@
    "cat": "Software & IT",
    "date": "2026-10-30T20:23:30.000Z",
    "summary": "272 points · 148 comments on Hacker News"
-  },
-  {
-   "title": "Meta settles another social media addiction case just before trial",
-   "link": "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-10-30T20:21:28.000Z",
-   "summary": "Snap is now the only defendant in the case."
-  },
-  {
-   "title": "Embraer's Atech aims to double in size by 2030 with drone traffic control",
-   "link": "https://www.bloomberglinea.com.br/negocios/atech-da-embraer-quer-dobrar-de-tamanho-ate-2030-com-controle-de-trafego-de-drones/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T20:18:18.000Z",
-   "summary": "17 points · 2 comments on Hacker News"
-  },
-  {
-   "title": "Over 25% of people lie to get antibiotics—and their lies aren't even good",
-   "link": "https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-10-30T20:17:50.000Z",
-   "summary": "Faked symptoms still point to infections that antibiotics don't treat."
-  },
-  {
-   "title": "Nvidia store quietly pulls the RTX 5080 following RTX 5090 removal",
-   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-10-30T20:13:10.000Z",
-   "summary": "First the RTX 5090, now the RTX 5080. Nvidia quietly removes the RTX 5080 listing from the marketplace as prices explode to 2.2X MSRP on the retail market."
-  },
-  {
-   "title": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
-   "link": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T20:09:47.000Z",
-   "summary": "14 points · 1 comments on Hacker News"
-  },
-  {
-   "title": "An Arrogant Way of Killing (2016)",
-   "link": "https://magazine.atavist.com/2016/an-arrogant-way-of-killing",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T20:08:52.000Z",
-   "summary": "13 points · 5 comments on Hacker News"
-  },
-  {
-   "title": "Bluesky now has a dedicated 'moderation inbox'",
-   "link": "https://www.engadget.com/2302932/bluesky-now-has-a-dedicated-moderation-inbox/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-10-30T20:07:00.000Z",
-   "summary": "The beta feature makes it easier to stay on top of reports and account strikes."
-  },
-  {
-   "title": "Intel’s woes wipe out $1 trillion of semiconductor market cap in one day",
-   "link": "https://www.tomshardware.com/pc-components/cpus/intels-woes-wipe-out-usd1-trillion-of-semiconductor-market-cap-in-one-day-pc-market-bloodbath-leaves-few-chip-stocks-unscathed",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-10-30T20:06:11.000Z",
-   "summary": "Intel's gloomy outlook for its PC business wipes out $1 trillion of semiconductor market capitalization in a day, barely affects Apple."
-  },
-  {
-   "title": "Amazon slashes $429 off the Samsung Galaxy S26 Plus 512GB",
-   "link": "https://www.androidauthority.com/samsung-galaxy-s26-plus-512gb-deal-3730308/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-30T20:00:37.000Z",
-   "summary": "The Samsung Galaxy S26 Plus 512GB is down 31% off RRP on Amazon, bringing this 2026 flagship under $1,000 in white."
-  },
-  {
-   "title": "I replaced Audible and Kindle with self-hosted alternatives, and I own my library now",
-   "link": "https://www.xda-developers.com/replaced-audible-kindle-self-hosted/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-30T20:00:21.000Z",
-   "summary": "Getting back into books I own."
-  },
-  {
-   "title": "Making Internal Combustion Engines Better With More Valves",
-   "link": "https://hackaday.com/2026/10/30/making-internal-combustion-engines-better-with-more-valves/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-30T20:00:11.000Z",
-   "summary": "When it comes to internal combustion engines (ICEs), it’s generally accepted that each cylinder doesn’t have more valves to let in a fresh fuel mixture and to exhaust the aftermath…"
-  },
-  {
-   "title": "Android Auto can run sideloaded apps for free with this new tool",
-   "link": "https://www.androidauthority.com/android-auto-unknownauto-tool-3730284/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:59:47.000Z",
-   "summary": "This Android Auto tool unlocks sideloaded apps at no cost."
-  },
-  {
-   "title": "Save $100 on the best Apple Watch you can buy right now",
-   "link": "https://www.xda-developers.com/take-100-the-best-apple-watch-you-can-buy-right-now/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:56:39.000Z",
-   "summary": "You can't go wrong at this price"
-  },
-  {
-   "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
-   "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-10-30T19:55:13.000Z",
-   "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an…"
-  },
-  {
-   "title": "Jules Verne's Lost Novel",
-   "link": "https://blue-continuum.com/verne-paris",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T19:55:10.000Z",
-   "summary": "123 points · 30 comments on Hacker News"
-  },
-  {
-   "title": "YouTube bug keeps kicking viewers out of full screen and killing audio",
-   "link": "https://www.androidauthority.com/youtube-bug-randomly-minimizes-videos-kills-audio-3730266/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:52:34.000Z",
-   "summary": "YouTube's mini-player goes rogue."
-  },
-  {
-   "title": "The oldest ice disappears and the Stone Age emerges from it",
-   "link": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T19:51:33.000Z",
-   "summary": "165 points · 66 comments on Hacker News"
-  },
-  {
-   "title": "Score a $150 discount the Apple Watch Ultra 3",
-   "link": "https://www.androidauthority.com/deal-apple-watch-ultra-3-2-3730301/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:44:50.000Z",
-   "summary": "It's down to $649 on Amazon, with $150 off Apple's premium adventure watch with GPS, satellite tools, and 42-hour battery."
-  },
-  {
-   "title": "The 12th Google Store is opening on November 6",
-   "link": "https://9to5google.com/2026/10/30/google-store-houston/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:37:58.000Z",
-   "summary": "Following San Diego and Tokyo in 2026, the next Google Store is opening in Houston on November 6. This is the company’s 11th retail location in the US and 12th…"
-  },
-  {
-   "title": "5 ESP32 projects that replace smart home gadgets you'd otherwise pay a subscription for",
-   "link": "https://www.xda-developers.com/5-esp32-projects-that-replace-smart-home-gadgets-youd-otherwise-pay-a-subscription-for/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:31:21.000Z",
-   "summary": "Why pay a premium for smart devices when an ESP32 and some cheap sensors can do everything for a fraction of the price?"
-  },
-  {
-   "title": "Basically no one is using AI agents for their DoorDash orders",
-   "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
-   "source": "Ars Technica",
-   "cat": "AI",
-   "date": "2026-10-30T19:30:52.000Z",
-   "summary": "But it's still early days for the relatively new e-commerce use case."
-  },
-  {
-   "title": "Infinite Mac: BeOS",
-   "link": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T19:30:09.000Z",
-   "summary": "169 points · 104 comments on Hacker News"
-  },
-  {
-   "title": "A Pickpocket's Guide to New York",
-   "link": "https://www.newyorker.com/magazine/2026/11/02/a-pickpockets-guide-to-new-york",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-10-30T19:26:39.000Z",
-   "summary": "33 points · 5 comments on Hacker News"
-  },
-  {
-   "title": "Bose’s new QuietComfort Ultra Headphones hit Prime Day low again",
-   "link": "https://www.androidauthority.com/quietcomfort-ultra-headphones-gen-2-deal-3730292/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:24:52.000Z",
-   "summary": "The Bose QuietComfort Ultra Headphones 2nd Gen drop to $369 on Amazon, returning to their all-time low price."
-  },
-  {
-   "title": "iOS 27.2 adds two FaceTime features, including a personal favorite",
-   "link": "https://9to5mac.com/2026/10/30/ios-27-2-adds-two-facetime-features-including-a-personal-favorite/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-10-30T19:22:05.000Z",
-   "summary": "iOS 27.2 adds new features to Messages , Podcasts , Photos , and more—including some easy-to-miss upgrades to FaceTime. Here’s what’s new. more…"
-  },
-  {
-   "title": "Bunny CDN Security Incident",
-   "link": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-   "source": "Hacker News",
-   "cat": "Security",
-   "date": "2026-10-30T19:05:22.000Z",
-   "summary": "139 points · 33 comments on Hacker News"
-  },
-  {
-   "title": "Security Bite: This iOS 27.2 camera bug still isn’t enough to make me buy a camera cover",
-   "link": "https://9to5mac.com/2026/10/30/security-bite-this-ios-27-2-camera-bug-still-isnt-enough-to-make-me-buy-a-camera-cover/",
-   "source": "9to5Mac",
-   "cat": "Security",
-   "date": "2026-10-30T19:01:14.000Z",
-   "summary": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach…"
-  },
-  {
-   "title": "Everything you need to know about Googlebooks",
-   "link": "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-10-30T19:00:00.000Z",
-   "summary": "Despite good initial hardware, the Googlebook OS still needs a lot of work."
-  },
-  {
-   "title": "A Modern Smalltalk",
-   "link": "https://hackaday.com/2026/10/30/a-modern-smalltalk/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-10-30T18:30:54.000Z",
-   "summary": "In the history of object-oriented (OO) computer languages, Smalltalk has a special place. It wasn’t the first OO language, and it hasn’t spread as well as some others. But it…"
-  },
-  {
-   "title": "Celebrate Warhammer Day on the 31st of October with these 20 Warhammer 40K-themed products",
-   "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/celebrate-warhammer-day-on-the-31st-of-october-with-these-20-warhammer-40k-themed-products-the-best-space-marine-gear-this-side-of-the-warp",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-10-30T18:30:00.000Z",
-   "summary": "Warhammer Day is celebrated on October 31st 2026, 2026. Check out these great gift ideas for all fans of the grimdark future."
   }
  ]
 }
