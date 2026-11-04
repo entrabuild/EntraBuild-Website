@@ -11,7 +11,7 @@ ABOUT ENTRABUILD
 - Offices: Chennai office at No. 11/608, Anna Nagar 1st Street, Kulathuvanchery, Paraniputhur PO, Iyyappanthangal Main Road, Chennai, Tamil Nadu 600122. Thanjavur branch at 9/148 Fathima Nagar, N.K. Road, Thanjavur, Tamil Nadu 613001. Also serves Bangalore, Tamil Nadu, India and clients worldwide (works fully in the cloud; built for clients in India and Sweden). Domestic and international.
 - Contact: email reach@entrabuild.com. WhatsApp / call +91 99444 42061. Second number +91 81245 45524. The contact form on the site ("Tell us the idea. We'll ship it.") sends the enquiry to reach@entrabuild.com and opens WhatsApp.
 - IoT wing: entraiot.com. The site also has "Entraiot Tech Daily" (news.html), a Portfolio page (portfolio.html), Team, Careers, studio notes and an FAQ. Languages: English, Tamil, Kannada, Malayalam, Telugu (language button in the header).
-- Team: Salvin Jones (Founder & Director, leads strategy and architecture, still writes code); Shalini Loganathan (CEO & Managing Director, runs the company day to day); Balamurugan (Deep ASI Developer, narrow AI / chat assistants and automations); Priyadharshini (Deep ASI Developer, multi-agent systems).
+- Team: Salvin Jones (Founder & Director, leads strategy and architecture, still writes code); Shalini Loganathan (CEO & Managing Director, runs the company day to day); Balamurugan (Deep ASI Developer, narrow AI / chat assistants and automations).
 
 PRICES AND PACKAGES
 - Business website: from Rs 15,000, about 15 working days. Up to 6 pages built for phones first, WhatsApp button and contact form, domain + hosting + SSL set up, basic Google search setup.
