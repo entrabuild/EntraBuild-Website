@@ -33,7 +33,7 @@ em.s{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--gold
 header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:13px}
 .brand{font-weight:700;font-size:19px;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:10px}
-.brand b{font-family:var(--mono);font-weight:500;font-size:14px;color:#0A0E1A;background:var(--gbtn,#F5B03C);border-radius:6px;padding:1px 6px}
+.brand b{display:block;flex:none;width:30px;height:30px;padding:0;border-radius:7px;background:url(../images/logo-mark.png) center/cover no-repeat}
 .nav{display:flex;align-items:center;gap:20px;font-size:14px}
 .nav a{text-decoration:none;color:var(--muted)} .nav a:hover{color:var(--ink)}
 .nav .cta{color:var(--bg);background:var(--ink);padding:7px 15px;border-radius:999px;font-weight:500}

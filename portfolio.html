@@ -67,7 +67,7 @@ em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:13px}
 .brand{font-weight:700;font-size:19px;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:10px;flex:none}
-.brand b{font-family:var(--mono);font-weight:500;font-size:14px;color:#0A0E1A;background:var(--gbtn);border-radius:6px;padding:1px 6px}
+.brand b{display:block;flex:none;width:30px;height:30px;padding:0;border-radius:7px;background:url(images/logo-mark.png) center/cover no-repeat}
 nav{display:flex;gap:20px;font-size:14px;align-items:center}
 nav a{text-decoration:none;color:var(--muted);white-space:nowrap} nav a:hover{color:var(--ink)}
 nav .cta{color:var(--bg);background:var(--ink);padding:7px 15px;border-radius:999px;font-weight:500}
@@ -427,7 +427,7 @@ body.botopen .wa{display:none}
 <noscript><div style="padding:24px;font-family:system-ui"><p><a href="index.html">← EntraBuild home</a></p><p><strong>EntraBuild portfolio</strong></p><ul><li><a href="work/zivira-labs.html">Zivira Labs</a></li><li><a href="work/zivira-website.html">Zivira Labs website</a></li><li><a href="work/rsa-construction.html">R.S.A Construction</a></li><li><a href="work/velankanni-madha.html">Velankanni Madha</a></li><li><a href="work/buildvaultry.html">BuildVaultry</a></li><li><a href="work/tnwla-madras.html">TNWLA Madras</a></li><li><a href="work/stand-firm.html">Stand Firm</a></li><li><a href="work/pavana-silks.html">Pavana Silks</a></li><li><a href="work/bhuvannam-silks.html">Bhuvannam Silks</a></li><li><a href="work/nordic-affairs-media.html">Nordic Affairs Media</a></li><li><a href="work/samhita-stotra.html">Samhita & Stotra</a></li><li><a href="work/voxrel.html">Voxrel</a></li><li><a href="work/viral-ai.html">Viral AI</a></li><li><a href="work/pdf-agi.html">PDF AGI</a></li><li><a href="work/earchana.html">eArchana</a></li><li><a href="work/jeni.html">Jeni</a></li><li><a href="work/affiliated-factory.html">Affiliated Factory</a></li><li><a href="work/good-icecreams.html">Good Icecreams & Coffee</a></li><li><a href="work/the-perch.html">The Perch</a></li><li><a href="work/crafe-cafe.html">Crafe Café</a></li><li><a href="work/the-juice-box.html">The Juice Box</a></li><li><a href="work/coffee-anugraha.html">Coffee AnuGraha</a></li><li><a href="work/cream-story.html">Cream Story</a></li><li><a href="work/berserk-gym.html">Berserk Gym</a></li><li><a href="work/solar-green.html">Solar Green Energy</a></li><li><a href="work/jpt-co.html">JPT & Co</a></li><li><a href="work/cd-player.html">CD Player</a></li><li><a href="work/ye-olde-inbox.html">Ye Olde Inbox</a></li><li><a href="work/jets.html">Jets</a></li><li><a href="work/din-api.html">DIN API Platform</a></li><li><a href="work/sales-engine.html">Entraiot Sales Engine</a></li><li><a href="work/doctor-portfolio.html">Doctor Portfolio</a></li></ul></div></noscript>
 <a class="skip" href="#top">Skip to content</a>
 <header><div class="wrap">
-  <a class="brand" href="#top"><b>&lt;/&gt;</b>EntraBuild</a>
+  <a class="brand" href="#top"><b aria-hidden="true"></b>EntraBuild</a>
   <nav aria-label="Main">
     <a class="hide-m" href="index.html#work" data-i18n="nav.work">Work</a>
     <a class="hide-m" href="index.html#pricing" data-i18n="nav.pricing">Pricing</a>

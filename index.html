@@ -67,7 +67,7 @@ em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:13px}
 .brand{font-weight:700;font-size:19px;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:10px;flex:none}
-.brand b{font-family:var(--mono);font-weight:500;font-size:14px;color:#0A0E1A;background:var(--gbtn);border-radius:6px;padding:1px 6px}
+.brand b{display:block;flex:none;width:30px;height:30px;padding:0;border-radius:7px;background:url(images/logo-mark.png) center/cover no-repeat}
 nav{display:flex;gap:20px;font-size:14px;align-items:center}
 nav a{text-decoration:none;color:var(--muted);white-space:nowrap} nav a:hover{color:var(--ink)}
 nav .cta{color:var(--bg);background:var(--ink);padding:7px 15px;border-radius:999px;font-weight:500}
@@ -430,7 +430,7 @@ body.botopen .wa{display:none}
 <noscript><div style="padding:24px;font-family:system-ui"><p><strong>EntraBuild — software company in Chennai and Bangalore, for Tamil Nadu, India and other countries</strong></p><p>Websites, online stores, custom software, mobile apps and AI chatbots.</p><p><a href="services/website-development.html">Website development</a> · <a href="services/ecommerce-development.html">E-commerce</a> · <a href="services/custom-software-development.html">Custom software</a> · <a href="services/mobile-app-development.html">Mobile apps</a> · <a href="services/ai-chatbot-automation.html">AI chatbots</a> · <a href="news.html">Tech Daily</a></p></div></noscript>
 <a class="skip" href="#top">Skip to content</a>
 <header><div class="wrap">
-  <a class="brand" href="#top"><b>&lt;/&gt;</b>EntraBuild</a>
+  <a class="brand" href="#top"><b aria-hidden="true"></b>EntraBuild</a>
   <nav aria-label="Main">
     <a class="hide-m" href="#work" data-i18n="nav.work">Work</a>
     <a class="hide-m" href="#pricing" data-i18n="nav.pricing">Pricing</a>

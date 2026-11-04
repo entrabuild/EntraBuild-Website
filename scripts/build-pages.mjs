@@ -138,7 +138,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j)}</scri
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="${up}index.html"><b>&lt;/&gt;</b>EntraBuild</a>
+  <a class="brand" href="${up}index.html"><b aria-hidden="true"></b>EntraBuild</a>
   <nav class="nav" aria-label="Main"><a href="${up}portfolio.html">Portfolio</a><a href="${up}services/website-development.html">Services</a><a href="${up}news.html">Tech Daily</a><a href="https://entraiot.com" target="_blank" rel="noopener">IoT Wing</a>
   <button class="themeb" type="button" id="themeBtn" aria-label="Switch theme"></button><a class="cta" href="${up}index.html#contact">Start a project</a></nav>
 </div></header>
