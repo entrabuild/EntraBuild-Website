@@ -960,14 +960,14 @@ body.botopen .wa{display:none}
     te:[['వ్యవస్థాపకుడు & డైరెక్టర్','వ్యూహం, ఆర్కిటెక్చర్, డెలివరీని నడిపిస్తారు; చాలా ప్రాజెక్ట్‌లలో స్వయంగా కోడ్ రాస్తారు.'],['సీఈఓ & మేనేజింగ్ డైరెక్టర్','క్లయింట్ సంబంధాల నుండి బృందం పనితీరు వరకు కంపెనీని రోజువారీగా నడిపిస్తారు.'],['డీప్ AI డెవలపర్','మా ప్లాట్‌ఫామ్‌లలోని AI ఫీచర్లు, ఆటోమేషన్‌ను నిర్మిస్తారు.']]};
   TEAM.forEach((m,i)=>{const k=Math.min(i,2);for(const L of ['kn','ml','te']){m.role[L]=TR[L][k][0];m.p[L]=TR[L][k][1]}});
   const ASI_ROLE={en:'Deep ASI Developer',ta:'ஆழ்ந்த ASI உருவாக்குநர்',kn:'ಡೀಪ್ ASI ಡೆವಲಪರ್',ml:'ഡീപ് ASI ഡെവലപ്പർ',te:'డీప్ ASI డెవలపర్'};
-  TEAM[2].role={...ASI_ROLE};TEAM[3].role={...ASI_ROLE};
-  TEAM[2].tags=['ANI','Assistants','Automation'];TEAM[3].tags=['AGI','Agents','ASI research'];
-  TEAM[2].p={en:'Builds the narrow AI (ANI) inside our client platforms today: chat assistants, document reading and automations that do one job well.',
+  if(TEAM[2])TEAM[2].role={...ASI_ROLE};if(TEAM[3])TEAM[3].role={...ASI_ROLE};
+  if(TEAM[2])TEAM[2].tags=['ANI','Assistants','Automation'];if(TEAM[3])TEAM[3].tags=['AGI','Agents','ASI research'];
+  if(TEAM[2])TEAM[2].p={en:'Builds the narrow AI (ANI) inside our client platforms today: chat assistants, document reading and automations that do one job well.',
     ta:'எங்கள் வாடிக்கையாளர் தளங்களில் இன்று இயங்கும் குறுகிய AI (ANI) உருவாக்குகிறார்: உரையாடல் உதவியாளர்கள், ஆவணம் படித்தல், ஒரே வேலையைச் சிறப்பாகச் செய்யும் தானியங்கிகள்.',
     kn:'ಇಂದು ನಮ್ಮ ಗ್ರಾಹಕ ವೇದಿಕೆಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವ ಸಂಕುಚಿತ AI (ANI) ನಿರ್ಮಿಸುತ್ತಾರೆ: ಚಾಟ್ ಸಹಾಯಕರು, ದಾಖಲೆ ಓದುವಿಕೆ ಮತ್ತು ಒಂದು ಕೆಲಸವನ್ನು ಚೆನ್ನಾಗಿ ಮಾಡುವ ಸ್ವಯಂಚಾಲನೆಗಳು.',
     ml:'ഇന്ന് ഞങ്ങളുടെ ക്ലയന്റ് പ്ലാറ്റ്‌ഫോമുകളിൽ പ്രവർത്തിക്കുന്ന നാരോ AI (ANI) നിർമ്മിക്കുന്നു: ചാറ്റ് അസിസ്റ്റന്റുകൾ, ഡോക്യുമെന്റ് വായന, ഒരു ജോലി നന്നായി ചെയ്യുന്ന ഓട്ടോമേഷനുകൾ.',
     te:'ఈ రోజు మా క్లయింట్ ప్లాట్‌ఫామ్‌లలో పనిచేసే నారో AI (ANI) ని నిర్మిస్తారు: చాట్ అసిస్టెంట్లు, డాక్యుమెంట్ చదవడం, ఒక పనిని బాగా చేసే ఆటోమేషన్లు.'};
-  TEAM[3].p={en:'Works on multi-agent systems that plan and act across many tools, our step from ANI toward AGI, and studies where ASI could lead.',
+  if(TEAM[3])TEAM[3].p={en:'Works on multi-agent systems that plan and act across many tools, our step from ANI toward AGI, and studies where ASI could lead.',
     ta:'பல கருவிகளில் திட்டமிட்டுச் செயல்படும் பல-முகவர் அமைப்புகளில் பணியாற்றுகிறார். இது ANI இலிருந்து AGI நோக்கிய எங்கள் அடுத்த படி. ASI எங்கு இட்டுச் செல்லும் என்பதையும் ஆய்வு செய்கிறார்.',
     kn:'ಹಲವು ಸಾಧನಗಳಲ್ಲಿ ಯೋಜಿಸಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಹು-ಏಜೆಂಟ್ ವ್ಯವಸ್ಥೆಗಳ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ. ಇದು ANI ಇಂದ AGI ಕಡೆಗಿನ ನಮ್ಮ ಹೆಜ್ಜೆ. ASI ಎಲ್ಲಿಗೆ ಕೊಂಡೊಯ್ಯಬಹುದು ಎಂಬುದನ್ನೂ ಅಧ್ಯಯನ ಮಾಡುತ್ತಾರೆ.',
     ml:'പല ടൂളുകളിലായി പ്ലാൻ ചെയ്ത് പ്രവർത്തിക്കുന്ന മൾട്ടി-ഏജന്റ് സംവിധാനങ്ങളിൽ പ്രവർത്തിക്കുന്നു. ഇത് ANI-യിൽ നിന്ന് AGI-യിലേക്കുള്ള ഞങ്ങളുടെ ചുവടാണ്. ASI എവിടേക്ക് നയിക്കാം എന്നും പഠിക്കുന്നു.',
