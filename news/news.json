@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:30:35.402Z",
+ "updated": "2026-11-17T08:29:38.095Z",
  "edition": 26,
  "sections": [
   "AI",
@@ -108,6 +108,702 @@
  ],
  "items": [
   {
+   "title": "Leak suggests Samsung delayed Quick Share’s Tap to Share for One UI 9.5",
+   "link": "https://www.androidauthority.com/samsung-one-ui-9-5-quick-share-tap-to-share-leak-3735920/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T08:23:16.000Z",
+   "summary": "The \"Tap to share\" toggle only surfaces on Galaxy devices spoofed as running Samsung's unreleased software update."
+  },
+  {
+   "title": "TRMNL Frame is a $1300 full-color e-paper display that looks like real art",
+   "link": "https://www.engadget.com/2318822/trmnl-frame-is-a-full-color-e-paper-display-that-looks-like-real-art/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-17T08:16:36.000Z",
+   "summary": "TRMNL, the company known for e-paper frames and kits, just launched its biggest and most colorful product yet."
+  },
+  {
+   "title": "Xbox Playback is like Spotify Wrapped for your last 25 years of gaming",
+   "link": "https://www.xda-developers.com/xbox-playback-is-like-spotify-wrapped-for-your-last-25-years-of-gaming/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T08:10:53.000Z",
+   "summary": "How many hours have you logged since 2001?"
+  },
+  {
+   "title": "Oobah Butler Can Sell You Anything—If You’re a Rich Idiot",
+   "link": "https://www.wired.com/story/oobah-butler-exclusive-interview-scams-for-a-better-tomorrow/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T08:00:00.000Z",
+   "summary": "In an exclusive interview, the stunt journalist talks about his new HBO show, where he dreams up grifting schemes to lampoon some of the world’s most opulent—and gullible—industries."
+  },
+  {
+   "title": "US AI chip curbs threaten Southeast Asia data centre boom, shares slump",
+   "link": "https://economictimes.indiatimes.com/tech/technology/us-ai-chip-curbs-threaten-southeast-asia-data-centre-boom-shares-slump/articleshow/135916332.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T07:56:03.000Z",
+   "summary": "The new rule restricts shipments of advanced chips to the region's major economies such as Malaysia, Singapore and Thailand, which some Chinese companies have used to access computing power to…"
+  },
+  {
+   "title": "The ClawPal is an ESP32-powered desk buddy that keeps track of your PC’s stats for you",
+   "link": "https://www.xda-developers.com/the-clawpal-is-an-esp32-powered-desk-buddy-that-keeps-track-of-your-pcs-stats-for-you/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T07:52:17.000Z",
+   "summary": "Everything about it can be made at home, even the case."
+  },
+  {
+   "title": "Air purifier sales surge as demand, smart features drive market growth",
+   "link": "https://www.thehindu.com/sci-tech/technology/air-purifier-sales-surge-as-demand-smart-features-drive-market-growth/article71710866.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-17T07:47:42.000Z",
+   "summary": "While Delhi-NCR remains the dominant market, cities like Mumbai and regions beyond traditional high-pollution belts are showing sustained upticks"
+  },
+  {
+   "title": "US cities have some of the world’s weakest indoor mobile signals, Ookla finds",
+   "link": "https://www.androidauthority.com/ookla-us-indoor-mobile-coverage-report-3735830/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T07:37:12.000Z",
+   "summary": "Better indoor reception starts with better outdoor coverage."
+  },
+  {
+   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+   "source": "BleepingComputer",
+   "cat": "Security",
+   "date": "2026-11-17T07:25:44.000Z",
+   "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]"
+  },
+  {
+   "title": "Samsung Electronics, TSMC shares fall after US announces curbs on China's chip access",
+   "link": "https://economictimes.indiatimes.com/tech/technology/samsung-electronics-tsmc-shares-fall-after-us-announces-curbs-on-chinas-chip-access/articleshow/135915493.cms",
+   "source": "ET Tech",
+   "cat": "Electronics",
+   "date": "2026-11-17T07:23:50.000Z",
+   "summary": "Shares of Samsung Electronics and TSMC lost ground on Tuesday in Asia after the Trump administration said on Monday it would further restrict China's access to advanced AI chips."
+  },
+  {
+   "title": "What to know about the online banking delays affecting major U.S. banks",
+   "link": "https://www.thehindu.com/sci-tech/technology/what-to-know-about-the-online-banking-delays-affecting-major-us-banks/article71710293.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-17T07:21:24.000Z",
+   "summary": "Chase said that the technical problem was not the result of a cyberattack, stressing that it was an isolated incident and not related to anything other than a bug."
+  },
+  {
+   "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+   "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-11-17T07:12:13.000Z",
+   "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors…"
+  },
+  {
+   "title": "Anthropic debuts to skeptics and dogged believers: Mike Dolan",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-debuts-to-skeptics-and-dogged-believers-mike-dolan/articleshow/135915173.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T07:11:19.000Z",
+   "summary": "The Claude developer's bumper initial public offering (IPO) is set to price on Wednesday before trading begins the following day. In the rush to go public before rival ChatGPT owner…"
+  },
+  {
+   "title": "Samsung led India’s smartphone market during Q3 2026, overall shipments collapsed 23%",
+   "link": "https://www.thehindu.com/sci-tech/technology/samsung-led-indias-smartphone-market-during-q3-2026-overall-shipments-collapsed-23/article71710701.ece",
+   "source": "The Hindu Technology",
+   "cat": "Mobile",
+   "date": "2026-11-17T06:59:28.000Z",
+   "summary": "Apple stood at number four position with a 10.1% share, as the sharp decline across Chinese brands lifted its position in a shrinking market, even as Apple’s own shipments fell…"
+  },
+  {
+   "title": "The Galaxy S27 Pro and Ultra aren’t out yet, but you can already download their wallpapers",
+   "link": "https://www.androidauthority.com/galaxy-s27-pro-ultra-wallpaper-leak-3735814/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T06:51:03.000Z",
+   "summary": "Leaked Galaxy S27 Pro and Ultra subtly hint at a class divide with the base and Plus models."
+  },
+  {
+   "title": "Apple brings camera-based Face ID to iPhone Duo, but too bad it didn’t copy Pixels",
+   "link": "https://www.androidauthority.com/apple-iphone-duo-camera-face-id-3735808/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T06:48:41.000Z",
+   "summary": "Apple is following Android OEMs by offering camera-based face unlock on the iPhone Duo."
+  },
+  {
+   "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+   "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-11-17T06:29:27.000Z",
+   "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.…"
+  },
+  {
+   "title": "Apple adds new disk controls to prevent AI agents from running amok",
+   "link": "https://www.engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/",
+   "source": "Engadget",
+   "cat": "AI",
+   "date": "2026-11-17T06:22:11.000Z",
+   "summary": "After sounding an alarm about the issue, Apple is taking steps to limit Mac disk access to AI agents."
+  },
+  {
+   "title": "The Fastest Paddleboard in the World",
+   "link": "https://hackaday.com/2026/11/16/the-fastest-paddleboard-in-the-world/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-17T06:00:50.000Z",
+   "summary": "The world is full of linguistic boundaries that seem obvious during regular communication but can break down upon closer inspection. Is a pizza an open-faced sandwich? Is an ebike a…"
+  },
+  {
+   "title": "Chewy Promo Codes: 25% Off November 2026",
+   "link": "https://www.wired.com/story/chewy-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts."
+  },
+  {
+   "title": "Uber Eats Promo Codes: $15 Off│November 2026",
+   "link": "https://www.wired.com/story/uber-eats-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs."
+  },
+  {
+   "title": "Booking.com Promo Codes: 20% Off | November 2026",
+   "link": "https://www.wired.com/story/booking-com-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals."
+  },
+  {
+   "title": "Surfshark Promo Codes: 87% Off | November 2026",
+   "link": "https://www.wired.com/story/surfshark-coupon/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED."
+  },
+  {
+   "title": "Newegg Promo Codes and Coupons for November 2026",
+   "link": "https://www.wired.com/story/newegg-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts."
+  },
+  {
+   "title": "AT&T Promo Codes: $50 Off This November 2026",
+   "link": "https://www.wired.com/story/att-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T06:00:00.000Z",
+   "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals."
+  },
+  {
+   "title": "Motorola confirms some Signature 27 buyers will get a much smaller battery",
+   "link": "https://www.androidauthority.com/motorola-signature-27-battery-downgrade-confirmed-3735801/",
+   "source": "Android Authority",
+   "cat": "Electronics",
+   "date": "2026-11-17T05:47:31.000Z",
+   "summary": "Local battery regulations are to blame."
+  },
+  {
+   "title": "Meta says it tuned Instagram to curb suggestive, violent content in India",
+   "link": "https://economictimes.indiatimes.com/tech/technology/meta-says-it-tuned-instagram-to-curb-suggestive-violent-content-in-india/articleshow/135912317.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-11-17T05:37:46.000Z",
+   "summary": "Meta Platforms said on Tuesday it had modified Instagram's recommendation systems specifically for India to show less sexually suggestive and violent content, as the government tightens oversight of online content."
+  },
+  {
+   "title": "Popular websites subverted in bid to steal crypto, target iPhone users",
+   "link": "https://economictimes.indiatimes.com/tech/technology/popular-websites-subverted-in-bid-to-steal-crypto-target-iphone-users/articleshow/135912282.cms",
+   "source": "ET Tech",
+   "cat": "Mobile",
+   "date": "2026-11-17T05:35:51.000Z",
+   "summary": "Malicious JavaScript was aimed at visitors to the websites of 178 organizations across various sectors through Optimizely, a website optimization platform, according to researcher Scott Helme."
+  },
+  {
+   "title": "The iconic Windows Phone Metro UI is getting a feature-length documentary because it died too soon",
+   "link": "https://www.xda-developers.com/the-iconic-windows-phone-metro-ui-is-getting-a-feature-length-documentary-because-it-died-too-soon/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T05:35:32.000Z",
+   "summary": "See what could have been."
+  },
+  {
+   "title": "China taps US AI models to train homegrown rivals as chip curbs bite",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite/articleshow/135912225.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T05:33:55.000Z",
+   "summary": "Chinese entities are adopting increasingly sophisticated ways to use output from leading American AI models to train domestic rivals, documents show, as China aims to broaden its AI strategy and…"
+  },
+  {
+   "title": "Singapore seeks ‘trusted access’ to AI chips after new US curbs",
+   "link": "https://www.thehindu.com/sci-tech/technology/singapore-seeks-trusted-access-to-ai-chips-after-new-us-curbs/article71710285.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-11-17T05:33:17.000Z",
+   "summary": "Singapore is finding itself at the centre of the controversy as cloud computing firm Megaspeed, suspected of helping Chinese firms get around US export controls, is based there"
+  },
+  {
+   "title": "California sues OpenAI, seeking court-ordered changes after the Hugging Face hack",
+   "link": "https://www.thehindu.com/sci-tech/technology/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/article71710460.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-11-17T05:32:47.000Z",
+   "summary": "OpenAI announced an “unprecedented cyber incident” on July 21, when its AI agent hacked into another AI company, Hugging Face, after escaping from what was supposed to be an isolated…"
+  },
+  {
+   "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+   "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-11-17T05:00:34.000Z",
+   "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes…"
+  },
+  {
+   "title": "Google’s ‘Pixel virtual gamepad’ is finally rolling out for foldable Pixels",
+   "link": "https://www.androidauthority.com/google-pixel-virtual-gamepad-rollout-3735792/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T04:36:37.000Z",
+   "summary": "This is Android 17's \"Foldable Gaming Mode\" finally making its way to the Pixel Fold lineup."
+  },
+  {
+   "title": "How does India address service outages?",
+   "link": "https://www.thehindu.com/sci-tech/technology/how-does-india-address-service-outages/article71707944.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-17T04:21:34.000Z",
+   "summary": "Does Indian law require Microsoft to have reported the recent outage that affected customers’ ability to access its productivity suite? What rules apply in such situations and what are their…"
+  },
+  {
+   "title": "AI adoption, weak demand to keep India's IT services revenue growth subdued in FY27: Report",
+   "link": "https://economictimes.indiatimes.com/tech/information-tech/ai-adoption-weak-demand-to-keep-indias-it-services-revenue-growth-subdued-in-fy27-report/articleshow/135910029.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T04:13:12.000Z",
+   "summary": "India's IT services sector may continue to face subdued revenue growth in the remaining months of FY27 as rising adoption of artificial intelligence shifts technology spending towards AI-focused companies and…"
+  },
+  {
+   "title": "Google Messages beta shows conversation categories returning after 2023 removal",
+   "link": "https://www.androidauthority.com/google-messages-conversation-categories-3735787/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-17T03:58:53.000Z",
+   "summary": "Tired of promotional texts cluttering your inbox? Google Messages could have a fix."
+  },
+  {
+   "title": "Outlook outage: On Microsoft and dangers of centralising digital systems",
+   "link": "https://www.thehindu.com/opinion/editorial/outlook-outage-the-hindu-editorial-on-microsoft-and-dangers-of-centralising-systems/article71708179.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-17T03:41:33.000Z",
+   "summary": "The dangers of centralising the internet’s architecture are now clear"
+  },
+  {
+   "title": "Study estimates magnitude of US data center pollution as climate talks unveil clean AI pledge",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/study-estimates-magnitude-of-us-data-center-pollution-as-climate-talks-unveil-clean-ai-pledge/articleshow/135908878.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T03:24:19.000Z",
+   "summary": "The pledge also calls for focusing the power of artificial intelligence on solving the so-far intractable problem of climate change and reflects burgeoning concerns about AI's ever-expanding environmental footprint. The…"
+  },
+  {
+   "title": "98 percent of scientists expect AI to accelerate scientific discoveries, OpenAI study finds",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/98-percent-of-scientists-expect-ai-to-accelerate-scientific-discoveries-openai-study-finds/articleshow/135908805.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T03:20:01.000Z",
+   "summary": "Artificial intelligence could significantly shorten the time needed for scientific breakthroughs, with 98 per cent of surveyed scientists expecting AI to accelerate discoveries in their fields, according to a new…"
+  },
+  {
+   "title": "iPhone Duo gets one of Face ID’s best features with upcoming iOS 27.3 update",
+   "link": "https://9to5mac.com/2026/11/16/iphone-duo-gets-one-of-face-ids-best-features-with-upcoming-ios-27-3-update/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-17T03:15:50.000Z",
+   "summary": "Soon, your alarms, timers, and phone calls will be less disruptive on iPhone Duo. more…"
+  },
+  {
+   "title": "Nvidia earnings to test AI boom after Huang's exit",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-earnings-to-test-ai-boom-after-huangs-exit/articleshow/135908581.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T03:06:30.000Z",
+   "summary": "Nvidia reports quarterly earnings on Tuesday, its first since Jensen Huang's departure as CEO, with investors watching for signs of whether the AI boom can withstand the widening scandal that…"
+  },
+  {
+   "title": "Water in the Ancient Desert",
+   "link": "https://hackaday.com/2026/11/16/water-in-the-ancient-desert/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-17T03:00:29.000Z",
+   "summary": "The desert of the Iranian Plateau receives very little rainfall, and most of it falls in the mountains before flowing underneath the porous ground of the region. The ancient Persians…"
+  },
+  {
+   "title": "Visa, Mastercard urge approval of $38 billion swipe fee settlement",
+   "link": "https://economictimes.indiatimes.com/tech/technology/visa-mastercard-urge-approval-of-38-billion-swipe-fee-settlement/articleshow/135907825.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-11-17T02:32:03.000Z",
+   "summary": "* Judge declines to rule immediately, sees 'protracted process' if he rejects settlement * Accord would end 'Honor All Cards' rule, cap fees on standard consumer cards * Opponents say…"
+  },
+  {
+   "title": "Gemini Notebook can now turn your research into interactive websites",
+   "link": "https://www.androidauthority.com/gemini-notebook-research-interactive-sites-3735782/",
+   "source": "Android Authority",
+   "cat": "AI",
+   "date": "2026-11-17T02:31:40.000Z",
+   "summary": "This tool just keeps getting better and better."
+  },
+  {
+   "title": "OpenAI's Sam Altman acknowledges public anger over data centers",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T02:29:58.000Z",
+   "summary": "Silicon Valley's pitch to the world about artificial intelligence has missed the mark, OpenAI CEO Sam Altman said on Monday, nearly two weeks after the US midterms dealt a blow…"
+  },
+  {
+   "title": "The Creality K2 SE 4C 3D Printer gives you four-color printing for $359",
+   "link": "https://www.xda-developers.com/crealitys-k2-se-4c-3d-printer-drops-to-just-359-with-four-color-printing-built-in/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T02:20:23.000Z",
+   "summary": "Four colors, up to 500mm/s, and an open frame"
+  },
+  {
+   "title": "Anthropic's IPO: How do you price the future of AI?",
+   "link": "https://economictimes.indiatimes.com/tech/technology/anthropics-ipo-how-do-you-price-the-future-of-ai/articleshow/135907629.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-17T02:18:59.000Z",
+   "summary": "Speculation over Anthropic' trying to put a price on the future of artificial intelligence. That figure would put the young company among the largest stock market debuts on record, though…"
+  },
+  {
+   "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+   "link": "https://support.apple.com/en-us/149699",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-17T02:17:04.000Z",
+   "summary": "107 points · 55 comments on Hacker News"
+  },
+  {
+   "title": "Mem Is Shutting Down",
+   "link": "https://get.mem.ai/blog/mem-is-shutting-down",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-17T02:13:41.000Z",
+   "summary": "50 points · 72 comments on Hacker News"
+  },
+  {
+   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+   "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+   "source": "BleepingComputer",
+   "cat": "Security",
+   "date": "2026-11-17T02:12:17.000Z",
+   "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to…"
+  },
+  {
+   "title": "tvOS 27.3 beta 2 brings Siri AI to Apple TV beta testers",
+   "link": "https://9to5mac.com/2026/11/16/tvos-27-3-beta-2-brings-siri-ai-to-apple-tv-beta-testers/",
+   "source": "9to5Mac",
+   "cat": "AI",
+   "date": "2026-11-17T01:36:22.000Z",
+   "summary": "Following the rollout of Siri AI to select Apple TV models with tvOS 27.2.1, Apple today expanded availability to users running the tvOS 27.3 developer beta. Here are the details.…"
+  },
+  {
+   "title": "Buying a used phone? Make sure to check the IMEI first",
+   "link": "https://www.engadget.com/2315183/buying-used-phone-check-imei-first/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-17T01:30:00.000Z",
+   "summary": "One of the most important parts of buying a used phone involves the device's IMEI number - which can reveal whether it has sketchy history and more."
+  },
+  {
+   "title": "Running coding agents without handing them my credentials",
+   "link": "https://blog.antonio.cx/running-agents-with-lend",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-17T01:18:56.000Z",
+   "summary": "104 points · 65 comments on Hacker News"
+  },
+  {
+   "title": "The Fanttik S1 Pro electric screwdriver with three torque settings drops to $40 on Amazon",
+   "link": "https://www.xda-developers.com/this-fanttik-s1-pro-electric-screwdriver-with-three-torque-settings-drops-to-just-3999/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T01:10:05.000Z",
+   "summary": "Get a powered screwdriver with USB-C charging and S2 bits"
+  },
+  {
+   "title": "Windows once ran the world's 10th-fastest supercomputer, and now even Microsoft's supercomputers run Linux",
+   "link": "https://www.xda-developers.com/windows-ran-worlds-10th-fastest-supercomputer-microsoft-supercomputers-linux/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T01:00:20.000Z",
+   "summary": "Windows never took off in the HPC space, and the attempt it made came too late."
+  },
+  {
+   "title": "Meta is testing Direct, a standalone messaging app for Instagram",
+   "link": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-17T01:00:00.000Z",
+   "summary": "Meta's new DM app for Instagram is only available in Turkey and Thailand, for now."
+  },
+  {
+   "title": "The 8 Best Movies to Stream Right Now (November 2026)",
+   "link": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-17T00:58:05.000Z",
+   "summary": "Arco, Backrooms, and Godzilla Minus One are among the films deserving of your eyeballs this month."
+  },
+  {
+   "title": "What’s new in Android’s November 2026 Google System Updates [U: Pixel virtual gamepad]",
+   "link": "https://9to5google.com/2026/11/16/november-2026-google-system-updates/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-11-17T00:43:00.000Z",
+   "summary": "The monthly “ Google System Release Notes ” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android TV, Auto, and…"
+  },
+  {
+   "title": "Former Apple chairman Arthur Levinson files to sell $31.8 million in company stock",
+   "link": "https://9to5mac.com/2026/11/16/former-apple-chairman-arthur-levinson-files-to-sell-31-8-million-in-company-stock/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-17T00:32:01.000Z",
+   "summary": "Arthur Levinson, who currently serves as Apple’s lead independent director, informed the SEC today of his plans to sell 90,000 shares of Apple stock worth approximately $31.8 million. Here are…"
+  },
+  {
+   "title": "The important Gmail security settings you should be using",
+   "link": "https://www.engadget.com/2315195/gmail-security-settings-most-important-use/",
+   "source": "Engadget",
+   "cat": "Security",
+   "date": "2026-11-17T00:30:00.000Z",
+   "summary": "If you haven't taken steps to secure your Gmail account recently, it's time to log in and make sure these settings are squared away."
+  },
+  {
+   "title": "Why 3dfx 1 cards had such a washed out color output?",
+   "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-17T00:16:24.000Z",
+   "summary": "101 points · 22 comments on Hacker News"
+  },
+  {
+   "title": "9to5Mac Daily: November 16, 2026 – Apple glasses rumors, more",
+   "link": "https://9to5mac.com/2026/11/16/daily-november-16-2026/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-17T00:09:13.000Z",
+   "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google…"
+  },
+  {
+   "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
+   "link": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-17T00:00:27.000Z",
+   "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky…"
+  },
+  {
+   "title": "4 vibe-coded alternatives of paid apps that can make you re-think your productivity workflow",
+   "link": "https://www.xda-developers.com/vibe-coded-alternatives-of-famous-apps-for-productivity-workflow/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-17T00:00:20.000Z",
+   "summary": "These underrated vibe-coded projects might change how you work every day."
+  },
+  {
+   "title": "Sihoo’s ergonomic office chair gives all-year comfort at lowest price for holidays",
+   "link": "https://9to5mac.com/2026/11/16/sihoos-ergonomic-office-chair-gives-all-year-comfort-at-lowest-price-for-holidays/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-17T00:00:00.000Z",
+   "summary": "The holiday season brings the best deals of the year, and for anyone looking to upgrade to an ergonomic office chair, Sihoo’s Doro C300 Pro V2 is now available at…"
+  },
+  {
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "source": "OpenAI News",
+   "cat": "AI",
+   "date": "2026-11-17T00:00:00.000Z",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems."
+  },
+  {
+   "title": "Whether it's Black Friday or a CEO scandal, NVIDIA GPUs just don't get deep discounts",
+   "link": "https://www.engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-17T00:00:00.000Z",
+   "summary": "Hoping the Jensen Huang fallout means cheap RTX cards this Black Friday? Here's what's really driving GPU prices and why deals may be hard to find."
+  },
+  {
+   "title": "Google Messages is working on personalized Smart Replies that match better with your conversation",
+   "link": "https://www.androidauthority.com/personalized-smart-replies-3735772/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:57:30.000Z",
+   "summary": "The system would help automated responses fit in better with a conversation's overall vibe."
+  },
+  {
+   "title": "Chrome 157 for Googlebook rolling out with 27 new features, improvements",
+   "link": "https://9to5google.com/2026/11/16/chrome-157-googlebook/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:46:42.000Z",
+   "summary": "Chrome 157 widely rolled out last week, and Google is now sharing the extensive changelog for Googlebook OS. more…"
+  },
+  {
+   "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+   "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+   "source": "The Verge",
+   "cat": "Security",
+   "date": "2026-11-16T23:35:58.000Z",
+   "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according…"
+  },
+  {
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "source": "TechCrunch",
+   "cat": "AI",
+   "date": "2026-11-16T23:32:32.000Z",
+   "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA."
+  },
+  {
+   "title": "How to put your iPad in recovery mode (with and without a home button)",
+   "link": "https://www.engadget.com/2315100/how-to-put-ipad-in-recovery-mode/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:30:00.000Z",
+   "summary": "A failed update or too many wrong passcodes can leave your iPad unusable. Find out how recovery mode works and when it's worth trying as a last resort."
+  },
+  {
+   "title": "New Gemini setting lets you keep chat history, but turn off AI training",
+   "link": "https://9to5google.com/2026/11/16/gemini-history-ai-training/",
+   "source": "9to5Google",
+   "cat": "AI",
+   "date": "2026-11-16T23:22:08.000Z",
+   "summary": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more…"
+  },
+  {
+   "title": "Sony's fantastic ANC headphones are just $378 right now",
+   "link": "https://www.xda-developers.com/sonys-wh-1000xm6-headphones-drop-to-just-378-with-a-new-qn3-chip-and-12-anc-mics/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:19:36.000Z",
+   "summary": "A faster chip and more mics for spec hunters"
+  },
+  {
+   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-11-16T23:17:34.000Z",
+   "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also…"
+  },
+  {
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "source": "Hacker News",
+   "cat": "Security",
+   "date": "2026-11-16T23:00:34.000Z",
+   "summary": "300 points · 129 comments on Hacker News"
+  },
+  {
+   "title": "I connected my Shield TV Pro's Plex server to lossless CD rips, and its companion app made them portable",
+   "link": "https://www.xda-developers.com/i-connected-my-shield-tv-pros-plex-server-lossless-cd-rips-companion-app-made-them-portable/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:00:23.000Z",
+   "summary": "I finally added a NAS to my Shield TV Pro's Plex server to listen to CDs remotely with Plexamp."
+  },
+  {
+   "title": "Secure cloud storage is the cheaper, safer alternative to keeping files physical",
+   "link": "https://9to5google.com/2026/11/16/secure-cloud-storage-cheaper-safer-alternative-keeping-files-physical/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-11-16T23:00:00.000Z",
+   "summary": "Physical storage and memory are only getting more expensive, but that doesn’t mean we need to store any less. The alternative solution is a secure cloud storage platform, and there’s…"
+  },
+  {
+   "title": "The charging mistakes that could ruin your Nintendo Switch's battery",
+   "link": "https://www.engadget.com/2314944/nintendo-switch-charging-mistakes-ruin-battery/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-16T23:00:00.000Z",
+   "summary": "To avoid turning your Nintendo Switch into just another stationary console, there are a few common and easy-to-overlook charging mistakes you'll want to avoid"
+  },
+  {
+   "title": "The best Warhammer 40K-themed gifts for your gaming setup",
+   "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-warhammer-40k-themed-gifts-for-your-gaming-setup-chairs-desks-backpacks-toys-and-games-that-will-please-the-imperium",
+   "source": "Tom's Hardware",
+   "cat": "Electronics",
+   "date": "2026-11-16T23:00:00.000Z",
+   "summary": "Check out these great gift ideas for all fans of the grimdark future."
+  },
+  {
+   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+   "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-11-16T22:58:27.000Z",
+   "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home."
+  },
+  {
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-16T22:58:20.000Z",
+   "summary": "551 points · 387 comments on Hacker News"
+  },
+  {
+   "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+   "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-11-16T22:54:59.000Z",
+   "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an…"
+  },
+  {
+   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "source": "BleepingComputer",
+   "cat": "AI",
+   "date": "2026-11-16T22:54:00.000Z",
+   "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from…"
+  },
+  {
+   "title": "Here’s how Google Messages’ in-chat mini games will work",
+   "link": "https://www.androidauthority.com/google-messages-in-app-gaming-3735732/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-16T22:51:51.000Z",
+   "summary": "Google Messages is preparing to add built-in games to rival iMessage."
+  },
+  {
+   "title": "United Airlines has fixed issue that caused 'widespread system outage'",
+   "link": "https://www.engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-16T22:38:43.000Z",
+   "summary": "United is apparently experiencing a major outage just days after a nationwide ground stop halted thousands of flights."
+  },
+  {
    "title": "I run a 2B vision model on my phone and stopped sending my screenshots to ChatGPT and Claude",
    "link": "https://www.xda-developers.com/run-2b-vision-model-on-phone-stopped-sending-screenshots-to-chatgpt-claude/",
    "source": "XDA Developers",
@@ -138,6 +834,14 @@
    "cat": "Electronics",
    "date": "2026-11-16T22:20:00.000Z",
    "summary": "Pick up a retro tech gift for yourself or a loved one this holiday season, from mini PCs to old-school controllers."
+  },
+  {
+   "title": "How to Break into Security, Ptacek Edition (2012)",
+   "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+   "source": "Hacker News",
+   "cat": "Security",
+   "date": "2026-11-16T22:19:23.000Z",
+   "summary": "103 points · 24 comments on Hacker News"
   },
   {
    "title": "Save $120 on the Skullcandy Crusher ANC 2 noise canceling headphones",
@@ -185,7 +889,7 @@
    "source": "TechCrunch",
    "cat": "Electronics",
    "date": "2026-11-16T22:03:02.000Z",
-   "summary": "Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results.…"
+   "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given…"
   },
   {
    "title": "KVM-over-IP gave me an office workstation that actually works from anywhere",
@@ -217,7 +921,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T21:47:19.000Z",
-   "summary": "22 points · 13 comments on Hacker News"
+   "summary": "101 points · 86 comments on Hacker News"
   },
   {
    "title": "The Bank Outage May Have Nothing to Do With Your Bank",
@@ -252,12 +956,12 @@
    "summary": "Google's prepping an automatic SIM-sharing tool of its own."
   },
   {
-   "title": "BugMeNot Has Closed",
+   "title": "BugMeNot has closed",
    "link": "https://www.bugmenot.com/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T21:32:17.000Z",
-   "summary": "96 points · 56 comments on Hacker News"
+   "summary": "500 points · 223 comments on Hacker News"
   },
   {
    "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
@@ -313,7 +1017,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T21:20:37.000Z",
-   "summary": "16 points · 7 comments on Hacker News"
+   "summary": "228 points · 124 comments on Hacker News"
   },
   {
    "title": "The iPhone Duo gets face unlock with the latest iOS 27 beta.",
@@ -433,7 +1137,7 @@
    "source": "The Verge",
    "cat": "AI",
    "date": "2026-11-16T20:46:01.000Z",
-   "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta…"
+   "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta…"
   },
   {
    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
@@ -441,7 +1145,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T20:43:36.000Z",
-   "summary": "95 points · 19 comments on Hacker News"
+   "summary": "1368 points · 190 comments on Hacker News"
   },
   {
    "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
@@ -497,7 +1201,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T20:29:48.000Z",
-   "summary": "21 points · 6 comments on Hacker News"
+   "summary": "42 points · 20 comments on Hacker News"
   },
   {
    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
@@ -532,12 +1236,12 @@
    "summary": "Apple's latest noise canceling earbuds are $70 off on Amazon, with heart rate sensing and Live Translation."
   },
   {
-   "title": "Chemistry Is Geometry",
+   "title": "Chemistry is Actually Geometry",
    "link": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T20:22:18.000Z",
-   "summary": "24 points · 3 comments on Hacker News"
+   "summary": "209 points · 105 comments on Hacker News"
   },
   {
    "title": "iPhone Duo now has twice as many optimized apps as it did 10 days ago",
@@ -569,7 +1273,7 @@
    "source": "TechCrunch",
    "cat": "AI",
    "date": "2026-11-16T20:07:13.000Z",
-   "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident"
+   "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident."
   },
   {
    "title": "PC ports of Zelda: Ocarina of Time and Super Mario 64 make emulation pointless",
@@ -578,14 +1282,6 @@
    "cat": "Mobile",
    "date": "2026-11-16T20:01:26.000Z",
    "summary": "It turns out, my PC doesn't need an N64 middleman."
-  },
-  {
-   "title": "Outlook outage: On Microsoft and dangers of centralising digital systems",
-   "link": "https://www.thehindu.com/opinion/editorial/outlook-outage-the-hindu-editorial-on-microsoft-and-dangers-of-centralising-systems/article71708179.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-16T20:00:40.000Z",
-   "summary": "The dangers of centralising the internet’s architecture are now clear"
   },
   {
    "title": "Best Early Black Friday Espresso Machine Deals (2026)",
@@ -649,7 +1345,7 @@
    "source": "TechCrunch",
    "cat": "Security",
    "date": "2026-11-16T19:53:00.000Z",
-   "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident."
+   "summary": "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident."
   },
   {
    "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
@@ -873,7 +1569,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T18:31:30.000Z",
-   "summary": "628 points · 480 comments on Hacker News"
+   "summary": "764 points · 637 comments on Hacker News"
   },
   {
    "title": "Samsung Galaxy Studio headphones leak reveals physical and touch controls",
@@ -900,12 +1596,12 @@
    "summary": "President Trump has called for Jensen Huang to return as Nvidia CEO, but a new report says the board is not considering the move."
   },
   {
-   "title": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion",
+   "title": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin gigafactory expansion",
    "link": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
    "source": "TechCrunch",
    "cat": "Software & IT",
    "date": "2026-11-16T18:21:14.000Z",
-   "summary": "Tesla is putting Europe on its Cybercab roadmap with a €3 billion expansion of its Berlin Gigafactory."
+   "summary": "Tesla is putting Europe on its Cybercab roadmap with a €3 billion expansion of its Berlin gigafactory."
   },
   {
    "title": "Apple․com now available in Spanish for US users",
@@ -969,10 +1665,10 @@
    "source": "9to5Mac",
    "cat": "Mobile",
    "date": "2026-11-16T18:11:30.000Z",
-   "summary": "Apple has just released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS 27.3, and more. It’s available for developers, but a public beta will likely follow in the next couple…"
+   "summary": "Update, 6:15 p.m. ET: Apple has now released beta 2 for tvOS 27.3 (24K5298d) and HomePod 27.3 (24K5298d). Apple has just released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS…"
   },
   {
-   "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+   "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
    "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
    "source": "TechCrunch",
    "cat": "Electronics",
@@ -1097,7 +1793,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T17:27:46.000Z",
-   "summary": "171 points · 146 comments on Hacker News"
+   "summary": "263 points · 251 comments on Hacker News"
   },
   {
    "title": "Apple Watch Series 12 hits a new all-time low at $329",
@@ -1209,7 +1905,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T16:53:39.000Z",
-   "summary": "256 points · 55 comments on Hacker News"
+   "summary": "370 points · 81 comments on Hacker News"
   },
   {
    "title": "Deals: Early Black Samsung now live – Galaxy Fold 8 $350 off, S26 Ultra $450 off, Tabs from $200, more",
@@ -1292,7 +1988,7 @@
    "summary": "Although the Large Hadron Collider (LHC) has been making many amazing discoveries since its 2008 inauguration, it’s necessary to regularly upgrade its components to push the LHC’s performance to unlock…"
   },
   {
-   "title": "Intel bets on Classiq acquisition to turn Quantum efforts into commercially viable business — deal positions company as leading vendor of qubit chips, acquisition to close by the first half of 2027",
+   "title": "Intel bets on Classiq acquisition to turn Quantum efforts into commercially viable business",
    "link": "https://www.tomshardware.com/tech-industry/quantum-computing/intel-bets-on-classiq-acquisition-to-turn-quantum-efforts-into-commercially-viable-business-deal-positions-company-as-leading-vendor-of-qubit-chips-acquisition-to-close-by-the-first-half-of-2027",
    "source": "Tom's Hardware",
    "cat": "Electronics",
@@ -1313,7 +2009,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-16T16:23:22.000Z",
-   "summary": "234 points · 153 comments on Hacker News"
+   "summary": "391 points · 276 comments on Hacker News"
   },
   {
    "title": "Jolt – Clojure that speaks C",
@@ -1330,702 +2026,6 @@
    "cat": "Mobile",
    "date": "2026-11-16T16:16:39.000Z",
    "summary": "Apple just wrapped up a very busy product launch season, but a new report offers a sneak peek at the 15+ new products coming in 2027. more…"
-  },
-  {
-   "title": "Why Microsoft is ditching a few of its 365 companion apps in 2026",
-   "link": "https://www.engadget.com/2314266/microsoft-ditching-365-companion-apps-2026/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T16:15:00.000Z",
-   "summary": "These apps are being shut down after just 14 months."
-  },
-  {
-   "title": "Jensen Huang Is Gone. Now What?",
-   "link": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T16:12:51.000Z",
-   "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen…"
-  },
-  {
-   "title": "Samsung’s Galaxy Z Fold 8 returns to its lowest price yet ahead of Black Friday",
-   "link": "https://9to5google.com/2026/11/16/samsungs-galaxy-z-fold-8-returns-to-its-lowest-price-yet-ahead-of-black-friday/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T16:08:00.000Z",
-   "summary": "No, your calendar isn’t lying to you — Thanksgiving really is next week, and with it comes the official start of the holiday shopping season. It’s never too early to…"
-  },
-  {
-   "title": "Serena Williams winds down her VC firm, launches new fund, seeks $200M",
-   "link": "https://techcrunch.com/2026/11/16/serena-williams-winds-down-her-vc-firm-launches-new-fund-targets-200m/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-11-16T16:06:30.000Z",
-   "summary": "Serena Williams and longtime business partner Beth Ferreira announced Monday the launch of an early-stage firm called Starfire Ventures."
-  },
-  {
-   "title": "Pixel Journal update rolls out Recorder integration, file export [U]",
-   "link": "https://9to5google.com/2026/11/16/pixel-journal-recorder-export/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T16:05:00.000Z",
-   "summary": "Following the last update in August , Google is rolling out a sizable update to Pixel Journal that adds Recorder audio entries and file exports. more…"
-  },
-  {
-   "title": "Building trustworthy AI by fencing it in, not predicting it",
-   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-   "source": "MIT Technology Review",
-   "cat": "AI",
-   "date": "2026-11-16T16:04:28.000Z",
-   "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an…"
-  },
-  {
-   "title": "Samsung could let you record custom Direct Voicemail messages in One UI 9.5",
-   "link": "https://www.androidauthority.com/samsung-one-ui-9-5-direct-voicemail-custom-greeting-apk-teardown-3735581/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T16:03:33.000Z",
-   "summary": "Samsung’s Direct Voicemail may finally catch up to the Pixel’s Custom greetings feature."
-  },
-  {
-   "title": "ChatGPT Health feature will soon work with Mac app, Dots, more",
-   "link": "https://9to5mac.com/2026/11/16/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/",
-   "source": "9to5Mac",
-   "cat": "AI",
-   "date": "2026-11-16T16:03:12.000Z",
-   "summary": "OpenAI relaunched its ChatGPT Health feature over the summer after piloting earlier in the year. Next, ChatGPT Health is set to expand to more platforms, including the Mac app and…"
-  },
-  {
-   "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
-   "link": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T16:00:00.000Z",
-   "summary": "New Harvard research shows that data-center power demand is outstripping states—and that doesn’t even include facilities with off-grid gas plants."
-  },
-  {
-   "title": "Audible turns to AI to help users discover audiobooks",
-   "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-11-16T15:52:19.000Z",
-   "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample."
-  },
-  {
-   "title": "How to stream Twitch on your TV",
-   "link": "https://www.engadget.com/2314226/how-to-stream-twitch-on-tv/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T15:45:00.000Z",
-   "summary": "Casting Twitch to your TV has never been easier."
-  },
-  {
-   "title": "Fandango says hackers stole payment card details from checkout pages",
-   "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T15:44:21.000Z",
-   "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]"
-  },
-  {
-   "title": "Someone rebuilt old Android versions in your browser, and it’s an instant nostalgia hit [Gallery]",
-   "link": "https://9to5google.com/2026/11/16/android-time-machine-old-versions-browser/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T15:40:00.000Z",
-   "summary": "The “Android Time Machine” is a fun project that puts Android versions into your browser, giving you a quick and easy chance to play around with older versions for a…"
-  },
-  {
-   "title": "Apple is making a bigger push into video podcasts",
-   "link": "https://www.engadget.com/2317689/apple-is-making-a-bigger-push-into-video-podcasts/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T15:39:24.000Z",
-   "summary": "You'll soon be able to watch video podcasts through the Apple TV app."
-  },
-  {
-   "title": "HomeView missing some podcast feeds? Here’s why",
-   "link": "https://9to5mac.com/2026/11/16/homeview-missing-some-podcast-feeds-heres-why/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-16T15:34:09.000Z",
-   "summary": "Apple’s new HomeView features the Podcasts app, but not all feeds appear to be supported for now. Instead, HomeView appears to have the same bug that tvOS 27 introduced to…"
-  },
-  {
-   "title": "Google’s Intelligent Eyewear glasses from Gentle Monster are already sold out",
-   "link": "https://9to5google.com/2026/11/16/google-intelligent-eyewear-gentle-monster-android-xr-sold-out/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T15:10:00.000Z",
-   "summary": "One of the first partner brands selling Android XR glasses, “Intelligent Eyewear” as Google calls it, has already completely sold out, with Gentle Monster no longer accepting pre-orders just days…"
-  },
-  {
-   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-   "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-11-16T15:02:34.000Z",
-   "summary": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries."
-  },
-  {
-   "title": "Save serious money with RedPocket Mobile’s $5 Black Friday plans",
-   "link": "https://9to5google.com/2026/11/16/save-serious-money-with-redpockets-black-friday-plans-that-start-at-5-a-month-sponsored/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T15:01:55.000Z",
-   "summary": "You’re not going to believe this, but there’s one part of your life that’s not actually getting more expensive. If you switch to RedPocket Mobile during its Black Friday sale,…"
-  },
-  {
-   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-   "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T15:01:11.000Z",
-   "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet…"
-  },
-  {
-   "title": "On-Demand Development Boards With Remote Access Methods",
-   "link": "https://hackaday.com/2026/11/16/on-demand-development-boards-with-remote-access-methods/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-16T15:00:56.000Z",
-   "summary": "Art by Joe Kim on a Maya Posch article about GNU Debugger: \" data-large-file=\" /> In an increasingly digitally connected world, it can be easy to forget sometimes how much…"
-  },
-  {
-   "title": "Minisforum Elite Mini M2 Air-304 review: A quiet and compact Wildcat",
-   "link": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-elite-mini-m2-air-304-review",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T15:00:00.000Z",
-   "summary": "With an Intel Wildcat Lake CPU, the Minisforum Elite Mini M2 Air-304 PC runs cool and quiet, but is only suitable for casual users. Due to the prices of RAM…"
-  },
-  {
-   "title": "Anthropic says Claude Mythos Preview cut AMD MI355X onboarding from up to 12 months to around three days",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
-   "source": "Tom's Hardware",
-   "cat": "AI",
-   "date": "2026-11-16T15:00:00.000Z",
-   "summary": "Anthropic says Claude Mythos Preview brought up prompt processing for one model on AMD Instinct MI355X GPUs in about three days."
-  },
-  {
-   "title": "Overlocker uses vibecoded BIOS modification to target Intel's non-K overclocking restrictions",
-   "link": "https://www.tomshardware.com/pc-components/cpus/overlocker-uses-vibecoded-bios-modification-to-target-intels-non-k-overclocking-restrictions-attempts-to-revive-asrocks-discontinued-skyoc-technology",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:54:10.000Z",
-   "summary": "ASRock discontinued SkyOC following Intel's efforts to block non-K CPU overclocking, but an enthusiast is now using AI to see if the old workaround can be adapted for newer platforms."
-  },
-  {
-   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-   "link": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-11-16T14:48:13.000Z",
-   "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining."
-  },
-  {
-   "title": "Where should you place your Wi-Fi router for the best internet?",
-   "link": "https://www.engadget.com/2314221/where-to-place-wifi-router-best-internet/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:45:00.000Z",
-   "summary": "Let your router work at its best by placing it in the right spot of your home - and know when you need an upgrade."
-  },
-  {
-   "title": "Morphe v2.3.0 update unlocks 1440p and 4K YouTube downloads that even Premium doesn’t offer",
-   "link": "https://www.androidauthority.com/morphe-v2-3-0-1440p-4k-youtube-downloads-3735577/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T14:35:46.000Z",
-   "summary": "The community-driven customization project also adds native offline downloads to YouTube Music."
-  },
-  {
-   "title": "What is an NFC tag and how does one work?",
-   "link": "https://www.engadget.com/2314180/what-is-an-nfc-tag/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:15:00.000Z",
-   "summary": "NFC tags are cheap, lightweight and easy to use. Here's what NFC technology does, where it's used and how it differs from RFID."
-  },
-  {
-   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-   "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-   "source": "Ars Technica",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:06:16.000Z",
-   "summary": "Huang is weighing a return just days after resigning amid a deepening scandal."
-  },
-  {
-   "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
-   "link": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-11-16T14:00:05.000Z",
-   "summary": "The point-to-point driver assist is coming to the US and Germany in 2027."
-  },
-  {
-   "title": "Google Maps rolling out travel itineraries & list search for Ask Maps",
-   "link": "https://9to5google.com/2026/11/16/google-ask-maps-itineraries/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Ahead of the holiday season, Google Maps is launching a handy travel itineraries feature alongside a slew of other new capabilities for Ask Maps. more…"
-  },
-  {
-   "title": "Mazama Energy has a solution for geothermal’s biggest drilling problem",
-   "link": "https://techcrunch.com/2026/11/16/mazama-energy-has-a-solution-for-geothermals-biggest-drilling-problem/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Khosla-backed Mazama Energy has developed a new way to supercool its geothermal drill bits, letting it drill faster and deeper in a quest to bring down the cost of electricity."
-  },
-  {
-   "title": "New Ask Maps features to help with holiday travel and prep",
-   "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-   "source": "Google AI Blog",
-   "cat": "AI",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features."
-  },
-  {
-   "title": "Hands-on (and off) with Mercedes-Benz's upcoming MB.Drive Assist Pro system",
-   "link": "https://www.engadget.com/2315999/hands-on-and-off-with-mercedes-benz-mbdrive-assist-pro/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Benz takes us another step towards self-driving."
-  },
-  {
-   "title": "Unlock Tom's Hardware Premium's SuperComputer 2026 coverage for free — sign up for an account to read detailed reports from the show",
-   "link": "https://www.tomshardware.com/tech-industry/unlock-toms-hardware-premiums-supercomputer-2026-coverage-for-free-sign-up-for-an-account-to-read-detailed-reports-from-the-show",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "For a limited time, you’ll be able to read all of our latest reports from SuperComputer 2026 with a Tom’s Hardware account, no payment required."
-  },
-  {
-   "title": "Google warns that fully-automated AI attacks are coming soon",
-   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-   "source": "BleepingComputer",
-   "cat": "AI",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]"
-  },
-  {
-   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-   "source": "The Hacker News",
-   "cat": "AI",
-   "date": "2026-11-16T14:00:00.000Z",
-   "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and…"
-  },
-  {
-   "title": "Amazon’s Starlink rival sees major setback after 40 satellites destroyed in rocket failure",
-   "link": "https://www.tomshardware.com/tech-industry/space/amazons-starlink-rival-sees-major-setback-after-40-satellites-destroyed-in-rocket-failure-anomaly-occurred-10-minutes-after-the-vulcan-launch-on-sunday",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T13:30:00.000Z",
-   "summary": "Amazon has suffered a major setback in its plans to offer a viable Starlink rival, after 40 satellites destined for low earth orbit were destroyed in a failed rocket launch."
-  },
-  {
-   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-16T13:27:20.000Z",
-   "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things…"
-  },
-  {
-   "title": "One UI 9.5 may let you set a custom greeting for Call Screening",
-   "link": "https://www.androidauthority.com/samsung-one-ui-9-5-call-screening-custom-greeting-apk-teardown-3735507/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T13:22:03.000Z",
-   "summary": "One UI 9.5 could let you break free from Call Screening’s default greeting."
-  },
-  {
-   "title": "The Download: testing tech promises and searching for cognitive immortality",
-   "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-   "source": "MIT Technology Review",
-   "cat": "AI",
-   "date": "2026-11-16T13:10:00.000Z",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? Six technologies…"
-  },
-  {
-   "title": "Samsung Galaxy S28 Pro and Ultra may get variable aperture cameras in 2028, leak says",
-   "link": "https://www.androidauthority.com/samsung-galaxy-s28-variable-aperture-camera-leak-3735527/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T13:06:13.000Z",
-   "summary": "To no one's surprise, you can thank Apple for this if it pans out."
-  },
-  {
-   "title": "Building AI that can work across the enterprise",
-   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-   "source": "MIT Technology Review",
-   "cat": "AI",
-   "date": "2026-11-16T13:00:00.000Z",
-   "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting…"
-  },
-  {
-   "title": "Jailbroken PS4 runs 9-billion-parameter AI model at up to 43 tokens per second",
-   "link": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps4-runs-9-billion-parameter-ai-model-at-up-to-43-tokens-per-second-open-source-garlic-llm-bypasses-drivers-to-talk-directly-to-the-2013-era-gpu",
-   "source": "Tom's Hardware",
-   "cat": "AI",
-   "date": "2026-11-16T13:00:00.000Z",
-   "summary": "Garlic LLM runs Alibaba’s Qwen3.5-9B on a jailbroken PlayStation 4’s GPU, fully offline, at 31 to 39 tokens per second."
-  },
-  {
-   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T12:53:18.000Z",
-   "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]"
-  },
-  {
-   "title": "Intel sued by shareholders for misleading investors after stock plunges 29%",
-   "link": "https://www.tomshardware.com/pc-components/cpus/intel-sued-by-shareholders-for-misleading-investors-after-stock-plunges-29-percent-class-action-claims-the-company-downplayed-the-severity-of-pc-market-headwinds",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T12:50:08.000Z",
-   "summary": "The Southfield Fire and Police Retirement System pension fund accuses Intel of withholding important information about its business performance."
-  },
-  {
-   "title": "Jensen Huang could be plotting return as Nvidia CEO, report claims",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-could-be-plotting-return-as-nvidia-ceo-report-claims-allies-have-formed-a-war-room-to-drive-reinstatement-days-after-resignation-scandal",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T12:37:39.000Z",
-   "summary": "Jensen Huang could be back in his old Nvidia office soon as allies rally to push the AI chipmaker to take him back just days after he was ousted over…"
-  },
-  {
-   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-16T12:34:21.000Z",
-   "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch…"
-  },
-  {
-   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-16T12:33:18.000Z",
-   "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file…"
-  },
-  {
-   "title": "Samsung’s Phone app could start checking if calls from contacts are being spoofed",
-   "link": "https://www.androidauthority.com/samsung-one-ui-phone-fake-call-scam-3735478/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T12:21:18.000Z",
-   "summary": "Use RCS-based caller verification, which first arrived on Pixels in June 2026."
-  },
-  {
-   "title": "Last week’s Microsoft Outlook outage turned a hotel pool fault into a hospital trip for 15 guests",
-   "link": "https://www.androidauthority.com/microsoft-outage-phantasialand-chlorine-hotel-3735460/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T12:02:32.000Z",
-   "summary": "A pool safety alert at a German hotel was sent by email, but the email never arrived."
-  },
-  {
-   "title": "Best Digital Photo Frames (2026): Aura, Skylight, Amazon",
-   "link": "https://www.wired.com/story/best-digital-photo-frames/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T12:01:00.000Z",
-   "summary": "There are more digital photo frames than ever these days. After years of testing, these are the ones I’d buy."
-  },
-  {
-   "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
-   "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-11-16T12:00:57.000Z",
-   "summary": "For those who have lived under armed drones, the sound overhead can be distressing."
-  },
-  {
-   "title": "ESP32 WIFI Jam Detector Finds the Raspberry",
-   "link": "https://hackaday.com/2026/11/16/esp32-wifi-jam-detector-finds-the-raspberry/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-16T12:00:47.000Z",
-   "summary": "We’ve seen plenty of ESP32 WiFi projects that test wifi systems with attacks such as Deauth, and even jamming. Today’s project is a bit different. [TheDigital1] created an ESP32 project…"
-  },
-  {
-   "title": "Science at the Frontier: How scientists use ChatGPT",
-   "link": "https://openai.com/index/science-at-the-frontier",
-   "source": "OpenAI News",
-   "cat": "AI",
-   "date": "2026-11-16T12:00:00.000Z",
-   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery."
-  },
-  {
-   "title": "Grab a beginner-friendly Anycubic 3D printer for under $300, back at its record-low price",
-   "link": "https://www.tomshardware.com/3d-printing/grab-a-beginner-friendly-anycubic-3d-printer-for-under-usd300-back-at-its-record-low-price-17-percent-discount-for-prime-subscribers-nets-you-a-4-5-star-multi-colored-filament-printer-with-auto-bed-leveling",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T12:00:00.000Z",
-   "summary": "This Anycubic Kobra X Multicolor 3D Printer is back down to record low pricing of $299.99 right now."
-  },
-  {
-   "title": "Samsung One UI 9.5 leak reveals Bixby 5.0 overhaul with Memory and Actions",
-   "link": "https://www.androidauthority.com/samsung-one-ui-9-5-leak-bixby-5-0-memory-actions-3735488/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T11:42:58.000Z",
-   "summary": "Bixby's built-in Memory could save personal context across conversations."
-  },
-  {
-   "title": "The EPA’s Chemical-Detecting Plane Isn’t Doing Its Job Anymore",
-   "link": "https://www.wired.com/story/epa-chemical-detecting-plane-isnt-doing-job/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T11:30:00.000Z",
-   "summary": "The Cessna is flying fewer missions and can no longer provide real-time data to disaster responders as toxic emergencies rise."
-  },
-  {
-   "title": "The Best Smart Bird Feeders for Backyard Birding (2026)",
-   "link": "https://www.wired.com/story/best-smart-bird-feeders/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T11:30:00.000Z",
-   "summary": "These devices come with cameras and connected apps to let you see and learn about the birds in your neighborhood."
-  },
-  {
-   "title": "Fable 5.2 creates an underwater world in a browser in only 96 KB",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fable-5-2-creates-an-underwater-world-in-a-browser-in-only-96-kb-40-line-prompt-creates-impressive-demo-that-runs-at-180-fps",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T11:30:00.000Z",
-   "summary": "Fable 5.2 creates an underwater world in a browser in only 96 KB — impressive demo shows how far agent agency has come"
-  },
-  {
-   "title": "Australian retail giant Coles investigates cybersecurity incident",
-   "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T11:18:09.000Z",
-   "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]"
-  },
-  {
-   "title": "Grab a DDR5 gaming PC with a 10GB GPU for only $949",
-   "link": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-usd949-ibuypowers-slate-gaming-rig-features-an-intel-b570-graphics-card-and-16gb-of-ram",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T11:15:25.000Z",
-   "summary": "Save $250 on a brand-new iBuypower Slate gaming PC in this Best Buy deal."
-  },
-  {
-   "title": "Fractal in talks with up to 25 AI startups for acquisitions, CEO says",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/fractal-in-talks-with-up-to-25-ai-startups-for-acquisitions-ceo-says/articleshow/135886057.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-16T11:10:39.000Z",
-   "summary": "Enterprise AI firm Fractal Analytics is actively talking to 20 to 25 startups to potentially acquire them, its CEO told Reuters, as it seeks to deepen its vertical-specific capabilities and…"
-  },
-  {
-   "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
-   "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "source": "Wired",
-   "cat": "Electronics",
-   "date": "2026-11-16T11:00:00.000Z",
-   "summary": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos."
-  },
-  {
-   "title": "Nvidia amassed $530 billion in financial guarantees to corner the AI market",
-   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter",
-   "source": "Tom's Hardware",
-   "cat": "AI",
-   "date": "2026-11-16T11:00:00.000Z",
-   "summary": "Nvidia amassed $530 billion in financial guarantees to corner the AI market"
-  },
-  {
-   "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-   "source": "BleepingComputer",
-   "cat": "AI",
-   "date": "2026-11-16T11:00:00.000Z",
-   "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes.…"
-  },
-  {
-   "title": "Jordan blocks Telegram app over national security concerns",
-   "link": "https://www.thehindu.com/sci-tech/technology/jordan-blocks-telegram-app-over-national-security-concerns/article71707574.ece",
-   "source": "The Hindu Technology",
-   "cat": "Security",
-   "date": "2026-11-16T10:41:50.000Z",
-   "summary": "The decision comes after a ⁠rare deadly church attack last month killed nine people and prompted airstrikes on neighbouring Syria that ​Jordan said ‌killed 20 Islamic State militants"
-  },
-  {
-   "title": "IBM investing $3 billion annually in India, plans $10 billion global quantum push: CEO",
-   "link": "https://economictimes.indiatimes.com/tech/technology/ibm-investing-3-billion-annually-in-india-plans-10-billion-global-quantum-push-ceo/articleshow/135884070.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-16T10:30:25.000Z",
-   "summary": "AI could displace 10-20% of jobs over the next decade, with the business process outsourcing (BPO) industry likely to face some of the biggest reductions in employment, Krishna said, arguing…"
-  },
-  {
-   "title": "Hacker gets Doom running on a USB flash drive's built-in LCD, played by copying files",
-   "link": "https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help",
-   "source": "Tom's Hardware",
-   "cat": "Security",
-   "date": "2026-11-16T10:30:00.000Z",
-   "summary": "Aaron Christophel ported Doom to the LCD on a MOVESPEED MSSU10 flash drive and controls it with file transfers."
-  },
-  {
-   "title": "UK regulator orders tougher action on child abuse material ahead of next year's social media ban",
-   "link": "https://www.thehindu.com/sci-tech/technology/uk-regulator-orders-tougher-action-on-child-abuse-material-ahead-of-next-years-social-media-ban/article71707526.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-16T10:28:33.000Z",
-   "summary": "It will ​also require them ‌to expand the use of technology to detect and remove known illegal images, and in some cases, deploy ‌automated tools to identify previously ​unknown content"
-  },
-  {
-   "title": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
-   "link": "https://www.thehindu.com/sci-tech/technology/chip-tensions-loom-over-trump-xi-summit-as-us-and-china-push-ai-safety-steps/article71707485.ece",
-   "source": "The Hindu Technology",
-   "cat": "AI",
-   "date": "2026-11-16T10:12:50.000Z",
-   "summary": "The meeting on Thursday comes days after Nvidia co-founder Jensen Huang, who starred at the US-China summit in Busan a year ago promoting chip sales, resigned following reports of an…"
-  },
-  {
-   "title": "Best Apple 3-in-1 Travel Chargers (2026): Anker, ESR, Satechi",
-   "link": "https://www.wired.com/gallery/best-apple-3-in-1-travel-chargers/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-16T10:00:00.000Z",
-   "summary": "Keep your trio of Apple gadgets powered up wherever you go with these compact folding chargers."
-  },
-  {
-   "title": "Developer creates a 100% valid ZIP file that doubles as a BIOS-bootable operating system",
-   "link": "https://www.tomshardware.com/software/operating-systems/developer-creates-a-100-percent-valid-zip-file-that-doubles-as-a-bios-bootable-operating-system-hiding-bios-boot-flags-inside-uncompressed-files-and-turning-file-headers-into-cpu-instructions",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-16T10:00:00.000Z",
-   "summary": "Crafty techie concocts ZIP that's simultaneously a valid archive, BIOS-bootable, and a Multiboot image"
-  },
-  {
-   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-   "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-16T09:32:57.000Z",
-   "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central…"
-  },
-  {
-   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-   "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T09:30:04.000Z",
-   "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]"
-  },
-  {
-   "title": "Follow The Grid With An Arduino Uno",
-   "link": "https://hackaday.com/2026/11/16/follow-the-grid-with-an-arduino-uno/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-16T09:00:13.000Z",
-   "summary": "We all know the frequency of our AC grid. 60Hz for Americans, or 50Hz for Europeans, for example. But the real story has some complexity. In a plural but interconnected…"
-  },
-  {
-   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-   "link": "https://openai.com/index/lvmh-media-division-partnership",
-   "source": "OpenAI News",
-   "cat": "AI",
-   "date": "2026-11-16T09:00:00.000Z",
-   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
-  },
-  {
-   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-16T08:26:52.000Z",
-   "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]"
-  },
-  {
-   "title": "Mphasis says clients boost cybersecurity spending as AI-driven threats rise",
-   "link": "https://economictimes.indiatimes.com/tech/information-tech/mphasis-says-clients-boost-cybersecurity-spending-as-ai-driven-threats-rise/articleshow/135878211.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-16T08:13:37.000Z",
-   "summary": "Banks and insurers are leading the increase in cybersecurity spending, aided by larger technology budgets and regulatory requirements, while retailers and consumer firms are also stepping up investments to protect…"
-  },
-  {
-   "title": "SK Hynix to spend $1 billion over five years to support chip suppliers",
-   "link": "https://economictimes.indiatimes.com/tech/technology/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/articleshow/135878099.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-11-16T08:10:49.000Z",
-   "summary": "South Korea's SK Hynix said on Monday it plans to spend 1.4 trillion won ($1.05 billion) over the next five years to support domestic suppliers of semiconductor materials, parts and…"
-  },
-  {
-   "title": "Why Italy hit Meta with record €805 million fine | Explained",
-   "link": "https://www.thehindu.com/sci-tech/technology/why-italy-hit-meta-with-record-805-million-fine-explained/article71707103.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-16T08:04:59.000Z",
-   "summary": "Italy’s data protection authority conducted a technical analysis after it received a complaint from a consumer protection forum, which said that the platform accessed “unpublished files stored on users’ smartphones”"
-  },
-  {
-   "title": "Intel sued by shareholders following 29% stock plunge",
-   "link": "https://economictimes.indiatimes.com/tech/technology/intel-sued-by-shareholders-following-29-stock-plunge/articleshow/135877856.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-11-16T08:00:48.000Z",
-   "summary": "Intel has been sued by shareholders who accused the US chipmaker of defrauding them by concealing the impact of a prolonged slowdown in personal computer sales that caused its stock…"
-  },
-  {
-   "title": "Our first phase of embedded assessments",
-   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-   "source": "OpenAI News",
-   "cat": "AI",
-   "date": "2026-11-16T08:00:00.000Z",
-   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
-  },
-  {
-   "title": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
-   "link": "https://economictimes.indiatimes.com/tech/technology/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/articleshow/135877776.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-16T07:58:49.000Z",
-   "summary": "Last week, Germany's Helsing unveiled military intelligence software called Clarity. It is part of a broader market for AI-powered systems designed to accelerate military decision-making by helping sift through vast…"
-  },
-  {
-   "title": "Indonesian police raided Nvidia partner Megaspeed's local unit in early 2026 on US request: report",
-   "link": "https://economictimes.indiatimes.com/tech/technology/indonesian-police-raided-nvidia-partner-megaspeeds-local-unit-in-early-2026-on-us-request-report/articleshow/135877651.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-11-16T07:56:26.000Z",
-   "summary": "Megaspeed has been under scrutiny over suspicions it helped Chinese companies obtain advanced Nvidia chips subject to Washington's export restrictions, but there has been no public finding that it has…"
-  },
-  {
-   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-   "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-   "source": "The Hacker News",
-   "cat": "AI",
-   "date": "2026-11-16T07:34:21.000Z",
-   "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to…"
-  },
-  {
-   "title": "Apple’s first smart glasses will reportedly put Siri and iPhone apps front and center",
-   "link": "https://www.androidauthority.com/apple-smart-glasses-siri-ai-iphone-apps-3735327/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-16T07:09:51.000Z",
-   "summary": "Apple smart glasses reportedly won't support Android phones."
-  },
-  {
-   "title": "Someone used Claude to build an AI chatbot for MS-DOS, and it fits on a floppy",
-   "link": "https://www.xda-developers.com/someone-used-claude-to-build-an-ai-chatbot-for-ms-dos-and-it-fits-on-a-floppy/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-11-16T07:03:55.000Z",
-   "summary": "It's like a 90s sci-fi movie come true."
   }
  ]
 }
