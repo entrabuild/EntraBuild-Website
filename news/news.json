@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:47:33.220Z",
+ "updated": "2026-11-22T07:27:25.856Z",
  "edition": 31,
  "sections": [
   "AI",
@@ -108,6 +108,478 @@
  ],
  "items": [
   {
+   "title": "Someone turned an ESP32-S3 bar display into a cool retro desk companion",
+   "link": "https://www.xda-developers.com/someone-turned-an-esp32-s3-bar-display-into-a-cool-retro-desk-companio/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-22T06:58:04.000Z",
+   "summary": "You can install it via your browser, too."
+  },
+  {
+   "title": "Notes on the discrete Fourier transform (DFT)",
+   "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-22T06:52:25.000Z",
+   "summary": "5 points · 0 comments on Hacker News"
+  },
+  {
+   "title": "Building a Robotic Hand on a Budget",
+   "link": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-22T06:00:20.000Z",
+   "summary": "For all the recent advances in robot control enabled by machine learning, there are still a few problems which remain stubbornly difficult: locomotion, for example, or whole-body balance for humanoids.…"
+  },
+  {
+   "title": "Show HN: The Riemann Proof Handbook",
+   "link": "https://github.com/tamnd/riemann-handbook",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-22T05:46:30.000Z",
+   "summary": "11 points · 3 comments on Hacker News"
+  },
+  {
+   "title": "AI Supply Chain Security: What Canary Tokens Found",
+   "link": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-22T05:11:43.000Z",
+   "summary": "20 points · 1 comments on Hacker News"
+  },
+  {
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "source": "The Hacker News",
+   "cat": "AI",
+   "date": "2026-11-22T05:06:55.000Z",
+   "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some…"
+  },
+  {
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-11-22T05:03:41.000Z",
+   "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many…"
+  },
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-22T04:04:56.000Z",
+   "summary": "295 points · 147 comments on Hacker News"
+  },
+  {
+   "title": "Together.ai: Prompt Leakage for Requests",
+   "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-22T03:07:27.000Z",
+   "summary": "19 points · 7 comments on Hacker News"
+  },
+  {
+   "title": "Capturing and Mineralizing Atmospheric Carbon Dioxide",
+   "link": "https://hackaday.com/2026/11/21/capturing-and-mineralizing-atmospheric-carbon-dioxide/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-22T03:00:36.000Z",
+   "summary": "Although the various panicked noises about there being ‘too much’ CO2 in the atmosphere might make one think that we’re pretty much breathing in pure CO2 at this point, Earth’s…"
+  },
+  {
+   "title": "Data Processing Incidents on Inference Providers",
+   "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-22T02:14:14.000Z",
+   "summary": "102 points · 36 comments on Hacker News"
+  },
+  {
+   "title": "The Mythology of Conscious AI",
+   "link": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-22T02:10:02.000Z",
+   "summary": "40 points · 70 comments on Hacker News"
+  },
+  {
+   "title": "GTA 6 could arrive on PC sooner than expected, thanks to a developer behind an unofficial Switch 2 Zelda: Ocarina of Time remake port",
+   "link": "https://www.xda-developers.com/gta-6-arrive-pc-soon-developer-unofficial-switch-2-zelda-ocarina-of-time-remake-port/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-22T01:42:18.000Z",
+   "summary": "The project is still in the early stages and the game doesn't currently even boot."
+  },
+  {
+   "title": "Windows trained me into habits that I never have to think about on Linux",
+   "link": "https://www.xda-developers.com/windows-trained-me-into-habits-that-i-never-have-to-think-about-on-linux/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-22T01:00:20.000Z",
+   "summary": "I didn't recognise the hoops I was jumping through until they weren't there anymore."
+  },
+  {
+   "title": "Attention Pixel 9 and 10 owners: is it actually worth upgrading to the Pixel 11?",
+   "link": "https://www.engadget.com/2319300/pixel-11-is-it-worth-upgrading-from-9-10/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-22T01:00:00.000Z",
+   "summary": "New doesn't always mean better, especially in this economy. Here's what you need to know before deciding if the new Google Pixel 11 is the worth your money."
+  },
+  {
+   "title": "Samsung vs. LG OLED TVs: What's the difference between them?",
+   "link": "https://www.engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-22T01:00:00.000Z",
+   "summary": "It's not simple to say that one is better than the other."
+  },
+  {
+   "title": "This is what can happen if too many devices are sharing your home network",
+   "link": "https://www.engadget.com/2319295/what-can-happen-too-many-devices-on-home-network/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-22T00:45:00.000Z",
+   "summary": "If you play your numbers right, you may be able to avoid internet connectivity issues at home without shelling out more money."
+  },
+  {
+   "title": "Your PC's USB port can charge your phone, even when it's turned off — Here's how",
+   "link": "https://www.engadget.com/2319291/how-to-enable-usb-port-charging-pc-off/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-22T00:30:00.000Z",
+   "summary": "Yes, a powered-off PC can still charge your phone, but only if the right feature is on. Here's what to check before you shut down and walk away."
+  },
+  {
+   "title": "10 things you should never do on your Android phone",
+   "link": "https://www.engadget.com/2317775/never-do-these-things-on-android-phone/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-22T00:15:00.000Z",
+   "summary": "Every Android user should know what to avoid so they don't make mistakes that shorten their phone's useful life."
+  },
+  {
+   "title": "Sandwich Simulator",
+   "link": "https://stulle.app/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-22T00:07:59.000Z",
+   "summary": "155 points · 57 comments on Hacker News"
+  },
+  {
+   "title": "Thermite Powered Instant Phone Charger",
+   "link": "https://hackaday.com/2026/11/21/thermite-powered-instant-phone-charger/",
+   "source": "Hackaday",
+   "cat": "Mobile",
+   "date": "2026-11-22T00:00:29.000Z",
+   "summary": "Thermite is an amazing material, using mostly easily obtainable ingredients like aluminium and iron(III) oxide in a redox reaction to create a rather spectacular amount of thermal energy in very…"
+  },
+  {
+   "title": "I replaced Lovable, Replit, and Claude Design with a free open-source app builder, and it's better in every way",
+   "link": "https://www.xda-developers.com/replacing-lovable-replit-claude-design-with-free-open-source-app-builder/",
+   "source": "XDA Developers",
+   "cat": "AI",
+   "date": "2026-11-22T00:00:20.000Z",
+   "summary": "Reverse-engineer anything"
+  },
+  {
+   "title": "This is the best type of wireless earbuds for audio output",
+   "link": "https://www.engadget.com/2319289/wireless-earbuds-type-best-for-audio-output/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-22T00:00:00.000Z",
+   "summary": "Comfort, price and aesthetics obviously impact what we put on our ears, but if sound fidelity is your priority, this kind of wireless earbud is the best choice."
+  },
+  {
+   "title": "How U.S. controls flow of advanced tech, chip, and compute to China | Explained",
+   "link": "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece",
+   "source": "The Hindu Technology",
+   "cat": "Electronics",
+   "date": "2026-11-21T23:46:29.000Z",
+   "summary": "The U.S. Commerce Department on November 16 issued an interim final rule barring data centre operators outside the U.S. equipped with advanced American AI chips from providing cloud service to…"
+  },
+  {
+   "title": "How to calibrate your 3D printer (and why you should)",
+   "link": "https://www.engadget.com/2310980/how-to-calibrate-3d-printer-why-should/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T23:45:00.000Z",
+   "summary": "Your 3D printer might not need replacing just because its prints keep failing. A few calibration checks could solve the problem and improve print quality."
+  },
+  {
+   "title": "Building your own mini PC is harder than you would think",
+   "link": "https://www.engadget.com/2319272/build-mini-pc-cost-harder-than-expected/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T23:30:00.000Z",
+   "summary": "Mini PCs are appealing for their small footprint, but there are some things you should consider before you commit to building your own."
+  },
+  {
+   "title": "I don't have a PlayStation 5, but the best GTA game has been on my PC for decades",
+   "link": "https://www.xda-developers.com/dont-have-playstation-5-but-the-best-gta-game-has-been-on-pc-decades/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-21T23:00:20.000Z",
+   "summary": "GTA VI may have the biggest, most detailed world gaming has to offer. But the most fun game in the series doesn't need any of that."
+  },
+  {
+   "title": "Six products and services Google discontinued in 2026",
+   "link": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T23:00:00.000Z",
+   "summary": "Here's a rundown of some Google tools that ended up in the graveyard this year."
+  },
+  {
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "source": "BleepingComputer",
+   "cat": "Security",
+   "date": "2026-11-21T22:59:58.000Z",
+   "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
+  },
+  {
+   "title": "I moved to open-source software, and I trust my tools more than ever",
+   "link": "https://www.xda-developers.com/i-moved-open-source-software-trust-tools-more-than-ever/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-21T22:30:20.000Z",
+   "summary": "No one entity owns it, and that's why I love it."
+  },
+  {
+   "title": "Why does your phone say no service even with a SIM card?",
+   "link": "https://www.engadget.com/2319140/phone-says-no-service-with-sim-card/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-21T22:30:00.000Z",
+   "summary": "Your SIM card controls your phone's connection to your carrier, and if it's not working, standard texts and calls won't go through."
+  },
+  {
+   "title": "iOS 27: My favorite new iPhone features (other than AI)",
+   "link": "https://9to5mac.com/2026/11/21/ios-27-my-favorite-new-iphone-features-other-than-ai/",
+   "source": "9to5Mac",
+   "cat": "AI",
+   "date": "2026-11-21T22:22:26.000Z",
+   "summary": "When Apple released iOS 27 in September, Siri Ai stole a lot of the headline. However, the update also includes plenty of non-AI features that I’ve come to really enjoy.…"
+  },
+  {
+   "title": "iPad Air vs. iPad Pro: The features you're actually paying $450 extra for",
+   "link": "https://www.engadget.com/2319122/ipad-air-vs-pro-features-compared-price-difference/",
+   "source": "Engadget",
+   "cat": "Mobile",
+   "date": "2026-11-21T22:15:00.000Z",
+   "summary": "The iPad Air and iPad Pro are both great options if you plan to use a tablet for work or creativity, but you shouldn't pay for what you won't use."
+  },
+  {
+   "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+   "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-11-21T22:12:41.000Z",
+   "summary": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes"
+  },
+  {
+   "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+   "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-21T22:09:58.000Z",
+   "summary": "103 points · 10 comments on Hacker News"
+  },
+  {
+   "title": "I used an old laptop as a home server for a year, and 4 surprises stood out",
+   "link": "https://www.xda-developers.com/used-old-laptop-as-home-server-for-a-year-4-surprises-stood-out/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-11-21T22:00:20.000Z",
+   "summary": "Cheap to start, costly to ignore."
+  },
+  {
+   "title": "This built-in windows tool can tell if your DirectX has a problem",
+   "link": "https://www.engadget.com/2319109/built-in-windows-tool-find-problem-directx-diagnostic/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T22:00:00.000Z",
+   "summary": "DxDiag is a handy and free resource for troubleshooting DirectX."
+  },
+  {
+   "title": "Amazon is complaining about NYC Council on shipping labels, too",
+   "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-11-21T21:59:31.000Z",
+   "summary": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that…"
+  },
+  {
+   "title": "FBI and USDA were reportedly targeted in back-to-back cyberattacks",
+   "link": "https://www.engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:51:29.000Z",
+   "summary": "It's still unclear who is responsible for the two incidents."
+  },
+  {
+   "title": "The free Raspberry Pi tool you should be using to access it remotely",
+   "link": "https://www.engadget.com/2319090/free-raspberry-pi-tool-access-remotely/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:45:00.000Z",
+   "summary": "Avoid forwarding ports by using this handy tool."
+  },
+  {
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "source": "TechCrunch",
+   "cat": "AI",
+   "date": "2026-11-21T21:37:10.000Z",
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+  },
+  {
+   "title": "The memory crunch has me rethinking every PC build I plan for 2026",
+   "link": "https://www.xda-developers.com/the-memory-crunch-has-me-rethinking-every-pc-build-for-2026/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-21T21:30:20.000Z",
+   "summary": "Black Friday isn't going to solve things, either"
+  },
+  {
+   "title": "How long can fiber optic cables be before they lose signal?",
+   "link": "https://www.engadget.com/2319077/fiber-optic-cable-how-long-before-lose-signal/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:30:00.000Z",
+   "summary": "Fiber optic cables can span your neighborhood or multiple continents, but there are limitations to this technology's communication capabilities."
+  },
+  {
+   "title": "Advice for the next 100 Rust GUIs",
+   "link": "https://linebender.org/blog/next-100-guis/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-21T21:17:53.000Z",
+   "summary": "140 points · 38 comments on Hacker News"
+  },
+  {
+   "title": "How to easily factory reset your Fitbit",
+   "link": "https://www.engadget.com/2319074/how-to-factory-reset-fitbit-device/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:15:00.000Z",
+   "summary": "There's a difference between restarting and factory resetting your Fitbit."
+  },
+  {
+   "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+   "link": "https://tasklet.ai/careers",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-21T21:11:08.000Z",
+   "summary": "0 points · 0 comments on Hacker News"
+  },
+  {
+   "title": "A tale of two Nvidias",
+   "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "source": "TechCrunch",
+   "cat": "Software & IT",
+   "date": "2026-11-21T21:07:42.000Z",
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+  },
+  {
+   "title": "ESP32 Drives MDA Display For Wireless Terminal",
+   "link": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:00:25.000Z",
+   "summary": "Don’t you miss the days where you had to point a particle accelerator at your face for a full shift? Well, maybe not when we think of it that way,…"
+  },
+  {
+   "title": "I tried dozens of free alternatives to Adobe Acrobat, and only one does everything I paid for",
+   "link": "https://www.xda-developers.com/tried-dozens-free-adobe-acrobat-alternatives-only-one-does-everything-i-paid-for/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-21T21:00:20.000Z",
+   "summary": "Free PDF software has finally caught up"
+  },
+  {
+   "title": "What's new with Apple's latest Siri Remote, and does your old Apple TV support it?",
+   "link": "https://www.engadget.com/2319050/whats-new-siri-remote-does-older-apple-tv-support/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T21:00:00.000Z",
+   "summary": "The 4th-gen Apple TV 4K comes with a new remote. Here's what you need to know about it."
+  },
+  {
+   "title": "Gemini app rolls out very slick camera redesign on Android",
+   "link": "https://9to5google.com/2026/11/21/gemini-camera-redesign/",
+   "source": "9to5Google",
+   "cat": "AI",
+   "date": "2026-11-21T20:52:52.000Z",
+   "summary": "Google has thoroughly redesigned Gemini for Android’s in-app camera that lets you quickly add an image to prompts. more…"
+  },
+  {
+   "title": "Pandex – Official European Law for AI Agents, over MCP",
+   "link": "https://www.pandex.io",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-21T20:47:41.000Z",
+   "summary": "69 points · 14 comments on Hacker News"
+  },
+  {
+   "title": "The trade-offs of using Apple's AirPods Max headphones",
+   "link": "https://www.engadget.com/2319042/trade-offs-using-apple-airpods-max-headphones/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T20:45:00.000Z",
+   "summary": "Apple's AirPods Max sound great, but they come with a lot of compromises for $549 headphones."
+  },
+  {
+   "title": "Forget the figurines: 4 useful 3D prints that are actually worth gifting",
+   "link": "https://www.xda-developers.com/best-3d-printed-items-worth-gifting/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-21T20:30:20.000Z",
+   "summary": "Never hurts to lead the way with a functional present."
+  },
+  {
+   "title": "Indie App Spotlight: ‘Salon’ is an Apple TV app that turns your TV into a picture frame",
+   "link": "https://9to5mac.com/2026/11/21/indie-app-spotlight-salon-is-an-apple-tv-app-that-turns-your-tv-into-a-picture-frame/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-21T20:30:00.000Z",
+   "summary": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like…"
+  },
+  {
+   "title": "Discs vs. disks: What's the difference?",
+   "link": "https://www.engadget.com/2319034/discs-vs-disks-differences/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T20:30:00.000Z",
+   "summary": "They're pronounced the same and only deviate by a single letter, but their mechanics and usage are quite different."
+  },
+  {
+   "title": "Why Apple Vision Pro never took off like Meta's VR headsets",
+   "link": "https://www.engadget.com/2318875/why-apple-vision-pro-did-not-take-off-vs-meta-vr/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T20:15:00.000Z",
+   "summary": "The Apple Vision Pro debuted to massive hype in 2024, but the years since then have not been kind to Apple's megabucks mixed-reality headset."
+  },
+  {
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-11-21T20:03:37.000Z",
+   "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually,…"
+  },
+  {
+   "title": "Act fast to score Intel's Core i7-14700K for its lowest price ever at $249.99",
+   "link": "https://www.tomshardware.com/pc-components/cpus/act-fast-to-score-intels-core-i7-14700k-for-its-lowest-price-ever-at-usd249-99-raptor-lake-refresh-cpu-is-a-bargain-that-supports-ddr5-and-ddr4-motherboards",
+   "source": "Tom's Hardware",
+   "cat": "Electronics",
+   "date": "2026-11-21T20:00:22.000Z",
+   "summary": "After months of inconsistent pricing, Intel's Core i7-14700K is down to its lowest price ever at $249.99, with support for LGA 1700 motherboards that come with either DDR4 or DDR5…"
+  },
+  {
    "title": "Not upgrading to iPhone 18 Pro or Duo? Here’s what’s coming in 2027",
    "link": "https://9to5mac.com/2026/11/21/heres-what-next-years-iphone-lineup-will-look-like/",
    "source": "9to5Mac",
@@ -204,12 +676,12 @@
    "summary": "Can sunlight really charge your phone? Learn how portable solar chargers work and which features to look for before your next camping trip or blackout."
   },
   {
-   "title": "Upload2Shell · CVE-2026-125396",
+   "title": "Upload2Shell (CVE-2026-125396)",
    "link": "https://pwn.ai/upload2shell",
    "source": "Hacker News",
    "cat": "Security",
    "date": "2026-11-21T18:29:29.000Z",
-   "summary": "7 points · 2 comments on Hacker News"
+   "summary": "110 points · 49 comments on Hacker News"
   },
   {
    "title": "Tesla's assisted driving system gets the green light for rollout in Italy",
@@ -233,7 +705,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-21T18:02:19.000Z",
-   "summary": "121 points · 11 comments on Hacker News"
+   "summary": "434 points · 109 comments on Hacker News"
   },
   {
    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
@@ -321,7 +793,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-21T17:08:04.000Z",
-   "summary": "63 points · 4 comments on Hacker News"
+   "summary": "136 points · 23 comments on Hacker News"
   },
   {
    "title": "3 expansion cards I've tried dedicating my spare PCIe slots to",
@@ -452,14 +924,6 @@
    "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in…"
   },
   {
-   "title": "Where you can find which GPU you have in your Windows PC",
-   "link": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-21T16:00:00.000Z",
-   "summary": "Your laptop may be running two graphics processors without you knowing it. Here are the built-in Windows tools that reveal what is powering your games."
-  },
-  {
    "title": "This week on Tom's Hardware Premium: 21 November 2026",
    "link": "https://www.tomshardware.com/tech-industry/supercomputers/this-week-on-toms-hardware-premium-21-november-2026-amd-nvidia-and-more-show-off-the-future-of-high-performance-computing-at-sc26",
    "source": "Tom's Hardware",
@@ -468,12 +932,20 @@
    "summary": "We go through an exhaustive list of everything we covered at SC26, which includes brand-new devices and developments from AMD, Nvidia, Intel and many more."
   },
   {
+   "title": "Where you can find which GPU you have in your Windows PC",
+   "link": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T16:00:00.000Z",
+   "summary": "Your laptop may be running two graphics processors without you knowing it. Here are the built-in Windows tools that reveal what is powering your games."
+  },
+  {
    "title": "Verification files for the Lean proof of the Riemann Hypothesis",
    "link": "https://math.mit.edu/~drew/grh/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-21T15:54:34.000Z",
-   "summary": "43 points · 12 comments on Hacker News"
+   "summary": "110 points · 38 comments on Hacker News"
   },
   {
    "title": "Ways you can help your Fitbit's battery last longer",
@@ -482,6 +954,14 @@
    "cat": "Electronics",
    "date": "2026-11-21T15:45:00.000Z",
    "summary": "Fitbits don't last forever, but there's a couple easy ways you can get more years of step counts and heart-rate monitoring from your favorite wearable"
+  },
+  {
+   "title": "Show HN: Zero C# – C# without a runtime or GC",
+   "link": "https://onurgumus.github.io/zero-csharp/index.html",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-21T15:39:09.000Z",
+   "summary": "151 points · 104 comments on Hacker News"
   },
   {
    "title": "Modder cools gaming laptop with a bounce house blower for a 35-degree drop",
@@ -500,20 +980,20 @@
    "summary": "Claude Max can wait for a little longer now"
   },
   {
-   "title": "The pros and cons of using a VPN over encrypted DNS",
-   "link": "https://www.engadget.com/2317883/pros-cons-using-vpn-over-encrypted-dns/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-21T15:30:00.000Z",
-   "summary": "Explore the perks and drawbacks of choosing a VPN over encrypted DNS, from privacy and security to speed, costs, and control over your browsing habits."
-  },
-  {
    "title": "Rapidus reportedly struggles to produce working SRAM on its 2nm node, putting 2027 mass production at risk",
    "link": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-reportedly-struggles-to-produce-working-sram-on-its-2nm-node-putting-2027-mass-production-at-risk-company-faces-significant-challenges-using-euv-to-develop-gaa-transistors",
    "source": "Tom's Hardware",
    "cat": "Electronics",
    "date": "2026-11-21T15:30:00.000Z",
    "summary": "Japan's semiconductor startup has demonstrated functioning GAA transistors, but integrating them into working memory cells appears to be a considerably greater challenge."
+  },
+  {
+   "title": "The pros and cons of using a VPN over encrypted DNS",
+   "link": "https://www.engadget.com/2317883/pros-cons-using-vpn-over-encrypted-dns/",
+   "source": "Engadget",
+   "cat": "Electronics",
+   "date": "2026-11-21T15:30:00.000Z",
+   "summary": "Explore the perks and drawbacks of choosing a VPN over encrypted DNS, from privacy and security to speed, costs, and control over your browsing habits."
   },
   {
    "title": "Alaska, your next governor is a Wikipedia nerd",
@@ -577,7 +1057,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-21T14:36:45.000Z",
-   "summary": "544 points · 422 comments on Hacker News"
+   "summary": "959 points · 813 comments on Hacker News"
   },
   {
    "title": "Gigabyte MO27Q2A 27-inch QHD 280 Hz QD-OLED gaming monitor review: Another price buster from Gigabyte",
@@ -641,7 +1121,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-21T13:23:14.000Z",
-   "summary": "393 points · 261 comments on Hacker News"
+   "summary": "591 points · 379 comments on Hacker News"
   },
   {
    "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
@@ -732,14 +1212,6 @@
    "summary": "The Rhode & Schwarz CMU200 and CMU300 communications analyzers are useful tools for a variety of tasks in the RF space. However, [iu2frl] decided that they could be a little…"
   },
   {
-   "title": "Harbinger is building the unsexy EVs that keep the economy moving",
-   "link": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-21T12:00:00.000Z",
-   "summary": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round,…"
-  },
-  {
    "title": "A Space Probe Returns to Asteroids Where NASA Tested Planetary Defense Systems",
    "link": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
    "source": "Wired",
@@ -754,6 +1226,14 @@
    "cat": "AI",
    "date": "2026-11-21T12:00:00.000Z",
    "summary": "A Reddit homelabber’s Optane PMem 200 server now runs Moonshot AI’s Kimi K3 at 3.11 tokens/s with two RTX 3090s and a RAM drive."
+  },
+  {
+   "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+   "link": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+   "source": "The Verge",
+   "cat": "Software & IT",
+   "date": "2026-11-21T12:00:00.000Z",
+   "summary": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round,…"
   },
   {
    "title": "Heads up! Galaxy Watch 7 is 40% off for Black Friday",
@@ -849,7 +1329,7 @@
    "source": "Hacker News",
    "cat": "Electronics",
    "date": "2026-11-21T10:36:32.000Z",
-   "summary": "339 points · 177 comments on Hacker News"
+   "summary": "555 points · 265 comments on Hacker News"
   },
   {
    "title": "SanDisk 512GB MicroSD Express deal slashes Switch 2 storage by 24% in Amazon Black Friday offer — price hits under $100 amid storage squeeze",
@@ -1004,20 +1484,20 @@
    "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers."
   },
   {
-   "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
-   "link": "https://www.wired.com/story/total-wireless-promo-code/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-21T06:00:00.000Z",
-   "summary": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings."
-  },
-  {
    "title": "Nike Promo Codes and Discounts: 30% for November 2026",
    "link": "https://www.wired.com/story/nike-promo-code/",
    "source": "Wired",
    "cat": "Software & IT",
    "date": "2026-11-21T06:00:00.000Z",
    "summary": "Check out our deals for Nike this November 2026, including 15% off select purchases."
+  },
+  {
+   "title": "Therabody Promo Codes: 15% Off November 2026",
+   "link": "https://www.wired.com/story/therabody-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-21T06:00:00.000Z",
+   "summary": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals."
   },
   {
    "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
@@ -1028,12 +1508,12 @@
    "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
   },
   {
-   "title": "Therabody Promo Codes: 15% Off November 2026",
-   "link": "https://www.wired.com/story/therabody-promo-code/",
+   "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
+   "link": "https://www.wired.com/story/total-wireless-promo-code/",
    "source": "Wired",
    "cat": "Software & IT",
    "date": "2026-11-21T06:00:00.000Z",
-   "summary": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals."
+   "summary": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings."
   },
   {
    "title": "Uplift Promo Codes: $300 Off",
@@ -1546,486 +2026,6 @@
    "cat": "Mobile",
    "date": "2026-11-20T20:39:35.000Z",
    "summary": "It’s been nearly three years since Best Buy decided to ditch selling physical copies of movies, stripping its inventory from both its brick-and-mortar stores and its online catalog. But with…"
-  },
-  {
-   "title": "Germany seems to be serious about a TikTok Europe takeover",
-   "link": "https://www.engadget.com/2323606/germany-seems-to-be-serious-about-a-tiktok-europe-takeover/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-20T20:35:35.000Z",
-   "summary": "The company has called the idea \"nonsense.\""
-  },
-  {
-   "title": "My phone no longer streams music after this $15 Raspberry Pi turned an old speaker into a Spotify Connect device",
-   "link": "https://www.xda-developers.com/my-raspberry-pi-turned-an-old-speaker-into-a-spotify-connect-device/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T20:30:22.000Z",
-   "summary": "A $15 Raspberry Pi turns a forgotten speaker into a slick networked player using lightweight software and simple wiring."
-  },
-  {
-   "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
-   "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:26:33.000Z",
-   "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\""
-  },
-  {
-   "title": "Apple Watch Series 12: Four standout features make me glad I upgraded",
-   "link": "https://9to5mac.com/2026/11/20/apple-watch-series-12-four-standout-features-glad-i-upgraded/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-20T20:25:35.000Z",
-   "summary": "I upgraded to an Apple Watch Series 12 this fall ( now $329 on Amazon ), and there are four main features that make me especially glad I did. more…"
-  },
-  {
-   "title": "Nvidia accounting under SEC investigation, sources say",
-   "link": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
-   "source": "Hacker News",
-   "cat": "Electronics",
-   "date": "2026-11-20T20:22:41.000Z",
-   "summary": "23 points · 3 comments on Hacker News"
-  },
-  {
-   "title": "Show HN: OpenComputer – an open source alternative to Devin",
-   "link": "https://github.com/diggerhq/opencomputer",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:19:56.000Z",
-   "summary": "103 points · 27 comments on Hacker News"
-  },
-  {
-   "title": "Signal now blocks screenshots by default to stymie AI agents",
-   "link": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/",
-   "source": "Engadget",
-   "cat": "AI",
-   "date": "2026-11-20T20:18:09.000Z",
-   "summary": "It describes the fix as incomplete and calls for a simple way for developers to opt out of AI snooping."
-  },
-  {
-   "title": "Inkling 2 Mini",
-   "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:12:19.000Z",
-   "summary": "1285 points · 263 comments on Hacker News"
-  },
-  {
-   "title": "Gemini can now be your go-to source for making GIFs",
-   "link": "https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/",
-   "source": "Android Authority",
-   "cat": "AI",
-   "date": "2026-11-20T20:10:28.000Z",
-   "summary": "Gemini follows ChatGPT’s lead with GIF generation."
-  },
-  {
-   "title": "Save $2,400 on a tricked-out Corsair RTX 5090 prebuilt gaming PC in Black Friday run-up sale — sweet spec list also includes 9950X3D, 64GB RAM, and 4TB storage",
-   "link": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd2-400-on-a-tricked-out-corsair-rtx-5090-prebuilt-in-black-friday-run-up-sale-sweet-spec-list-also-includes-9950x3d-64gb-ram-and-4tb-storage",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-20T20:09:47.000Z",
-   "summary": "Prices for RTX 5090 prebuilt PCs have spiked above five figures almost everywhere, but you can still get this Corsair Millennium system for $8999.99, or $2400 off, ahead of the…"
-  },
-  {
-   "title": "And yet, it moves",
-   "link": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:07:55.000Z",
-   "summary": "137 points · 84 comments on Hacker News"
-  },
-  {
-   "title": "Reverse Engineering my cat's litter box",
-   "link": "https://master--ytulsiani.netlify.app/blog/furrytails/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:07:14.000Z",
-   "summary": "3 points · 0 comments on Hacker News"
-  },
-  {
-   "title": "Change these settings if you want GTA 6 to feel like old GTA",
-   "link": "https://www.engadget.com/2323542/change-these-settings-if-you-want-gta-6-to-feel-like-old-gta/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-20T20:05:36.000Z",
-   "summary": "If you miss certain aspects of older GTA games, there are few ways you can wind back the clock."
-  },
-  {
-   "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
-   "link": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:03:59.000Z",
-   "summary": "186 points · 51 comments on Hacker News"
-  },
-  {
-   "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
-   "link": "https://scottaaronson.blog/?p=10344",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T20:03:07.000Z",
-   "summary": "270 points · 243 comments on Hacker News"
-  },
-  {
-   "title": "I ditched Google Maps for Organic Maps on Android Auto, and offline navigation never let me down",
-   "link": "https://www.xda-developers.com/i-ditched-google-maps-for-organic-maps-on-android-auto-and-offline-navigation-never-let-me-down/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T20:00:31.000Z",
-   "summary": "Organic Maps on Android Auto works offline, and it's the navigation app I trust in the countryside"
-  },
-  {
-   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-   "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-11-20T19:53:41.000Z",
-   "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
-  },
-  {
-   "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
-   "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
-   "source": "Ars Technica",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:52:59.000Z",
-   "summary": "CTIA said jamming test showed \"interference... up to two and a half miles away.\""
-  },
-  {
-   "title": "Apple TV keeps adding fan-favorite movies, here’s what’s new and coming next",
-   "link": "https://9to5mac.com/2026/11/20/apple-tv-keeps-adding-fan-favorite-movies-heres-whats-new-and-coming-next/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:52:21.000Z",
-   "summary": "Apple TV ( now $6.99/month for limited time ) is primarily home to original shows and movies, but Apple recently started adding fan-favorite classic films too. Here’s what’s new and…"
-  },
-  {
-   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
-   "link": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
-   "source": "Wired",
-   "cat": "Electronics",
-   "date": "2026-11-20T19:52:21.000Z",
-   "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of…"
-  },
-  {
-   "title": "Google will shut down the Nest app in January 2027",
-   "link": "https://www.androidauthority.com/nest-app-deadline-3737880/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:52:17.000Z",
-   "summary": "Users must also migrate Nest accounts to Google accounts by March 25, 2027."
-  },
-  {
-   "title": "UGREEN's 10-port PoE switch hits a new all-time low at $33.59 on Amazon",
-   "link": "https://www.xda-developers.com/ugreens-10-port-poe-switch-hits-a-new-all-time-low-at-2939-on-amazon/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:40:22.000Z",
-   "summary": "A new all-time low for a 10-port PoE switch."
-  },
-  {
-   "title": "Google Health update fixes my biggest Fitbit Air complaint with ‘in-progress’ workout card",
-   "link": "https://9to5google.com/2026/11/20/google-health-fitbit-air-workouts-in-progress-card/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:40:00.000Z",
-   "summary": "Google’s Fitbit Air is one of my favorite products of 2026 and my preferred workout companion, but not being able to see a workout while you’re in the middle of…"
-  },
-  {
-   "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-   "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-20T19:35:06.000Z",
-   "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game…"
-  },
-  {
-   "title": "This GTA 6 fast travel trick comes at a price",
-   "link": "https://www.engadget.com/2323486/gta-6-fast-travel-trick-price/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-20T19:32:34.000Z",
-   "summary": "There are no shortage of travel options in GTA 6, but which one gets you there the quickest?"
-  },
-  {
-   "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-   "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-   "source": "TechCrunch",
-   "cat": "AI",
-   "date": "2026-11-20T19:32:08.000Z",
-   "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
-  },
-  {
-   "title": "I switched my home server from Ollama to llama.cpp, and my local LLM got faster",
-   "link": "https://www.xda-developers.com/switched-home-server-ollama-llama-cpp-local-llm-got-faster/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-11-20T19:30:22.000Z",
-   "summary": "Turns out my server had a second gear all along."
-  },
-  {
-   "title": "How Would You Break This Flexible PETG?",
-   "link": "https://hackaday.com/2026/11/20/how-would-you-break-this-flexible-petg/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-20T19:30:21.000Z",
-   "summary": "Polymaker has a new PETG formulation they bill as “unbreakable”, sold as G-Flex. Aside from the questionable choice of name, it certainly looks like good stuff in a recent video…"
-  },
-  {
-   "title": "Winedroid – run Android apps without Android (WASM demo)",
-   "link": "https://winedroid.soham.sh/demo/",
-   "source": "Hacker News",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:30:16.000Z",
-   "summary": "129 points · 37 comments on Hacker News"
-  },
-  {
-   "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
-   "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-11-20T19:21:50.000Z",
-   "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away."
-  },
-  {
-   "title": "Mangmi reveals Android-powered Air X Pro gaming handheld, but key specs remain a mystery",
-   "link": "https://www.androidauthority.com/mangmi-air-x-pro-teaser-3737851/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:19:51.000Z",
-   "summary": "Mangmi has shared a teaser for its next gaming handheld."
-  },
-  {
-   "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-   "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-20T19:15:00.000Z",
-   "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal,…"
-  },
-  {
-   "title": "Is the Galaxy S26 Ultra still a good buy at the end of 2026?",
-   "link": "https://9to5google.com/2026/11/20/is-the-galaxy-s26-ultra-still-a-good-buy-at-the-end-of-2026/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:12:42.000Z",
-   "summary": "Yes, the Samsung Galaxy S26 Ultra remains a good buy in late 2026 if you want a large-screen Android phone with versatile cameras, an integrated S Pen, and long-term software…"
-  },
-  {
-   "title": "AirPods 5 vs AirPods Pro 3: Which should you buy this holiday season?",
-   "link": "https://9to5mac.com/2026/11/20/airpods-5-vs-airpods-pro-3-which-should-you-buy-this-holiday-season/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:12:19.000Z",
-   "summary": "The holiday shopping season is here, and Apple’s AirPods are sure to be one of the most popular gifts. If you’re shopping for AirPods, Apple sells three different models: AirPods…"
-  },
-  {
-   "title": "Google Health 5.13 rolling out: Improved food search, more swimming controls",
-   "link": "https://9to5google.com/2026/11/20/google-health-5-13-release-notes/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:00:55.000Z",
-   "summary": "Version 5.13 of Google Health is rolling out to Android and iOS with updates across five areas. It’s a modest release that reiterates recent launches. more…"
-  },
-  {
-   "title": "4 subscriptions I canceled first when I started self-hosting, and the free open-source app that replaces each one",
-   "link": "https://www.xda-developers.com/subscriptions-i-canceled-first-when-started-self-hosting-and-free-open-source-apps-that-replace-them/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:00:22.000Z",
-   "summary": "Four subscriptions down"
-  },
-  {
-   "title": "HomeKit Weekly: Lafaer’s 5-in-1 presence sensor fixes an annoying automation in Apple Home",
-   "link": "https://9to5mac.com/2026/11/20/lafaers-5-in-1-presence-sensor-fixes-the-most-annoying-automation-in-apple-home/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-20T19:00:00.000Z",
-   "summary": "Motion-based automations are generally straightforward in Apple Home. The only carve-out is lighting, because some rooms are hard to judge by time of day alone. Depending on the windows and…"
-  },
-  {
-   "title": "Google Assistant will stop working on smart speakers and displays in August 2027",
-   "link": "https://www.androidauthority.com/assistant-gemini-home-devices-3737857/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:54:36.000Z",
-   "summary": "Google sets August 2, 2027 cutoff for Assistant on Google Home devices."
-  },
-  {
-   "title": "Teenage Engineering's first CD player kind of looks like a turntable",
-   "link": "https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-20T18:53:49.000Z",
-   "summary": "The EP/BC-1 costs $329 and marks the start of a new line of \"broadcast\" audio equipment."
-  },
-  {
-   "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-   "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-20T18:51:43.000Z",
-   "summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and…"
-  },
-  {
-   "title": "iOS 27 has clever new Messages feature I’ve been using a lot",
-   "link": "https://9to5mac.com/2026/11/20/ios-27-has-clever-new-messages-feature-ive-been-using-a-lot/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:50:59.000Z",
-   "summary": "iOS 27 gives the Messages app a variety of welcome upgrades , including one I’ve found myself using a lot: a Smart Reply feature that’s now personalized to the user’s…"
-  },
-  {
-   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-   "source": "The Verge",
-   "cat": "AI",
-   "date": "2026-11-20T18:50:19.000Z",
-   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions…"
-  },
-  {
-   "title": "Friday’s Android app deals and freebies: Low Story, Tempest, Railways, Super Onion Boy 2, more",
-   "link": "https://9to5toys.com/2026/11/20/todays-highlight-google-play-deals-53/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:46:14.000Z",
-   "summary": "Day 2 of of Pixel 11 Pro, Pixel 11 Pro XL, and Pixel 11 Pro , $100 off all Pixel Watch 5 models, the ongoing all-time low Google Home Speaker…"
-  },
-  {
-   "title": "Motorola ‘Moto Tag 3’ leaks on Amazon, but it looks just like the Moto Tag 2",
-   "link": "https://www.androidauthority.com/motorola-moto-tag-3-amazon-leak-familiar-specs-3737811/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:39:39.000Z",
-   "summary": "Looks like Motorola wants to give the Moto Tag 2 a fresh coat and call it the Moto Tag 3."
-  },
-  {
-   "title": "Save 94% on Microsoft Windows 11 Pro at StackSocial",
-   "link": "https://www.xda-developers.com/save-94-on-microsoft-windows-11-pro-and-add-bitlocker-encryption-to-your-pc/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:35:38.000Z",
-   "summary": "It even adds Hyper-V virtual machines"
-  },
-  {
-   "title": "Anthropic researcher says Claude solved maths’ greatest riddle",
-   "link": "https://www.thehindu.com/sci-tech/technology/anthropic-researcher-says-claude-solved-maths-greatest-riddle/article71725942.ece",
-   "source": "The Hindu Technology",
-   "cat": "AI",
-   "date": "2026-11-20T18:35:22.000Z",
-   "summary": "First proposed by German mathematician Bernhard Riemann in 1859, the hypothesis concerns the distribution of prime numbers and is widely regarded as the most important open question in pure mathematics"
-  },
-  {
-   "title": "Super-hot rock geothermal could end data center energy woes",
-   "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
-   "source": "TechCrunch",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:34:00.000Z",
-   "summary": "New geothermal startups are betting that they can leapfrog today's leaders to deliver terawatts of electricity nearly anywhere."
-  },
-  {
-   "title": "Hurried Announcement: Alessandro Masullo GRH",
-   "link": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:33:14.000Z",
-   "summary": "2336 points · 1117 comments on Hacker News"
-  },
-  {
-   "title": "My Windows PC keeps launching apps I already disabled, and I finally found the reason why",
-   "link": "https://www.xda-developers.com/windows-keeps-launching-apps-i-disabled-here-is-the-reason/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:30:22.000Z",
-   "summary": "Some apps always find a way to create more than one startup trigger"
-  },
-  {
-   "title": "Here's everything GTA+ gets you in GTA 6: Is it worth $8 a month?",
-   "link": "https://www.engadget.com/2323323/gta-plus-benefits-gta-6-is-it-worth-it/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-20T18:27:59.000Z",
-   "summary": "A GTA+ membership adds a few extras to GTA 6 for $8 a month. Here's what's included and which players are most likely to get their money's worth."
-  },
-  {
-   "title": "Garmin smartwatch update makes dogs official workout partners with profiles and badges",
-   "link": "https://www.androidauthority.com/garmin-dog-profiles-3737801/",
-   "source": "Android Authority",
-   "cat": "Electronics",
-   "date": "2026-11-20T18:21:10.000Z",
-   "summary": "Allows users to keep data separate when they exercise with their pet."
-  },
-  {
-   "title": "We promoted developers into architects without informing them",
-   "link": "https://manidoraisamy.com/developer-to-architect.html",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:17:51.000Z",
-   "summary": "547 points · 299 comments on Hacker News"
-  },
-  {
-   "title": "Vibecoding an inference chip",
-   "link": "https://ankitg.me/blog/vibecoding-inference-chip/",
-   "source": "Hacker News",
-   "cat": "Electronics",
-   "date": "2026-11-20T18:15:16.000Z",
-   "summary": "139 points · 55 comments on Hacker News"
-  },
-  {
-   "title": "The most misunderstood graph in AI just got a major update",
-   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-   "source": "MIT Technology Review",
-   "cat": "AI",
-   "date": "2026-11-20T18:15:15.000Z",
-   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as…"
-  },
-  {
-   "title": "Multiplying your Switch 2’s storage costs less than usual right now",
-   "link": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:15:00.000Z",
-   "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical…"
-  },
-  {
-   "title": "Gemini’s latest Connected Apps additions include Target and major grocery chains",
-   "link": "https://www.androidauthority.com/new-gemini-connected-apps-2-3737790/",
-   "source": "Android Authority",
-   "cat": "AI",
-   "date": "2026-11-20T18:11:50.000Z",
-   "summary": "Just in time for holiday shopping!"
-  },
-  {
-   "title": "5 Home Assistant apps I install on day one, including Mosquitto, Zigbee2MQTT, and ESPHome",
-   "link": "https://www.xda-developers.com/5-home-assistant-apps-i-install-on-day-one-including-mosquitto-zigbee2mqtt-and-esphome/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:00:21.000Z",
-   "summary": "My Home Assistant server wouldn't be half as useful without these apps"
-  },
-  {
-   "title": "Google retiring Nest app and Google Assistant on speakers, displays in 2027",
-   "link": "https://9to5google.com/2026/11/20/nest-app-google-assistant/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-20T18:00:00.000Z",
-   "summary": "Following the Android deprecation in September, Google Assistant is going away on speakers and smart displays next year. Additionally, Google Home is fully replacing the Nest app in January. more…"
-  },
-  {
-   "title": "Internet Archive Staffers Are Unionizing",
-   "link": "https://www.wired.com/story/internet-archive-staffers-are-unionizing/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:00:00.000Z",
-   "summary": "A supermajority of eligible workers at the nonprofit digital library voted in favor of joining the Communications Workers of America."
-  },
-  {
-   "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
-   "link": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-20T18:00:00.000Z",
-   "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and…"
   }
  ]
 }
