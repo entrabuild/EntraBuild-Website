@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:55:29.346Z",
+ "updated": "2026-11-27T09:05:25.623Z",
  "edition": 36,
  "sections": [
   "AI",
@@ -108,6 +108,582 @@
  ],
  "items": [
   {
+   "title": "We tested Samsung’s private Galaxy AI cloud on One UI 9.5 beta, and it made AI select smarter",
+   "link": "https://www.androidauthority.com/samsung-spac-galaxy-ai-select-demo-apk-teardown-3740749/",
+   "source": "Android Authority",
+   "cat": "AI",
+   "date": "2026-11-27T09:02:29.000Z",
+   "summary": "Running AI select through Samsung SPAC on a Galaxy S26 Ultra produced an accurate calendar entry that didn't need edits."
+  },
+  {
+   "title": "Got a MediaTek, Exynos, or Pixel device? Here are 11 tips for emulation",
+   "link": "https://www.androidauthority.com/tips-emulation-mediatek-exynos-pixel-3685858/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T09:00:08.000Z",
+   "summary": "From specific settings to alternative emulators, here's what you can try on your non-Snapdragon device."
+  },
+  {
+   "title": "Morphe v2.4.0 beats Google to bringing YouTube videos to your Android Auto screen",
+   "link": "https://www.androidauthority.com/youtube-video-android-auto-morphe-3740722/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:50:50.000Z",
+   "summary": "It only shows up when your vehicle is parked."
+  },
+  {
+   "title": "Save a huge $1,020 on a 240Hz OLED gaming laptop from Lenovo with an RTX 5070 Ti, now just $1,999",
+   "link": "https://www.tomshardware.com/laptops/gaming-laptops/save-a-huge-usd1-020-on-a-240hz-oled-gaming-laptop-from-lenovo-with-an-rtx-5070-ti-now-just-usd1-999-portable-legion-5i-rig-features-an-18-core-intel-cpu-and-a-1tb-ssd",
+   "source": "Tom's Hardware",
+   "cat": "Electronics",
+   "date": "2026-11-27T08:49:57.000Z",
+   "summary": "Grab a 16-inch OLED gaming laptop with an RTX 5070 Ti from Lenovo for just $1,999.99 right now."
+  },
+  {
+   "title": "Microsoft is deprecating a network client it added to Windows 31 years ago",
+   "link": "https://www.xda-developers.com/microsoft-is-deprecating-a-network-client-it-added-to-windows-31-years-ago/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:37:33.000Z",
+   "summary": "It has a few years on it, for sure."
+  },
+  {
+   "title": "Parenting in an anxious age: What does ‘good enough’ look like?",
+   "link": "https://www.thehindu.com/society/parenting-anxious-age-what-does-good-enough-look-like/article71739514.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-27T08:27:51.000Z",
+   "summary": "In a time of global tension, digital overload and endless advice about raising children, experts say 2027 calls for a radical rethink: less perfection, more presence"
+  },
+  {
+   "title": "Here’s how much OnePlus could charge you for using ColorOS 17’s AI features",
+   "link": "https://www.androidauthority.com/coloros-17-ai-features-subscription-plans-3740729/",
+   "source": "Android Authority",
+   "cat": "AI",
+   "date": "2026-11-27T08:26:05.000Z",
+   "summary": "Would you be willing to pay to use AI features built into your phone?"
+  },
+  {
+   "title": "Oura is dropping Android 11 support in December, and users risk losing health data",
+   "link": "https://www.androidauthority.com/oura-android-11-support-end-3740718/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:14:58.000Z",
+   "summary": "Upgrading after the deadline won't bring back your health history."
+  },
+  {
+   "title": "Samsung phones can soon nudge you when you miss your usual charging window",
+   "link": "https://www.androidauthority.com/samsung-missed-charging-window-3740683/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:11:50.000Z",
+   "summary": "This charging reminder feature could even refer to your calendar entries for more personalized alerts."
+  },
+  {
+   "title": "Apple launches Black Friday Shopping Event: Is it worth it?",
+   "link": "https://9to5mac.com/2026/11/27/apple-black-friday-shopping-event-deals/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:10:50.000Z",
+   "summary": "Apple has officially kicked off its Black Friday Shopping Event in the United States and other countries. You can score an Apple gift card of up to $300 with an…"
+  },
+  {
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "source": "BleepingComputer",
+   "cat": "Security",
+   "date": "2026-11-27T08:06:58.000Z",
+   "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]"
+  },
+  {
+   "title": "My favorite third-party Windows screenshotting tool just got even better at extracting text from images",
+   "link": "https://www.xda-developers.com/my-favorite-third-party-windows-screenshotting-tool-just-got-even-better-at-extracting-text-from-images/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:03:30.000Z",
+   "summary": "Plus, it can do sprite animations now."
+  },
+  {
+   "title": "Amazon main event Black Friday sale now live! Apple, Google, Anker, LEGO, TVs, more",
+   "link": "https://9to5toys.com/2026/11/27/amazon-official-black-friday-sale-live-2026/",
+   "source": "9to5Google",
+   "cat": "Mobile",
+   "date": "2026-11-27T08:02:12.000Z",
+   "summary": "The official main event Amazon Black Friday sale is now live! Millions of deals, all-new discounts in the Today’s Big Deals section , and a fresh collection of Doorbusters now…"
+  },
+  {
+   "title": "Best Black Friday Gaming PC Deals live",
+   "link": "https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026",
+   "source": "Tom's Hardware",
+   "cat": "Electronics",
+   "date": "2026-11-27T08:02:03.000Z",
+   "summary": "The very best pre-built gaming PC deals you can buy on Black Friday."
+  },
+  {
+   "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+   "link": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+   "source": "Ars Technica",
+   "cat": "Software & IT",
+   "date": "2026-11-27T08:00:53.000Z",
+   "summary": "There’s just one thing we still don’t know: How much will they cost?"
+  },
+  {
+   "title": "TCL CSOT unveils APEX and IJP OLED breakthroughs for the AI era at DTC 2026",
+   "link": "https://www.androidauthority.com/tcl-csot-dtc-2026-3736005/",
+   "source": "Android Authority",
+   "cat": "AI",
+   "date": "2026-11-27T07:56:56.000Z",
+   "summary": "TCL CSOT showed off the future of display tech at DTC 2026."
+  },
+  {
+   "title": "Best Black Friday 2026 tech deals live",
+   "link": "https://www.tomshardware.com/live/news/black-friday-2026-day-three",
+   "source": "Tom's Hardware",
+   "cat": "Electronics",
+   "date": "2026-11-27T07:19:47.000Z",
+   "summary": "All the best Black Friday deals for tech and PC hardware."
+  },
+  {
+   "title": "Microsoft 365 companion apps are going away because they were taking up too much memory",
+   "link": "https://www.xda-developers.com/microsoft-365-companion-apps-are-going-away-because-they-were-taking-up-too-much-memory/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T07:18:52.000Z",
+   "summary": "They had only just celebrated their first birthday."
+  },
+  {
+   "title": "OnePlus 15 and 15R ColorOS 17 update adds auto PC unlocking, smarter photo storage, and more",
+   "link": "https://www.androidauthority.com/oneplus-15-15r-coloros-17-automatic-pc-unlock-3740697/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T07:06:48.000Z",
+   "summary": "ColorOS users are catching up with their OxygenOS counterparts."
+  },
+  {
+   "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "link": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "source": "Wired",
+   "cat": "AI",
+   "date": "2026-11-27T07:00:00.000Z",
+   "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations."
+  },
+  {
+   "title": "WhatsApp to let users buy travel eSIMs in app; Jio, Verizon among partners",
+   "link": "https://www.thehindu.com/sci-tech/technology/whatsapp-to-let-users-buy-travel-esims-in-app-jio-verizon-among-partners/article71749662.ece",
+   "source": "The Hindu Technology",
+   "cat": "Mobile",
+   "date": "2026-11-27T06:45:13.000Z",
+   "summary": "WhatsApp Head Kunal Shah described the effort as the company's early explorations around eSIMs in a post on X"
+  },
+  {
+   "title": "The group chat where your AI talks behind your back",
+   "link": "https://construct22.com/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-27T06:44:34.000Z",
+   "summary": "164 points · 59 comments on Hacker News"
+  },
+  {
+   "title": "Motorola pivots to premiumisation, aims for third spot in India",
+   "link": "https://www.thehindu.com/sci-tech/technology/motorola-pivots-to-premiumisation-aims-for-third-spot-in-india/article71749650.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-27T06:27:52.000Z",
+   "summary": "According to the latest IDC report, Motorola has already climbed to become the fifth-largest smartphone brand in India, capturing an 8.8% market share during the third quarter of this year"
+  },
+  {
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "source": "The Hacker News",
+   "cat": "AI",
+   "date": "2026-11-27T06:04:20.000Z",
+   "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said…"
+  },
+  {
+   "title": "A Modular 6502 Computer",
+   "link": "https://hackaday.com/2026/11/26/a-modular-6502-computer/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-27T06:00:46.000Z",
+   "summary": "Back in the day, there were plenty of nice compact microcomputers out there that featured the 6502 CPU. There were also simpler computers that put the chip on a bare…"
+  },
+  {
+   "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
+   "link": "https://www.wired.com/story/ulta-coupon/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
+  },
+  {
+   "title": "Home Depot Promo Codes: 30% Off in November 2026",
+   "link": "https://www.wired.com/story/home-depot-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Save up to 30% today with the latest Home Depot promo codes for appliances, power tools, and more this November."
+  },
+  {
+   "title": "Peacock Promo Codes: 40% Off November 2026",
+   "link": "https://www.wired.com/story/peacock-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED."
+  },
+  {
+   "title": "Nike Promo Codes and Discounts: 30% for November 2026",
+   "link": "https://www.wired.com/story/nike-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Check out our deals for Nike this November 2026, including 15% off select purchases."
+  },
+  {
+   "title": "eBay Coupons: 20% Off in November 2026",
+   "link": "https://www.wired.com/story/ebay-coupon-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more."
+  },
+  {
+   "title": "Newegg Promo Codes and Coupons for November 2026",
+   "link": "https://www.wired.com/story/newegg-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts."
+  },
+  {
+   "title": "Whoop Promo Codes: 20% Off This November 2026",
+   "link": "https://www.wired.com/story/whoop-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of…"
+  },
+  {
+   "title": "Squarespace Promo Codes: 55% Off in November 2026",
+   "link": "https://www.wired.com/story/squarespace-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED."
+  },
+  {
+   "title": "Dyson Promo Codes: 25% Off in November 2026",
+   "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T06:00:00.000Z",
+   "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more."
+  },
+  {
+   "title": "Buy Nothing Day – Friday November 27th 2026",
+   "link": "https://www.buynothingday.co.uk/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-27T05:52:42.000Z",
+   "summary": "59 points · 8 comments on Hacker News"
+  },
+  {
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "source": "The Hacker News",
+   "cat": "Security",
+   "date": "2026-11-27T05:48:20.000Z",
+   "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has…"
+  },
+  {
+   "title": "Japan's JERA enters talks with Anthropic, Meta to build data centres",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/japans-jera-enters-talks-with-anthropic-meta-to-build-data-centres/articleshow/136210887.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-27T05:46:22.000Z",
+   "summary": "(Adds detail on other discussions in paragraph 2, background in paragraphs 3-4)- Japan's largest power generator, JERA, has entered into talks with Anthropic, Meta, and other US tech"
+  },
+  {
+   "title": "Samsung Messages could soon find, send, and forward texts for you",
+   "link": "https://www.androidauthority.com/samsung-messages-hands-free-texting-update-3740679/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T05:45:34.000Z",
+   "summary": "The app's development is far from over."
+  },
+  {
+   "title": "Women express frustration, concern over Nvidia boss Jensen Huang's return",
+   "link": "https://economictimes.indiatimes.com/tech/tech-bytes/women-express-frustration-concern-over-nvidia-boss-jensen-huangs-return/articleshow/136210795.cms",
+   "source": "ET Tech",
+   "cat": "Electronics",
+   "date": "2026-11-27T05:43:29.000Z",
+   "summary": "News of Jensen Huang's shocking return to Nvidia had barely landed when President Donald Trump posted an AI-generated image of the Nvidia cofounder holding up a red bra, surrounded by…"
+  },
+  {
+   "title": "AI agents used in five cyber attacks in Switzerland, government says",
+   "link": "https://www.thehindu.com/sci-tech/technology/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says/article71749266.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-11-27T05:42:31.000Z",
+   "summary": "In four ⁠of the five cases, the attacks were ​successful and systems ‌were compromised, BACS said"
+  },
+  {
+   "title": "On what legal basis has government blocked a Pakistani series on Netflix? | Explained",
+   "link": "https://www.thehindu.com/news/national/on-what-legal-basis-has-government-blocked-a-pakistani-series-on-netflix-explained/article71749245.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-27T05:40:24.000Z",
+   "summary": "Jo Bachay Hain Sang Samait Lo has drawn a warning from the government that Pakistani-origin content cannot be shown on Indian streaming platforms."
+  },
+  {
+   "title": "U.S. chip curbs will slow Asia data-centre investment, Fitch says",
+   "link": "https://www.thehindu.com/sci-tech/technology/us-chip-curbs-will-slow-asia-data-centre-investment-fitch-says/article71749270.ece",
+   "source": "The Hindu Technology",
+   "cat": "Electronics",
+   "date": "2026-11-27T05:27:10.000Z",
+   "summary": "Fitch’s statement comes a day ​after S&P placed Nvidia’s rating on downgrade ⁠watch over governance concerns"
+  },
+  {
+   "title": "The need for a formally verifiable mainstream programming language",
+   "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-27T05:22:06.000Z",
+   "summary": "135 points · 108 comments on Hacker News"
+  },
+  {
+   "title": "President Donald Trump insists Nvidia CEO not a security threat",
+   "link": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
+   "source": "The Hindu Technology",
+   "cat": "Security",
+   "date": "2026-11-27T04:42:55.000Z",
+   "summary": "Jensen Huang sudden resignation saw the stock price of Nvidia plummet, before a shock decision by the board to reinstate him saw a partial rebound"
+  },
+  {
+   "title": "The Razer Kiyo V2 X is down to $43, its lowest price yet",
+   "link": "https://www.xda-developers.com/the-razer-kiyo-v2-x-is-down-to-43-its-lowest-price-yet/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T04:31:21.000Z",
+   "summary": "It's the cheapest it's ever been on Amazon"
+  },
+  {
+   "title": "ANBERNIC’s next Snapdragon-powered Game Boy-like handheld comes with active cooling",
+   "link": "https://www.androidauthority.com/anbernic-rg-47g1-teased-snapdragon-120hz-3740662/",
+   "source": "Android Authority",
+   "cat": "Electronics",
+   "date": "2026-11-27T04:24:40.000Z",
+   "summary": "A more affordable RG 477V? One can hope."
+  },
+  {
+   "title": "Binance lifts withdrawal suspension after $6.3 billion crypto heist",
+   "link": "https://www.thehindu.com/sci-tech/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist/article71749263.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-27T04:19:11.000Z",
+   "summary": "Binance ​said on ‌Thursday its ​withdrawal recovery ⁠work is complete"
+  },
+  {
+   "title": "Motorola’s 2027 Pantone Color of the Year phone could come in this shade",
+   "link": "https://www.androidauthority.com/motorola-pantone-color-of-the-year-2027-leak-3740670/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T04:11:16.000Z",
+   "summary": "Pantone's Color of the Year 2027 just leaked, giving us a clue about Motorola's next special-edition shade."
+  },
+  {
+   "title": "Why is Meta’s Project Gryffindor facing backlash? | Explained",
+   "link": "https://www.thehindu.com/sci-tech/technology/why-is-metas-project-gryffindor-facing-backlash-explained/article71749280.ece",
+   "source": "The Hindu Technology",
+   "cat": "India Tech",
+   "date": "2026-11-27T04:06:24.000Z",
+   "summary": "Meta’s initiative to bring more school-going teens to Instagram, nicknamed “Project Gryffindor,” is facing flak from experts, reported the NPR outlet"
+  },
+  {
+   "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+   "link": "https://www.thehindu.com/sci-tech/technology/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns/article71749264.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-11-27T03:56:25.000Z",
+   "summary": "China cracked down on domestic AI companion apps including Xingye, banning intimate ⁠relationships for minors and ordering platforms to develop strict guardrails"
+  },
+  {
+   "title": "Android just had one of its worst quarters, and Apple is benefiting",
+   "link": "https://www.androidauthority.com/android-global-sales-share-q3-2026-counterpoint-3740661/",
+   "source": "Android Authority",
+   "cat": "Mobile",
+   "date": "2026-11-27T03:41:19.000Z",
+   "summary": "Android just recorded its lowest-ever share for a third quarter, with Apple's iOS bucking the trend."
+  },
+  {
+   "title": "X introduces parental controls for teen users aged 13 to 17",
+   "link": "https://economictimes.indiatimes.com/tech/technology/x-introduces-parental-controls-for-teen-users-aged-13-to-17/articleshow/136207989.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-11-27T03:20:36.000Z",
+   "summary": "Elon Musk-owned social media platform X has introduced parental controls for teenage users aged 13 to 17, allowing parents and guardians to monitor their children's activity and manage certain safety…"
+  },
+  {
+   "title": "US rejects EU plans to tax Big Tech",
+   "link": "https://economictimes.indiatimes.com/tech/technology/us-rejects-eu-plans-to-tax-big-tech/articleshow/136207742.cms",
+   "source": "ET Tech",
+   "cat": "India Tech",
+   "date": "2026-11-27T03:06:00.000Z",
+   "summary": "The United States warned Thursday against European Union plans for a tax on Big Tech, as EU leaders discussed the proposal at a fraught Brussels summit focused on the bloc's…"
+  },
+  {
+   "title": "When Decoupling Capacitors Go Wrong",
+   "link": "https://hackaday.com/2026/11/26/when-decoupling-capacitors-go-wrong/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-27T03:00:47.000Z",
+   "summary": "Popular wisdom holds that decoupling capacitors are good, and thus more decoupling capacitors is better. Unfortunately physics disagrees on that notion, as [Ben Eater] discusses in a recent video, following…"
+  },
+  {
+   "title": "SAP weighs cutting at least 10,000 positions in AI restructuring",
+   "link": "https://economictimes.indiatimes.com/tech/technology/sap-weighs-cutting-at-least-10000-positions-in-ai-restructuring/articleshow/136207524.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-27T02:44:35.000Z",
+   "summary": "The restructuring would affect at least 9% of the global workforce, the people said, asking not to be identified because discussions are ongoing. The total number of job cuts hasn’t…"
+  },
+  {
+   "title": "'King is back': Nvidia boss's return sparks fresh AI deepfake deluge",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/king-is-back-nvidia-bosss-return-sparks-fresh-ai-deepfake-deluge/articleshow/136207454.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-27T02:38:31.000Z",
+   "summary": "Scandal-hit Jensen Huang's return as chief executive of US chip giant Nvidia has triggered a fresh avalanche of AI-generated parody videos, highlighting how the sex-and-espionage saga has become a prime…"
+  },
+  {
+   "title": "AI may put 24 million knowledge-worker jobs at risk globally over five years: JP Morgan",
+   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-may-put-24-million-knowledge-worker-jobs-at-risk-globally-over-five-years-jp-morgan/articleshow/136207360.cms",
+   "source": "ET Tech",
+   "cat": "AI",
+   "date": "2026-11-27T02:29:06.000Z",
+   "summary": "Artificial intelligence (AI) could displace around 24 million knowledge-worker jobs worldwide over the next five years under an illustrative scenario, as businesses increasingly use the technology to replace tasks currently…"
+  },
+  {
+   "title": "Microsoft-owned GitHub spotlighted a PS5-to-PC translation layer amid GTA 6 DMCA strikes, then quietly deleted the post",
+   "link": "https://www.xda-developers.com/microsoft-github-spotlighted-ps5-to-pc-translation-layer-gta-6-dmca-strikes-deleted-post/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T01:33:08.000Z",
+   "summary": "This is definitely a weird one."
+  },
+  {
+   "title": "The Cutthroat Business of Shipwrecks",
+   "link": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-27T01:21:49.000Z",
+   "summary": "24 points · 2 comments on Hacker News"
+  },
+  {
+   "title": "Hard Drive pricing has gotten bad",
+   "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-27T01:13:49.000Z",
+   "summary": "330 points · 233 comments on Hacker News"
+  },
+  {
+   "title": "Jensen Huang needs a new playbook for his second innings at Nvidia",
+   "link": "https://www.thehindu.com/sci-tech/technology/jensen-huang-needs-a-new-playbook-for-his-second-innings-at-nvidia/article71745086.ece",
+   "source": "The Hindu Technology",
+   "cat": "Electronics",
+   "date": "2026-11-27T01:00:22.000Z",
+   "summary": "Returning to Nvidia’s Santa Clara headquarters in California on Monday (November 23, 2026), and standing on the ground floor of the atrium, Jensen Huang apologised to employees and vowed to…"
+  },
+  {
+   "title": "Your old laptop is a great home server, but most people get these two things wrong",
+   "link": "https://www.xda-developers.com/your-old-laptop-is-a-great-home-server-but-most-people-get-these-two-things-wrong/",
+   "source": "XDA Developers",
+   "cat": "Electronics",
+   "date": "2026-11-27T01:00:20.000Z",
+   "summary": "You'll want to avoid these pitfalls when turning your aged computing companion into a home lab node"
+  },
+  {
+   "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
+   "link": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+   "source": "Wired",
+   "cat": "Software & IT",
+   "date": "2026-11-27T00:56:52.000Z",
+   "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now."
+  },
+  {
+   "title": "Diagnosing a Failed LG Fridge Ice Maker",
+   "link": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker/",
+   "source": "Hackaday",
+   "cat": "Electronics",
+   "date": "2026-11-27T00:00:23.000Z",
+   "summary": "Although a useful feature for people who use ice cubes a lot, an automatic ice cube maker feature in a refrigerator can be a bit of a pain if they…"
+  },
+  {
+   "title": "I replaced Google Drive and iCloud with a self-hosted Vaultwarden and Immich stack, and my monthly SaaS bill dropped to zero",
+   "link": "https://www.xda-developers.com/replaced-google-drive-icloud-with-self-hosted-vaultwarden-immich-stack/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-27T00:00:20.000Z",
+   "summary": "The subscription fatigue was real."
+  },
+  {
+   "title": "6 PC games from the 2000s that run properly today only because fans patched them",
+   "link": "https://www.xda-developers.com/2000s-pc-games-run-properly-because-fans-patched-them/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-26T23:00:20.000Z",
+   "summary": "Thank the community for restoring iconic games to their current glory"
+  },
+  {
+   "title": "South Korea proceeds with case over allegedly misleading Apple Intelligence ads",
+   "link": "https://9to5mac.com/2026/11/26/south-korea-proceeds-with-case-over-allegedly-misleading-apple-intelligence-ads/",
+   "source": "9to5Mac",
+   "cat": "Mobile",
+   "date": "2026-11-26T22:56:12.000Z",
+   "summary": "South Korea’s Fair Trade Commission (KFTC) announced today that it has opened formal proceedings against Apple over its advertising of Apple Intelligence features for the iPhone 16 lineup. Here are…"
+  },
+  {
+   "title": "I installed these 5 lesser-known Android apps, and my Pixel got a serious upgrade",
+   "link": "https://www.xda-developers.com/lesser-known-android-apps-gave-my-pixel-a-serious-upgrade/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-26T22:30:21.000Z",
+   "summary": "I went beyond the usual Play Store recommendations and found a few Android apps that drastically improved my productivity."
+  },
+  {
+   "title": "Turning off band steering fixed more Wi-Fi problems in my house than my mesh system did",
+   "link": "https://www.xda-developers.com/turning-off-band-steering-fixed-more-wi-fi-problems-than-mesh-system/",
+   "source": "XDA Developers",
+   "cat": "Mobile",
+   "date": "2026-11-26T22:00:20.000Z",
+   "summary": "No more constant drop outs"
+  },
+  {
+   "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+   "link": "https://kendell.dev/blog/arkwrapper/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-26T21:59:19.000Z",
+   "summary": "95 points · 14 comments on Hacker News"
+  },
+  {
+   "title": "OnePlus reveals ColorOS 17 plans for native apps, paid AI features, and more",
+   "link": "https://www.androidauthority.com/oneplus-coloros-17-ama-native-apps-ai-features-3740647/",
+   "source": "Android Authority",
+   "cat": "AI",
+   "date": "2026-11-26T21:54:46.000Z",
+   "summary": "More native apps are coming, but some AI features will cost you."
+  },
+  {
+   "title": "AI made self-hosting fun again",
+   "link": "https://janlukas.blog/posts/ai-self-hosting",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-26T21:47:45.000Z",
+   "summary": "641 points · 330 comments on Hacker News"
+  },
+  {
    "title": "Someone built a Microsoft Office alternative for decades-old Atari computers, and it's delightfully retro",
    "link": "https://www.xda-developers.com/someone-built-microsoft-office-alternative-for-decades-old-atari-computers/",
    "source": "XDA Developers",
@@ -140,12 +716,12 @@
    "summary": "Apple’s share of US smartphone shipments jumped from 50% to 57% year over year last quarter, with the company being the only major smartphone maker to buck the broader trend…"
   },
   {
-   "title": "The greatest architect you've never heard of is in Pakistan",
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
    "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T21:08:05.000Z",
-   "summary": "35 points · 5 comments on Hacker News"
+   "summary": "357 points · 90 comments on Hacker News"
   },
   {
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
@@ -193,7 +769,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T20:49:49.000Z",
-   "summary": "8 points · 0 comments on Hacker News"
+   "summary": "319 points · 134 comments on Hacker News"
   },
   {
    "title": "Samsung is bringing Galaxy Watch 9 health features to older Galaxy Watches",
@@ -332,12 +908,20 @@
    "summary": "Black Friday is the perfect time to find an amazing deal on a new 3D printer. Check out our favorite listings so far."
   },
   {
-   "title": "Rvoip 0.5 the complete VoIP stack in Rust",
+   "title": "Rvoip: VoIP stack in Rust",
    "link": "https://github.com/eisenzopf/rvoip",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T19:18:09.000Z",
-   "summary": "29 points · 9 comments on Hacker News"
+   "summary": "124 points · 27 comments on Hacker News"
+  },
+  {
+   "title": "An introduction to uncertainty in machine learning",
+   "link": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+   "source": "Hacker News",
+   "cat": "AI",
+   "date": "2026-11-26T19:04:50.000Z",
+   "summary": "76 points · 2 comments on Hacker News"
   },
   {
    "title": "This free, open-source tool replaced one I've paid for and used for more than 33 years",
@@ -364,20 +948,12 @@
    "summary": "Even the newest Pixel phones aren't spared."
   },
   {
-   "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
-   "link": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T18:49:47.000Z",
-   "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now."
-  },
-  {
    "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
    "link": "https://bui.preetham.top/charts/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T18:37:24.000Z",
-   "summary": "12 points · 2 comments on Hacker News"
+   "summary": "101 points · 29 comments on Hacker News"
   },
   {
    "title": "Show HN: Fuck_data_brokers.py",
@@ -433,7 +1009,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T18:13:07.000Z",
-   "summary": "28 points · 4 comments on Hacker News"
+   "summary": "74 points · 7 comments on Hacker News"
   },
   {
    "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
@@ -500,12 +1076,12 @@
    "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]"
   },
   {
-   "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T17:47:45.000Z",
-   "summary": "149 points · 62 comments on Hacker News"
+   "summary": "262 points · 133 comments on Hacker News"
   },
   {
    "title": "Unihertz shows off Titan 2 Elite in new white color, and you can pre-order now",
@@ -521,7 +1097,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T17:36:47.000Z",
-   "summary": "157 points · 219 comments on Hacker News"
+   "summary": "383 points · 450 comments on Hacker News"
   },
   {
    "title": "Essential 3D printer maintenance tool deals for Black Friday — save up to 30% on precision tools, lights, snips, and more",
@@ -540,6 +1116,14 @@
    "summary": "Save $10 on Amazfit's big-screen GPS smartwatch with a 2.07-inch AMOLED display and up to 20 days of battery life."
   },
   {
+   "title": "Nvidia stops shipping AI servers to four Southeast Asian nations",
+   "link": "https://www.thehindu.com/news/international/nvidia-stops-shipping-ai-servers-to-four-southeast-asian-nations/article71747898.ece",
+   "source": "The Hindu Technology",
+   "cat": "AI",
+   "date": "2026-11-26T17:26:12.000Z",
+   "summary": "The Financial Times report said Nvidia had instructed manufacturing partners to stop shipping computer servers to buyers in Malaysia, Singapore, Thailand and Indonesia"
+  },
+  {
    "title": "Fake paid expert interviews impersonate brands to steal Google logins",
    "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
    "source": "BleepingComputer",
@@ -553,7 +1137,7 @@
    "source": "Hacker News",
    "cat": "Electronics",
    "date": "2026-11-26T17:11:29.000Z",
-   "summary": "213 points · 54 comments on Hacker News"
+   "summary": "349 points · 83 comments on Hacker News"
   },
   {
    "title": "XTEINK’s pocket-sized X4 Pro e-reader is an easy stocking stuffer at $84",
@@ -809,7 +1393,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T15:00:06.000Z",
-   "summary": "96 points · 24 comments on Hacker News"
+   "summary": "137 points · 31 comments on Hacker News"
   },
   {
    "title": "Why GTA VI’s version of Florida feels so real",
@@ -844,6 +1428,14 @@
    "summary": "LG's 5.1-channel soundbar kit with a subwoofer and wireless rear speakers is 45% off, its lowest price yet."
   },
   {
+   "title": "Show HN: I wrote an entire Vim manual over 4 years",
+   "link": "http://themouseless.dev/vim/",
+   "source": "Hacker News",
+   "cat": "Software & IT",
+   "date": "2026-11-26T14:44:22.000Z",
+   "summary": "159 points · 49 comments on Hacker News"
+  },
+  {
    "title": "Ukraine downs Russian jet-drone with cheap high-powered laser for the first time",
    "link": "https://www.tomshardware.com/tech-industry/drones/ukraine-downs-russian-jet-drone-with-cheap-high-powered-laser-for-the-first-time-super-fast-shahed-knocked-out-by-a-4-kilowatt-test-system",
    "source": "Tom's Hardware",
@@ -865,7 +1457,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T14:26:54.000Z",
-   "summary": "526 points · 130 comments on Hacker News"
+   "summary": "693 points · 145 comments on Hacker News"
   },
   {
    "title": "Germany and Austria call for European ownership of TikTok",
@@ -1233,7 +1825,7 @@
    "source": "Hacker News",
    "cat": "Software & IT",
    "date": "2026-11-26T11:50:49.000Z",
-   "summary": "380 points · 190 comments on Hacker News"
+   "summary": "431 points · 221 comments on Hacker News"
   },
   {
    "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
@@ -1368,7 +1960,7 @@
    "link": "https://www.thehindu.com/sci-tech/technology/gadgets/vivo-launches-x500-pro-max-x500-and-x500-along-with-watch-gt2/article71745760.ece",
    "source": "The Hindu Technology",
    "cat": "India Tech",
-   "date": "2026-11-26T08:47:32.000Z",
+   "date": "2026-11-26T08:54:52.000Z",
    "summary": "The Chinese smartphone maker also launched its first smartwatch, Vivo Watch GT2, in India having a 2.07 inch display, with up to 25-day claimed battery life"
   },
   {
@@ -1434,598 +2026,6 @@
    "cat": "AI",
    "date": "2026-11-26T07:41:31.000Z",
    "summary": "Gemini in Chrome won't use too much of your RAM anymore."
-  },
-  {
-   "title": "OpenAI may be in cost control mode",
-   "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-   "source": "Hacker News",
-   "cat": "AI",
-   "date": "2026-11-26T07:33:12.000Z",
-   "summary": "141 points · 126 comments on Hacker News"
-  },
-  {
-   "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
-   "link": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-26T07:28:21.000Z",
-   "summary": "Elon Musk's Neuralink has received FDA permission to launch the first trial for its brain-computer interface."
-  },
-  {
-   "title": "Best Black Friday 2026 tech deals",
-   "link": "https://www.tomshardware.com/live/news/black-friday-2026-day-two",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-26T07:23:03.000Z",
-   "summary": "All the best Black Friday deals for tech and PC hardware."
-  },
-  {
-   "title": "The best Black Friday deals for Android handhelds",
-   "link": "https://www.androidauthority.com/best-black-friday-deals-android-handhelds-3739566/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-26T07:15:33.000Z",
-   "summary": "Standout deals include the Retroid Pocket Duo Lite for just $99 and the powerful Odin 3 for $319."
-  },
-  {
-   "title": "HP launches OmniBook Ultra 16 AI laptop for creators",
-   "link": "https://www.thehindu.com/sci-tech/technology/gadgets/hp-launches-omnibook-ultra-16-ai-laptop-for-creators/article71745619.ece",
-   "source": "The Hindu Technology",
-   "cat": "AI",
-   "date": "2026-11-26T07:02:58.000Z",
-   "summary": "HP OmniBook Ultra 16 has a 3K OLED touch display with up to a 120Hz variable refresh rate, 100% DCI-P3 colour coverage"
-  },
-  {
-   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-   "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-26T07:02:34.000Z",
-   "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A),…"
-  },
-  {
-   "title": "The Galaxy S26 Ultra and Z Fold 8 Ultra get 24K gold editions for Christmas",
-   "link": "https://www.androidauthority.com/samsung-galaxy-s26-ultra-z-fold-8-ultra-gold-editions-3739575/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-26T06:59:44.000Z",
-   "summary": "Samsung's Ultra flagships are getting the Midas touch."
-  },
-  {
-   "title": "Galaxy S27 Pro and Ultra dummy units leaked in hands-on video",
-   "link": "https://www.androidauthority.com/samsung-galaxy-s27-pro-ultra-dummy-units-hands-on-leak-3739584/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-26T06:59:27.000Z",
-   "summary": "The dummy units show four rear cameras again, but it's unlikely to be the case."
-  },
-  {
-   "title": "Australia’s Digital Duty of Care law: Why Big Tech is under pressure",
-   "link": "https://www.thehindu.com/sci-tech/technology/australias-digital-duty-of-care-law-why-big-tech-is-under-pressure/article71745512.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-26T06:52:42.000Z",
-   "summary": "The law places a legal duty on online services to protect users from serious harm; but the conservative opposition and the United States say the law could lead to censorship…"
-  },
-  {
-   "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-   "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-26T06:44:46.000Z",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed…"
-  },
-  {
-   "title": "Moat: OpenRouter replacement",
-   "link": "https://commandcode.ai/moat",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:32:48.000Z",
-   "summary": "221 points · 128 comments on Hacker News"
-  },
-  {
-   "title": "Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/data-from-chinese-ai-firm-minimax-accessed-by-unidentified-parties-researcher-says/articleshow/136180952.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-26T06:17:07.000Z",
-   "summary": "MiniMax, which listed its shares in Hong Kong earlier this year, develops multimodal AI models - which can process multiple types of data - and consumer applications."
-  },
-  {
-   "title": "New York state bans AI chatbot toys for kids",
-   "link": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
-   "source": "Engadget",
-   "cat": "AI",
-   "date": "2026-11-26T06:02:48.000Z",
-   "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys."
-  },
-  {
-   "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
-   "link": "https://economictimes.indiatimes.com/tech/technology/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns/articleshow/136180509.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-26T06:01:50.000Z",
-   "summary": "Apple this week removed MiniMax's popular chatbot app Talkie from its App Store worldwide after media reports alleged that the product's AI-generated characters sent sexualised messages to minors."
-  },
-  {
-   "title": "Sega Saturn Portable Pays Homage to the Sega CDX Design",
-   "link": "https://hackaday.com/2026/11/25/sega-saturn-portable-pays-homage-to-the-sega-cdx-design/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-26T06:00:08.000Z",
-   "summary": "Photo of a modified Sega Saturn console that fits into a portable CD player. \" data-image-caption=\"\" data-large-file=\" /> Back in the 90’s the Sega Corporation put out game hardware for…"
-  },
-  {
-   "title": "Chewy Promo Codes: 50% Off November 2026",
-   "link": "https://www.wired.com/story/chewy-promo-code/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts."
-  },
-  {
-   "title": "Office Depot Coupons: $20 Off November 2026",
-   "link": "https://www.wired.com/story/office-depot-promo-codes/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential."
-  },
-  {
-   "title": "30% Off Canon Promo Codes | November 2026",
-   "link": "https://www.wired.com/story/canon-promo-code/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026."
-  },
-  {
-   "title": "Disney Plus Discount Codes: 52% Off November 2026",
-   "link": "https://www.wired.com/story/disney-plus-discounts/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions."
-  },
-  {
-   "title": "AT&T Promo Codes: $50 Off This November 2026",
-   "link": "https://www.wired.com/story/att-promo-code/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals."
-  },
-  {
-   "title": "Design Within Reach Promo Codes: 30% Off | November 2026",
-   "link": "https://www.wired.com/story/design-within-reach-promo-code/",
-   "source": "Wired",
-   "cat": "Software & IT",
-   "date": "2026-11-26T06:00:00.000Z",
-   "summary": "Get 30% off, 20% off, and free shipping with our Design Within Reach coupon codes, plus up to 50% off furniture with these special discounts."
-  },
-  {
-   "title": "Nvidia halts chip shipments to Southeast Asia: FT report",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-halts-chip-shipments-to-southeast-asia-ft-reports/articleshow/136180352.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-11-26T05:58:19.000Z",
-   "summary": "Manufacturing partners like Dell and Supermicro , which package Nvidia's chips into servers, told buyers in Malaysia, Singapore, Thailand and Indonesia that the chipmaker will not allow their orders to…"
-  },
-  {
-   "title": "Amusing or addictive? The algorithms powering our social feeds",
-   "link": "https://economictimes.indiatimes.com/tech/technology/amusing-or-addictive-the-algorithms-powering-our-social-feeds/articleshow/136180245.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-26T05:54:17.000Z",
-   "summary": "Social media algorithms are a powerful feature of online life, serving up content to users based on their browsing habits or personal data. - Under Australia's new rules, social media…"
-  },
-  {
-   "title": "Japan's data centre boom faces growing revolt from urban residents",
-   "link": "https://www.thehindu.com/sci-tech/technology/japans-data-centre-boom-faces-growing-revolt-from-urban-residents/article71745111.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-26T05:51:07.000Z",
-   "summary": "“Every morning when I step outside, my whole view is swallowed up by the buildings,” said the retired auto mechanic"
-  },
-  {
-   "title": "The best Linux distro for Windows escapees just released a new beta for the first time this year",
-   "link": "https://www.xda-developers.com/the-best-linux-distro-for-windows-escapees-just-released-a-new-beta-for-the-first-time-in-a-year/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-26T05:38:59.000Z",
-   "summary": "It brings lots of new apps and quality-of-life features, just in time for Christmas."
-  },
-  {
-   "title": "WhatsApp users can now schedule messages to be sent later",
-   "link": "https://www.thehindu.com/sci-tech/technology/whatsapp-users-can-now-schedule-messages-to-be-sent-later/article71745328.ece",
-   "source": "The Hindu Technology",
-   "cat": "Mobile",
-   "date": "2026-11-26T05:35:16.000Z",
-   "summary": "WhatsApp noted that users could draft messages and send them from 10 minutes to 14 days later in both 1:1 and group chats"
-  },
-  {
-   "title": "Australia passes online safety law, putting Big Tech at risk of multibillion-dollar fines",
-   "link": "https://www.thehindu.com/sci-tech/technology/australia-passes-online-safety-law-putting-big-tech-at-risk-of-multibillion-dollar-fines/article71745112.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-26T05:13:52.000Z",
-   "summary": "Australia’s Parliament has passed online safety laws that could expose tech giants to multibillion-dollar fines for failing to prevent foreseeable online harms"
-  },
-  {
-   "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-   "link": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T05:12:59.000Z",
-   "summary": "72 points · 9 comments on Hacker News"
-  },
-  {
-   "title": "1Password confirms hackers stole customer data, but not their passwords",
-   "link": "https://www.androidauthority.com/1password-data-breach-3739555/",
-   "source": "Android Authority",
-   "cat": "Security",
-   "date": "2026-11-26T05:05:13.000Z",
-   "summary": "Watch out for unexpected recovery emails and invitations."
-  },
-  {
-   "title": "Unconditional Integer Factorization in Subexponential Time",
-   "link": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T04:59:56.000Z",
-   "summary": "12 points · 1 comments on Hacker News"
-  },
-  {
-   "title": "Elon Musk says every child in the US will get two SpaceX shares",
-   "link": "https://economictimes.indiatimes.com/tech/technology/elon-musk-says-every-child-in-the-us-will-get-two-spacex-shares/articleshow/136178915.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-26T04:45:02.000Z",
-   "summary": "SpaceX said earlier in the day it would contribute one newly issued share of its Class A common stock to every currently active Trump Account, adding that Musk will personally…"
-  },
-  {
-   "title": "SpaceX allowed to deploy 1 million satellites for data centres in space, as scientists express doubt",
-   "link": "https://www.thehindu.com/sci-tech/technology/spacex-allowed-to-deploy-1-million-satellites-for-data-centres-in-space-as-scientists-express-doubt/article71745113.ece",
-   "source": "The Hindu Technology",
-   "cat": "India Tech",
-   "date": "2026-11-26T04:24:38.000Z",
-   "summary": "The Trump administration has given SpaceX the green light to deploy 1 million satellites that it said would create data centres in space"
-  },
-  {
-   "title": "US-based firms with Chinese owners buying Nvidia's most advanced chips",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-based-firms-with-chinese-owners-buying-advanced-nvidias-most-advanced-chips/articleshow/136178351.cms",
-   "source": "ET Tech",
-   "cat": "Electronics",
-   "date": "2026-11-26T04:17:20.000Z",
-   "summary": "A CBS News investigation has found that Nvidia is selling its most advanced artificial intelligence (AI) chips to at least two US-based companies controlled by Chinese-owned firms, raising questions over…"
-  },
-  {
-   "title": "Anthropic chief Dario Amodei denies wanting humans to 'surrender' free will to AI",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-chief-dario-amodei-denies-wanting-humans-to-surrender-free-will-to-ai/articleshow/136178073.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-26T04:02:36.000Z",
-   "summary": "Anthropic chief executive Dario Amodei on Wednesday denied wanting humanity to give up its free will to AI, calling it \"absurd\" to attribute the idea to him as rival tech…"
-  },
-  {
-   "title": "Jensen Huang won’t need a pardon, says U.S. Vice President, as scrutiny of Nvidia scandal builds in Washington",
-   "link": "https://www.thehindu.com/sci-tech/technology/jensen-huang-wont-need-a-pardon-says-us-vice-president-as-scrutiny-of-nvidia-scandal-builds-in-washington/article71745109.ece",
-   "source": "The Hindu Technology",
-   "cat": "Electronics",
-   "date": "2026-11-26T04:00:12.000Z",
-   "summary": "U.S. Vice President JD Vance is downplaying the possibility that Nvidia CEO Jensen Huang could need a pardon from President Donald Trump"
-  },
-  {
-   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-   "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-   "source": "The Hacker News",
-   "cat": "Security",
-   "date": "2026-11-26T03:48:52.000Z",
-   "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose…"
-  },
-  {
-   "title": "Qualcomm's Oryon 3 Reaches the Top",
-   "link": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T03:43:24.000Z",
-   "summary": "44 points · 13 comments on Hacker News"
-  },
-  {
-   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-   "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-   "source": "Hacker News",
-   "cat": "AI",
-   "date": "2026-11-26T03:36:58.000Z",
-   "summary": "202 points · 99 comments on Hacker News"
-  },
-  {
-   "title": "ElevenLabs in early talks for funding at $33 billion valuation",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/elevenlabs-in-early-talks-for-funding-at-33-billion-valuation/articleshow/136177198.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-26T03:20:36.000Z",
-   "summary": "The company plans to kick off the efforts in the first three months of 2027, the people said, asking not to be identified as the information isn’t public. Discussions are…"
-  },
-  {
-   "title": "Minipg: PostgreSQL as a Single Executable",
-   "link": "https://progrium.github.io/minipg/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T03:00:48.000Z",
-   "summary": "105 points · 16 comments on Hacker News"
-  },
-  {
-   "title": "Self-Sensing Artificial Muscles From Liquid Crystal Elastomer With Graphene",
-   "link": "https://hackaday.com/2026/11/25/self-sensing-artificial-muscles-from-liquid-crystal-elastomer-with-graphene/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-26T03:00:35.000Z",
-   "summary": "Although we tend to be more aware of the large muscles in our bodies that enable our legs and arms to move, the real stars are the many small muscles…"
-  },
-  {
-   "title": "Jensen Huang needs a new playbook for his second innings at Nvidia",
-   "link": "https://www.thehindu.com/sci-tech/technology/jensen-huang-needs-a-new-playbook-for-his-second-innings-at-nvidia/article71745086.ece",
-   "source": "The Hindu Technology",
-   "cat": "Electronics",
-   "date": "2026-11-26T02:47:13.000Z",
-   "summary": "Returning to Nvidia’s Santa Clara headquarters in California on Monday (November 23, 2026), and standing on the ground floor of the atrium, Jensen Huang apologised to employees and vowed to…"
-  },
-  {
-   "title": "Data centre rush drives biggest rise in Australian business investment since mining boom",
-   "link": "https://economictimes.indiatimes.com/tech/technology/data-centre-rush-drives-biggest-rise-in-australian-business-investment-since-mining-boom/articleshow/136176738.cms",
-   "source": "ET Tech",
-   "cat": "India Tech",
-   "date": "2026-11-26T02:43:25.000Z",
-   "summary": "Australian business investment surged anew in the September quarter as firms poured money into data centres, recording its biggest rise since 2011 at the height of the mining boom, while…"
-  },
-  {
-   "title": "OpenAI taps Cravath litigator for court showdown with Musk over AI dominance",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-taps-cravath-litigator-for-court-showdown-with-musk-over-ai-dominance/articleshow/136176645.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-26T02:41:13.000Z",
-   "summary": "OpenAI said Cravath's Gary Bornstein, co-head of the New York firm's litigation department, will be lead trial counsel in federal court in Fort Worth, where the case is set to…"
-  },
-  {
-   "title": "Robots roam Singapore's urban AI testing ground",
-   "link": "https://economictimes.indiatimes.com/tech/artificial-intelligence/robots-roam-singapores-urban-ai-testing-ground/articleshow/136176603.cms",
-   "source": "ET Tech",
-   "cat": "AI",
-   "date": "2026-11-26T02:33:59.000Z",
-   "summary": "When coffee is spilled at an office block in a futuristic enclave of Singapore, AI-powered cameras and sensors detect it and send a cleaning robot right away. A district-wide \"open…"
-  },
-  {
-   "title": "Apple pulls popular Chinese AI chatbot from the App Store amid child safety concerns",
-   "link": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
-   "source": "9to5Mac",
-   "cat": "AI",
-   "date": "2026-11-26T02:12:24.000Z",
-   "summary": "Following reports that its characters sent inappropriate messages to minors, Apple has removed the popular Chinese AI companion app Talkie from the App Store. Here are the details. more…"
-  },
-  {
-   "title": "Ubuntu shows off an early version of its AI-powered launcher as it plans to integrate LLMs into the OS",
-   "link": "https://www.xda-developers.com/ubuntu-shows-off-an-early-version-of-its-ai-powered-launcher-as-it-plans-to-integrate-llms-into-the-os/",
-   "source": "XDA Developers",
-   "cat": "AI",
-   "date": "2026-11-26T02:03:26.000Z",
-   "summary": "The beginning of a new era."
-  },
-  {
-   "title": "I compared DLAA, DLSS Quality, and native TAA, and the winner wasn't obvious",
-   "link": "https://www.xda-developers.com/i-compared-dlaa-dlss-quality-and-native-taa-and-the-winner-wasnt-obvious/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-26T01:00:20.000Z",
-   "summary": "The word \"native\" doesn't carry the same weight anymore."
-  },
-  {
-   "title": "Collection of preserved UI style guides",
-   "link": "https://aresluna.org/ui-style-guides/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-26T00:40:00.000Z",
-   "summary": "149 points · 16 comments on Hacker News"
-  },
-  {
-   "title": "Wispr Flow improves dictation accuracy with new Canto-2 speech-to-text model",
-   "link": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-26T00:35:52.000Z",
-   "summary": "Popular AI dictation app Wispr Flow is rolling out a new speech-to-text model for Mac, iPhone, and other platforms, promising fewer transcription errors and better recognition of names and technical…"
-  },
-  {
-   "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-   "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-   "source": "The Verge",
-   "cat": "AI",
-   "date": "2026-11-26T00:04:34.000Z",
-   "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings…"
-  },
-  {
-   "title": "5 everyday tasks I now do in a browser instead of installing software",
-   "link": "https://www.xda-developers.com/everyday-tasks-i-now-do-in-a-browser-instead-of-installing-software/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-26T00:01:21.000Z",
-   "summary": "Why install another app when your browser can already do the job?"
-  },
-  {
-   "title": "Camera Upgrades for 3D Printers",
-   "link": "https://hackaday.com/2026/11/25/camera-upgrades-for-3d-printers/",
-   "source": "Hackaday",
-   "cat": "Electronics",
-   "date": "2026-11-26T00:00:27.000Z",
-   "summary": "3D printing has come a long way over the years, from being a fussy, barely usable mess to essentially being plug-and-play for a large variety of plastics. And the industry…"
-  },
-  {
-   "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-   "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-   "source": "The Verge",
-   "cat": "Software & IT",
-   "date": "2026-11-25T23:56:44.000Z",
-   "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for…"
-  },
-  {
-   "title": "9to5Mac Daily: November 25, 2026 – CarPlay Ultra update, iPad rumors",
-   "link": "https://9to5mac.com/2026/11/25/daily-november-25-2026/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-25T23:46:20.000Z",
-   "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google…"
-  },
-  {
-   "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
-   "link": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-25T23:36:46.000Z",
-   "summary": "Multiple gadgets from Engadget's Best of 2026 list are already on sale, including Samsung's flagship foldable and Apple's ultra-popular entry-level laptop."
-  },
-  {
-   "title": "Google’s Pixelsnap Ring Stand gets first sale that includes new Pixel 11 colors",
-   "link": "https://9to5google.com/2026/11/25/googles-pixelsnap-ring-stand-gets-first-sale-that-includes-new-pixel-11-colors/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-25T23:35:00.000Z",
-   "summary": "Google’s Pixelsnap Ring Stand is a simple add-on for Pixel 10 and Pixel 11 phones and, for Black Friday, it’s got its first sale since adding new colors alongside the…"
-  },
-  {
-   "title": "1Password confirms security incident, here’s what you need to know",
-   "link": "https://9to5mac.com/2026/11/25/1password-confirms-security-incident-heres-what-you-need-to-know/",
-   "source": "9to5Mac",
-   "cat": "Security",
-   "date": "2026-11-25T23:30:05.000Z",
-   "summary": "Password management platform 1Password today disclosed a security incident in which an attacker gained access to internal systems and stole select customer account information. Here are the details. more…"
-  },
-  {
-   "title": "Get an RTX 5060 prebuilt for just $750 in deal that seems too good to be true",
-   "link": "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-prebuilt-for-just-usd750-in-deal-that-seems-too-good-to-be-true-deep-usd650-discount-on-gaming-pc-offers-core-i5-14400f-16gb-ddr4-and-a-1tb-ssd",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-25T23:18:00.000Z",
-   "summary": "Walmart has an exceptional deal on an RTX 5060-powered gaming desktop, which is on sale for just $750 right now."
-  },
-  {
-   "title": "Wii emulation has gotten so good that my original console is now the worst way to play its games",
-   "link": "https://www.xda-developers.com/emulating-the-wii-so-good-now-my-original-consoleworst-way-to-play-its-games/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-25T23:00:21.000Z",
-   "summary": "Higher resolution and no need for AV adaptors - sign me up"
-  },
-  {
-   "title": "Google Home is sorting out issues with speakers, cameras, lights, and more",
-   "link": "https://www.androidauthority.com/google-home-updates-2-3739543/",
-   "source": "Android Authority",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:52:07.000Z",
-   "summary": "Your smart home sounds like it's about to get a little bit smarter."
-  },
-  {
-   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-   "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-   "source": "TechCrunch",
-   "cat": "Electronics",
-   "date": "2026-11-25T22:44:32.000Z",
-   "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
-  },
-  {
-   "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
-   "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
-   "source": "Ars Technica",
-   "cat": "Software & IT",
-   "date": "2026-11-25T22:36:45.000Z",
-   "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\""
-  },
-  {
-   "title": "Save on Windows, Office, and Adobe with these G2A.COM software deals under $20",
-   "link": "https://www.xda-developers.com/save-on-windows-office-and-adobe-with-these-g2acom-software-deals-under-20/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:35:21.000Z",
-   "summary": "This post is sponsored by G2A.COM"
-  },
-  {
-   "title": "I installed 5 free Docker containers that made running my household surprisingly easy",
-   "link": "https://www.xda-developers.com/self-hosted-apps-that-made-managing-my-household-surprisingly-easy/",
-   "source": "XDA Developers",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:31:22.000Z",
-   "summary": "Less household chaos, more digital control"
-  },
-  {
-   "title": "Major developers, legal experts, and 32 states back Epic in Apple’s SCOTUS appeal",
-   "link": "https://9to5mac.com/2026/11/25/major-developers-legal-experts-and-32-states-back-epic-in-apples-scotus-appeal/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:16:14.000Z",
-   "summary": "In a significant development in Apple’s Supreme Court appeal of a civil contempt ruling, Epic Games has received backing from 32 states and the District of Columbia, along with major…"
-  },
-  {
-   "title": "Bare Metal Qwen",
-   "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-25T22:15:34.000Z",
-   "summary": "139 points · 34 comments on Hacker News"
-  },
-  {
-   "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-   "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-   "source": "Hacker News",
-   "cat": "Software & IT",
-   "date": "2026-11-25T22:12:25.000Z",
-   "summary": "91 points · 12 comments on Hacker News"
-  },
-  {
-   "title": "Motorola Signature 27 hands-on: Pure elegance on display",
-   "link": "https://9to5google.com/2026/11/25/motorola-signature-27-hands-on/",
-   "source": "9to5Google",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:12:17.000Z",
-   "summary": "It’s hard to believe we finally got a proper premium phone from Motorola again, and it feels a bit like the return of the Moto X. more…"
-  },
-  {
-   "title": "Get 2TB of PCIe 5.0 storage for less than $300 in stellar Crucial P510 sale",
-   "link": "https://www.tomshardware.com/pc-components/ssds/get-2tb-of-pcie-5-0-storage-for-less-than-usd300-in-stellar-crucial-p510-sale-drive-is-available-for-just-usd294-99-less-than-some-1tb-alternatives",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-25T22:10:45.000Z",
-   "summary": "Snag 2TB of PCIe 5.0 storage for just $294.99 with a deal on the Crucial P510 SSD over at Adorama."
-  },
-  {
-   "title": "Screens can now turn iPhone Duo into a tiny MacBook",
-   "link": "https://9to5mac.com/2026/11/25/screens-can-now-turn-iphone-duo-into-a-tiny-macbook/",
-   "source": "9to5Mac",
-   "cat": "Mobile",
-   "date": "2026-11-25T22:10:00.000Z",
-   "summary": "Screens 5.10 delivered two highly-requested desktop features to users earlier this month. Now the app is back with a fun update for iPhone Duo users: tiny laptop mode. more…"
-  },
-  {
-   "title": "Can you play GTA 6 from an external hard drive on PS5 or Xbox Series X/S?",
-   "link": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
-   "source": "Engadget",
-   "cat": "Electronics",
-   "date": "2026-11-25T22:07:07.000Z",
-   "summary": "With a hefty install size, GTA 6 will take up a significant chunk of your PS5 or Xbox Series X/S storage space."
-  },
-  {
-   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-   "source": "BleepingComputer",
-   "cat": "Security",
-   "date": "2026-11-25T22:05:09.000Z",
-   "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]"
-  },
-  {
-   "title": "These are the best Wi-Fi 7 mesh routers from Asus, TP-Link, Eero, Netgear, and MSI that I found on Black Friday",
-   "link": "https://www.tomshardware.com/networking/routers/these-are-the-best-wi-fi-7-mesh-routers-from-asus-tp-link-eero-netgear-and-msi-that-i-found-on-black-friday",
-   "source": "Tom's Hardware",
-   "cat": "Electronics",
-   "date": "2026-11-25T22:04:37.000Z",
-   "summary": "Black Friday means great deals on Wi-Fi 7 routers from your favorite manufacturers."
   }
  ]
 }
